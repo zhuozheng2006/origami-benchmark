@@ -1,0 +1,15 @@
+Experiment CPU affinity: [16, 17, 18, 19] OMP threads: 4
+Traceback (most recent call last):
+  File "/data/ckpt/zhengzhuo/origami-public-release-check/scripts/evaluate_public.py", line 80, in <module>
+    main()
+  File "/data/ckpt/zhengzhuo/origami-public-release-check/scripts/evaluate_public.py", line 58, in main
+    ep = LayerEpisodeV16(task, private, args.output.resolve(),
+  File "/data/ckpt/zhengzhuo/origami-public-release-check/origami_bench/diagram/layer_episode_v16.py", line 61, in __init__
+    self.backend = backend_factory(private['mesh'])
+  File "/data/ckpt/zhengzhuo/origami-public-release-check/scripts/evaluate_public.py", line 59, in <lambda>
+    lambda mesh: LocalLayerClient(mesh, **SETTINGS),
+  File "/data/ckpt/zhengzhuo/origami-public-release-check/origami_bench/diagram/local_backend.py", line 33, in __init__
+    reply = self._request(dict(mesh=mesh, **settings))
+  File "/data/ckpt/zhengzhuo/origami-public-release-check/origami_bench/diagram/layer_runtime_remote.py", line 29, in _request
+    if not r.get('ok'):raise RuntimeError(r.get('error','Unknown simulator rejection'))
+RuntimeError: ImportError: /data/ckpt/zhengzhuo/origami-public-release-check/external/codim-ipc-directional/build/JGSL.cpython-310-x86_64-linux-gnu.so: file too short

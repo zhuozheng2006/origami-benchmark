@@ -1,0 +1,56 @@
+{
+  "tasks": [
+    {
+      "id": "O01",
+      "title": "Independent flaps",
+      "tier": "medium",
+      "instruction": "The paper is already prepared through diagram step 1. Complete steps 2 through 5. Stop at the final illustrated state.",
+      "page_count": 1,
+      "source_kind": "original_simulation_diagram",
+      "source_group": "original-quarter-packet-family",
+      "source_seen_in_prior_development": true,
+      "difficulty_status": "candidate_pending_physical_reference_v15",
+      "source_note": "Original development calibration; related transformations of one paper family, not independent real works or held-out sources.",
+      "release_track": "core"
+    },
+    {
+      "id": "O02",
+      "title": "Packet to opposing open flaps",
+      "tier": "hard",
+      "instruction": "The paper is already prepared through diagram step 2. Complete steps 3 through 8. Stop at the final illustrated state.",
+      "page_count": 1,
+      "source_kind": "original_simulation_diagram",
+      "source_group": "original-quarter-packet-family",
+      "source_seen_in_prior_development": true,
+      "difficulty_status": "candidate_pending_physical_reference_v16",
+      "source_note": "Original development calibration; related transformations of one paper family, not independent real works or held-out sources.",
+      "release_track": "core"
+    },
+    {
+      "id": "O03",
+      "title": "Reopen and reverse the packet",
+      "tier": "hard",
+      "instruction": "The paper is already prepared through diagram step 3. Complete steps 4 through 9. Stop at the final illustrated state.",
+      "page_count": 1,
+      "source_kind": "original_simulation_diagram",
+      "source_group": "original-quarter-packet-family",
+      "source_seen_in_prior_development": true,
+      "difficulty_status": "candidate_pending_physical_reference_v15",
+      "source_note": "Original development calibration; related transformations of one paper family, not independent real works or held-out sources.",
+      "release_track": "core"
+    },
+    {
+      "id": "O04",
+      "source_id": "P004",
+      "title": "Compound Rotated Packet with Dual 3D Wings",
+      "tier": "ultra_hard",
+      "instruction": "The paper is prepared through printed step 2 (folded in half then quarter flap folded up). Follow the diagram: reopen the bottom flap, reverse fold the top and bottom layers in opposing directions, rotate paper 90 degrees, partially unfold the bottom wing to 90 degrees standing in 3D, turn the paper over across the vertical axis, partially unfold the other wing to 90 degrees standing in 3D, and rotate paper 90 degrees to finalize the 3D compound structure.",
+      "page_count": 1,
+      "difficulty_status": "candidate_pending_physical_reference_v17",
+      "source_group": "original-quarter-packet-family",
+      "source_url": "https://github.com/origami-benchmark/document-layers",
+      "source_seen_in_prior_development": false,
+      "release_track": "diagnostic"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "task_id": "O03",
+  "agent_kind": "oracle_installation_check",
+  "task_success": true,
+  "finished": true,
+  "physical_pass": true,
+  "shape": {
+    "rms_mm": 0.5070358697848836,
+    "max_mm": 1.2323537884251863,
+    "raw_rms_mm": 0.5479649557934426,
+    "rotation_degrees": -0.0009413304511652807,
+    "xy_translation_mm": [
+      0.0005991264100386951,
+      -0.20779674428751324
+    ],
+    "reflection_allowed": false,
+    "z_translation_allowed": false
+  },
+  "memory_pass": true,
+  "goal_available": true,
+  "status": "passed_scoped",
+  "attempts": 7,
+  "retained_paper_operations": 6,
+  "peak_strain": 0.00974711982376042,
+  "material_memory": {
+    "rest_angle_sha256": "7cbe7674e0fe0fc9f94a2e5b3b85ac918f91a58e47e577c327c827b8edf1e155",
+    "rest_angle_l2": 9.821822784783848,
+    "dissipation_joules": 0.004319757950744074
+  },
+  "seconds": 453.036867858842,
+  "scope": "Finite-thickness deformable shell with ideal point fixtures; continuous contact and 1% stretch/compression acceptance. Prepared state is physically replayed. No real finger model.",
+  "unsigned_memory_pass": true,
+  "grading_version": "prepared-shape-ordered-path-and-band-memory-v16-1",
+  "fixed_board_shape": {
+    "rms_mm": 0.5479649557934426,
+    "max_mm": 1.3841974904681646
+  },
+  "band_memory_pass": true,
+  "initial_frame": 1080,
+  "preparation_operations": 3,
+  "controller_version": "layer-boundary-v16-dev1",
+  "goal_success": true,
+  "diagram_path": {
+    "passed": true,
+    "matched": 6,
+    "required": 6,
+    "matches": [
+      {
+        "frame": 1431,
+        "rms_mm": 0.5920868881325966,
+        "max_mm": 2.838952050026196
+      },
+      {
+        "frame": 1791,
+        "rms_mm": 0.6274499716328549,
+        "max_mm": 2.9446753243908006
+      },
+      {
+        "frame": 2156,
+        "rms_mm": 0.9325879843574258,
+        "max_mm": 2.803055458842531
+      },
+      {
+        "frame": 2620,
+        "rms_mm": 0.933989778676153,
+        "max_mm": 2.8022181429583584
+      },
+      {
+        "frame": 2976,
+        "rms_mm": 0.9973963778568012,
+        "max_mm": 2.582677539833091
+      },
+      {
+        "frame": 3155,
+        "rms_mm": 0.9378583926625281,
+        "max_mm": 2.543021342078068
+      }
+    ],
+    "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+  },
+  "attempt_budget": {
+    "known_wall_seconds": 362.9187798909843,
+    "max_attempts": 40,
+    "output_cap_per_call": 8192,
+    "max_output_tokens": 327680,
+    "attempts_used": 7,
+    "attempts_remaining": 33,
+    "known_costs": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0
+    },
+    "unknown_cost_attempts": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 7
+    },
+    "output_tokens_reserved_for_unknown": 0,
+    "output_tokens_remaining": 327680
+  },
+  "attempt_ledger_version": "sqlite-v1",
+  "release_track": "core",
+  "score_eligible": false
+}

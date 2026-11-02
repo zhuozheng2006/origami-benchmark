@@ -1,0 +1,77 @@
+{
+  "version": "prepared-layers-v16-candidates",
+  "tasks": [
+    {
+      "id": "L01",
+      "source_id": "T004",
+      "title": "Bar Envelope",
+      "tier": "hard",
+      "instruction": "The paper is already prepared through printed step 2. Complete printed steps 3 and 4. Stop before step 5.",
+      "page_count": 1,
+      "difficulty_status": "candidate_pending_physical_reference_v15",
+      "source_group": "origami-fun:bar-envelope",
+      "source_url": "https://www.origami-fun.com/printable-origami.html",
+      "source_seen_in_prior_development": true
+    },
+    {
+      "id": "O01",
+      "title": "Independent flaps",
+      "tier": "hard",
+      "instruction": "The paper is already prepared through diagram step 1. Complete steps 2 through 5. Stop at the final illustrated state.",
+      "page_count": 1,
+      "source_kind": "original_simulation_diagram",
+      "source_group": "original-quarter-packet-family",
+      "source_seen_in_prior_development": true,
+      "difficulty_status": "candidate_pending_physical_reference_v15",
+      "source_note": "Original development calibration; related transformations of one paper family, not independent real works or held-out sources."
+    },
+    {
+      "id": "O03",
+      "title": "Reopen and reverse the packet",
+      "tier": "hard",
+      "instruction": "The paper is already prepared through diagram step 3. Complete steps 4 through 9. Stop at the final illustrated state.",
+      "page_count": 1,
+      "source_kind": "original_simulation_diagram",
+      "source_group": "original-quarter-packet-family",
+      "source_seen_in_prior_development": true,
+      "difficulty_status": "candidate_pending_physical_reference_v15",
+      "source_note": "Original development calibration; related transformations of one paper family, not independent real works or held-out sources."
+    },
+    {
+      "id": "O02",
+      "title": "Packet to opposing open flaps",
+      "tier": "hard",
+      "instruction": "The paper is already prepared through diagram step 2. Complete steps 3 through 8. Stop at the final illustrated state.",
+      "page_count": 1,
+      "source_kind": "original_simulation_diagram",
+      "source_group": "original-quarter-packet-family",
+      "source_seen_in_prior_development": true,
+      "difficulty_status": "candidate_pending_physical_reference_v16",
+      "source_note": "Original development calibration; related transformations of one paper family, not independent real works or held-out sources."
+    },
+    {
+      "id": "T01",
+      "source_id": "T001",
+      "title": "Drinking Cup",
+      "tier": "medium",
+      "instruction": "Follow the printed diagram to fold a drinking cup. Start with the diagonal fold, fold side corners to opposite edges, fold the front top flap down over the front, turn over, and fold the back top flap down over the back.",
+      "page_count": 1,
+      "difficulty_status": "candidate_pending_physical_reference_v16",
+      "source_group": "origami-fun:drinking-cup",
+      "source_url": "https://www.origami-fun.com/printable-origami.html",
+      "source_seen_in_prior_development": false
+    },
+    {
+      "id": "T08",
+      "source_id": "T008",
+      "title": "Fortune Teller",
+      "tier": "hard",
+      "instruction": "Follow printed steps 1 through 3: pre-crease both diagonals and open, fold all four corners into the centre point, turn over, and fold all four corners into the centre point again.",
+      "page_count": 1,
+      "difficulty_status": "candidate_pending_physical_reference_v16",
+      "source_group": "origami-fun:fortune-teller",
+      "source_url": "https://www.origami-fun.com/printable-origami.html",
+      "source_seen_in_prior_development": false
+    }
+  ]
+}

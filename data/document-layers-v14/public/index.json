@@ -1,0 +1,77 @@
+{
+  "version": "prepared-layers-v14-candidates",
+  "tasks": [
+    {
+      "id": "L01",
+      "source_id": "T004",
+      "title": "Bar Envelope",
+      "tier": "hard",
+      "instruction": "The paper is already prepared through printed step 2. Complete printed steps 3 and 4. Stop before step 5.",
+      "page_count": 1,
+      "difficulty_status": "candidate_pending_physical_reference",
+      "source_group": "origami-fun:bar-envelope",
+      "source_url": "https://www.origami-fun.com/printable-origami.html",
+      "source_seen_in_prior_development": true
+    },
+    {
+      "id": "L02",
+      "source_id": "T013",
+      "title": "Samurai Hat",
+      "tier": "hard",
+      "instruction": "The paper is already prepared through printed step 1. Complete printed steps 2 and 3. Stop before step 4.",
+      "page_count": 1,
+      "difficulty_status": "candidate_pending_physical_reference",
+      "source_group": "origami-fun:samurai-hat",
+      "source_url": "https://www.origami-fun.com/printable-origami.html",
+      "source_seen_in_prior_development": true
+    },
+    {
+      "id": "L03",
+      "source_id": "T025",
+      "title": "Squid",
+      "tier": "hard",
+      "instruction": "The paper is already prepared through printed step 3. Complete printed steps 4 and 5. Stop before step 6.",
+      "page_count": 5,
+      "difficulty_status": "candidate_pending_physical_reference",
+      "source_group": "squid",
+      "source_url": "https://origamiusa.org/thefold/article/diagrams-squid",
+      "source_seen_in_prior_development": true
+    },
+    {
+      "id": "O01",
+      "title": "Independent flaps",
+      "tier": "hard",
+      "instruction": "The paper is already prepared through diagram step 1. Complete steps 2 through 5. Stop at the final illustrated state.",
+      "page_count": 1,
+      "source_kind": "original_simulation_diagram",
+      "source_group": "original-quarter-packet-family",
+      "source_seen_in_prior_development": true,
+      "difficulty_status": "candidate_pending_physical_reference_and_model_calibration",
+      "source_note": "Original development calibration; related transformations of one paper family, not independent real works or held-out sources."
+    },
+    {
+      "id": "O02",
+      "title": "Packet to opposing open flaps",
+      "tier": "hard",
+      "instruction": "The paper is already prepared through diagram step 2. Complete steps 3 through 8. Stop at the final illustrated state.",
+      "page_count": 1,
+      "source_kind": "original_simulation_diagram",
+      "source_group": "original-quarter-packet-family",
+      "source_seen_in_prior_development": true,
+      "difficulty_status": "candidate_pending_physical_reference_and_model_calibration",
+      "source_note": "Original development calibration; related transformations of one paper family, not independent real works or held-out sources."
+    },
+    {
+      "id": "O03",
+      "title": "Reopen and reverse the packet",
+      "tier": "hard",
+      "instruction": "The paper is already prepared through diagram step 3. Complete steps 4 through 9. Stop at the final illustrated state.",
+      "page_count": 1,
+      "source_kind": "original_simulation_diagram",
+      "source_group": "original-quarter-packet-family",
+      "source_seen_in_prior_development": true,
+      "difficulty_status": "candidate_pending_physical_reference_and_model_calibration",
+      "source_note": "Original development calibration; related transformations of one paper family, not independent real works or held-out sources."
+    }
+  ]
+}

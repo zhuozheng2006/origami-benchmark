@@ -1,0 +1,354 @@
+{
+  "config": {
+    "max_attempts": 8,
+    "output_cap_per_call": 8192,
+    "max_output_tokens": 65536
+  },
+  "budget": {
+    "known_wall_seconds": 33.412452628836036,
+    "max_attempts": 8,
+    "output_cap_per_call": 8192,
+    "max_output_tokens": 65536,
+    "attempts_used": 3,
+    "attempts_remaining": 5,
+    "known_costs": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0
+    },
+    "unknown_cost_attempts": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 3
+    },
+    "output_tokens_reserved_for_unknown": 0,
+    "output_tokens_remaining": 65536
+  },
+  "attempts": [
+    {
+      "attempt_id": 0,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:45:08.963914+00:00",
+      "response": {
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.41421356237309503,
+              1.0
+            ]
+          ],
+          "moving_point": [
+            0.0,
+            1.0
+          ],
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/S086/policy-panel-000.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/S086/observation-000.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:45:10.038287+00:00",
+      "result": {
+        "index": 0,
+        "instruction_index": 0,
+        "action": {
+          "op": "fold",
+          "line": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.41421356237309503,
+              1.0
+            ]
+          ],
+          "moving_point": [
+            0.0,
+            1.0
+          ],
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "before": "51bb8ad6c1861c8af4a66a78ec5ca1d5d304c249484c9e5c54d2f12335350005",
+        "after": "f6b9ee2d662c4ac50ee2cc5d901ba7293462129bad69ef19bf8b1ae587f1c6d9",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              9,
+              12,
+              14,
+              22,
+              23,
+              25,
+              33,
+              38,
+              39,
+              53,
+              57,
+              63,
+              70,
+              71,
+              75,
+              77,
+              78,
+              80,
+              84,
+              91,
+              98,
+              99,
+              102
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              5,
+              6,
+              9,
+              57,
+              63,
+              77,
+              78,
+              80,
+              91,
+              102
+            ],
+            "axis_point": [
+              -0.075,
+              -0.075,
+              0.00015
+            ],
+            "axis_direction": [
+              0.38268343236501484,
+              0.9238795325113178,
+              0.0
+            ],
+            "degrees": 180.0,
+            "frames": 360
+          }
+        ],
+        "result": {
+          "status": "accepted",
+          "executed_axis": {
+            "axis_point": [
+              -0.075,
+              -0.075,
+              0.00015
+            ],
+            "axis_direction": [
+              0.38268343236501484,
+              0.9238795325113178,
+              0.0
+            ],
+            "degrees": 180.0
+          }
+        },
+        "episode_finished": false,
+        "wall_seconds": 15.138666374608874
+      },
+      "result_at": "2026-11-02T08:45:24.210654+00:00"
+    },
+    {
+      "attempt_id": 1,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:45:24.566717+00:00",
+      "response": {
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.41421356237309503
+            ]
+          ],
+          "moving_point": [
+            1.0,
+            0.0
+          ],
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/S086/policy-panel-001.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/S086/observation-001.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:45:25.556410+00:00",
+      "result": {
+        "index": 1,
+        "instruction_index": 1,
+        "action": {
+          "op": "fold",
+          "line": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.41421356237309503
+            ]
+          ],
+          "moving_point": [
+            1.0,
+            0.0
+          ],
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "before": "f6b9ee2d662c4ac50ee2cc5d901ba7293462129bad69ef19bf8b1ae587f1c6d9",
+        "after": "8366a91d1ebb7106baa119ea52d016b7dfba419daf75e46b358b4627a706ddc1",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              1,
+              3,
+              4,
+              5,
+              6,
+              9,
+              12,
+              14,
+              20,
+              23,
+              25,
+              33,
+              38,
+              39,
+              53,
+              57,
+              63,
+              70,
+              71,
+              75,
+              77,
+              78,
+              80,
+              84,
+              91,
+              98,
+              99,
+              102
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              1,
+              12,
+              14,
+              23,
+              25,
+              38,
+              39,
+              53,
+              75
+            ],
+            "axis_point": [
+              0.075,
+              -0.01286796564405,
+              0.00015
+            ],
+            "axis_direction": [
+              -0.9238862279353446,
+              -0.3826592990987182,
+              0.0024695434149699363
+            ],
+            "degrees": 180.0,
+            "frames": 360
+          }
+        ],
+        "result": {
+          "status": "accepted",
+          "executed_axis": {
+            "axis_point": [
+              0.075,
+              -0.01286796564405,
+              0.00015
+            ],
+            "axis_direction": [
+              -0.9238862279353446,
+              -0.3826592990987182,
+              0.0024695434149699363
+            ],
+            "degrees": 180.0
+          }
+        },
+        "episode_finished": false,
+        "wall_seconds": 17.378746926784515
+      },
+      "result_at": "2026-11-02T08:45:42.245471+00:00"
+    },
+    {
+      "attempt_id": 2,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:45:42.582739+00:00",
+      "response": {
+        "action": {
+          "op": "finish"
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/S086/policy-panel-002.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/S086/observation-002.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:45:43.596856+00:00",
+      "result": {
+        "index": 2,
+        "instruction_index": 2,
+        "action": {
+          "op": "finish"
+        },
+        "before": "8366a91d1ebb7106baa119ea52d016b7dfba419daf75e46b358b4627a706ddc1",
+        "after": "8366a91d1ebb7106baa119ea52d016b7dfba419daf75e46b358b4627a706ddc1",
+        "low_level_actions": [],
+        "result": {
+          "status": "accepted"
+        },
+        "episode_finished": true,
+        "wall_seconds": 0.895039327442646
+      },
+      "result_at": "2026-11-02T08:45:43.794563+00:00"
+    }
+  ]
+}

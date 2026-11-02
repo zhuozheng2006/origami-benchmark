@@ -1,0 +1,207 @@
+[
+  {
+    "index": 0,
+    "instruction_index": 0,
+    "action": {
+      "op": "fold",
+      "line": [
+        [
+          0.75,
+          0.0
+        ],
+        [
+          0.75,
+          1.0
+        ]
+      ],
+      "moving_point": [
+        1.0,
+        0.5
+      ],
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "1f10f14e3c1587dbf813c4c632006a0567f807849d906d4fdf5b993359b66ef5",
+    "after": "bacac68af4e5e920724c68246eeb61dba8ed4f5fb2bc175dfe498983fdea8a0d",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          6,
+          7,
+          9,
+          11,
+          12,
+          14,
+          18,
+          19,
+          25,
+          28,
+          37,
+          42,
+          50,
+          53,
+          60,
+          61,
+          64,
+          67,
+          69,
+          72,
+          82,
+          83,
+          85,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          3,
+          4,
+          11,
+          60,
+          64,
+          67,
+          69,
+          72,
+          85,
+          101
+        ],
+        "axis_point": [
+          0.0375,
+          0.075,
+          0.00015
+        ],
+        "axis_direction": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted",
+      "executed_axis": {
+        "axis_point": [
+          0.0375,
+          0.075,
+          0.00015
+        ],
+        "axis_direction": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "degrees": 180.0
+      }
+    }
+  },
+  {
+    "index": 1,
+    "instruction_index": 1,
+    "action": {
+      "op": "fold",
+      "line": [
+        [
+          0.25,
+          1.0
+        ],
+        [
+          0.25,
+          0.0
+        ]
+      ],
+      "moving_point": [
+        0.0,
+        0.5
+      ],
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "bacac68af4e5e920724c68246eeb61dba8ed4f5fb2bc175dfe498983fdea8a0d",
+    "after": "bacac68af4e5e920724c68246eeb61dba8ed4f5fb2bc175dfe498983fdea8a0d",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          7,
+          9,
+          11,
+          12,
+          14,
+          18,
+          19,
+          25,
+          28,
+          37,
+          42,
+          50,
+          53,
+          60,
+          61,
+          64,
+          67,
+          69,
+          72,
+          82,
+          83,
+          85,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          0,
+          7,
+          9,
+          12,
+          14,
+          18,
+          19,
+          25,
+          28,
+          42,
+          53
+        ],
+        "axis_point": [
+          -0.0375,
+          -0.075,
+          0.00015
+        ],
+        "axis_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "rejected",
+      "category": "simulator_rejection",
+      "detail": "ActionRejected: origami Newton iteration limit",
+      "rollback_verified": true
+    }
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "index": 0,
+    "instruction_index": 0,
+    "action": null,
+    "before": "a4811242796f63b79c8b99c7b8c65df29f26b2e4e26d856aa5e17227d79edc94",
+    "after": "a4811242796f63b79c8b99c7b8c65df29f26b2e4e26d856aa5e17227d79edc94",
+    "low_level_actions": [],
+    "result": {
+      "status": "rejected",
+      "category": "environment_error",
+      "detail": "ValueError: inference/observation/execution failed; outcome requires audit",
+      "rollback_verified": true
+    }
+  }
+]

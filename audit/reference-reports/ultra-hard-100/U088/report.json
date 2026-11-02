@@ -1,0 +1,124 @@
+{
+  "task_id": "U088",
+  "agent_kind": "private_layer_reference",
+  "task_success": false,
+  "finished": true,
+  "physical_pass": true,
+  "shape": null,
+  "memory_pass": true,
+  "goal_available": false,
+  "status": "reference_unscored",
+  "attempts": 15,
+  "retained_paper_operations": 14,
+  "peak_strain": 0.008592704420729902,
+  "material_memory": {
+    "rest_angle_sha256": "bf6286710381a49c2288d1e80f4f7498e909a51ba180e875d4e059b0025b302a",
+    "rest_angle_l2": 14.578452389825967,
+    "dissipation_joules": 0.005267223573620791
+  },
+  "seconds": 2500.222872499842,
+  "scope": "Finite-thickness deformable shell with ideal point fixtures; continuous contact and 1% stretch/compression acceptance. Prepared state is physically replayed. No real finger model.",
+  "unsigned_memory_pass": true,
+  "grading_version": "prepared-shape-ordered-path-and-band-memory-v16-1",
+  "fixed_board_shape": null,
+  "band_memory_pass": true,
+  "initial_frame": 1080,
+  "preparation_operations": 3,
+  "controller_version": "layer-boundary-v16-dev1",
+  "goal_success": false,
+  "geometric_checks": [
+    {
+      "op": "unfold",
+      "rms_mm": 0.037100925374072814,
+      "max_mm": 0.14932620866129326
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.02996960930261229,
+      "max_mm": 0.1493262086612933
+    },
+    {
+      "op": "rotate_paper",
+      "rms_mm": 0.05189593217222804,
+      "max_mm": 0.18924008931759662
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.07095776765201962,
+      "max_mm": 0.27215905009839236
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.07580708593199648,
+      "max_mm": 0.2721582360059047
+    },
+    {
+      "op": "turn_over",
+      "rms_mm": 0.07592223247296019,
+      "max_mm": 0.25145126043453836
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.07713731287558301,
+      "max_mm": 0.2515238759392326
+    },
+    {
+      "op": "rotate_paper",
+      "rms_mm": 0.07853376397755502,
+      "max_mm": 0.250267975617508
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.08378590361963635,
+      "max_mm": 0.27764414205541393
+    },
+    {
+      "op": "rotate_paper",
+      "rms_mm": 0.07960645334058043,
+      "max_mm": 0.2752817132104411
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.08073278319072481,
+      "max_mm": 0.27531679135757764
+    },
+    {
+      "op": "rotate_paper",
+      "rms_mm": 0.08010770908296752,
+      "max_mm": 0.2716725524064714
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.08325108281868517,
+      "max_mm": 0.2991909855849483
+    },
+    {
+      "op": "rotate_paper",
+      "rms_mm": 0.08277914125991614,
+      "max_mm": 0.2975186616879826
+    }
+  ],
+  "initial_check": {
+    "rms_mm": 0.04233485306882858,
+    "max_mm": 0.14932620866129304
+  },
+  "annotated_plan_complete": true,
+  "fixture_mode": "guided_directional_10000",
+  "preparation_checks": [
+    {
+      "op": "fold_line",
+      "rms_mm": 0.02618978253168016,
+      "max_mm": 0.14932682307504977
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.0351606640243622,
+      "max_mm": 0.14932620866129345
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.04233485306882858,
+      "max_mm": 0.14932620866129304
+    }
+  ]
+}

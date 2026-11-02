@@ -1,0 +1,89 @@
+{
+  "task_id": "U002",
+  "agent_kind": "private_layer_reference",
+  "task_success": false,
+  "finished": true,
+  "physical_pass": true,
+  "shape": null,
+  "memory_pass": true,
+  "goal_available": false,
+  "status": "reference_unscored",
+  "attempts": 9,
+  "retained_paper_operations": 8,
+  "peak_strain": 0.009898476885896512,
+  "material_memory": {
+    "rest_angle_sha256": "1e6153a8db1b108398f556974f02cd8c33a5405c6355b10eb695b8c01e32acfb",
+    "rest_angle_l2": 16.37577580085418,
+    "dissipation_joules": 0.007422687674593844
+  },
+  "seconds": 1923.7591682500206,
+  "scope": "Finite-thickness deformable shell with ideal point fixtures; continuous contact and 1% stretch/compression acceptance. Prepared state is physically replayed. No real finger model.",
+  "unsigned_memory_pass": true,
+  "grading_version": "prepared-shape-ordered-path-and-band-memory-v16-1",
+  "fixed_board_shape": null,
+  "band_memory_pass": true,
+  "initial_frame": 720,
+  "preparation_operations": 2,
+  "controller_version": "layer-boundary-v16-dev1",
+  "goal_success": false,
+  "geometric_checks": [
+    {
+      "op": "unfold",
+      "rms_mm": 0.11601629718529394,
+      "max_mm": 0.5062546019870295
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.12167943387036215,
+      "max_mm": 0.5062546019870295
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.14666348268281143,
+      "max_mm": 0.5814637011131811
+    },
+    {
+      "op": "rotate_paper",
+      "rms_mm": 0.14668831526369813,
+      "max_mm": 0.5654958715675709
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.1510245824902911,
+      "max_mm": 0.5654958715675709
+    },
+    {
+      "op": "turn_over",
+      "rms_mm": 0.14627032236823845,
+      "max_mm": 0.5638313262879138
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.15322144311735897,
+      "max_mm": 0.549299943817966
+    },
+    {
+      "op": "rotate_paper",
+      "rms_mm": 0.15284135343433985,
+      "max_mm": 0.5466694577874148
+    }
+  ],
+  "initial_check": {
+    "rms_mm": 0.28061204380187443,
+    "max_mm": 0.8760026026233305
+  },
+  "annotated_plan_complete": true,
+  "fixture_mode": "guided_directional_10000",
+  "preparation_checks": [
+    {
+      "op": "fold_line",
+      "rms_mm": 0.02618978253168016,
+      "max_mm": 0.14932682307504977
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.28061204380187443,
+      "max_mm": 0.8760026026233305
+    }
+  ]
+}

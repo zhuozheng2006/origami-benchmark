@@ -1,0 +1,30 @@
+{
+  "task_id": "M02",
+  "agent_kind": "private_reference",
+  "task_success": false,
+  "finished": false,
+  "physical_pass": true,
+  "shape": null,
+  "memory_pass": true,
+  "goal_available": false,
+  "status": "reference_unscored",
+  "attempts": 2,
+  "retained_paper_operations": 1,
+  "peak_strain": 0.00018762697146246232,
+  "material_memory": {
+    "rest_angle_sha256": "e6b44ad807ed7b98f45ffc865939212e87f804deb3b75c8eb7f49abf9ec278e4",
+    "rest_angle_l2": 11.857819739991099,
+    "dissipation_joules": 0.00047739309158162477
+  },
+  "seconds": 58.40972441714257,
+  "scope": "Finite thickness, same ideal boundary grasps and historical contact rule; no real fingers or general collision certification.",
+  "geometric_checks": [
+    {
+      "op": "fold_line",
+      "rms_mm": 0.366613383335031,
+      "max_mm": 0.7597235278522512
+    }
+  ],
+  "annotated_plan_complete": false,
+  "annotation_validation": "pending_visual_review"
+}

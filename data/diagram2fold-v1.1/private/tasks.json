@@ -1,0 +1,291 @@
+{
+  "D001": {
+    "mesh": "horizontal",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.5
+          ],
+          [
+            1.0,
+            0.5
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "D001-targets.npz",
+    "mesh_sha256": "36c3e888563dbf270a5eb06f95774b23c2e4077d4df8c1a81c33c57ecf0f0cd1",
+    "status": "candidate_until_live_controller_qualification",
+    "scope": "Original primitive / sequence",
+    "physical_evidence": "Existing representative runs only; this compiler must be qualified independently"
+  },
+  "D002": {
+    "mesh": "horizontal",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.5
+          ],
+          [
+            1.0,
+            0.5
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "D002-targets.npz",
+    "mesh_sha256": "36c3e888563dbf270a5eb06f95774b23c2e4077d4df8c1a81c33c57ecf0f0cd1",
+    "status": "candidate_until_live_controller_qualification",
+    "scope": "Original primitive / sequence",
+    "physical_evidence": "Existing representative runs only; this compiler must be qualified independently"
+  },
+  "D003": {
+    "mesh": "diagonal",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "D003-targets.npz",
+    "mesh_sha256": "d606342058e46408656ee23528ddff83ffd549e7704d3cb192879c42f86dd056",
+    "status": "candidate_until_live_controller_qualification",
+    "scope": "Original primitive / sequence",
+    "physical_evidence": "Existing representative runs only; this compiler must be qualified independently"
+  },
+  "D004": {
+    "mesh": "gate",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.7506666666666667
+          ],
+          [
+            1.0,
+            0.7506666666666667
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.2493333333333333
+          ],
+          [
+            1.0,
+            0.2493333333333333
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "D004-targets.npz",
+    "mesh_sha256": "230dcca054d92c5ba4e644789f46f39e6657220f6adc5e96a094615adfd2950d",
+    "status": "candidate_until_live_controller_qualification",
+    "scope": "Original primitive / sequence",
+    "physical_evidence": "Existing representative runs only; this compiler must be qualified independently"
+  },
+  "D005": {
+    "mesh": "kite",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.4142135623730951
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.41421356237309515,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "D005-targets.npz",
+    "mesh_sha256": "c61e47704ce875a6ef578612a57f99e338a8b79d9838a318c6998bab0267b4f0",
+    "status": "candidate_until_live_controller_qualification",
+    "scope": "Original primitive / sequence",
+    "physical_evidence": "Existing representative runs only; this compiler must be qualified independently"
+  },
+  "D006": {
+    "mesh": "accordion",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.6666666666666667
+          ],
+          [
+            1.0,
+            0.6666666666666667
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.3333333333333333
+          ],
+          [
+            1.0,
+            0.3333333333333333
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "D006-targets.npz",
+    "mesh_sha256": "e358db2355b6bd3cf69f98f4f78d127db9d15bb8467f5b0e7e9e24a940a9a214",
+    "status": "candidate_until_live_controller_qualification",
+    "scope": "Original primitive / sequence",
+    "physical_evidence": "Existing representative runs only; this compiler must be qualified independently"
+  },
+  "D007": {
+    "mesh": "diagonal",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "D007-targets.npz",
+    "mesh_sha256": "d606342058e46408656ee23528ddff83ffd549e7704d3cb192879c42f86dd056",
+    "status": "candidate_until_live_controller_qualification",
+    "scope": "Step 1 only, NOT complete model",
+    "physical_evidence": "Existing representative runs only; this compiler must be qualified independently"
+  },
+  "D008": {
+    "mesh": "bench_antidiagonal",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "D008-targets.npz",
+    "mesh_sha256": "9c577c403fc33b21ddb6bab7a92a7f057fd0217198a7b358cac5cc43be2ee25b",
+    "status": "candidate_until_live_controller_qualification",
+    "scope": "Step 1 only, NOT complete model",
+    "physical_evidence": "Existing representative runs only; this compiler must be qualified independently"
+  }
+}

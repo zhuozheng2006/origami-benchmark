@@ -1,0 +1,50 @@
+[
+  {
+    "index": 0,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "moving_point": [
+        0,
+        0.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "a60ee65ef8c71e68e8c668b0747a2c2522a64c0c3cab21f77a5b1a3803eb084b",
+    "after": "a60ee65ef8c71e68e8c668b0747a2c2522a64c0c3cab21f77a5b1a3803eb084b",
+    "low_level_actions": [],
+    "result": {
+      "status": "rejected",
+      "category": "simulator_rejection",
+      "detail": "ActionRejected: origami Newton iteration limit",
+      "rollback_verified": true
+    },
+    "frame": 882,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "85cfb2fc6b537445300ea5d72dd1baa0fd67497a24a6f792b9d52e40bfc64be9",
+      "rest_angle_l2": 12.026617737174474,
+      "dissipation_joules": 0.00046840033262081755
+    },
+    "time": 14.70000000000031
+  }
+]

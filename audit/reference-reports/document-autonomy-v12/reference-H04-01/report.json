@@ -1,0 +1,95 @@
+{
+  "task_id": "H04",
+  "agent_kind": "private_reference",
+  "task_success": false,
+  "finished": false,
+  "physical_pass": true,
+  "shape": null,
+  "memory_pass": true,
+  "goal_available": false,
+  "status": "reference_unscored",
+  "attempts": 15,
+  "retained_paper_operations": 14,
+  "peak_strain": 0.0002510148997745265,
+  "material_memory": {
+    "rest_angle_sha256": "098613ee1d02cb13988aaeb6445c92c225f2f34ef1d82c0c1fbe82a98b77e3e1",
+    "rest_angle_l2": 0.19228101650921794,
+    "dissipation_joules": 0.0030178978248736835
+  },
+  "seconds": 183.24165408313274,
+  "scope": "Finite thickness, same ideal boundary grasps and historical contact rule; no real fingers or general collision certification.",
+  "geometric_checks": [
+    {
+      "op": "fold_line",
+      "rms_mm": 0.324831423471269,
+      "max_mm": 0.631851181141415
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.06914303183194544,
+      "max_mm": 0.1460516309680775
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.3068575308113327,
+      "max_mm": 0.6328370230875823
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.08123428156547058,
+      "max_mm": 0.16753627478455946
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.32656635231315845,
+      "max_mm": 0.6370267720200741
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.09269349126462535,
+      "max_mm": 0.1840450968643286
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.3584314646543797,
+      "max_mm": 0.7481941168064298
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.08312544124169982,
+      "max_mm": 0.15911530480152455
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.35613257533537657,
+      "max_mm": 0.7574852985117444
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.0789521502399462,
+      "max_mm": 0.14279037582640888
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.3429831490478039,
+      "max_mm": 0.7355922690436173
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.07912417505283824,
+      "max_mm": 0.14413759968755693
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.3412249546887876,
+      "max_mm": 0.7109260215585668
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.07758133043618491,
+      "max_mm": 0.14413346934831098
+    }
+  ],
+  "annotated_plan_complete": false,
+  "annotation_validation": "pending_visual_review"
+}

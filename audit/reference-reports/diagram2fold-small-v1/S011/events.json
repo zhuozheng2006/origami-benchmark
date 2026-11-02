@@ -1,0 +1,127 @@
+[
+  {
+    "index": 0,
+    "instruction_index": 0,
+    "action": {
+      "op": "fold",
+      "line": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "moving_point": [
+        0.0,
+        0.0
+      ],
+      "sense": "away",
+      "angle_deg": 180
+    },
+    "before": "2b2797a34d4335a931db46f43366506c1685b19ec3b66b308b33ea9898bb968d",
+    "after": "1db513f1e7de03484d258a08c662388445ac6022194d9f2a08c182d4ae43caff",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          2,
+          5,
+          8,
+          11,
+          12,
+          13,
+          15,
+          16,
+          19,
+          27,
+          37,
+          43,
+          48,
+          52,
+          54,
+          61,
+          63,
+          72,
+          74,
+          75,
+          84,
+          85,
+          87,
+          89,
+          94,
+          97,
+          99,
+          103
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          0,
+          5,
+          8,
+          11,
+          15,
+          16,
+          19,
+          27,
+          43,
+          48,
+          52,
+          54,
+          63,
+          84,
+          87
+        ],
+        "axis_point": [
+          0.075,
+          -0.075,
+          -0.00015
+        ],
+        "axis_direction": [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0
+        ],
+        "degrees": -180.0,
+        "frames": 417
+      }
+    ],
+    "result": {
+      "status": "accepted",
+      "executed_axis": {
+        "axis_point": [
+          0.075,
+          -0.075,
+          -0.00015
+        ],
+        "axis_direction": [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0
+        ],
+        "degrees": -180.0
+      }
+    }
+  },
+  {
+    "index": 1,
+    "instruction_index": 1,
+    "action": {
+      "op": "finish"
+    },
+    "before": "1db513f1e7de03484d258a08c662388445ac6022194d9f2a08c182d4ae43caff",
+    "after": "1db513f1e7de03484d258a08c662388445ac6022194d9f2a08c182d4ae43caff",
+    "low_level_actions": [],
+    "result": {
+      "status": "accepted"
+    }
+  }
+]

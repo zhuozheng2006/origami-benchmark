@@ -1,0 +1,3123 @@
+{
+  "config": {
+    "max_attempts": 40,
+    "output_cap_per_call": 8192,
+    "max_output_tokens": 327680
+  },
+  "budget": {
+    "known_wall_seconds": 504.48399373330176,
+    "max_attempts": 40,
+    "output_cap_per_call": 8192,
+    "max_output_tokens": 327680,
+    "attempts_used": 23,
+    "attempts_remaining": 17,
+    "known_costs": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0
+    },
+    "unknown_cost_attempts": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 23
+    },
+    "output_tokens_reserved_for_unknown": 0,
+    "output_tokens_remaining": 327680
+  },
+  "attempts": [
+    {
+      "attempt_id": 0,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:21:41.013054+00:00",
+      "response": {
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              0.5,
+              -0.20710678118654757
+            ],
+            [
+              0.5,
+              1.2071067811865475
+            ]
+          ],
+          "moving_point": [
+            0.9242640687119286,
+            0.5
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-000.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-000.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:21:41.407251+00:00",
+      "result": {
+        "index": 0,
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              0.5,
+              -0.20710678118654757
+            ],
+            [
+              0.5,
+              1.2071067811865475
+            ]
+          ],
+          "moving_point": [
+            0.9242640687119286,
+            0.5
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "before": "aa0b46c74ba74b96262914635c39b9068df7cdd1b9b4f6050f413bf6bc833bd4",
+        "after": "ec73497fe69402526bd8d361ff1d7ba0f39bd647ee1be4c5ceccc2c7ca503356",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              93,
+              97,
+              101
+            ],
+            "axis_point": [
+              -1.2075693181823942e-08,
+              0.0003155704082789058,
+              0.00015000005415931252
+            ],
+            "axis_direction": [
+              -5.999936570246202e-07,
+              -0.9999999999998199,
+              -1.0401717468671882e-10
+            ],
+            "degrees": 180.0,
+            "frames": 417
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 882,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "8ac09cbdbe28a27d1b780ab869a919b6c1aa232305d5c58f5a98a55ab19b98e7",
+          "rest_angle_l2": 11.44932300846815,
+          "dissipation_joules": 0.00044536104840690573
+        },
+        "time": 14.70000000000031,
+        "episode_finished": false,
+        "wall_seconds": 31.78508855588734
+      },
+      "result_at": "2026-11-02T08:22:12.881877+00:00"
+    },
+    {
+      "attempt_id": 1,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:22:12.947892+00:00",
+      "response": {
+        "action": {
+          "op": "unfold"
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-001.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-001.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:22:13.542201+00:00",
+      "result": {
+        "index": 1,
+        "action": {
+          "op": "unfold"
+        },
+        "before": "ec73497fe69402526bd8d361ff1d7ba0f39bd647ee1be4c5ceccc2c7ca503356",
+        "after": "51f39f96f876680c3d49922097e8015bceeec5add6cf7344859b90fc164c7928",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              93,
+              97,
+              101
+            ],
+            "axis_point": [
+              -1.2075693181823942e-08,
+              0.0003155704082789058,
+              0.00015000005415931252
+            ],
+            "axis_direction": [
+              -5.999936570246202e-07,
+              -0.9999999999998199,
+              -1.0401717468671882e-10
+            ],
+            "degrees": -180.0,
+            "frames": 417
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 1299,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "0e378d8a023e69801b5d4e4bc7ddbeb0d37211596eff58c8d13a9f0e0453ada6",
+          "rest_angle_l2": 0.13131851671024794,
+          "dissipation_joules": 0.0008773722412446649
+        },
+        "time": 21.650000000000052,
+        "episode_finished": false,
+        "wall_seconds": 26.70703622698784
+      },
+      "result_at": "2026-11-02T08:22:39.966273+00:00"
+    },
+    {
+      "attempt_id": 2,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:22:40.317190+00:00",
+      "response": {
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              -0.20710678118654757,
+              0.5
+            ],
+            [
+              1.2071067811865475,
+              0.5
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.9242640687119286
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-002.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-002.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:22:40.779971+00:00",
+      "result": {
+        "index": 2,
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              -0.20710678118654757,
+              0.5
+            ],
+            [
+              1.2071067811865475,
+              0.5
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.9242640687119286
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "before": "51f39f96f876680c3d49922097e8015bceeec5add6cf7344859b90fc164c7928",
+        "after": "188838895fd7bab71918d45159f3e6251b3c4b84e18be4275a40d00eb7ae2568",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77
+            ],
+            "axis_point": [
+              0.003995340115793888,
+              7.710585032482256e-09,
+              0.00015986246532027866
+            ],
+            "axis_direction": [
+              0.9999999998338975,
+              -5.01381432310451e-07,
+              1.8219601238765046e-05
+            ],
+            "degrees": 180.0,
+            "frames": 417
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 1716,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "a14a5046cad0e24f9bd5098980153e7d711fefb60abf30607387e469e391d9f1",
+          "rest_angle_l2": 11.858586848684846,
+          "dissipation_joules": 0.0013507576159426356
+        },
+        "time": 28.599999999999657,
+        "episode_finished": false,
+        "wall_seconds": 25.412213848903775
+      },
+      "result_at": "2026-11-02T08:23:05.850484+00:00"
+    },
+    {
+      "attempt_id": 3,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:23:06.116727+00:00",
+      "response": {
+        "action": {
+          "op": "unfold"
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-003.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-003.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:23:06.692043+00:00",
+      "result": {
+        "index": 3,
+        "action": {
+          "op": "unfold"
+        },
+        "before": "188838895fd7bab71918d45159f3e6251b3c4b84e18be4275a40d00eb7ae2568",
+        "after": "7866eef6720e3fc7f9f2724bd784064fb6373755c9a23276bb8cf21e2bac402d",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77
+            ],
+            "axis_point": [
+              0.003995340115793888,
+              7.710585032482256e-09,
+              0.00015986246532027866
+            ],
+            "axis_direction": [
+              0.9999999998338975,
+              -5.01381432310451e-07,
+              1.8219601238765046e-05
+            ],
+            "degrees": -180.0,
+            "frames": 417
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 2133,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "0b2495f4f98e324f465edac46bca6cd8f08596c1123952e257ff0eda225f88a7",
+          "rest_angle_l2": 0.17161077291217935,
+          "dissipation_joules": 0.0018133141198686013
+        },
+        "time": 35.549999999999265,
+        "episode_finished": false,
+        "wall_seconds": 27.1452504619956
+      },
+      "result_at": "2026-11-02T08:23:33.534668+00:00"
+    },
+    {
+      "attempt_id": 4,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:23:33.626704+00:00",
+      "response": {
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              0.1464466094067262,
+              0.1464466094067262
+            ],
+            [
+              0.8535533905932737,
+              0.8535533905932737
+            ]
+          ],
+          "moving_point": [
+            0.7828427124746191,
+            0.21715728752538094
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-004.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-004.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:23:34.054163+00:00",
+      "result": {
+        "index": 4,
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              0.1464466094067262,
+              0.1464466094067262
+            ],
+            [
+              0.8535533905932737,
+              0.8535533905932737
+            ]
+          ],
+          "moving_point": [
+            0.7828427124746191,
+            0.21715728752538094
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "before": "7866eef6720e3fc7f9f2724bd784064fb6373755c9a23276bb8cf21e2bac402d",
+        "after": "3be6c1b52b8a7426dcfe4133b87d6fd4d764e45282b10c8688a837f8032d6bb3",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              15,
+              41,
+              47,
+              52,
+              87,
+              91,
+              93,
+              97,
+              101
+            ],
+            "axis_point": [
+              -2.7091341788544148e-08,
+              1.6213112534623084e-09,
+              0.0001493237854706659
+            ],
+            "axis_direction": [
+              -0.7071069843783392,
+              -0.7071065779004932,
+              -1.1542309716038112e-05
+            ],
+            "degrees": 180.0,
+            "frames": 360
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 2493,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "cc37c0fe464eca4b552320bfa26c88c79768eb979d7c0f7852328f0ea29fa2ee",
+          "rest_angle_l2": 8.620028974759158,
+          "dissipation_joules": 0.002067293474377888
+        },
+        "time": 41.549999999998924,
+        "episode_finished": false,
+        "wall_seconds": 23.864835638552904
+      },
+      "result_at": "2026-11-02T08:23:57.590089+00:00"
+    },
+    {
+      "attempt_id": 5,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:23:57.923825+00:00",
+      "response": {
+        "action": {
+          "op": "unfold"
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-005.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-005.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:23:58.536063+00:00",
+      "result": {
+        "index": 5,
+        "action": {
+          "op": "unfold"
+        },
+        "before": "3be6c1b52b8a7426dcfe4133b87d6fd4d764e45282b10c8688a837f8032d6bb3",
+        "after": "5bc37a1a935802f971c24cd675dd43bccd04fa74a772174a226e9327fdea6724",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              15,
+              41,
+              47,
+              52,
+              87,
+              91,
+              93,
+              97,
+              101
+            ],
+            "axis_point": [
+              -2.7091341788544148e-08,
+              1.6213112534623084e-09,
+              0.0001493237854706659
+            ],
+            "axis_direction": [
+              -0.7071069843783392,
+              -0.7071065779004932,
+              -1.1542309716038112e-05
+            ],
+            "degrees": -180.0,
+            "frames": 360
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 2853,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "7669de1103a14ca69d7f017f52e7ca6f4418465ff99e413c3286090e39b83afb",
+          "rest_angle_l2": 0.18465885697367598,
+          "dissipation_joules": 0.0023140710015263416
+        },
+        "time": 47.54999999999858,
+        "episode_finished": false,
+        "wall_seconds": 25.338511504232883
+      },
+      "result_at": "2026-11-02T08:24:23.532262+00:00"
+    },
+    {
+      "attempt_id": 6,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:24:23.829248+00:00",
+      "response": {
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              0.8535533905932737,
+              0.1464466094067262
+            ],
+            [
+              0.1464466094067262,
+              0.8535533905932737
+            ]
+          ],
+          "moving_point": [
+            0.21715728752538094,
+            0.21715728752538094
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-006.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-006.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:24:24.223187+00:00",
+      "result": {
+        "index": 6,
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              0.8535533905932737,
+              0.1464466094067262
+            ],
+            [
+              0.1464466094067262,
+              0.8535533905932737
+            ]
+          ],
+          "moving_point": [
+            0.21715728752538094,
+            0.21715728752538094
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "before": "5bc37a1a935802f971c24cd675dd43bccd04fa74a772174a226e9327fdea6724",
+        "after": "1b7b0323a3cea984b07e812b2022db6933ceef832d10c9d479c148409f3859d8",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              11,
+              12,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97
+            ],
+            "axis_point": [
+              0.0004910120010168831,
+              -0.0004910492705278356,
+              0.00016589980734997613
+            ],
+            "axis_direction": [
+              -0.7071063095288341,
+              0.7071072513826261,
+              -4.546009324430595e-05
+            ],
+            "degrees": 180.0,
+            "frames": 360
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 3213,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "98052646dcaca503b2cdf77e74e9a8d2712293b6465b5d3e899554fe3a986ab7",
+          "rest_angle_l2": 8.619205908306734,
+          "dissipation_joules": 0.0025694728478742614
+        },
+        "time": 53.54999999999824,
+        "episode_finished": false,
+        "wall_seconds": 23.556807298213243
+      },
+      "result_at": "2026-11-02T08:24:47.439333+00:00"
+    },
+    {
+      "attempt_id": 7,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:24:47.863981+00:00",
+      "response": {
+        "action": {
+          "op": "unfold"
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-007.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-007.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:24:48.421947+00:00",
+      "result": {
+        "index": 7,
+        "action": {
+          "op": "unfold"
+        },
+        "before": "1b7b0323a3cea984b07e812b2022db6933ceef832d10c9d479c148409f3859d8",
+        "after": "b3569f4e106da63106e6658c1a8d1a31d2891f2000e93fd59849205d587aa117",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              11,
+              12,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97
+            ],
+            "axis_point": [
+              0.0004910120010168831,
+              -0.0004910492705278356,
+              0.00016589980734997613
+            ],
+            "axis_direction": [
+              -0.7071063095288341,
+              0.7071072513826261,
+              -4.546009324430595e-05
+            ],
+            "degrees": -180.0,
+            "frames": 360
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 3573,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "358258b7ba6b12ee2fb2fa9669083f224e8efc3636abe2a55cf73b6d02f1f148",
+          "rest_angle_l2": 0.196615503700935,
+          "dissipation_joules": 0.0028161576035374367
+        },
+        "time": 59.5499999999979,
+        "episode_finished": false,
+        "wall_seconds": 25.528323469683528
+      },
+      "result_at": "2026-11-02T08:25:13.633065+00:00"
+    },
+    {
+      "attempt_id": 8,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:25:13.921060+00:00",
+      "response": {
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              0.32322330470336313,
+              -0.030330085889910707
+            ],
+            [
+              1.0303300858899107,
+              0.6767766952966369
+            ]
+          ],
+          "moving_point": [
+            0.7828427124746191,
+            0.21715728752538094
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-008.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-008.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:25:14.502717+00:00",
+      "result": {
+        "index": 8,
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              0.32322330470336313,
+              -0.030330085889910707
+            ],
+            [
+              1.0303300858899107,
+              0.6767766952966369
+            ]
+          ],
+          "moving_point": [
+            0.7828427124746191,
+            0.21715728752538094
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "before": "b3569f4e106da63106e6658c1a8d1a31d2891f2000e93fd59849205d587aa117",
+        "after": "3115647bbbcf30e4a98d8e969405cf3163243ad15164ff5b3668eb380fdbfd00",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              41,
+              47,
+              91,
+              93,
+              97,
+              101
+            ],
+            "axis_point": [
+              0.02651692304838541,
+              -0.026517000546129998,
+              0.00016859517218019744
+            ],
+            "axis_direction": [
+              -0.7071069625157109,
+              -0.7071065966349562,
+              6.750654831801735e-05
+            ],
+            "degrees": 180.0,
+            "frames": 360
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 3933,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "4b803cfd76d558bad49fe84ff9b8fc4d42fdd2bec3edbc977ea184f3f4cf32c3",
+          "rest_angle_l2": 8.636839110842939,
+          "dissipation_joules": 0.003070283768173893
+        },
+        "time": 65.54999999999757,
+        "episode_finished": false,
+        "wall_seconds": 17.827914396300912
+      },
+      "result_at": "2026-11-02T08:25:32.023509+00:00"
+    },
+    {
+      "attempt_id": 9,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:25:32.118371+00:00",
+      "response": {
+        "action": {
+          "op": "unfold"
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-009.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-009.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:25:32.665877+00:00",
+      "result": {
+        "index": 9,
+        "action": {
+          "op": "unfold"
+        },
+        "before": "3115647bbbcf30e4a98d8e969405cf3163243ad15164ff5b3668eb380fdbfd00",
+        "after": "006633306d20e2297411b9cad364bd4db00ec224f16083f27e7d4bbd0701f133",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              41,
+              47,
+              91,
+              93,
+              97,
+              101
+            ],
+            "axis_point": [
+              0.02651692304838541,
+              -0.026517000546129998,
+              0.00016859517218019744
+            ],
+            "axis_direction": [
+              -0.7071069625157109,
+              -0.7071065966349562,
+              6.750654831801735e-05
+            ],
+            "degrees": -180.0,
+            "frames": 360
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 4293,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "8f60295212207a2a21d1c59b04015926885235cf3edd9b341ba084193c654980",
+          "rest_angle_l2": 0.20091826416971623,
+          "dissipation_joules": 0.003317678429279052
+        },
+        "time": 71.54999999999723,
+        "episode_finished": false,
+        "wall_seconds": 18.274787044152617
+      },
+      "result_at": "2026-11-02T08:25:50.587566+00:00"
+    },
+    {
+      "attempt_id": 10,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:25:50.773662+00:00",
+      "response": {
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              -0.030330085889910707,
+              0.32322330470336313
+            ],
+            [
+              0.6767766952966369,
+              1.0303300858899107
+            ]
+          ],
+          "moving_point": [
+            0.21715728752538094,
+            0.7828427124746191
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-010.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-010.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:25:51.141923+00:00",
+      "result": {
+        "index": 10,
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              -0.030330085889910707,
+              0.32322330470336313
+            ],
+            [
+              0.6767766952966369,
+              1.0303300858899107
+            ]
+          ],
+          "moving_point": [
+            0.21715728752538094,
+            0.7828427124746191
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "before": "006633306d20e2297411b9cad364bd4db00ec224f16083f27e7d4bbd0701f133",
+        "after": "aca719930231e8dc0e1720c91076df64fc203c378524ace61021bed4a998a2f7",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              8,
+              9,
+              10,
+              11,
+              12,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79
+            ],
+            "axis_point": [
+              -0.02700805569120455,
+              0.026025943599112797,
+              0.00017000508295619395
+            ],
+            "axis_direction": [
+              0.7071071826761848,
+              0.7071063795655367,
+              1.3618671215691917e-05
+            ],
+            "degrees": 180.0,
+            "frames": 360
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 4653,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "022e456e42f4c30e2976d5b1e8fb0adb3e26444006e043edfe20008c56bbf50e",
+          "rest_angle_l2": 8.635644863063229,
+          "dissipation_joules": 0.00357190081084264
+        },
+        "time": 77.54999999999688,
+        "episode_finished": false,
+        "wall_seconds": 19.238827783614397
+      },
+      "result_at": "2026-11-02T08:26:10.021048+00:00"
+    },
+    {
+      "attempt_id": 11,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:26:10.347623+00:00",
+      "response": {
+        "action": {
+          "op": "unfold"
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-011.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-011.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:26:10.792836+00:00",
+      "result": {
+        "index": 11,
+        "action": {
+          "op": "unfold"
+        },
+        "before": "aca719930231e8dc0e1720c91076df64fc203c378524ace61021bed4a998a2f7",
+        "after": "2bdc430e804dbddea40da47326954da67f805d248f32255730a5c5381ffb4cf5",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              8,
+              9,
+              10,
+              11,
+              12,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79
+            ],
+            "axis_point": [
+              -0.02700805569120455,
+              0.026025943599112797,
+              0.00017000508295619395
+            ],
+            "axis_direction": [
+              0.7071071826761848,
+              0.7071063795655367,
+              1.3618671215691917e-05
+            ],
+            "degrees": -180.0,
+            "frames": 360
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 5013,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "2e05ea3f389a18c975ac565adc9d7d380de8f2936edf47651d78c3fbd47f3835",
+          "rest_angle_l2": 0.20688329110911535,
+          "dissipation_joules": 0.0038192925606064894
+        },
+        "time": 83.54999999999654,
+        "episode_finished": false,
+        "wall_seconds": 18.289117457345128
+      },
+      "result_at": "2026-11-02T08:26:28.760949+00:00"
+    },
+    {
+      "attempt_id": 12,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:26:29.082263+00:00",
+      "response": {
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              0.6767766952966369,
+              -0.030330085889910707
+            ],
+            [
+              -0.030330085889910707,
+              0.6767766952966369
+            ]
+          ],
+          "moving_point": [
+            0.21715728752538094,
+            0.21715728752538094
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-012.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-012.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:26:29.674226+00:00",
+      "result": {
+        "index": 12,
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              0.6767766952966369,
+              -0.030330085889910707
+            ],
+            [
+              -0.030330085889910707,
+              0.6767766952966369
+            ]
+          ],
+          "moving_point": [
+            0.21715728752538094,
+            0.21715728752538094
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "before": "2bdc430e804dbddea40da47326954da67f805d248f32255730a5c5381ffb4cf5",
+        "after": "c9e63283d0de36ad541d4bc66d04b66d8ed3e6b29c45e5d85cda807f1c19c0c2",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              7,
+              8,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93
+            ],
+            "axis_point": [
+              -0.02602588098536114,
+              -0.027007993196295835,
+              0.0001614762268596109
+            ],
+            "axis_direction": [
+              -0.7071064509057015,
+              0.707107109901431,
+              -4.705728980350449e-05
+            ],
+            "degrees": 180.0,
+            "frames": 360
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 5373,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "dadb5a8c562e35684df5cb996767cad25194e683208c0985055a7d81e301e80f",
+          "rest_angle_l2": 8.643666036708712,
+          "dissipation_joules": 0.004073675620580995
+        },
+        "time": 89.5499999999962,
+        "episode_finished": false,
+        "wall_seconds": 19.268466228619218
+      },
+      "result_at": "2026-11-02T08:26:48.616951+00:00"
+    },
+    {
+      "attempt_id": 13,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:26:48.980651+00:00",
+      "response": {
+        "action": {
+          "op": "unfold"
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-013.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-013.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:26:49.596865+00:00",
+      "result": {
+        "index": 13,
+        "action": {
+          "op": "unfold"
+        },
+        "before": "c9e63283d0de36ad541d4bc66d04b66d8ed3e6b29c45e5d85cda807f1c19c0c2",
+        "after": "a8572abda75c9931002b06154049db7803b33b1b922a4c5b70cb96554136e4da",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              7,
+              8,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93
+            ],
+            "axis_point": [
+              -0.02602588098536114,
+              -0.027007993196295835,
+              0.0001614762268596109
+            ],
+            "axis_direction": [
+              -0.7071064509057015,
+              0.707107109901431,
+              -4.705728980350449e-05
+            ],
+            "degrees": -180.0,
+            "frames": 360
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 5733,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "0d01a8888d5b5cfc48be5658680b8eebe0d60d068e0aafb887e35507bbb87da2",
+          "rest_angle_l2": 0.2111011338158349,
+          "dissipation_joules": 0.004320956838119037
+        },
+        "time": 95.54999999999586,
+        "episode_finished": false,
+        "wall_seconds": 17.432547172531486
+      },
+      "result_at": "2026-11-02T08:27:06.712051+00:00"
+    },
+    {
+      "attempt_id": 14,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:27:06.789791+00:00",
+      "response": {
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              1.0303300858899107,
+              0.32322330470336313
+            ],
+            [
+              0.32322330470336313,
+              1.0303300858899107
+            ]
+          ],
+          "moving_point": [
+            0.7828427124746191,
+            0.7828427124746191
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-014.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-014.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:27:07.184528+00:00",
+      "result": {
+        "index": 14,
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              1.0303300858899107,
+              0.32322330470336313
+            ],
+            [
+              0.32322330470336313,
+              1.0303300858899107
+            ]
+          ],
+          "moving_point": [
+            0.7828427124746191,
+            0.7828427124746191
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "before": "a8572abda75c9931002b06154049db7803b33b1b922a4c5b70cb96554136e4da",
+        "after": "5a2f3747931d194fc3a99e11d5134a06c110e8708d17be5de5cbb89cff933972",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              12,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              0,
+              12,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65
+            ],
+            "axis_point": [
+              0.026516919456986903,
+              0.02651691607145145,
+              0.00016978292442423065
+            ],
+            "axis_direction": [
+              0.7071063365493737,
+              -0.707107224913156,
+              -3.587951532450173e-05
+            ],
+            "degrees": 180.0,
+            "frames": 360
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 6093,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "fdc21f417093716bd8b3843a4d9d10d899e461430a8f22509887e27aff8a3115",
+          "rest_angle_l2": 8.627022966343183,
+          "dissipation_joules": 0.004576122820075832
+        },
+        "time": 101.54999999999552,
+        "episode_finished": false,
+        "wall_seconds": 19.77686141617596
+      },
+      "result_at": "2026-11-02T08:27:26.616879+00:00"
+    },
+    {
+      "attempt_id": 15,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:27:26.866193+00:00",
+      "response": {
+        "action": {
+          "op": "unfold"
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-015.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-015.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:27:27.326436+00:00",
+      "result": {
+        "index": 15,
+        "action": {
+          "op": "unfold"
+        },
+        "before": "5a2f3747931d194fc3a99e11d5134a06c110e8708d17be5de5cbb89cff933972",
+        "after": "9e11137aff90653589b81d8805dd35f4e120b886bd57431d732727b02dc5e33b",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              12,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              0,
+              12,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65
+            ],
+            "axis_point": [
+              0.026516919456986903,
+              0.02651691607145145,
+              0.00016978292442423065
+            ],
+            "axis_direction": [
+              0.7071063365493737,
+              -0.707107224913156,
+              -3.587951532450173e-05
+            ],
+            "degrees": -180.0,
+            "frames": 360
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 6453,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "93231bfccd2d9badc2928c05378640bdb6211a23a43a770b79f271296f02f762",
+          "rest_angle_l2": 0.2161300111400135,
+          "dissipation_joules": 0.0048239056438739445
+        },
+        "time": 107.54999999999518,
+        "episode_finished": false,
+        "wall_seconds": 17.557748833671212
+      },
+      "result_at": "2026-11-02T08:27:44.575606+00:00"
+    },
+    {
+      "attempt_id": 16,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:27:44.728630+00:00",
+      "response": {
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.32322330470336313
+            ],
+            [
+              1,
+              0.32322330470336313
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            -0.1
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-016.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-016.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:27:45.388584+00:00",
+      "result": {
+        "index": 16,
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.32322330470336313
+            ],
+            [
+              1,
+              0.32322330470336313
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            -0.1
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "before": "9e11137aff90653589b81d8805dd35f4e120b886bd57431d732727b02dc5e33b",
+        "after": "f0e532fbf0ab18bec7347a2a90bca44ef3c9518a666d1405d46d0eec4371ec42",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              2,
+              3,
+              4,
+              5,
+              6,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ],
+            "axis_point": [
+              -0.0015626102027461249,
+              -0.0265168418725306,
+              0.00015992971681454642
+            ],
+            "axis_direction": [
+              -0.9999999884035544,
+              -3.2034261702816404e-07,
+              -0.0001522917868417215
+            ],
+            "degrees": 180.0,
+            "frames": 360
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 6813,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "47d64d914a91a8fda408586e9d74d764cf431d3c120e442174caf2482413b069",
+          "rest_angle_l2": 9.161265262262026,
+          "dissipation_joules": 0.005104239288975869
+        },
+        "time": 113.54999999999484,
+        "episode_finished": false,
+        "wall_seconds": 21.049319172278047
+      },
+      "result_at": "2026-11-02T08:28:06.112100+00:00"
+    },
+    {
+      "attempt_id": 17,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:28:06.317305+00:00",
+      "response": {
+        "action": {
+          "op": "unfold"
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-017.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-017.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:28:06.831594+00:00",
+      "result": {
+        "index": 17,
+        "action": {
+          "op": "unfold"
+        },
+        "before": "f0e532fbf0ab18bec7347a2a90bca44ef3c9518a666d1405d46d0eec4371ec42",
+        "after": "94d356dc9b7e1f5983c9f388ff7e7b0d1ccbf5b1fda56be2ba1a791ebad2bab5",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              2,
+              3,
+              4,
+              5,
+              6,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ],
+            "axis_point": [
+              -0.0015626102027461249,
+              -0.0265168418725306,
+              0.00015992971681454642
+            ],
+            "axis_direction": [
+              -0.9999999884035544,
+              -3.2034261702816404e-07,
+              -0.0001522917868417215
+            ],
+            "degrees": -180.0,
+            "frames": 360
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 7173,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "10f05a70a927e0ec44615b9dae2610e104cc056fefe8c89102e2d51ff1e97b9d",
+          "rest_angle_l2": 0.214509761400403,
+          "dissipation_joules": 0.005380519854502332
+        },
+        "time": 119.5499999999945,
+        "episode_finished": false,
+        "wall_seconds": 22.125657314434648
+      },
+      "result_at": "2026-11-02T08:28:28.605278+00:00"
+    },
+    {
+      "attempt_id": 18,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:28:28.934179+00:00",
+      "response": {
+        "action": {
+          "op": "turn_over",
+          "axis": "y"
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-018.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-018.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:28:29.486722+00:00",
+      "result": {
+        "index": 18,
+        "action": {
+          "op": "turn_over",
+          "axis": "y"
+        },
+        "before": "94d356dc9b7e1f5983c9f388ff7e7b0d1ccbf5b1fda56be2ba1a791ebad2bab5",
+        "after": "7c26842046d8d00b1e91cd2edc08cd2214f1e17f1ac4e5f1b501d66db0f38a0f",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ],
+            "axis_point": [
+              0.0,
+              0.0,
+              -5.940773591670258e-05
+            ],
+            "axis_direction": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "degrees": 180.0,
+            "frames": 417
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 7590,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "65ea43841fae0207894ebf38a5d9f502351d511716a4a68ca5d30436e19d0571",
+          "rest_angle_l2": 0.21449910710764364,
+          "dissipation_joules": 0.0053805221029553955
+        },
+        "time": 126.4999999999941,
+        "episode_finished": false,
+        "wall_seconds": 25.157688681036234
+      },
+      "result_at": "2026-11-02T08:28:54.307795+00:00"
+    },
+    {
+      "attempt_id": 19,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:28:54.464337+00:00",
+      "response": {
+        "action": {
+          "op": "rotate_paper",
+          "degrees": 180
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-019.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-019.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:28:54.879078+00:00",
+      "result": {
+        "index": 19,
+        "action": {
+          "op": "rotate_paper",
+          "degrees": 180
+        },
+        "before": "7c26842046d8d00b1e91cd2edc08cd2214f1e17f1ac4e5f1b501d66db0f38a0f",
+        "after": "816014b291546e860f36adf01ca44c0727cba9cf2db7c1967cc624eab24ab4d9",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ],
+            "axis_point": [
+              0.0,
+              0.0,
+              -5.89581007919461e-05
+            ],
+            "axis_direction": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "degrees": 180.0,
+            "frames": 417
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 8007,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "55d536844af81583c85f233395dced300539faa92dac1d3d91f8c8df7d790fc0",
+          "rest_angle_l2": 0.2142691373200704,
+          "dissipation_joules": 0.005380557243331228
+        },
+        "time": 133.44999999999834,
+        "episode_finished": false,
+        "wall_seconds": 18.40489965863526
+      },
+      "result_at": "2026-11-02T08:29:12.925888+00:00"
+    },
+    {
+      "attempt_id": 20,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:29:13.288716+00:00",
+      "response": {
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.32322330470336313
+            ],
+            [
+              1,
+              0.32322330470336313
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            -0.1
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-020.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-020.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:29:13.838889+00:00",
+      "result": {
+        "index": 20,
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.32322330470336313
+            ],
+            [
+              1,
+              0.32322330470336313
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            -0.1
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "before": "816014b291546e860f36adf01ca44c0727cba9cf2db7c1967cc624eab24ab4d9",
+        "after": "dac60e6141c7323e78549386c2f9e78d5d78b5404cc6f1ab9113a5d5e902ae5f",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              10,
+              11,
+              12,
+              13,
+              14,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              10,
+              11,
+              12,
+              13,
+              14,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73
+            ],
+            "axis_point": [
+              -0.0035119352486074965,
+              -0.02651700210969858,
+              0.00014742824838841578
+            ],
+            "axis_direction": [
+              -0.9999999964655502,
+              5.563906366643241e-07,
+              8.407490853052441e-05
+            ],
+            "degrees": 180.0,
+            "frames": 360
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 8367,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "b0d96bfdcb2d85cc145a49b6aaf2804c382a36667405b7f0f478c91b1d2cf466",
+          "rest_angle_l2": 10.12043134129678,
+          "dissipation_joules": 0.005733095568004772
+        },
+        "time": 139.45000000000312,
+        "episode_finished": false,
+        "wall_seconds": 22.155823670327663
+      },
+      "result_at": "2026-11-02T08:29:35.570111+00:00"
+    },
+    {
+      "attempt_id": 21,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:29:35.786779+00:00",
+      "response": {
+        "action": {
+          "op": "turn_over",
+          "axis": "y"
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-021.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-021.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:29:36.399855+00:00",
+      "result": {
+        "index": 21,
+        "action": {
+          "op": "turn_over",
+          "axis": "y"
+        },
+        "before": "dac60e6141c7323e78549386c2f9e78d5d78b5404cc6f1ab9113a5d5e902ae5f",
+        "after": "92246fc0526bc5b992d185fe7d929fbc7e23821bea0147f6f4fe388c3ae1706c",
+        "low_level_actions": [
+          {
+            "op": "release"
+          },
+          {
+            "op": "set_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ]
+          },
+          {
+            "op": "rotate_grips",
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              41,
+              47,
+              52,
+              59,
+              63,
+              65,
+              69,
+              73,
+              77,
+              79,
+              83,
+              87,
+              91,
+              93,
+              97,
+              101
+            ],
+            "axis_point": [
+              0.0,
+              0.0,
+              -0.00013611958267683823
+            ],
+            "axis_direction": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "degrees": 180.0,
+            "frames": 417
+          }
+        ],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 8784,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "5a5fcb12840396569ff61cce23d02db9a0e6d1ea777812f4e843ffa69490c2d4",
+          "rest_angle_l2": 10.120432587225412,
+          "dissipation_joules": 0.005733105764854332
+        },
+        "time": 146.40000000000865,
+        "episode_finished": false,
+        "wall_seconds": 37.84816397540271
+      },
+      "result_at": "2026-11-02T08:30:13.896092+00:00"
+    },
+    {
+      "attempt_id": 22,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:30:14.095308+00:00",
+      "response": {
+        "action": {
+          "op": "finish"
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "raw_output": "scripted replay",
+        "public_image_files": [
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/document-view-022.png",
+          "/data/ckpt/zhengzhuo/origami-public-release-check/outputs/v2-reference-sweep/D04/observation-022.png"
+        ]
+      },
+      "response_at": "2026-11-02T08:30:14.503077+00:00",
+      "result": {
+        "index": 22,
+        "action": {
+          "op": "finish"
+        },
+        "before": "92246fc0526bc5b992d185fe7d929fbc7e23821bea0147f6f4fe388c3ae1706c",
+        "after": "92246fc0526bc5b992d185fe7d929fbc7e23821bea0147f6f4fe388c3ae1706c",
+        "low_level_actions": [],
+        "result": {
+          "status": "accepted"
+        },
+        "frame": 8784,
+        "document": {
+          "page": 1,
+          "crop": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "material_memory": {
+          "rest_angle_sha256": "5a5fcb12840396569ff61cce23d02db9a0e6d1ea777812f4e843ffa69490c2d4",
+          "rest_angle_l2": 10.120432587225412,
+          "dissipation_joules": 0.005733105764854332
+        },
+        "time": 146.40000000000865,
+        "episode_finished": true,
+        "wall_seconds": 0.7381039243191481
+      },
+      "result_at": "2026-11-02T08:30:14.904323+00:00"
+    }
+  ]
+}

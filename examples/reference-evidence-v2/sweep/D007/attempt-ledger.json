@@ -1,0 +1,51 @@
+{
+  "config": {
+    "max_attempts": 8,
+    "output_cap_per_call": 8192,
+    "max_output_tokens": 65536
+  },
+  "budget": {
+    "known_wall_seconds": 0.9362311977893114,
+    "max_attempts": 8,
+    "output_cap_per_call": 8192,
+    "max_output_tokens": 65536,
+    "attempts_used": 1,
+    "attempts_remaining": 7,
+    "known_costs": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0
+    },
+    "unknown_cost_attempts": {
+      "input_tokens": 1,
+      "output_tokens": 1,
+      "seconds": 1
+    },
+    "output_tokens_reserved_for_unknown": 8192,
+    "output_tokens_remaining": 57344
+  },
+  "attempts": [
+    {
+      "attempt_id": 0,
+      "started": {
+        "output_tokens_reserved": 8192
+      },
+      "started_at": "2026-11-02T08:20:38.980223+00:00",
+      "result": {
+        "action": null,
+        "before": "a4811242796f63b79c8b99c7b8c65df29f26b2e4e26d856aa5e17227d79edc94",
+        "after": "a4811242796f63b79c8b99c7b8c65df29f26b2e4e26d856aa5e17227d79edc94",
+        "result": {
+          "status": "rejected",
+          "category": "environment_error",
+          "detail": "ValueError: inference/observation/execution failed; outcome requires audit",
+          "rollback_verified": true
+        },
+        "episode_finished": false,
+        "wall_seconds": 0.9362311977893114,
+        "private_exception": "Unsupported public panel layout"
+      },
+      "result_at": "2026-11-02T08:20:40.133921+00:00"
+    }
+  ]
+}

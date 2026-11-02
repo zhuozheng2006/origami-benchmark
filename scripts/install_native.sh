@@ -10,6 +10,6 @@ tar -xzf native/codim-directional-source.tar.gz -C external/codim-ipc-directiona
 cmake -S external/codim-ipc-directional -B external/codim-ipc-directional/build \
   -DCMAKE_BUILD_TYPE=Release -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DLINEAR_SOLVER=EIGEN \
   -DPYTHON_EXECUTABLE="$(command -v python)" \
-  -DCMAKE_PREFIX_PATH="$(python -c 'import sys; print(sys.prefix)')" \
+  -DCMAKE_PREFIX_PATH="$(python -c 'import sys; print(sys.prefix + chr(59) + sys.base_prefix)')" \
   -DCMAKE_DISABLE_FIND_PACKAGE_CUDA=TRUE
 cmake --build external/codim-ipc-directional/build --target JGSL -j "${BUILD_JOBS:-2}"

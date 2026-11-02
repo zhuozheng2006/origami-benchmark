@@ -1,0 +1,6482 @@
+[
+  {
+    "time": 0.016666666666666666,
+    "dt": 0.016666666666666666,
+    "stretch": 2.2894925358007967e-05,
+    "compression": 7.388639349126258e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 0,
+    "dissipation_joules": 0.0,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.03333333333333333,
+    "dt": 0.016666666666666666,
+    "stretch": 3.283124753661326e-05,
+    "compression": 1.1474677669154332e-05,
+    "grip_error": 0.0,
+    "plastic_hinges": 0,
+    "dissipation_joules": 0.0,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.05,
+    "dt": 0.016666666666666666,
+    "stretch": 2.9042676204849016e-05,
+    "compression": 9.762008105762554e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 1,
+    "dissipation_joules": 5.035565532108405e-09,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.06666666666666667,
+    "dt": 0.016666666666666666,
+    "stretch": 1.5135926677789513e-05,
+    "compression": 1.5234167073829852e-05,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 1.3028309864594977e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.08333333333333333,
+    "dt": 0.016666666666666666,
+    "stretch": 8.672900734252309e-06,
+    "compression": 1.4759862917879119e-05,
+    "grip_error": 0.0,
+    "plastic_hinges": 10,
+    "dissipation_joules": 5.653361781772508e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.09999999999999999,
+    "dt": 0.016666666666666666,
+    "stretch": 7.938196200818481e-06,
+    "compression": 1.3528087264846889e-05,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 8.192613015865735e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.11666666666666665,
+    "dt": 0.016666666666666666,
+    "stretch": 7.534246431850633e-06,
+    "compression": 1.2569167720077878e-05,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.717042250342896e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.13333333333333333,
+    "dt": 0.016666666666666666,
+    "stretch": 7.300622694383918e-06,
+    "compression": 1.1826943326465056e-05,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.441245935905472e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.15,
+    "dt": 0.016666666666666666,
+    "stretch": 7.142663846382291e-06,
+    "compression": 1.1242334116090547e-05,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.303440318459164e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.16666666666666666,
+    "dt": 0.016666666666666666,
+    "stretch": 7.0240960863277024e-06,
+    "compression": 1.0771368322393116e-05,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.219459614889366e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.18333333333333332,
+    "dt": 0.016666666666666666,
+    "stretch": 6.931850407676521e-06,
+    "compression": 1.03875868991965e-05,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.166976910044978e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.19999999999999998,
+    "dt": 0.016666666666666666,
+    "stretch": 6.880762341676672e-06,
+    "compression": 1.0071133534461651e-05,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.128903265000494e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.21666666666666665,
+    "dt": 0.016666666666666666,
+    "stretch": 6.859709955842064e-06,
+    "compression": 9.80645369963451e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.101771670859102e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.2333333333333333,
+    "dt": 0.016666666666666666,
+    "stretch": 6.84520697769031e-06,
+    "compression": 9.58207911361253e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.08114490198959e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.24999999999999997,
+    "dt": 0.016666666666666666,
+    "stretch": 6.835154569007074e-06,
+    "compression": 9.38964903740569e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.065762462860811e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.26666666666666666,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8283377938627154e-06,
+    "compression": 9.22290961280492e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.053681304612093e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.2833333333333333,
+    "dt": 0.016666666666666666,
+    "stretch": 6.823810741130032e-06,
+    "compression": 9.077114071831538e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.043999085848046e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.3,
+    "dt": 0.016666666666666666,
+    "stretch": 6.820764076653774e-06,
+    "compression": 8.948575161316086e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.035979600603418e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.31666666666666665,
+    "dt": 0.016666666666666666,
+    "stretch": 6.819058766760477e-06,
+    "compression": 8.834464092277727e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.029636305869288e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.3333333333333333,
+    "dt": 0.016666666666666666,
+    "stretch": 6.818171259137529e-06,
+    "compression": 8.732473080863556e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.024193757142555e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.35,
+    "dt": 0.016666666666666666,
+    "stretch": 6.817874841358318e-06,
+    "compression": 8.640780582269691e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.019605018938394e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.36666666666666664,
+    "dt": 0.016666666666666666,
+    "stretch": 6.818195488866863e-06,
+    "compression": 8.557944189191424e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.015873570589832e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.3833333333333333,
+    "dt": 0.016666666666666666,
+    "stretch": 6.818819920262342e-06,
+    "compression": 8.482714489610466e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.012531066058002e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.39999999999999997,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8197122211621775e-06,
+    "compression": 8.414106026477519e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.009686648819972e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.41666666666666663,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8208048189521975e-06,
+    "compression": 8.351284418672833e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.007219510715327e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.4333333333333333,
+    "dt": 0.016666666666666666,
+    "stretch": 6.821991146432893e-06,
+    "compression": 8.293536593151352e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.005017700475675e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.44999999999999996,
+    "dt": 0.016666666666666666,
+    "stretch": 6.823382955323254e-06,
+    "compression": 8.240308792983875e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.003205737193841e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.4666666666666666,
+    "dt": 0.016666666666666666,
+    "stretch": 6.824746682676519e-06,
+    "compression": 8.191044441607787e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.001445967967688e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.4833333333333333,
+    "dt": 0.016666666666666666,
+    "stretch": 6.826255919190061e-06,
+    "compression": 8.145366097611628e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 7.000034069885872e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.49999999999999994,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8276498452757295e-06,
+    "compression": 8.102834523238123e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.998587454912473e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.5166666666666666,
+    "dt": 0.016666666666666666,
+    "stretch": 6.829174808986593e-06,
+    "compression": 8.063201823116373e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.997488594892915e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.5333333333333333,
+    "dt": 0.016666666666666666,
+    "stretch": 6.830658925816024e-06,
+    "compression": 8.026139617922645e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.996383638736879e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.55,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8315759049752955e-06,
+    "compression": 7.99120620287308e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.994865565063372e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.5666666666666668,
+    "dt": 0.016666666666666666,
+    "stretch": 6.83371683529721e-06,
+    "compression": 7.958861548251761e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.99516616570474e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.5833333333333335,
+    "dt": 0.016666666666666666,
+    "stretch": 6.835161827201119e-06,
+    "compression": 7.928189874495395e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.993756003217636e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.6000000000000002,
+    "dt": 0.016666666666666666,
+    "stretch": 6.83657455491371e-06,
+    "compression": 7.899293903990134e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.992998713583357e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.6166666666666669,
+    "dt": 0.016666666666666666,
+    "stretch": 6.83805478041144e-06,
+    "compression": 7.872045440282527e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.992410351238608e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.6333333333333336,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8394060079857155e-06,
+    "compression": 7.846248690546176e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.991723023809924e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.6500000000000004,
+    "dt": 0.016666666666666666,
+    "stretch": 6.84080600077408e-06,
+    "compression": 7.821845431910113e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.991222719692068e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.6666666666666671,
+    "dt": 0.016666666666666666,
+    "stretch": 6.842138932316999e-06,
+    "compression": 7.79869010791856e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.990679189556863e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.6833333333333338,
+    "dt": 0.016666666666666666,
+    "stretch": 6.843382210908189e-06,
+    "compression": 7.776681805182761e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.990155128875501e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.7000000000000005,
+    "dt": 0.016666666666666666,
+    "stretch": 6.844710262132736e-06,
+    "compression": 7.755790776386995e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.989805347115634e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.7166666666666672,
+    "dt": 0.016666666666666666,
+    "stretch": 6.845878028682861e-06,
+    "compression": 7.73585654889608e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.989297545985022e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.733333333333334,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8471059506691745e-06,
+    "compression": 7.716884996122886e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.988987067861383e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.7500000000000007,
+    "dt": 0.016666666666666666,
+    "stretch": 6.848343991450179e-06,
+    "compression": 7.698791630095236e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.988668666415031e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.7666666666666674,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8494965868026725e-06,
+    "compression": 7.68148738594654e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.988296800581704e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.7833333333333341,
+    "dt": 0.016666666666666666,
+    "stretch": 6.850619162390714e-06,
+    "compression": 7.664938937335108e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.987987928673488e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.8000000000000008,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8506861412576114e-06,
+    "compression": 7.648656105585516e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.986726881576869e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.8166666666666675,
+    "dt": 0.016666666666666666,
+    "stretch": 6.85268980693543e-06,
+    "compression": 7.633897282643964e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.988314805749627e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.8333333333333343,
+    "dt": 0.016666666666666666,
+    "stretch": 6.853834592313035e-06,
+    "compression": 7.619358041610624e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.987295029859501e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.850000000000001,
+    "dt": 0.016666666666666666,
+    "stretch": 6.854426289670812e-06,
+    "compression": 7.605200180949012e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.986551574120668e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.8666666666666677,
+    "dt": 0.016666666666666666,
+    "stretch": 6.855750069645339e-06,
+    "compression": 7.591929123251795e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.987036988656613e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.8833333333333344,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8567332645042e-06,
+    "compression": 7.579018220127409e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.986542827929003e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.9000000000000011,
+    "dt": 0.016666666666666666,
+    "stretch": 6.857670463933374e-06,
+    "compression": 7.566591471608319e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.986316860815471e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.9166666666666679,
+    "dt": 0.016666666666666666,
+    "stretch": 6.858652507490959e-06,
+    "compression": 7.55464958335228e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.986184357042118e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.9333333333333346,
+    "dt": 0.016666666666666666,
+    "stretch": 6.858577445978398e-06,
+    "compression": 7.542685016570516e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.985044251466492e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.9500000000000013,
+    "dt": 0.016666666666666666,
+    "stretch": 6.86035279562347e-06,
+    "compression": 7.531985272923869e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.986635929436285e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.966666666666668,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8612872745621445e-06,
+    "compression": 7.521268812871185e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.985731233465125e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 0.9833333333333347,
+    "dt": 0.016666666666666666,
+    "stretch": 6.862031318721762e-06,
+    "compression": 7.5108729318262846e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.985414437153735e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.0000000000000013,
+    "dt": 0.016666666666666666,
+    "stretch": 6.862844367239163e-06,
+    "compression": 7.500864144693864e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.985344540486698e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.016666666666668,
+    "dt": 0.016666666666666666,
+    "stretch": 6.863717382232792e-06,
+    "compression": 7.491213298904675e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.985281005704628e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.0333333333333345,
+    "dt": 0.016666666666666666,
+    "stretch": 6.864455730504204e-06,
+    "compression": 7.481832580036318e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98506088713665e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.0500000000000012,
+    "dt": 0.016666666666666666,
+    "stretch": 6.865222971885743e-06,
+    "compression": 7.4727729955093025e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.984976564926813e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.0666666666666678,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8659952736638274e-06,
+    "compression": 7.464005657875639e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.984878383250534e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.0833333333333344,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8667203556582734e-06,
+    "compression": 7.455499088315776e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.984746171646348e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.100000000000001,
+    "dt": 0.016666666666666666,
+    "stretch": 6.866959683549112e-06,
+    "compression": 7.447040018315754e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.984210723711312e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.1166666666666676,
+    "dt": 0.016666666666666666,
+    "stretch": 6.868067214060858e-06,
+    "compression": 7.4392399386224994e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.984919162570301e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.1333333333333342,
+    "dt": 0.016666666666666666,
+    "stretch": 6.868339828658421e-06,
+    "compression": 7.431280846792454e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.984080222834809e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.1500000000000008,
+    "dt": 0.016666666666666666,
+    "stretch": 6.869398797348936e-06,
+    "compression": 7.42393637342964e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.984717975215303e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.1666666666666674,
+    "dt": 0.016666666666666666,
+    "stretch": 6.870059188868183e-06,
+    "compression": 7.416614955735312e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.984290570776439e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.183333333333334,
+    "dt": 0.016666666666666666,
+    "stretch": 6.870746737552835e-06,
+    "compression": 7.409521272094821e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.984224263113989e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.2000000000000006,
+    "dt": 0.016666666666666666,
+    "stretch": 6.871370374028629e-06,
+    "compression": 7.402606545636736e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.984109029893325e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.2166666666666672,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8717397769813005e-06,
+    "compression": 7.3957721311579405e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983815333092968e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.2333333333333338,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8725147914783236e-06,
+    "compression": 7.389317428607711e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.984123312485112e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.2500000000000004,
+    "dt": 0.016666666666666666,
+    "stretch": 6.873134891005606e-06,
+    "compression": 7.382957916024502e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983922837326726e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.266666666666667,
+    "dt": 0.016666666666666666,
+    "stretch": 6.873734215595562e-06,
+    "compression": 7.376765034150523e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983842359535029e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.2833333333333337,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8742965058099514e-06,
+    "compression": 7.370723924648992e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983758783031911e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.3000000000000003,
+    "dt": 0.016666666666666666,
+    "stretch": 6.874507919141237e-06,
+    "compression": 7.364680209231977e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983388402423006e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.3166666666666669,
+    "dt": 0.016666666666666666,
+    "stretch": 6.875380459847591e-06,
+    "compression": 7.359100286929987e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983932476518804e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.3333333333333335,
+    "dt": 0.016666666666666666,
+    "stretch": 6.875893995506033e-06,
+    "compression": 7.353492439188258e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983579558866847e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.35,
+    "dt": 0.016666666666666666,
+    "stretch": 6.876436622338389e-06,
+    "compression": 7.348043180810393e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983540820339417e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.3666666666666667,
+    "dt": 0.016666666666666666,
+    "stretch": 6.876175170367205e-06,
+    "compression": 7.34235247779047e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982761542071568e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.3833333333333333,
+    "dt": 0.016666666666666666,
+    "stretch": 6.877432281449103e-06,
+    "compression": 7.337522640704641e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.984103345877688e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.4,
+    "dt": 0.016666666666666666,
+    "stretch": 6.877949672690065e-06,
+    "compression": 7.332443289653767e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983418741578071e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.4166666666666665,
+    "dt": 0.016666666666666666,
+    "stretch": 6.878368000506896e-06,
+    "compression": 7.3274614470486554e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983273842677216e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.4333333333333331,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8780841337989784e-06,
+    "compression": 7.3222549815676885e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982568525168973e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.4499999999999997,
+    "dt": 0.016666666666666666,
+    "stretch": 6.879346634125483e-06,
+    "compression": 7.317911251969456e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983956665668265e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.4666666666666663,
+    "dt": 0.016666666666666666,
+    "stretch": 6.879790071856462e-06,
+    "compression": 7.313264712816014e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983211486544194e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.483333333333333,
+    "dt": 0.016666666666666666,
+    "stretch": 6.879462812747761e-06,
+    "compression": 7.308367720892939e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982426190446554e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.4999999999999996,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8806439610380465e-06,
+    "compression": 7.304313282996411e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98378702400799e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.5166666666666662,
+    "dt": 0.016666666666666666,
+    "stretch": 6.881102599720634e-06,
+    "compression": 7.299980068986578e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983120591363588e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.5333333333333328,
+    "dt": 0.016666666666666666,
+    "stretch": 6.881521418478087e-06,
+    "compression": 7.295739981705296e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983029398370497e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.5499999999999994,
+    "dt": 0.016666666666666666,
+    "stretch": 6.881525111968045e-06,
+    "compression": 7.291391629027366e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982611112299529e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.566666666666666,
+    "dt": 0.016666666666666666,
+    "stretch": 6.88161381479091e-06,
+    "compression": 7.2871793977968835e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982657002833733e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.5833333333333326,
+    "dt": 0.016666666666666666,
+    "stretch": 6.882008629860437e-06,
+    "compression": 7.283199110585947e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982921280091013e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.5999999999999992,
+    "dt": 0.016666666666666666,
+    "stretch": 6.883207223085108e-06,
+    "compression": 7.279684505201445e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983645917761514e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.6166666666666658,
+    "dt": 0.016666666666666666,
+    "stretch": 6.883617314601409e-06,
+    "compression": 7.275862209166206e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98290635324845e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.6333333333333324,
+    "dt": 0.016666666666666666,
+    "stretch": 6.883969241755494e-06,
+    "compression": 7.272110690514921e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982808615173684e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.649999999999999,
+    "dt": 0.016666666666666666,
+    "stretch": 6.884351635205732e-06,
+    "compression": 7.268446856834032e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982810669727355e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.6666666666666656,
+    "dt": 0.016666666666666666,
+    "stretch": 6.884708401155848e-06,
+    "compression": 7.264844195886688e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982770947614857e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.6833333333333322,
+    "dt": 0.016666666666666666,
+    "stretch": 6.884729766287734e-06,
+    "compression": 7.2611484326357e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982430972585672e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.6999999999999988,
+    "dt": 0.016666666666666666,
+    "stretch": 6.885259395295051e-06,
+    "compression": 7.257775160307567e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982875910917028e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.7166666666666655,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8858223929435525e-06,
+    "compression": 7.2544765559179325e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982899824828835e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.733333333333332,
+    "dt": 0.016666666666666666,
+    "stretch": 6.885885355911725e-06,
+    "compression": 7.251003470321038e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982414284670779e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.7499999999999987,
+    "dt": 0.016666666666666666,
+    "stretch": 6.886544518192039e-06,
+    "compression": 7.247889704187216e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982929959104986e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.7666666666666653,
+    "dt": 0.016666666666666666,
+    "stretch": 6.88684765526304e-06,
+    "compression": 7.2446615514421e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982610901788009e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.7833333333333319,
+    "dt": 0.016666666666666666,
+    "stretch": 6.887194202276348e-06,
+    "compression": 7.24151640452142e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982611368033663e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.7999999999999985,
+    "dt": 0.016666666666666666,
+    "stretch": 6.887518413822846e-06,
+    "compression": 7.238420241972854e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982578262377156e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.816666666666665,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8878974190944575e-06,
+    "compression": 7.235401874750025e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98260155598762e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.8333333333333317,
+    "dt": 0.016666666666666666,
+    "stretch": 6.888223471390731e-06,
+    "compression": 7.232417206681774e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982545316051346e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.8499999999999983,
+    "dt": 0.016666666666666666,
+    "stretch": 6.888543679250958e-06,
+    "compression": 7.229485157744797e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982522152502145e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.866666666666665,
+    "dt": 0.016666666666666666,
+    "stretch": 6.888090778867095e-06,
+    "compression": 7.226229771895021e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981787658586457e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.8833333333333315,
+    "dt": 0.016666666666666666,
+    "stretch": 6.888388023096326e-06,
+    "compression": 7.223402429312742e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982451947650192e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.8999999999999981,
+    "dt": 0.016666666666666666,
+    "stretch": 6.889423458389388e-06,
+    "compression": 7.220973317956236e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983155072132084e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.9166666666666647,
+    "dt": 0.016666666666666666,
+    "stretch": 6.889792078856871e-06,
+    "compression": 7.218248788021242e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982516454023056e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.9333333333333313,
+    "dt": 0.016666666666666666,
+    "stretch": 6.890059216724254e-06,
+    "compression": 7.215545755223651e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982397654349546e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.949999999999998,
+    "dt": 0.016666666666666666,
+    "stretch": 6.890343306364954e-06,
+    "compression": 7.212896139696667e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98239794647577e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.9666666666666646,
+    "dt": 0.016666666666666666,
+    "stretch": 6.890674101533989e-06,
+    "compression": 7.21030658457078e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98242253665736e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.9833333333333312,
+    "dt": 0.016666666666666666,
+    "stretch": 6.89021492661368e-06,
+    "compression": 7.207378669660258e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981679818273565e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 1.9999999999999978,
+    "dt": 0.016666666666666666,
+    "stretch": 6.891196711045211e-06,
+    "compression": 7.2052123943899815e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983000682672534e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.0166666666666644,
+    "dt": 0.016666666666666666,
+    "stretch": 6.890787423996514e-06,
+    "compression": 7.202375198578359e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981718174067663e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.033333333333331,
+    "dt": 0.016666666666666666,
+    "stretch": 6.891042381607093e-06,
+    "compression": 7.199934059398672e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98228894861169e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.0499999999999976,
+    "dt": 0.016666666666666666,
+    "stretch": 6.892079135623064e-06,
+    "compression": 7.197899462352275e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983025773907868e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.066666666666664,
+    "dt": 0.016666666666666666,
+    "stretch": 6.89234110362591e-06,
+    "compression": 7.195515639102368e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982315434767403e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.083333333333331,
+    "dt": 0.016666666666666666,
+    "stretch": 6.892625324050883e-06,
+    "compression": 7.193193724663871e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.9822906883087e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.0999999999999974,
+    "dt": 0.016666666666666666,
+    "stretch": 6.892506704492263e-06,
+    "compression": 7.190714311655633e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981916615844028e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.116666666666664,
+    "dt": 0.016666666666666666,
+    "stretch": 6.893148374320646e-06,
+    "compression": 7.188642081490393e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982598956569418e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.1333333333333306,
+    "dt": 0.016666666666666666,
+    "stretch": 6.893395997353835e-06,
+    "compression": 7.1864026348622545e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982250739527149e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.1499999999999972,
+    "dt": 0.016666666666666666,
+    "stretch": 6.893647753747345e-06,
+    "compression": 7.184206914478963e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98222651899104e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.166666666666664,
+    "dt": 0.016666666666666666,
+    "stretch": 6.893184244294304e-06,
+    "compression": 7.181692244118132e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981545381514041e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.1833333333333305,
+    "dt": 0.016666666666666666,
+    "stretch": 6.894164736426234e-06,
+    "compression": 7.179929483402958e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982871803308175e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.199999999999997,
+    "dt": 0.016666666666666666,
+    "stretch": 6.894041968186215e-06,
+    "compression": 7.177634122057519e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981876585877465e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.2166666666666637,
+    "dt": 0.016666666666666666,
+    "stretch": 6.894665749435092e-06,
+    "compression": 7.175754586419281e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98252126999338e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.2333333333333303,
+    "dt": 0.016666666666666666,
+    "stretch": 6.894922845557261e-06,
+    "compression": 7.1737138903626985e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982195212515694e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.249999999999997,
+    "dt": 0.016666666666666666,
+    "stretch": 6.895134937456859e-06,
+    "compression": 7.171691107310529e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982138004274905e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.2666666666666635,
+    "dt": 0.016666666666666666,
+    "stretch": 6.895397992590091e-06,
+    "compression": 7.1697180431540275e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982168171552825e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.28333333333333,
+    "dt": 0.016666666666666666,
+    "stretch": 6.894898851861342e-06,
+    "compression": 7.167400937202473e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981453233390819e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.2999999999999967,
+    "dt": 0.016666666666666666,
+    "stretch": 6.895806017315209e-06,
+    "compression": 7.1658180745837186e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98275162117322e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.3166666666666633,
+    "dt": 0.016666666666666666,
+    "stretch": 6.896108536436074e-06,
+    "compression": 7.16392945643296e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982199940491615e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.33333333333333,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8962816464068766e-06,
+    "compression": 7.162029674101511e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982064768556837e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.3499999999999965,
+    "dt": 0.016666666666666666,
+    "stretch": 6.896556587143721e-06,
+    "compression": 7.160198987388178e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982132895628844e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.366666666666663,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8965762252126694e-06,
+    "compression": 7.1582720594376426e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981903768309725e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.3833333333333298,
+    "dt": 0.016666666666666666,
+    "stretch": 6.896954522828125e-06,
+    "compression": 7.1565505185278155e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982226927771428e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.3999999999999964,
+    "dt": 0.016666666666666666,
+    "stretch": 6.896498010666718e-06,
+    "compression": 7.154430258449196e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981433756439812e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.416666666666663,
+    "dt": 0.016666666666666666,
+    "stretch": 6.897225144797403e-06,
+    "compression": 7.15293663211547e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982528200559766e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.4333333333333296,
+    "dt": 0.016666666666666666,
+    "stretch": 6.897667339522684e-06,
+    "compression": 7.151298707763765e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982279772356447e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.449999999999996,
+    "dt": 0.016666666666666666,
+    "stretch": 6.897514021275697e-06,
+    "compression": 7.149406119566493e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981708301751698e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.466666666666663,
+    "dt": 0.016666666666666666,
+    "stretch": 6.8980479805969e-06,
+    "compression": 7.147883472224947e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982329791500672e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.4833333333333294,
+    "dt": 0.016666666666666666,
+    "stretch": 6.898282512768361e-06,
+    "compression": 7.146218193310183e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982059825063978e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.499999999999996,
+    "dt": 0.016666666666666666,
+    "stretch": 6.898215577200162e-06,
+    "compression": 7.144435386630121e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981761445034739e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.5166666666666626,
+    "dt": 0.016666666666666666,
+    "stretch": 6.898330736859748e-06,
+    "compression": 7.142768562284907e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981919275015001e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.533333333333329,
+    "dt": 0.016666666666666666,
+    "stretch": 6.898922100040394e-06,
+    "compression": 7.141348206896048e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982365372407938e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.549999999999996,
+    "dt": 0.016666666666666666,
+    "stretch": 6.89913438467471e-06,
+    "compression": 7.139757010943271e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982018009127664e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.5666666666666624,
+    "dt": 0.016666666666666666,
+    "stretch": 6.899308824470651e-06,
+    "compression": 7.138179652366183e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981967135201193e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.583333333333329,
+    "dt": 0.016666666666666666,
+    "stretch": 6.899498394163928e-06,
+    "compression": 7.136628129789102e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981974064632155e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.5999999999999956,
+    "dt": 0.016666666666666666,
+    "stretch": 6.899733530518759e-06,
+    "compression": 7.135111931289018e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982005089289088e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.6166666666666623,
+    "dt": 0.016666666666666666,
+    "stretch": 6.899570547558298e-06,
+    "compression": 7.133424811955891e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981635375187465e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.633333333333329,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9001212814612245e-06,
+    "compression": 7.13210877911763e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982285667978148e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.6499999999999955,
+    "dt": 0.016666666666666666,
+    "stretch": 6.900280244304113e-06,
+    "compression": 7.1306117934710755e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981943506595144e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.666666666666662,
+    "dt": 0.016666666666666666,
+    "stretch": 6.900177418556197e-06,
+    "compression": 7.129007261297282e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98166427359229e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.6833333333333287,
+    "dt": 0.016666666666666666,
+    "stretch": 6.900702867129738e-06,
+    "compression": 7.127732245093554e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982247455525679e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.6999999999999953,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9009034253664225e-06,
+    "compression": 7.126304545468365e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981958645910123e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.716666666666662,
+    "dt": 0.016666666666666666,
+    "stretch": 6.901042234996879e-06,
+    "compression": 7.124877000275198e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981891626840741e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.7333333333333285,
+    "dt": 0.016666666666666666,
+    "stretch": 6.901252775692868e-06,
+    "compression": 7.123495215699549e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981941379163334e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.749999999999995,
+    "dt": 0.016666666666666666,
+    "stretch": 6.901417062721293e-06,
+    "compression": 7.122109448864933e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981904330100828e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.7666666666666617,
+    "dt": 0.016666666666666666,
+    "stretch": 6.901602588538225e-06,
+    "compression": 7.120748927502696e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981914461402471e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.7833333333333283,
+    "dt": 0.016666666666666666,
+    "stretch": 6.901833112582523e-06,
+    "compression": 7.1194211272995744e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981945013570577e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.799999999999995,
+    "dt": 0.016666666666666666,
+    "stretch": 6.902016810750311e-06,
+    "compression": 7.118090012414591e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981905502741523e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.8166666666666615,
+    "dt": 0.016666666666666666,
+    "stretch": 6.902174881640022e-06,
+    "compression": 7.116765491699262e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981879708030001e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.833333333333328,
+    "dt": 0.016666666666666666,
+    "stretch": 6.902355305538066e-06,
+    "compression": 7.115464921492176e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981892115766528e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.8499999999999948,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9025120266186235e-06,
+    "compression": 7.114169304212048e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98187046181563e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.8666666666666614,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9023686979363674e-06,
+    "compression": 7.112737183012641e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981571917752891e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.883333333333328,
+    "dt": 0.016666666666666666,
+    "stretch": 6.90287302429482e-06,
+    "compression": 7.111645250357235e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982182901863019e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.8999999999999946,
+    "dt": 0.016666666666666666,
+    "stretch": 6.902550101051119e-06,
+    "compression": 7.110145810895752e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981404135431367e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.916666666666661,
+    "dt": 0.016666666666666666,
+    "stretch": 6.903232272703619e-06,
+    "compression": 7.109173387087608e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982338602403147e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.933333333333328,
+    "dt": 0.016666666666666666,
+    "stretch": 6.903445944450581e-06,
+    "compression": 7.10796086211829e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981912599742844e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.9499999999999944,
+    "dt": 0.016666666666666666,
+    "stretch": 6.903612890463151e-06,
+    "compression": 7.106753361796336e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981850992059533e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.966666666666661,
+    "dt": 0.016666666666666666,
+    "stretch": 6.903785712220056e-06,
+    "compression": 7.105562815801214e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98185230037066e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.9833333333333276,
+    "dt": 0.016666666666666666,
+    "stretch": 6.903916906164653e-06,
+    "compression": 7.104367743981932e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981818421074824e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 2.9999999999999942,
+    "dt": 0.016666666666666666,
+    "stretch": 6.904092505921611e-06,
+    "compression": 7.1032029950179876e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981848329348616e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.016666666666661,
+    "dt": 0.016666666666666666,
+    "stretch": 6.903601516228264e-06,
+    "compression": 7.10172108198126e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981203595624229e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.0333333333333274,
+    "dt": 0.016666666666666666,
+    "stretch": 6.903747768571833e-06,
+    "compression": 7.100578910512745e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981797684223321e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.049999999999994,
+    "dt": 0.016666666666666666,
+    "stretch": 6.904594255896512e-06,
+    "compression": 7.099779702257614e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982493066620742e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.0666666666666607,
+    "dt": 0.016666666666666666,
+    "stretch": 6.904807492214005e-06,
+    "compression": 7.098665202875942e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981886744895648e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.0833333333333273,
+    "dt": 0.016666666666666666,
+    "stretch": 6.904943522068052e-06,
+    "compression": 7.0975481919477446e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981795042907689e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.099999999999994,
+    "dt": 0.016666666666666666,
+    "stretch": 6.905086876285438e-06,
+    "compression": 7.096446410392865e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981799809443832e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.1166666666666605,
+    "dt": 0.016666666666666666,
+    "stretch": 6.905297382120423e-06,
+    "compression": 7.095379209620667e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981851960409956e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.133333333333327,
+    "dt": 0.016666666666666666,
+    "stretch": 6.905263875811585e-06,
+    "compression": 7.094210043301352e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98162932799907e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.1499999999999937,
+    "dt": 0.016666666666666666,
+    "stretch": 6.905335590001727e-06,
+    "compression": 7.093106395350546e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98171610453667e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.1666666666666603,
+    "dt": 0.016666666666666666,
+    "stretch": 6.905761826825341e-06,
+    "compression": 7.0921835211290585e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982057838539945e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.183333333333327,
+    "dt": 0.016666666666666666,
+    "stretch": 6.905334234641458e-06,
+    "compression": 7.090846886104174e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981240564979449e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.1999999999999935,
+    "dt": 0.016666666666666666,
+    "stretch": 6.906099312198322e-06,
+    "compression": 7.09012201394188e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982360807338127e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.21666666666666,
+    "dt": 0.016666666666666666,
+    "stretch": 6.906278591678472e-06,
+    "compression": 7.089096804580031e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981833165373518e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.2333333333333267,
+    "dt": 0.016666666666666666,
+    "stretch": 6.905729974748809e-06,
+    "compression": 7.087743020717241e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981106861244189e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.2499999999999933,
+    "dt": 0.016666666666666666,
+    "stretch": 6.905897977027564e-06,
+    "compression": 7.086762289332249e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981775650092313e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.26666666666666,
+    "dt": 0.016666666666666666,
+    "stretch": 6.906745762202959e-06,
+    "compression": 7.08610354727135e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98245525563693e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.2833333333333266,
+    "dt": 0.016666666666666666,
+    "stretch": 6.906915009707859e-06,
+    "compression": 7.085114093086098e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981813831052484e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.299999999999993,
+    "dt": 0.016666666666666666,
+    "stretch": 6.906366223358162e-06,
+    "compression": 7.083803972962599e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981091358276412e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.3166666666666598,
+    "dt": 0.016666666666666666,
+    "stretch": 6.907166825165234e-06,
+    "compression": 7.08317662145852e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982383393088663e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.3333333333333264,
+    "dt": 0.016666666666666666,
+    "stretch": 6.906916260485119e-06,
+    "compression": 7.082008227965453e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981397592928605e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.349999999999993,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9074821262837816e-06,
+    "compression": 7.081278623810583e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982157747904859e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.3666666666666596,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9076518958155475e-06,
+    "compression": 7.080345128751553e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981792876263646e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.383333333333326,
+    "dt": 0.016666666666666666,
+    "stretch": 6.907476857387351e-06,
+    "compression": 7.0792605378899864e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981438691664331e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.399999999999993,
+    "dt": 0.016666666666666666,
+    "stretch": 6.907953124857258e-06,
+    "compression": 7.0785126188299685e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982065898081089e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.4166666666666594,
+    "dt": 0.016666666666666666,
+    "stretch": 6.908161584773254e-06,
+    "compression": 7.077621632767261e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981814587426314e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.433333333333326,
+    "dt": 0.016666666666666666,
+    "stretch": 6.908278196382511e-06,
+    "compression": 7.076711398323887e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981725963504624e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.4499999999999926,
+    "dt": 0.016666666666666666,
+    "stretch": 6.90842047257334e-06,
+    "compression": 7.075822528013198e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981741988165222e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.4666666666666592,
+    "dt": 0.016666666666666666,
+    "stretch": 6.90861971563983e-06,
+    "compression": 7.074962246167438e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981786877904837e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.483333333333326,
+    "dt": 0.016666666666666666,
+    "stretch": 6.908751051470929e-06,
+    "compression": 7.074083896774219e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981733009129642e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.4999999999999925,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9089258663002084e-06,
+    "compression": 7.0732325373468186e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981762526049748e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.516666666666659,
+    "dt": 0.016666666666666666,
+    "stretch": 6.909034790725244e-06,
+    "compression": 7.07236405306233e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981710027127851e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.5333333333333257,
+    "dt": 0.016666666666666666,
+    "stretch": 6.909196988313937e-06,
+    "compression": 7.071525591206829e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981747902782973e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.5499999999999923,
+    "dt": 0.016666666666666666,
+    "stretch": 6.909383670539171e-06,
+    "compression": 7.070703483935681e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981766973883716e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.566666666666659,
+    "dt": 0.016666666666666666,
+    "stretch": 6.909167927782178e-06,
+    "compression": 7.069701008721729e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981384179197079e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.5833333333333255,
+    "dt": 0.016666666666666666,
+    "stretch": 6.909142154620795e-06,
+    "compression": 7.068803312804128e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981549047361599e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.599999999999992,
+    "dt": 0.016666666666666666,
+    "stretch": 6.909833741630678e-06,
+    "compression": 7.068255007514068e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982254741297821e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.6166666666666587,
+    "dt": 0.016666666666666666,
+    "stretch": 6.909996066672974e-06,
+    "compression": 7.0674464378583934e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981758897565658e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.6333333333333253,
+    "dt": 0.016666666666666666,
+    "stretch": 6.910098866441672e-06,
+    "compression": 7.066637137453924e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981685048092277e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.649999999999992,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9102926725239655e-06,
+    "compression": 7.06587078158627e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981756577250362e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.6666666666666585,
+    "dt": 0.016666666666666666,
+    "stretch": 6.910444901420121e-06,
+    "compression": 7.065093115654619e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981726859638791e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.683333333333325,
+    "dt": 0.016666666666666666,
+    "stretch": 6.91055605761548e-06,
+    "compression": 7.064309306081817e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981690894588364e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.6999999999999917,
+    "dt": 0.016666666666666666,
+    "stretch": 6.910745817156894e-06,
+    "compression": 7.063563752129909e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981750108439875e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.7166666666666583,
+    "dt": 0.016666666666666666,
+    "stretch": 6.910855665953619e-06,
+    "compression": 7.0627944769308115e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981687565278959e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.733333333333325,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9105825155624245e-06,
+    "compression": 7.061843127709189e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981295690160603e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.7499999999999916,
+    "dt": 0.016666666666666666,
+    "stretch": 6.91116900664035e-06,
+    "compression": 7.061324685975201e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982131162265346e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.766666666666658,
+    "dt": 0.016666666666666666,
+    "stretch": 6.911354907268574e-06,
+    "compression": 7.060598569363918e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981759718199864e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.7833333333333248,
+    "dt": 0.016666666666666666,
+    "stretch": 6.911455727953708e-06,
+    "compression": 7.059858676439212e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981669560158985e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.7999999999999914,
+    "dt": 0.016666666666666666,
+    "stretch": 6.911612336457651e-06,
+    "compression": 7.059149699784051e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.9817111871722e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.816666666666658,
+    "dt": 0.016666666666666666,
+    "stretch": 6.911780973339887e-06,
+    "compression": 7.0584500392323335e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981722850492398e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.8333333333333246,
+    "dt": 0.016666666666666666,
+    "stretch": 6.911444823565205e-06,
+    "compression": 7.0575160571184625e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981227344077566e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.849999999999991,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9120532577571225e-06,
+    "compression": 7.0570584325135854e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982146208387206e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.866666666666658,
+    "dt": 0.016666666666666666,
+    "stretch": 6.911655593855315e-06,
+    "compression": 7.056096133051248e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981174432876234e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.8833333333333244,
+    "dt": 0.016666666666666666,
+    "stretch": 6.912375865919529e-06,
+    "compression": 7.05570808157141e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982246582927974e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.899999999999991,
+    "dt": 0.016666666666666666,
+    "stretch": 6.912508093481762e-06,
+    "compression": 7.05502135078806e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981703891955902e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.9166666666666576,
+    "dt": 0.016666666666666666,
+    "stretch": 6.912710703410596e-06,
+    "compression": 7.05438338044484e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981738870235997e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.9333333333333242,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9128204269741644e-06,
+    "compression": 7.053715545657369e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981661133170589e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.949999999999991,
+    "dt": 0.016666666666666666,
+    "stretch": 6.913016857623688e-06,
+    "compression": 7.0530898429455036e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981733445439962e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.9666666666666575,
+    "dt": 0.016666666666666666,
+    "stretch": 6.913111292528029e-06,
+    "compression": 7.052429792930859e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981646858873023e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.983333333333324,
+    "dt": 0.016666666666666666,
+    "stretch": 6.912721677521105e-06,
+    "compression": 7.051519918754856e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98107154814903e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 3.9999999999999907,
+    "dt": 0.016666666666666666,
+    "stretch": 6.913411983333617e-06,
+    "compression": 7.051189679585512e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982290057956707e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.016666666666658,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9135789391161495e-06,
+    "compression": 7.050568660238454e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981730652113591e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.033333333333324,
+    "dt": 0.016666666666666666,
+    "stretch": 6.912911151069068e-06,
+    "compression": 7.049537919856519e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.980747399139751e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.049999999999991,
+    "dt": 0.016666666666666666,
+    "stretch": 6.913867479196867e-06,
+    "compression": 7.049376740786428e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982579650511043e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.0666666666666575,
+    "dt": 0.016666666666666666,
+    "stretch": 6.913743851644227e-06,
+    "compression": 7.048619041105653e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981400846303641e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.083333333333324,
+    "dt": 0.016666666666666666,
+    "stretch": 6.913883431991508e-06,
+    "compression": 7.048038081935992e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981657064466238e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.099999999999991,
+    "dt": 0.016666666666666666,
+    "stretch": 6.914376924349597e-06,
+    "compression": 7.047637618606828e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982066676459273e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.116666666666657,
+    "dt": 0.016666666666666666,
+    "stretch": 6.913891129833871e-06,
+    "compression": 7.0467349466696305e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.980968248325534e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.133333333333324,
+    "dt": 0.016666666666666666,
+    "stretch": 6.914239809363565e-06,
+    "compression": 7.0462928832837335e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981882019476235e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.149999999999991,
+    "dt": 0.016666666666666666,
+    "stretch": 6.914881423458752e-06,
+    "compression": 7.045978622666205e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982235452035944e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.166666666666657,
+    "dt": 0.016666666666666666,
+    "stretch": 6.914985537509466e-06,
+    "compression": 7.045406064776216e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981654191471107e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.183333333333324,
+    "dt": 0.016666666666666666,
+    "stretch": 6.915198392576372e-06,
+    "compression": 7.044898233443675e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981721974099995e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.19999999999999,
+    "dt": 0.016666666666666666,
+    "stretch": 6.915302989130012e-06,
+    "compression": 7.044352824947531e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981634142431213e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.216666666666657,
+    "dt": 0.016666666666666666,
+    "stretch": 6.915520945449671e-06,
+    "compression": 7.043859871158631e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981730648994264e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.233333333333324,
+    "dt": 0.016666666666666666,
+    "stretch": 6.914878741604014e-06,
+    "compression": 7.042943563129178e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.980772550669854e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.24999999999999,
+    "dt": 0.016666666666666666,
+    "stretch": 6.915803053786362e-06,
+    "compression": 7.042851490446367e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982526149780175e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.266666666666657,
+    "dt": 0.016666666666666666,
+    "stretch": 6.915959778197589e-06,
+    "compression": 7.042339613683168e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981713353241523e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.2833333333333234,
+    "dt": 0.016666666666666666,
+    "stretch": 6.916172328619297e-06,
+    "compression": 7.04187786293442e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981716225128608e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.29999999999999,
+    "dt": 0.016666666666666666,
+    "stretch": 6.916340472118421e-06,
+    "compression": 7.041407752872431e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981680606542039e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.316666666666657,
+    "dt": 0.016666666666666666,
+    "stretch": 6.91644772210509e-06,
+    "compression": 7.0409222143741346e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981627122943111e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.333333333333323,
+    "dt": 0.016666666666666666,
+    "stretch": 6.916615002960924e-06,
+    "compression": 7.0404689783698515e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981677610272761e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.34999999999999,
+    "dt": 0.016666666666666666,
+    "stretch": 6.916842784754351e-06,
+    "compression": 7.040045531536698e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981732158732643e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.3666666666666565,
+    "dt": 0.016666666666666666,
+    "stretch": 6.916969055525968e-06,
+    "compression": 7.039591719215643e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98164288396924e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.383333333333323,
+    "dt": 0.016666666666666666,
+    "stretch": 6.917153782648455e-06,
+    "compression": 7.039172017608841e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981689243410768e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.39999999999999,
+    "dt": 0.016666666666666666,
+    "stretch": 6.917356337510228e-06,
+    "compression": 7.038766356104453e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981706382189033e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.416666666666656,
+    "dt": 0.016666666666666666,
+    "stretch": 6.917478617918249e-06,
+    "compression": 7.0383396290063516e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981634573719463e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.433333333333323,
+    "dt": 0.016666666666666666,
+    "stretch": 6.91765275440126e-06,
+    "compression": 7.037944080856562e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981676286714298e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.4499999999999895,
+    "dt": 0.016666666666666666,
+    "stretch": 6.917851853360801e-06,
+    "compression": 7.037565867729079e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981699570451149e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.466666666666656,
+    "dt": 0.016666666666666666,
+    "stretch": 6.91800079244409e-06,
+    "compression": 7.037178315516535e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98165448702802e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.483333333333323,
+    "dt": 0.016666666666666666,
+    "stretch": 6.917784932891635e-06,
+    "compression": 7.036612171607004e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981218373223928e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.499999999999989,
+    "dt": 0.016666666666666666,
+    "stretch": 6.918413044898486e-06,
+    "compression": 7.036486145972631e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982170866364643e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.516666666666656,
+    "dt": 0.016666666666666666,
+    "stretch": 6.918578350667559e-06,
+    "compression": 7.036124931136811e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981686370245597e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.533333333333323,
+    "dt": 0.016666666666666666,
+    "stretch": 6.917911750337069e-06,
+    "compression": 7.035366529462017e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.980693932232983e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.549999999999989,
+    "dt": 0.016666666666666666,
+    "stretch": 6.918959436719163e-06,
+    "compression": 7.03549608616072e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982638082576941e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.566666666666656,
+    "dt": 0.016666666666666666,
+    "stretch": 6.918400171640471e-06,
+    "compression": 7.034790897808563e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.980862142444476e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.583333333333322,
+    "dt": 0.016666666666666666,
+    "stretch": 6.919279774697529e-06,
+    "compression": 7.0348641910689125e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982457377541028e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.599999999999989,
+    "dt": 0.016666666666666666,
+    "stretch": 6.919195827626012e-06,
+    "compression": 7.034421606544328e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98138380543861e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.616666666666656,
+    "dt": 0.016666666666666666,
+    "stretch": 6.919673845917629e-06,
+    "compression": 7.0343037548159515e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982003782314003e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.633333333333322,
+    "dt": 0.016666666666666666,
+    "stretch": 6.91993913259914e-06,
+    "compression": 7.034066140776396e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981756913589564e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.649999999999989,
+    "dt": 0.016666666666666666,
+    "stretch": 6.920135192434174e-06,
+    "compression": 7.0338195157226835e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981681735734777e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.666666666666655,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9202780637045436e-06,
+    "compression": 7.033568770409282e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98163143935727e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.683333333333322,
+    "dt": 0.016666666666666666,
+    "stretch": 6.920511041785815e-06,
+    "compression": 7.033364601727321e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981710602308442e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.699999999999989,
+    "dt": 0.016666666666666666,
+    "stretch": 6.920748028660384e-06,
+    "compression": 7.033172751857997e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981716773513101e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.716666666666655,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9209135871162175e-06,
+    "compression": 7.032969463471872e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981650764124302e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.733333333333322,
+    "dt": 0.016666666666666666,
+    "stretch": 6.920731708826011e-06,
+    "compression": 7.032604036227852e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981229726193291e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.7499999999999885,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9213787370348e-06,
+    "compression": 7.032666612061256e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982169685125359e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.766666666666655,
+    "dt": 0.016666666666666666,
+    "stretch": 6.921579668084377e-06,
+    "compression": 7.032511008642217e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981699042841415e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.783333333333322,
+    "dt": 0.016666666666666666,
+    "stretch": 6.921235334411691e-06,
+    "compression": 7.032113436333809e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981034352578762e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.799999999999988,
+    "dt": 0.016666666666666666,
+    "stretch": 6.921604721155106e-06,
+    "compression": 7.032096943304644e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981844625328857e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.816666666666655,
+    "dt": 0.016666666666666666,
+    "stretch": 6.922250981533651e-06,
+    "compression": 7.032209832447123e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982192111682061e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.8333333333333215,
+    "dt": 0.016666666666666666,
+    "stretch": 6.922458250180341e-06,
+    "compression": 7.032125731831762e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981693966424172e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.849999999999988,
+    "dt": 0.016666666666666666,
+    "stretch": 6.922311990287255e-06,
+    "compression": 7.0318942546609975e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981245039349858e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.866666666666655,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9229555927918796e-06,
+    "compression": 7.032076082658101e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982156456953779e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.883333333333321,
+    "dt": 0.016666666666666666,
+    "stretch": 6.923182730433908e-06,
+    "compression": 7.032056310696255e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981711216224339e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.899999999999988,
+    "dt": 0.016666666666666666,
+    "stretch": 6.923441260964225e-06,
+    "compression": 7.032080187818757e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981713525955012e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.9166666666666545,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9236898898594745e-06,
+    "compression": 7.0321221244951104e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981705329134146e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.933333333333321,
+    "dt": 0.016666666666666666,
+    "stretch": 6.923971369587889e-06,
+    "compression": 7.032197405942853e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981734492965449e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.949999999999988,
+    "dt": 0.016666666666666666,
+    "stretch": 6.924221851001278e-06,
+    "compression": 7.032284322527893e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981705771700262e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.966666666666654,
+    "dt": 0.016666666666666666,
+    "stretch": 6.923674749970132e-06,
+    "compression": 7.032005765461591e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.980763117181642e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.983333333333321,
+    "dt": 0.016666666666666666,
+    "stretch": 6.924798244600794e-06,
+    "compression": 7.032577836740828e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982678007611464e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 4.999999999999988,
+    "dt": 0.016666666666666666,
+    "stretch": 6.925046516226274e-06,
+    "compression": 7.032720058419706e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981739888606939e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.016666666666654,
+    "dt": 0.016666666666666666,
+    "stretch": 6.925380585665053e-06,
+    "compression": 7.032944908558214e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981764463291672e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.033333333333321,
+    "dt": 0.016666666666666666,
+    "stretch": 6.925679118197081e-06,
+    "compression": 7.033186026461635e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981736140132342e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.049999999999987,
+    "dt": 0.016666666666666666,
+    "stretch": 6.925937723778475e-06,
+    "compression": 7.033442857684591e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981699355920222e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.066666666666654,
+    "dt": 0.016666666666666666,
+    "stretch": 6.926290647912836e-06,
+    "compression": 7.03376566124625e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981781841990018e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.083333333333321,
+    "dt": 0.016666666666666666,
+    "stretch": 6.92658039813665e-06,
+    "compression": 7.034098483571505e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981725074213317e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.099999999999987,
+    "dt": 0.016666666666666666,
+    "stretch": 6.926880310675898e-06,
+    "compression": 7.034473260114638e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981728541535613e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.116666666666654,
+    "dt": 0.016666666666666666,
+    "stretch": 6.927226317676727e-06,
+    "compression": 7.0349017510240586e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981768193087344e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.13333333333332,
+    "dt": 0.016666666666666666,
+    "stretch": 6.927571025716617e-06,
+    "compression": 7.035368888130833e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981765556429874e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.149999999999987,
+    "dt": 0.016666666666666666,
+    "stretch": 6.927968803971396e-06,
+    "compression": 7.035897152896098e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981810271608544e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.166666666666654,
+    "dt": 0.016666666666666666,
+    "stretch": 6.928334173927908e-06,
+    "compression": 7.036458449016791e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981778620766242e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.18333333333332,
+    "dt": 0.016666666666666666,
+    "stretch": 6.928651404169983e-06,
+    "compression": 7.037052655367582e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981729039216932e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.199999999999987,
+    "dt": 0.016666666666666666,
+    "stretch": 6.929038546044097e-06,
+    "compression": 7.03772249976975e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981787700669471e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.2166666666666535,
+    "dt": 0.016666666666666666,
+    "stretch": 6.929468528538152e-06,
+    "compression": 7.0384585807437006e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981825780955685e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.23333333333332,
+    "dt": 0.016666666666666666,
+    "stretch": 6.929457816218232e-06,
+    "compression": 7.039050434531902e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981310133679252e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.249999999999987,
+    "dt": 0.016666666666666666,
+    "stretch": 6.930288188655709e-06,
+    "compression": 7.040102130706494e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982274833402244e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.266666666666653,
+    "dt": 0.016666666666666666,
+    "stretch": 6.930743736699441e-06,
+    "compression": 7.041020878451043e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98185519222697e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.28333333333332,
+    "dt": 0.016666666666666666,
+    "stretch": 6.931241484098294e-06,
+    "compression": 7.0420340971821815e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981865559716637e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.2999999999999865,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9317200530605305e-06,
+    "compression": 7.043116319827014e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981843957636422e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.316666666666653,
+    "dt": 0.016666666666666666,
+    "stretch": 6.932215702581956e-06,
+    "compression": 7.044284400570255e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981853733654995e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.33333333333332,
+    "dt": 0.016666666666666666,
+    "stretch": 6.932323582287125e-06,
+    "compression": 7.0453652847302095e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981392656576833e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.349999999999986,
+    "dt": 0.016666666666666666,
+    "stretch": 6.933232824968272e-06,
+    "compression": 7.046903215068845e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98230334405213e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.366666666666653,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9337759274201716e-06,
+    "compression": 7.048357439032316e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981894483934723e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.3833333333333195,
+    "dt": 0.016666666666666666,
+    "stretch": 6.934356558518928e-06,
+    "compression": 7.0499434817739015e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981898095612924e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.399999999999986,
+    "dt": 0.016666666666666666,
+    "stretch": 6.934173947481526e-06,
+    "compression": 7.0512995290483715e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.980962928962585e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.416666666666653,
+    "dt": 0.016666666666666666,
+    "stretch": 6.935658763973507e-06,
+    "compression": 7.05354044971962e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982909857002526e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.433333333333319,
+    "dt": 0.016666666666666666,
+    "stretch": 6.936300290805164e-06,
+    "compression": 7.055511064946174e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981966644587732e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.449999999999986,
+    "dt": 0.016666666666666666,
+    "stretch": 6.937001397533393e-06,
+    "compression": 7.057676782329381e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981960020000942e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.466666666666653,
+    "dt": 0.016666666666666666,
+    "stretch": 6.937808720186567e-06,
+    "compression": 7.060043612949762e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982049166020397e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.483333333333319,
+    "dt": 0.016666666666666666,
+    "stretch": 6.937725974376363e-06,
+    "compression": 7.062211355934878e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.980979344947111e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.499999999999986,
+    "dt": 0.016666666666666666,
+    "stretch": 6.939420344576064e-06,
+    "compression": 7.0653578756463276e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983042028151663e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.516666666666652,
+    "dt": 0.016666666666666666,
+    "stretch": 6.940335857796853e-06,
+    "compression": 7.068345133753873e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982140988584793e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.533333333333319,
+    "dt": 0.016666666666666666,
+    "stretch": 6.941267046478572e-06,
+    "compression": 7.071608020714493e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982084787967433e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.549999999999986,
+    "dt": 0.016666666666666666,
+    "stretch": 6.942275197818759e-06,
+    "compression": 7.075174424331365e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982131678049917e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.566666666666652,
+    "dt": 0.016666666666666666,
+    "stretch": 6.943290287830806e-06,
+    "compression": 7.0790502264550526e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982111480977547e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.583333333333319,
+    "dt": 0.016666666666666666,
+    "stretch": 6.944251047302785e-06,
+    "compression": 7.083233509286302e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981967207585735e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.599999999999985,
+    "dt": 0.016666666666666666,
+    "stretch": 6.945693687976373e-06,
+    "compression": 7.088001840793723e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982495285660205e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.616666666666652,
+    "dt": 0.016666666666666666,
+    "stretch": 6.9470382977332434e-06,
+    "compression": 7.093152515458279e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982314875237382e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.633333333333319,
+    "dt": 0.016666666666666666,
+    "stretch": 6.948499693182342e-06,
+    "compression": 7.098847293218746e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982361811683088e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.649999999999985,
+    "dt": 0.016666666666666666,
+    "stretch": 6.949315790816257e-06,
+    "compression": 7.104862362772302e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.981470509352172e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.666666666666652,
+    "dt": 0.016666666666666666,
+    "stretch": 6.951780314734535e-06,
+    "compression": 7.112179773560712e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.983370186760305e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.6833333333333185,
+    "dt": 0.016666666666666666,
+    "stretch": 6.953727794023479e-06,
+    "compression": 7.120013831740657e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.98263958958266e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.699999999999985,
+    "dt": 0.016666666666666666,
+    "stretch": 6.955311221190641e-06,
+    "compression": 7.128634363917641e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.982014187547569e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.716666666666652,
+    "dt": 0.016666666666666666,
+    "stretch": 6.953431092471263e-06,
+    "compression": 7.141816423583691e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.979777212597135e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.733333333333318,
+    "dt": 0.016666666666666666,
+    "stretch": 6.870947696802077e-06,
+    "compression": 7.227636009021765e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.925116811325647e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.749999999999985,
+    "dt": 0.016666666666666666,
+    "stretch": 6.668009960408838e-06,
+    "compression": 7.430672693375939e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.8364590536503e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.7666666666666515,
+    "dt": 0.016666666666666666,
+    "stretch": 6.345838584387309e-06,
+    "compression": 7.773812883971054e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 8,
+    "dissipation_joules": 6.728195948588388e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.783333333333318,
+    "dt": 0.016666666666666666,
+    "stretch": 6.339372603303417e-06,
+    "compression": 8.191381763111849e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 9,
+    "dissipation_joules": 6.604442626749241e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.799999999999985,
+    "dt": 0.016666666666666666,
+    "stretch": 8.634938790885727e-06,
+    "compression": 8.668519400512054e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 10,
+    "dissipation_joules": 6.455801056210088e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.816666666666651,
+    "dt": 0.016666666666666666,
+    "stretch": 1.2833902744979753e-05,
+    "compression": 9.198602990756477e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 11,
+    "dissipation_joules": 6.338567026839145e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.833333333333318,
+    "dt": 0.016666666666666666,
+    "stretch": 1.7522300190364604e-05,
+    "compression": 9.875188737296092e-06,
+    "grip_error": 0.0,
+    "plastic_hinges": 12,
+    "dissipation_joules": 6.249977752382945e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.8499999999999845,
+    "dt": 0.016666666666666666,
+    "stretch": 2.3267580625763173e-05,
+    "compression": 1.2577958811266221e-05,
+    "grip_error": 0.0,
+    "plastic_hinges": 14,
+    "dissipation_joules": 6.313453783729239e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.866666666666651,
+    "dt": 0.016666666666666666,
+    "stretch": 3.1334781039671356e-05,
+    "compression": 1.8069904398010372e-05,
+    "grip_error": 0.0,
+    "plastic_hinges": 17,
+    "dissipation_joules": 6.701242983908937e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.883333333333318,
+    "dt": 0.016666666666666666,
+    "stretch": 4.0126477665047844e-05,
+    "compression": 2.426641509489791e-05,
+    "grip_error": 0.0,
+    "plastic_hinges": 20,
+    "dissipation_joules": 6.658789592749575e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.899999999999984,
+    "dt": 0.016666666666666666,
+    "stretch": 4.820613149858488e-05,
+    "compression": 3.024003231011374e-05,
+    "grip_error": 0.0,
+    "plastic_hinges": 28,
+    "dissipation_joules": 7.359827012679485e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.916666666666651,
+    "dt": 0.016666666666666666,
+    "stretch": 5.5045536262898764e-05,
+    "compression": 3.50869530382214e-05,
+    "grip_error": 0.0,
+    "plastic_hinges": 32,
+    "dissipation_joules": 9.706481784946091e-07,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.933333333333318,
+    "dt": 0.016666666666666666,
+    "stretch": 6.157912555870837e-05,
+    "compression": 4.855293359440349e-05,
+    "grip_error": 0.0,
+    "plastic_hinges": 34,
+    "dissipation_joules": 1.071006385740305e-06,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.949999999999984,
+    "dt": 0.016666666666666666,
+    "stretch": 6.793949581407333e-05,
+    "compression": 7.223170894132824e-05,
+    "grip_error": 0.0,
+    "plastic_hinges": 37,
+    "dissipation_joules": 1.1931771144151106e-06,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.966666666666651,
+    "dt": 0.016666666666666666,
+    "stretch": 8.886786039941086e-05,
+    "compression": 0.00010660307373422384,
+    "grip_error": 0.0,
+    "plastic_hinges": 40,
+    "dissipation_joules": 1.2629039024200241e-06,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.983333333333317,
+    "dt": 0.016666666666666666,
+    "stretch": 0.0001170783061343883,
+    "compression": 0.00013551480626294854,
+    "grip_error": 0.0,
+    "plastic_hinges": 43,
+    "dissipation_joules": 1.1062544967810457e-06,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  },
+  {
+    "time": 5.999999999999984,
+    "dt": 0.016666666666666666,
+    "stretch": 0.00014264667133079278,
+    "compression": 0.00015192340061132015,
+    "grip_error": 0.0,
+    "plastic_hinges": 37,
+    "dissipation_joules": 1.2047890268473888e-06,
+    "crease_controls": {},
+    "soft_controls": {},
+    "soft_target_error": 0.0,
+    "clear": true,
+    "clearance": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    }
+  }
+]

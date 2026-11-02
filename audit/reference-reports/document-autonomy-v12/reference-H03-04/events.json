@@ -1,0 +1,2619 @@
+[
+  {
+    "index": 0,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0.5,
+          0
+        ],
+        [
+          0.5,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.2,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "1a022501d02a565255743ae4bb4ab2b69397a7586b1f82e99a00f1f3ff92fcbe",
+    "after": "ac5706bfa44fd9a48791324044f7581333988feec4f19ed8eefc8eb47acc7e1c",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          0,
+          1,
+          11,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          101
+        ],
+        "axis_point": [
+          0.0,
+          -0.0006944444444444435,
+          0.00015
+        ],
+        "axis_direction": [
+          0.0,
+          1.0000000000000002,
+          0.0
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 360,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "e9bfce986dcc2ddffa18561b19c158ae3655c34ffc48229af8bf254925e46683",
+      "rest_angle_l2": 8.616736595109142,
+      "dissipation_joules": 0.00025860937487340904
+    },
+    "time": 5.999999999999984
+  },
+  {
+    "index": 1,
+    "action": {
+      "op": "unfold"
+    },
+    "before": "ac5706bfa44fd9a48791324044f7581333988feec4f19ed8eefc8eb47acc7e1c",
+    "after": "fb215a7516802eb050fa8b9db86d38876d600168232a9c11936704675c51e01f",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          0,
+          1,
+          11,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          101
+        ],
+        "axis_point": [
+          0.0,
+          -0.0006944444444444435,
+          0.00015
+        ],
+        "axis_direction": [
+          0.0,
+          1.0000000000000002,
+          0.0
+        ],
+        "degrees": -180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 720,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "f8e8f79ba63c9458d29cffe49026e986333fafe953bb1995c0b178debdf391ca",
+      "rest_angle_l2": 0.1347757704203075,
+      "dissipation_joules": 0.0005048406297002445
+    },
+    "time": 12.000000000000176
+  },
+  {
+    "index": 2,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.5
+        ],
+        [
+          1,
+          0.5
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.2
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "fb215a7516802eb050fa8b9db86d38876d600168232a9c11936704675c51e01f",
+    "after": "d434485fc37eb8837a2b38860e7edc2697cf03713ecc91f5aa841a84c4b3bccf",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          15,
+          41,
+          47,
+          52,
+          87,
+          91,
+          93,
+          97,
+          101
+        ],
+        "axis_point": [
+          5.504116304322965e-09,
+          2.989559298903088e-08,
+          0.00016426586541681522
+        ],
+        "axis_direction": [
+          -0.9999999999805537,
+          2.609913560479874e-07,
+          -6.230936757500379e-06
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 1080,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "16de25729efbfb3f422d83c2cf23b7a9eb5ec8421de6e39c936da9cf98860a11",
+      "rest_angle_l2": 8.614620220696375,
+      "dissipation_joules": 0.0007606286914794621
+    },
+    "time": 18.00000000000026
+  },
+  {
+    "index": 3,
+    "action": {
+      "op": "unfold"
+    },
+    "before": "d434485fc37eb8837a2b38860e7edc2697cf03713ecc91f5aa841a84c4b3bccf",
+    "after": "137b5ced55eeeb2c4fc712e3cb54811acef6aa362fdf83ba1ea57f26a5e6115f",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          15,
+          41,
+          47,
+          52,
+          87,
+          91,
+          93,
+          97,
+          101
+        ],
+        "axis_point": [
+          5.504116304322965e-09,
+          2.989559298903088e-08,
+          0.00016426586541681522
+        ],
+        "axis_direction": [
+          -0.9999999999805537,
+          2.609913560479874e-07,
+          -6.230936757500379e-06
+        ],
+        "degrees": -180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 1440,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "bf63121ade58e297d5de8a4abfd7e5cbca2e61ee0d6ae395cfd3923e732e83bd",
+      "rest_angle_l2": 0.16064947124417253,
+      "dissipation_joules": 0.0010066279577460287
+    },
+    "time": 23.99999999999992
+  },
+  {
+    "index": 4,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0.25,
+          0
+        ],
+        [
+          0.25,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.1,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "137b5ced55eeeb2c4fc712e3cb54811acef6aa362fdf83ba1ea57f26a5e6115f",
+    "after": "b1e60e1f26d89e92e8732a1a34d9cf244b492ed559e793b695d43a84269da901",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          0,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65
+        ],
+        "axis_point": [
+          -0.0374999820230028,
+          4.4665535612701625e-08,
+          0.00017333723275058825
+        ],
+        "axis_direction": [
+          3.976460369782603e-07,
+          0.999999992262098,
+          -0.00012440114963828535
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 1800,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "4dccd24efbeb156c1ac1e2110d746b43f4903b09bf350fd371215cc1f90e0538",
+      "rest_angle_l2": 8.623833285560117,
+      "dissipation_joules": 0.0012617995859194645
+    },
+    "time": 29.999999999999577
+  },
+  {
+    "index": 5,
+    "action": {
+      "op": "unfold"
+    },
+    "before": "b1e60e1f26d89e92e8732a1a34d9cf244b492ed559e793b695d43a84269da901",
+    "after": "777c3c67bda81b92e4f0c192e4418d7c4e295ab8db5f252c0cb483f1dbe1fb69",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          0,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65
+        ],
+        "axis_point": [
+          -0.0374999820230028,
+          4.4665535612701625e-08,
+          0.00017333723275058825
+        ],
+        "axis_direction": [
+          3.976460369782603e-07,
+          0.999999992262098,
+          -0.00012440114963828535
+        ],
+        "degrees": -180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 2160,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "a1cd11971e69588ba8b703dea59d33a74cb155d513512870d756033a243fbefe",
+      "rest_angle_l2": 0.18311045436287138,
+      "dissipation_joules": 0.0015086357094158023
+    },
+    "time": 35.99999999999924
+  },
+  {
+    "index": 6,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0.75,
+          0
+        ],
+        [
+          0.75,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.9,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "777c3c67bda81b92e4f0c192e4418d7c4e295ab8db5f252c0cb483f1dbe1fb69",
+    "after": "6589743a337eb317f191a76d78b9c355e24575e446353476b7d104c91709d9f8",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93
+        ],
+        "axis_point": [
+          0.03749990368646669,
+          -0.000694445462544459,
+          0.0001826481943586358
+        ],
+        "axis_direction": [
+          -2.5663269190849954e-07,
+          -0.9999999993902715,
+          3.491977591939322e-05
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 2520,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "f0405bef3ca9d5eb1840ee5d26f7209ea7799e318ed55aab00b18bf9d7596436",
+      "rest_angle_l2": 8.639376731783473,
+      "dissipation_joules": 0.0017634377644664728
+    },
+    "time": 41.9999999999989
+  },
+  {
+    "index": 7,
+    "action": {
+      "op": "unfold"
+    },
+    "before": "6589743a337eb317f191a76d78b9c355e24575e446353476b7d104c91709d9f8",
+    "after": "a4d0ea9e8abe5c5ddfad8ac312449a2f5939c3dae08c33fb282345e716f5977b",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93
+        ],
+        "axis_point": [
+          0.03749990368646669,
+          -0.000694445462544459,
+          0.0001826481943586358
+        ],
+        "axis_direction": [
+          -2.5663269190849954e-07,
+          -0.9999999993902715,
+          3.491977591939322e-05
+        ],
+        "degrees": -180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 2880,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "6877540f282aa33a07dde3281e85ca574e24b2ae494052f0d43cea8a31134c08",
+      "rest_angle_l2": 0.1976793055013826,
+      "dissipation_joules": 0.0020097888069316094
+    },
+    "time": 47.99999999999856
+  },
+  {
+    "index": 8,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.25
+        ],
+        [
+          1,
+          0.25
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.1
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "a4d0ea9e8abe5c5ddfad8ac312449a2f5939c3dae08c33fb282345e716f5977b",
+    "after": "3a9a9da5794792a60e97bfb47422a65d07fd558a52ddc5963c575a4fa0f57bdc",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          41,
+          47,
+          91,
+          93,
+          97,
+          101
+        ],
+        "axis_point": [
+          -5.601702828369717e-08,
+          -0.03750003283331427,
+          0.0001786885329396682
+        ],
+        "axis_direction": [
+          -0.9999999993689282,
+          4.245018666458095e-07,
+          3.552412394518176e-05
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 3240,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "8f581fe57211a8daaab83e5c5d7893a4baced5f98515b7635749331a6ecf304b",
+      "rest_angle_l2": 8.634977714346688,
+      "dissipation_joules": 0.00226556996430153
+    },
+    "time": 53.99999999999822
+  },
+  {
+    "index": 9,
+    "action": {
+      "op": "unfold"
+    },
+    "before": "3a9a9da5794792a60e97bfb47422a65d07fd558a52ddc5963c575a4fa0f57bdc",
+    "after": "d1444d90368350986fcde00351bea2e7c0a68135a0a796ffa26beed378b122f5",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          41,
+          47,
+          91,
+          93,
+          97,
+          101
+        ],
+        "axis_point": [
+          -5.601702828369717e-08,
+          -0.03750003283331427,
+          0.0001786885329396682
+        ],
+        "axis_direction": [
+          -0.9999999993689282,
+          4.245018666458095e-07,
+          3.552412394518176e-05
+        ],
+        "degrees": -180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 3600,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "25a4ec426f0a6ba8365dfb979599f9aaf506dbe9ed91d78302bbb70a1cd7f8bf",
+      "rest_angle_l2": 0.20590882911189756,
+      "dissipation_joules": 0.0025122273379394465
+    },
+    "time": 59.999999999997875
+  },
+  {
+    "index": 10,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.75
+        ],
+        [
+          1,
+          0.75
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.9
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "d1444d90368350986fcde00351bea2e7c0a68135a0a796ffa26beed378b122f5",
+    "after": "805e615a0c7ebb0987e695387cf51a7a56e978cc40a4b014a2008d092a349f11",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79
+        ],
+        "axis_point": [
+          0.0006945279916674139,
+          0.03750001743827084,
+          0.0001855299855501542
+        ],
+        "axis_direction": [
+          0.9999999911726073,
+          -3.109668173088368e-07,
+          -0.0001328709466681786
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 3960,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "24ebaf20cca6aaa42910a9e6b2ffb01f9ff24d56905ae96f903a9cf0e54d2e32",
+      "rest_angle_l2": 8.6316889741574,
+      "dissipation_joules": 0.002767756701684958
+    },
+    "time": 65.99999999999754
+  },
+  {
+    "index": 11,
+    "action": {
+      "op": "unfold"
+    },
+    "before": "805e615a0c7ebb0987e695387cf51a7a56e978cc40a4b014a2008d092a349f11",
+    "after": "b4fc2c74f1d7adb4b9fec64d8caa49802f077fbd5a2e31714e31c536aa52eb6d",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79
+        ],
+        "axis_point": [
+          0.0006945279916674139,
+          0.03750001743827084,
+          0.0001855299855501542
+        ],
+        "axis_direction": [
+          0.9999999911726073,
+          -3.109668173088368e-07,
+          -0.0001328709466681786
+        ],
+        "degrees": -180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 4320,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "aa93ec37d83a6f59c69f68b67962063d43ac44d58920cde3a318cfad95052407",
+      "rest_angle_l2": 0.2165600940831543,
+      "dissipation_joules": 0.0030144246925171213
+    },
+    "time": 71.9999999999972
+  },
+  {
+    "index": 12,
+    "action": {
+      "op": "turn_over",
+      "axis": "y"
+    },
+    "before": "b4fc2c74f1d7adb4b9fec64d8caa49802f077fbd5a2e31714e31c536aa52eb6d",
+    "after": "e3c1c265bc92477a0a4ee71d55a00634b175bdd52db2d9ae774409e2b637171e",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ],
+        "axis_point": [
+          0.0,
+          0.0,
+          -8.764067400822351e-05
+        ],
+        "axis_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 4680,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "6a93b13607095821d363b6486638640cfd3adef829efe4f27e4fdf9ba437cffe",
+      "rest_angle_l2": 0.21654346937963975,
+      "dissipation_joules": 0.0030144272219900406
+    },
+    "time": 77.99999999999686
+  },
+  {
+    "index": 13,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.5
+        ],
+        [
+          0.5,
+          0
+        ]
+      ],
+      "moving_point": [
+        0.1,
+        0.1
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "e3c1c265bc92477a0a4ee71d55a00634b175bdd52db2d9ae774409e2b637171e",
+    "after": "973c5531e34fff96b26f15accdf06ce35238f89f47a9e918ecdd2509fc447a5c",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          3,
+          4,
+          5,
+          87,
+          91,
+          93,
+          97
+        ],
+        "axis_point": [
+          -0.03611904999948498,
+          -0.038881226005207534,
+          0.00014563886401992238
+        ],
+        "axis_direction": [
+          -0.7071077878353292,
+          0.707105712134726,
+          -0.0002970674490338838
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 5040,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "e27bab86a11f2d901d129f2a503bf05dc9c2e788d2e1cdf5ed1f7c375982c551",
+      "rest_angle_l2": 8.085479443724436,
+      "dissipation_joules": 0.003239399211592819
+    },
+    "time": 83.99999999999652
+  },
+  {
+    "index": 14,
+    "action": {
+      "op": "unfold"
+    },
+    "before": "973c5531e34fff96b26f15accdf06ce35238f89f47a9e918ecdd2509fc447a5c",
+    "after": "b6e488f196f65cc911588fee49101dd39be049b86b0ed78198c9ffa729a840c9",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          3,
+          4,
+          5,
+          87,
+          91,
+          93,
+          97
+        ],
+        "axis_point": [
+          -0.03611904999948498,
+          -0.038881226005207534,
+          0.00014563886401992238
+        ],
+        "axis_direction": [
+          -0.7071077878353292,
+          0.707105712134726,
+          -0.0002970674490338838
+        ],
+        "degrees": -180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 5400,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "95c0b486cc183e1ac7abf304ab5f69131a05d7a2b03e4419a3119837480004d6",
+      "rest_angle_l2": 0.20522618657026628,
+      "dissipation_joules": 0.0034544987106183696
+    },
+    "time": 89.99999999999618
+  },
+  {
+    "index": 15,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0.5,
+          1
+        ],
+        [
+          1,
+          0.5
+        ]
+      ],
+      "moving_point": [
+        0.9,
+        0.9
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "b6e488f196f65cc911588fee49101dd39be049b86b0ed78198c9ffa729a840c9",
+    "after": "e92bdcd581bcec2d3d98f2d003e57b078eb186ac4e6fda667739a2fd708380c0",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          11,
+          12,
+          13,
+          59,
+          63,
+          65,
+          69
+        ],
+        "axis_point": [
+          0.03611906546653727,
+          0.03888136937764665,
+          0.0001640924964030607
+        ],
+        "axis_direction": [
+          0.7071068290580894,
+          -0.707106641022454,
+          -0.000361277395389106
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 5760,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "9ddd18e86b87d853b1a17cd612896e87881b38741f884d4140f1d3bf2f68b446",
+      "rest_angle_l2": 8.083867149821096,
+      "dissipation_joules": 0.0036798563286285055
+    },
+    "time": 95.99999999999584
+  },
+  {
+    "index": 16,
+    "action": {
+      "op": "unfold"
+    },
+    "before": "e92bdcd581bcec2d3d98f2d003e57b078eb186ac4e6fda667739a2fd708380c0",
+    "after": "efeb143857aea006b749599916279ce95e8ef04827ac4ab414315a79389092f1",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          11,
+          12,
+          13,
+          59,
+          63,
+          65,
+          69
+        ],
+        "axis_point": [
+          0.03611906546653727,
+          0.03888136937764665,
+          0.0001640924964030607
+        ],
+        "axis_direction": [
+          0.7071068290580894,
+          -0.707106641022454,
+          -0.000361277395389106
+        ],
+        "degrees": -180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 6120,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "abefb7b1367bc340ff5834e7c8c7b76ab485eed933ea06893874adaf68ff4922",
+      "rest_angle_l2": 0.19416487901590296,
+      "dissipation_joules": 0.003894697948723843
+    },
+    "time": 101.9999999999955
+  },
+  {
+    "index": 17,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0.5,
+          0
+        ],
+        [
+          1,
+          0.5
+        ]
+      ],
+      "moving_point": [
+        0.9,
+        0.1
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "efeb143857aea006b749599916279ce95e8ef04827ac4ab414315a79389092f1",
+    "after": "444936cd0c58d4fd97d4897b9b5c54fb49436f2b8a830203c9265f5560e57510",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          0,
+          1,
+          15,
+          41,
+          47,
+          52,
+          101
+        ],
+        "axis_point": [
+          0.037871973054631726,
+          -0.037128149207839856,
+          0.00014611811770240223
+        ],
+        "axis_direction": [
+          -0.7071061744441909,
+          -0.7071072625506873,
+          0.00042108309772840387
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 6480,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "81ebf9e667d5fd56eba0467ef97a92e870f7cc50ce611f1c48add555751c8cdc",
+      "rest_angle_l2": 8.646645344244881,
+      "dissipation_joules": 0.004147946972705784
+    },
+    "time": 107.99999999999515
+  },
+  {
+    "index": 18,
+    "action": {
+      "op": "unfold"
+    },
+    "before": "444936cd0c58d4fd97d4897b9b5c54fb49436f2b8a830203c9265f5560e57510",
+    "after": "b3a475c6dbd86d34d06ebc935542558df50469e5c18a1b9a9ca6a4b2bae7044b",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          0,
+          1,
+          15,
+          41,
+          47,
+          52,
+          101
+        ],
+        "axis_point": [
+          0.037871973054631726,
+          -0.037128149207839856,
+          0.00014611811770240223
+        ],
+        "axis_direction": [
+          -0.7071061744441909,
+          -0.7071072625506873,
+          0.00042108309772840387
+        ],
+        "degrees": -180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 6840,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "4512db5491a54806761fe4e14ef83330cf8df7de9703f6c8d6fb8f7c5605783f",
+      "rest_angle_l2": 0.1873455671051428,
+      "dissipation_joules": 0.004393066500200809
+    },
+    "time": 113.99999999999481
+  },
+  {
+    "index": 19,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.5
+        ],
+        [
+          0.5,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.1,
+        0.9
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "b3a475c6dbd86d34d06ebc935542558df50469e5c18a1b9a9ca6a4b2bae7044b",
+    "after": "81f233d6b76ef874533ea408f0f5a62e2487f9d00361a8fdb622be853d0a4d5a",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          7,
+          8,
+          9,
+          73,
+          77,
+          79,
+          83
+        ],
+        "axis_point": [
+          -0.038881131680438365,
+          0.0361190275007846,
+          0.0001508147782789436
+        ],
+        "axis_direction": [
+          0.7071065905250229,
+          0.7071068201495511,
+          0.0004631782248799261
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 7200,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "ad5d79f97406dc74cfe0d4b17c51d96dff0ec73af46a1695a997a38dfdfcff76",
+      "rest_angle_l2": 8.083672012387135,
+      "dissipation_joules": 0.004617934523986807
+    },
+    "time": 119.99999999999447
+  },
+  {
+    "index": 20,
+    "action": {
+      "op": "unfold"
+    },
+    "before": "81f233d6b76ef874533ea408f0f5a62e2487f9d00361a8fdb622be853d0a4d5a",
+    "after": "1d69725a8f467eb8a8cdd083e864e24842e4d858f89b451bab6a2fe082e89840",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          7,
+          8,
+          9,
+          73,
+          77,
+          79,
+          83
+        ],
+        "axis_point": [
+          -0.038881131680438365,
+          0.0361190275007846,
+          0.0001508147782789436
+        ],
+        "axis_direction": [
+          0.7071065905250229,
+          0.7071068201495511,
+          0.0004631782248799261
+        ],
+        "degrees": -180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 7560,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "28e26c8af5e83b4acdb9c307fc2c19cd32eebc85f4e72bf5179a1a3442c91ea5",
+      "rest_angle_l2": 0.18010099353737766,
+      "dissipation_joules": 0.004832719985318929
+    },
+    "time": 125.99999999999413
+  },
+  {
+    "index": 21,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.25
+        ],
+        [
+          0.25,
+          0
+        ]
+      ],
+      "moving_point": [
+        0.05,
+        0.05
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "1d69725a8f467eb8a8cdd083e864e24842e4d858f89b451bab6a2fe082e89840",
+    "after": "67f5f03fed6268edf274b7dc62520a55dde3cac1ff13abe0c5b7267b4fd82042",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          4,
+          91,
+          93
+        ],
+        "axis_point": [
+          -0.056250093020695044,
+          -0.05625009180269049,
+          9.199237987568542e-05
+        ],
+        "axis_direction": [
+          -0.7071108811165301,
+          0.7071026221545609,
+          0.00028904800396232903
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 7920,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "37c413245fe3e52dfbc82ae6d9acd42b3ada8a2bcd8623252333632c0c1c7c8a",
+      "rest_angle_l2": 6.132368767377381,
+      "dissipation_joules": 0.004957413353000542
+    },
+    "time": 131.9999999999972
+  },
+  {
+    "index": 22,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0.75,
+          1
+        ],
+        [
+          1,
+          0.75
+        ]
+      ],
+      "moving_point": [
+        0.95,
+        0.95
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "67f5f03fed6268edf274b7dc62520a55dde3cac1ff13abe0c5b7267b4fd82042",
+    "after": "0242fa2bf9e95e15a612b607673ba1ce39a127e2a44050ec6d6519af50c8fd1b",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          12,
+          63,
+          65
+        ],
+        "axis_point": [
+          0.05625005025765965,
+          0.056250100947910296,
+          9.127111395320729e-05
+        ],
+        "axis_direction": [
+          0.7071081762964678,
+          -0.7071053757033497,
+          -0.00012110370679068598
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 8280,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "1f8709bf3eae240b804e250b8320b8291f430f1c84e3ef3f810a6f38a6bbc97c",
+      "rest_angle_l2": 8.671122983400776,
+      "dissipation_joules": 0.005082140884187992
+    },
+    "time": 138.00000000000196
+  },
+  {
+    "index": 23,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0.75,
+          0
+        ],
+        [
+          1,
+          0.25
+        ]
+      ],
+      "moving_point": [
+        0.95,
+        0.05
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "0242fa2bf9e95e15a612b607673ba1ce39a127e2a44050ec6d6519af50c8fd1b",
+    "after": "4d1c8b5cd45bb9a8b5b9daf82965fa887b6e0f4e0ffb6cafbb245c4e6dfc4ce5",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          0,
+          41,
+          47
+        ],
+        "axis_point": [
+          0.056250037835088994,
+          -0.056250003074153454,
+          7.406323948021391e-05
+        ],
+        "axis_direction": [
+          -0.7071064785404054,
+          -0.7071064101823683,
+          0.0009760559365888363
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 8640,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "7b7f89c3243549e3099edaef4aa09f063f146ae12e772f5510895700b646bdc5",
+      "rest_angle_l2": 10.606033364674557,
+      "dissipation_joules": 0.005206358623526834
+    },
+    "time": 144.00000000000674
+  },
+  {
+    "index": 24,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.75
+        ],
+        [
+          0.25,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.05,
+        0.95
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "4d1c8b5cd45bb9a8b5b9daf82965fa887b6e0f4e0ffb6cafbb245c4e6dfc4ce5",
+    "after": "7f0e4faec71d084d71132e9f3ea64ad5f34c5ab3683088e3c22e41736e0ca64a",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          8,
+          77,
+          79
+        ],
+        "axis_point": [
+          -0.05625002073864601,
+          0.056250020363450434,
+          8.298108051623648e-05
+        ],
+        "axis_direction": [
+          0.7071056173745804,
+          0.7071077964148855,
+          0.00045839567889105655
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 9000,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "1d0fa75e96a2522f94dbba80f448420ac163f7dd57332a326ff0b4dbbd8d05d6",
+      "rest_angle_l2": 12.25022528375972,
+      "dissipation_joules": 0.005331223685161696
+    },
+    "time": 150.0000000000115
+  },
+  {
+    "index": 25,
+    "action": {
+      "op": "finish"
+    },
+    "before": "7f0e4faec71d084d71132e9f3ea64ad5f34c5ab3683088e3c22e41736e0ca64a",
+    "after": "7f0e4faec71d084d71132e9f3ea64ad5f34c5ab3683088e3c22e41736e0ca64a",
+    "low_level_actions": [],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 9000,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "1d0fa75e96a2522f94dbba80f448420ac163f7dd57332a326ff0b4dbbd8d05d6",
+      "rest_angle_l2": 12.25022528375972,
+      "dissipation_joules": 0.005331223685161696
+    },
+    "time": 150.0000000000115
+  }
+]

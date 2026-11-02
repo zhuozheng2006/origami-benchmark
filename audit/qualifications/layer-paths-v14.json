@@ -1,0 +1,951 @@
+{
+  "L01": {
+    "eligible": false,
+    "fixture_mode": "guided_directional_10000",
+    "execution": null,
+    "physics": null,
+    "protocol": null,
+    "reason": "物理或形状参考尚未通过两次",
+    "references": [
+      {
+        "protocol": null,
+        "execution": null,
+        "physics": null,
+        "run": "reference-L01-bands16x2-01",
+        "passed": false,
+        "scored": false,
+        "mode": null,
+        "controller": null,
+        "backend_sha256": null,
+        "initial_check": null,
+        "checks": []
+      },
+      {
+        "protocol": "9de3fe94b50e71ae911e5d73a63e8220141cd1149310208aca88d54a9a8f13e5",
+        "execution": {
+          "newton_tolerance": 0.0001,
+          "backend_variant": "codim-ipc-directional",
+          "barrier_distance": 0.0002,
+          "compression_barrier": true,
+          "grip_solve_tolerance": 0.0002,
+          "grip_solve_metric": "rms"
+        },
+        "physics": {
+          "backend_binary_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+          "layer_env_sha256": "9467ad47c86a63380fe8d79b08c22660bed9ae4aa652237692c791c17c9421ec",
+          "document_worker_sha256": "5dac6909302a619c03faa504eb34ad2b3d515e6510d7b5fd64fff74893d3cebf",
+          "continuous_clearance_verifier": "tight-inclusion+exact-plane-v3-piecewise",
+          "contact_barrier_parameter_m": 0.0002,
+          "effective_activation_distance_m": 0.0002,
+          "newton_velocity_RMS_tolerance_m_s": 0.0001,
+          "max_newton_iterations": 600,
+          "maximum_step_seconds": 0.016666666666666666,
+          "youngs_modulus_Pa": 3000000000.0,
+          "poisson_ratio": 0.3,
+          "density_kg_m3": 800,
+          "material_thickness_m": 0.0001,
+          "gravity": [
+            0,
+            0,
+            0
+          ],
+          "friction": 0,
+          "yield_moment_Nm_per_hinge": 1e-05,
+          "contact_clearance_m": 0.0001,
+          "principal_strain_limit": 0.01,
+          "compression_barrier": true,
+          "native_singular_value_limits": [
+            1.009999,
+            0.990001
+          ],
+          "native_strain_barrier_stiffness": [
+            1000.0,
+            1000.0
+          ],
+          "grip_solver_tolerance_m": 0.0002,
+          "grip_solver_metric": "rms",
+          "grip_acceptance_max_error_m": 0.0005,
+          "control_geometry_sha256": "6a30c46b02bef49fc3e61e865985f217171b09d434cd67bc14e8ae7136901b57",
+          "contact_certification_sha256": "a6a83c5e47be81aeaa12169431f2b4a875a9be8168db0f9d05bb7d555560caf1"
+        },
+        "run": "reference-L01-guided-thickness-01",
+        "passed": false,
+        "scored": false,
+        "mode": "guided_directional",
+        "controller": "layer-boundary-v14-dev25",
+        "backend_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+        "initial_check": null,
+        "checks": []
+      },
+      {
+        "protocol": "b7c4838d51e9f30b7f7e6f0a42d8c0a74ad0d03dd89dcd8c84438437b7dc1b2a",
+        "execution": {
+          "newton_tolerance": 0.0001,
+          "backend_variant": "codim-ipc",
+          "barrier_distance": 0.0002,
+          "compression_barrier": true,
+          "grip_solve_tolerance": 0.0002,
+          "grip_solve_metric": "rms"
+        },
+        "physics": {
+          "backend_binary_sha256": "e6d751770d9cfeadd81cb49d86b83543a3a48df03db65d8147bd33117425441c",
+          "layer_env_sha256": "9467ad47c86a63380fe8d79b08c22660bed9ae4aa652237692c791c17c9421ec",
+          "document_worker_sha256": "5dac6909302a619c03faa504eb34ad2b3d515e6510d7b5fd64fff74893d3cebf",
+          "continuous_clearance_verifier": "tight-inclusion+exact-plane-v3-piecewise",
+          "contact_barrier_parameter_m": 0.0002,
+          "effective_activation_distance_m": 0.0002,
+          "newton_velocity_RMS_tolerance_m_s": 0.0001,
+          "max_newton_iterations": 600,
+          "maximum_step_seconds": 0.016666666666666666,
+          "youngs_modulus_Pa": 3000000000.0,
+          "poisson_ratio": 0.3,
+          "density_kg_m3": 800,
+          "material_thickness_m": 0.0001,
+          "gravity": [
+            0,
+            0,
+            0
+          ],
+          "friction": 0,
+          "yield_moment_Nm_per_hinge": 1e-05,
+          "contact_clearance_m": 0.0001,
+          "principal_strain_limit": 0.01,
+          "compression_barrier": true,
+          "native_singular_value_limits": [
+            1.009999,
+            0.990001
+          ],
+          "native_strain_barrier_stiffness": [
+            1000.0,
+            1000.0
+          ],
+          "grip_solver_tolerance_m": 0.0002,
+          "grip_solver_metric": "rms",
+          "grip_acceptance_max_error_m": 0.0005,
+          "control_geometry_sha256": "6a30c46b02bef49fc3e61e865985f217171b09d434cd67bc14e8ae7136901b57",
+          "contact_certification_sha256": "a6a83c5e47be81aeaa12169431f2b4a875a9be8168db0f9d05bb7d555560caf1"
+        },
+        "run": "reference-L01-thicknessband-01",
+        "passed": false,
+        "scored": false,
+        "mode": "thickness_panel",
+        "controller": "layer-boundary-v14-dev24",
+        "backend_sha256": "e6d751770d9cfeadd81cb49d86b83543a3a48df03db65d8147bd33117425441c",
+        "initial_check": null,
+        "checks": []
+      },
+      {
+        "protocol": null,
+        "execution": null,
+        "physics": null,
+        "run": "reference-L01-hull-01",
+        "passed": false,
+        "scored": false,
+        "mode": "hull_panel",
+        "controller": "layer-boundary-v14-dev18",
+        "backend_sha256": "e6d751770d9cfeadd81cb49d86b83543a3a48df03db65d8147bd33117425441c",
+        "initial_check": {
+          "rms_mm": 0.15143156956613543,
+          "max_mm": 0.38565767318691735
+        },
+        "checks": [
+          {
+            "op": "fold_line",
+            "rms_mm": 0.17111736723530965,
+            "max_mm": 0.42581069659188436
+          },
+          {
+            "op": "unfold",
+            "rms_mm": 0.15730094700555072,
+            "max_mm": 0.38565767318691735
+          },
+          {
+            "op": "fold_line",
+            "rms_mm": 0.18836181238701824,
+            "max_mm": 0.4474646914472855
+          }
+        ]
+      },
+      {
+        "protocol": null,
+        "execution": null,
+        "physics": null,
+        "run": "reference-L01-bands16-01",
+        "passed": false,
+        "scored": false,
+        "mode": null,
+        "controller": null,
+        "backend_sha256": null,
+        "initial_check": null,
+        "checks": []
+      }
+    ]
+  },
+  "L02": {
+    "eligible": false,
+    "fixture_mode": "guided_directional_10000",
+    "execution": null,
+    "physics": null,
+    "protocol": null,
+    "reason": "物理或形状参考尚未通过两次",
+    "references": [
+      {
+        "protocol": "9de3fe94b50e71ae911e5d73a63e8220141cd1149310208aca88d54a9a8f13e5",
+        "execution": {
+          "newton_tolerance": 0.0001,
+          "backend_variant": "codim-ipc-directional",
+          "barrier_distance": 0.0002,
+          "compression_barrier": true,
+          "grip_solve_tolerance": 0.0002,
+          "grip_solve_metric": "rms"
+        },
+        "physics": {
+          "backend_binary_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+          "layer_env_sha256": "9467ad47c86a63380fe8d79b08c22660bed9ae4aa652237692c791c17c9421ec",
+          "document_worker_sha256": "5dac6909302a619c03faa504eb34ad2b3d515e6510d7b5fd64fff74893d3cebf",
+          "continuous_clearance_verifier": "tight-inclusion+exact-plane-v3-piecewise",
+          "contact_barrier_parameter_m": 0.0002,
+          "effective_activation_distance_m": 0.0002,
+          "newton_velocity_RMS_tolerance_m_s": 0.0001,
+          "max_newton_iterations": 600,
+          "maximum_step_seconds": 0.016666666666666666,
+          "youngs_modulus_Pa": 3000000000.0,
+          "poisson_ratio": 0.3,
+          "density_kg_m3": 800,
+          "material_thickness_m": 0.0001,
+          "gravity": [
+            0,
+            0,
+            0
+          ],
+          "friction": 0,
+          "yield_moment_Nm_per_hinge": 1e-05,
+          "contact_clearance_m": 0.0001,
+          "principal_strain_limit": 0.01,
+          "compression_barrier": true,
+          "native_singular_value_limits": [
+            1.009999,
+            0.990001
+          ],
+          "native_strain_barrier_stiffness": [
+            1000.0,
+            1000.0
+          ],
+          "grip_solver_tolerance_m": 0.0002,
+          "grip_solver_metric": "rms",
+          "grip_acceptance_max_error_m": 0.0005,
+          "control_geometry_sha256": "6a30c46b02bef49fc3e61e865985f217171b09d434cd67bc14e8ae7136901b57",
+          "contact_certification_sha256": "a6a83c5e47be81aeaa12169431f2b4a875a9be8168db0f9d05bb7d555560caf1"
+        },
+        "run": "reference-L02-sliding-thickness-01",
+        "passed": false,
+        "scored": false,
+        "mode": "sliding_directional",
+        "controller": "layer-boundary-v14-dev27",
+        "backend_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+        "initial_check": {
+          "rms_mm": 0.05168643070915982,
+          "max_mm": 0.24525263971158048
+        },
+        "checks": []
+      }
+    ]
+  },
+  "L03": {
+    "eligible": false,
+    "fixture_mode": "guided_directional_10000",
+    "execution": null,
+    "physics": null,
+    "protocol": null,
+    "reason": "物理或形状参考尚未通过两次",
+    "references": []
+  },
+  "O01": {
+    "eligible": true,
+    "fixture_mode": "guided_directional_10000",
+    "execution": {
+      "newton_tolerance": 0.0001,
+      "backend_variant": "codim-ipc-directional",
+      "barrier_distance": 0.0002,
+      "compression_barrier": true,
+      "grip_solve_tolerance": 0.0002,
+      "grip_solve_metric": "rms"
+    },
+    "physics": {
+      "backend_binary_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+      "layer_env_sha256": "9467ad47c86a63380fe8d79b08c22660bed9ae4aa652237692c791c17c9421ec",
+      "document_worker_sha256": "5dac6909302a619c03faa504eb34ad2b3d515e6510d7b5fd64fff74893d3cebf",
+      "continuous_clearance_verifier": "tight-inclusion+exact-plane-v3-piecewise",
+      "contact_barrier_parameter_m": 0.0002,
+      "effective_activation_distance_m": 0.0002,
+      "newton_velocity_RMS_tolerance_m_s": 0.0001,
+      "max_newton_iterations": 600,
+      "maximum_step_seconds": 0.016666666666666666,
+      "youngs_modulus_Pa": 3000000000.0,
+      "poisson_ratio": 0.3,
+      "density_kg_m3": 800,
+      "material_thickness_m": 0.0001,
+      "gravity": [
+        0,
+        0,
+        0
+      ],
+      "friction": 0,
+      "yield_moment_Nm_per_hinge": 1e-05,
+      "contact_clearance_m": 0.0001,
+      "principal_strain_limit": 0.01,
+      "compression_barrier": true,
+      "native_singular_value_limits": [
+        1.009999,
+        0.990001
+      ],
+      "native_strain_barrier_stiffness": [
+        1000.0,
+        1000.0
+      ],
+      "grip_solver_tolerance_m": 0.0002,
+      "grip_solver_metric": "rms",
+      "grip_acceptance_max_error_m": 0.0005,
+      "control_geometry_sha256": "6a30c46b02bef49fc3e61e865985f217171b09d434cd67bc14e8ae7136901b57",
+      "contact_certification_sha256": "a6a83c5e47be81aeaa12169431f2b4a875a9be8168db0f9d05bb7d555560caf1"
+    },
+    "protocol": "9de3fe94b50e71ae911e5d73a63e8220141cd1149310208aca88d54a9a8f13e5",
+    "reason": "两次当前版本参考通过",
+    "references": [
+      {
+        "protocol": "9de3fe94b50e71ae911e5d73a63e8220141cd1149310208aca88d54a9a8f13e5",
+        "execution": {
+          "newton_tolerance": 0.0001,
+          "backend_variant": "codim-ipc-directional",
+          "barrier_distance": 0.0002,
+          "compression_barrier": true,
+          "grip_solve_tolerance": 0.0002,
+          "grip_solve_metric": "rms"
+        },
+        "physics": {
+          "backend_binary_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+          "layer_env_sha256": "9467ad47c86a63380fe8d79b08c22660bed9ae4aa652237692c791c17c9421ec",
+          "document_worker_sha256": "5dac6909302a619c03faa504eb34ad2b3d515e6510d7b5fd64fff74893d3cebf",
+          "continuous_clearance_verifier": "tight-inclusion+exact-plane-v3-piecewise",
+          "contact_barrier_parameter_m": 0.0002,
+          "effective_activation_distance_m": 0.0002,
+          "newton_velocity_RMS_tolerance_m_s": 0.0001,
+          "max_newton_iterations": 600,
+          "maximum_step_seconds": 0.016666666666666666,
+          "youngs_modulus_Pa": 3000000000.0,
+          "poisson_ratio": 0.3,
+          "density_kg_m3": 800,
+          "material_thickness_m": 0.0001,
+          "gravity": [
+            0,
+            0,
+            0
+          ],
+          "friction": 0,
+          "yield_moment_Nm_per_hinge": 1e-05,
+          "contact_clearance_m": 0.0001,
+          "principal_strain_limit": 0.01,
+          "compression_barrier": true,
+          "native_singular_value_limits": [
+            1.009999,
+            0.990001
+          ],
+          "native_strain_barrier_stiffness": [
+            1000.0,
+            1000.0
+          ],
+          "grip_solver_tolerance_m": 0.0002,
+          "grip_solver_metric": "rms",
+          "grip_acceptance_max_error_m": 0.0005,
+          "control_geometry_sha256": "6a30c46b02bef49fc3e61e865985f217171b09d434cd67bc14e8ae7136901b57",
+          "contact_certification_sha256": "a6a83c5e47be81aeaa12169431f2b4a875a9be8168db0f9d05bb7d555560caf1"
+        },
+        "run": "reference-O01-guided10000-02",
+        "passed": true,
+        "scored": true,
+        "mode": "guided_directional_10000",
+        "controller": "layer-boundary-v14-dev27",
+        "backend_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+        "initial_check": {
+          "rms_mm": 0.11902012098130867,
+          "max_mm": 0.358441123554926
+        },
+        "checks": [
+          {
+            "op": "fold_line",
+            "rms_mm": 0.13036844519544416,
+            "max_mm": 0.358441123554926
+          },
+          {
+            "op": "fold_line",
+            "rms_mm": 0.13365816917706272,
+            "max_mm": 0.358441123554926
+          },
+          {
+            "op": "unfold",
+            "rms_mm": 0.13651864924807205,
+            "max_mm": 0.358441123554926
+          },
+          {
+            "op": "unfold",
+            "rms_mm": 0.1281337535873862,
+            "max_mm": 0.358441123554926
+          }
+        ]
+      },
+      {
+        "protocol": "9de3fe94b50e71ae911e5d73a63e8220141cd1149310208aca88d54a9a8f13e5",
+        "execution": {
+          "newton_tolerance": 0.0001,
+          "backend_variant": "codim-ipc-directional",
+          "barrier_distance": 0.0002,
+          "compression_barrier": true,
+          "grip_solve_tolerance": 0.0002,
+          "grip_solve_metric": "rms"
+        },
+        "physics": {
+          "backend_binary_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+          "layer_env_sha256": "9467ad47c86a63380fe8d79b08c22660bed9ae4aa652237692c791c17c9421ec",
+          "document_worker_sha256": "5dac6909302a619c03faa504eb34ad2b3d515e6510d7b5fd64fff74893d3cebf",
+          "continuous_clearance_verifier": "tight-inclusion+exact-plane-v3-piecewise",
+          "contact_barrier_parameter_m": 0.0002,
+          "effective_activation_distance_m": 0.0002,
+          "newton_velocity_RMS_tolerance_m_s": 0.0001,
+          "max_newton_iterations": 600,
+          "maximum_step_seconds": 0.016666666666666666,
+          "youngs_modulus_Pa": 3000000000.0,
+          "poisson_ratio": 0.3,
+          "density_kg_m3": 800,
+          "material_thickness_m": 0.0001,
+          "gravity": [
+            0,
+            0,
+            0
+          ],
+          "friction": 0,
+          "yield_moment_Nm_per_hinge": 1e-05,
+          "contact_clearance_m": 0.0001,
+          "principal_strain_limit": 0.01,
+          "compression_barrier": true,
+          "native_singular_value_limits": [
+            1.009999,
+            0.990001
+          ],
+          "native_strain_barrier_stiffness": [
+            1000.0,
+            1000.0
+          ],
+          "grip_solver_tolerance_m": 0.0002,
+          "grip_solver_metric": "rms",
+          "grip_acceptance_max_error_m": 0.0005,
+          "control_geometry_sha256": "6a30c46b02bef49fc3e61e865985f217171b09d434cd67bc14e8ae7136901b57",
+          "contact_certification_sha256": "a6a83c5e47be81aeaa12169431f2b4a875a9be8168db0f9d05bb7d555560caf1"
+        },
+        "run": "reference-O01-guided10000-01",
+        "passed": true,
+        "scored": false,
+        "mode": "guided_directional_10000",
+        "controller": "layer-boundary-v14-dev27",
+        "backend_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+        "initial_check": {
+          "rms_mm": 0.11902012098130867,
+          "max_mm": 0.358441123554926
+        },
+        "checks": [
+          {
+            "op": "fold_line",
+            "rms_mm": 0.13036844519544416,
+            "max_mm": 0.358441123554926
+          },
+          {
+            "op": "fold_line",
+            "rms_mm": 0.13365816917706272,
+            "max_mm": 0.358441123554926
+          },
+          {
+            "op": "unfold",
+            "rms_mm": 0.13651864924807205,
+            "max_mm": 0.358441123554926
+          },
+          {
+            "op": "unfold",
+            "rms_mm": 0.1281337535873862,
+            "max_mm": 0.358441123554926
+          }
+        ]
+      }
+    ]
+  },
+  "O02": {
+    "eligible": true,
+    "fixture_mode": "guided_directional_10000",
+    "execution": {
+      "newton_tolerance": 0.0001,
+      "backend_variant": "codim-ipc-directional",
+      "barrier_distance": 0.0002,
+      "compression_barrier": true,
+      "grip_solve_tolerance": 0.0002,
+      "grip_solve_metric": "rms"
+    },
+    "physics": {
+      "backend_binary_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+      "layer_env_sha256": "9467ad47c86a63380fe8d79b08c22660bed9ae4aa652237692c791c17c9421ec",
+      "document_worker_sha256": "5dac6909302a619c03faa504eb34ad2b3d515e6510d7b5fd64fff74893d3cebf",
+      "continuous_clearance_verifier": "tight-inclusion+exact-plane-v3-piecewise",
+      "contact_barrier_parameter_m": 0.0002,
+      "effective_activation_distance_m": 0.0002,
+      "newton_velocity_RMS_tolerance_m_s": 0.0001,
+      "max_newton_iterations": 600,
+      "maximum_step_seconds": 0.016666666666666666,
+      "youngs_modulus_Pa": 3000000000.0,
+      "poisson_ratio": 0.3,
+      "density_kg_m3": 800,
+      "material_thickness_m": 0.0001,
+      "gravity": [
+        0,
+        0,
+        0
+      ],
+      "friction": 0,
+      "yield_moment_Nm_per_hinge": 1e-05,
+      "contact_clearance_m": 0.0001,
+      "principal_strain_limit": 0.01,
+      "compression_barrier": true,
+      "native_singular_value_limits": [
+        1.009999,
+        0.990001
+      ],
+      "native_strain_barrier_stiffness": [
+        1000.0,
+        1000.0
+      ],
+      "grip_solver_tolerance_m": 0.0002,
+      "grip_solver_metric": "rms",
+      "grip_acceptance_max_error_m": 0.0005,
+      "control_geometry_sha256": "6a30c46b02bef49fc3e61e865985f217171b09d434cd67bc14e8ae7136901b57",
+      "contact_certification_sha256": "a6a83c5e47be81aeaa12169431f2b4a875a9be8168db0f9d05bb7d555560caf1"
+    },
+    "protocol": "9de3fe94b50e71ae911e5d73a63e8220141cd1149310208aca88d54a9a8f13e5",
+    "reason": "两次当前版本参考通过",
+    "references": [
+      {
+        "protocol": "9de3fe94b50e71ae911e5d73a63e8220141cd1149310208aca88d54a9a8f13e5",
+        "execution": {
+          "newton_tolerance": 0.0001,
+          "backend_variant": "codim-ipc-directional",
+          "barrier_distance": 0.0002,
+          "compression_barrier": true,
+          "grip_solve_tolerance": 0.0002,
+          "grip_solve_metric": "rms"
+        },
+        "physics": {
+          "backend_binary_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+          "layer_env_sha256": "9467ad47c86a63380fe8d79b08c22660bed9ae4aa652237692c791c17c9421ec",
+          "document_worker_sha256": "5dac6909302a619c03faa504eb34ad2b3d515e6510d7b5fd64fff74893d3cebf",
+          "continuous_clearance_verifier": "tight-inclusion+exact-plane-v3-piecewise",
+          "contact_barrier_parameter_m": 0.0002,
+          "effective_activation_distance_m": 0.0002,
+          "newton_velocity_RMS_tolerance_m_s": 0.0001,
+          "max_newton_iterations": 600,
+          "maximum_step_seconds": 0.016666666666666666,
+          "youngs_modulus_Pa": 3000000000.0,
+          "poisson_ratio": 0.3,
+          "density_kg_m3": 800,
+          "material_thickness_m": 0.0001,
+          "gravity": [
+            0,
+            0,
+            0
+          ],
+          "friction": 0,
+          "yield_moment_Nm_per_hinge": 1e-05,
+          "contact_clearance_m": 0.0001,
+          "principal_strain_limit": 0.01,
+          "compression_barrier": true,
+          "native_singular_value_limits": [
+            1.009999,
+            0.990001
+          ],
+          "native_strain_barrier_stiffness": [
+            1000.0,
+            1000.0
+          ],
+          "grip_solver_tolerance_m": 0.0002,
+          "grip_solver_metric": "rms",
+          "grip_acceptance_max_error_m": 0.0005,
+          "control_geometry_sha256": "6a30c46b02bef49fc3e61e865985f217171b09d434cd67bc14e8ae7136901b57",
+          "contact_certification_sha256": "a6a83c5e47be81aeaa12169431f2b4a875a9be8168db0f9d05bb7d555560caf1"
+        },
+        "run": "reference-O02-guided10000-02",
+        "passed": true,
+        "scored": true,
+        "mode": "guided_directional_10000",
+        "controller": "layer-boundary-v14-dev27",
+        "backend_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+        "initial_check": {
+          "rms_mm": 0.3392838455407617,
+          "max_mm": 0.9912309504647311
+        },
+        "checks": [
+          {
+            "op": "unfold",
+            "rms_mm": 0.1420769374694275,
+            "max_mm": 0.358441123554926
+          },
+          {
+            "op": "fold_line",
+            "rms_mm": 0.29486753915011454,
+            "max_mm": 0.757160842566917
+          },
+          {
+            "op": "fold_line",
+            "rms_mm": 0.29979794926260256,
+            "max_mm": 0.757160842566917
+          },
+          {
+            "op": "unfold",
+            "rms_mm": 0.19409753866977592,
+            "max_mm": 0.5499406850564622
+          },
+          {
+            "op": "rotate_paper",
+            "rms_mm": 0.19309116232220983,
+            "max_mm": 0.5494848461355166
+          },
+          {
+            "op": "unfold",
+            "rms_mm": 0.19668447787382312,
+            "max_mm": 0.5494848461355166
+          }
+        ]
+      },
+      {
+        "protocol": "9de3fe94b50e71ae911e5d73a63e8220141cd1149310208aca88d54a9a8f13e5",
+        "execution": {
+          "newton_tolerance": 0.0001,
+          "backend_variant": "codim-ipc-directional",
+          "barrier_distance": 0.0002,
+          "compression_barrier": true,
+          "grip_solve_tolerance": 0.0002,
+          "grip_solve_metric": "rms"
+        },
+        "physics": {
+          "backend_binary_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+          "layer_env_sha256": "9467ad47c86a63380fe8d79b08c22660bed9ae4aa652237692c791c17c9421ec",
+          "document_worker_sha256": "5dac6909302a619c03faa504eb34ad2b3d515e6510d7b5fd64fff74893d3cebf",
+          "continuous_clearance_verifier": "tight-inclusion+exact-plane-v3-piecewise",
+          "contact_barrier_parameter_m": 0.0002,
+          "effective_activation_distance_m": 0.0002,
+          "newton_velocity_RMS_tolerance_m_s": 0.0001,
+          "max_newton_iterations": 600,
+          "maximum_step_seconds": 0.016666666666666666,
+          "youngs_modulus_Pa": 3000000000.0,
+          "poisson_ratio": 0.3,
+          "density_kg_m3": 800,
+          "material_thickness_m": 0.0001,
+          "gravity": [
+            0,
+            0,
+            0
+          ],
+          "friction": 0,
+          "yield_moment_Nm_per_hinge": 1e-05,
+          "contact_clearance_m": 0.0001,
+          "principal_strain_limit": 0.01,
+          "compression_barrier": true,
+          "native_singular_value_limits": [
+            1.009999,
+            0.990001
+          ],
+          "native_strain_barrier_stiffness": [
+            1000.0,
+            1000.0
+          ],
+          "grip_solver_tolerance_m": 0.0002,
+          "grip_solver_metric": "rms",
+          "grip_acceptance_max_error_m": 0.0005,
+          "control_geometry_sha256": "6a30c46b02bef49fc3e61e865985f217171b09d434cd67bc14e8ae7136901b57",
+          "contact_certification_sha256": "a6a83c5e47be81aeaa12169431f2b4a875a9be8168db0f9d05bb7d555560caf1"
+        },
+        "run": "reference-O02-guided10000-01",
+        "passed": true,
+        "scored": false,
+        "mode": "guided_directional_10000",
+        "controller": "layer-boundary-v14-dev27",
+        "backend_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+        "initial_check": {
+          "rms_mm": 0.3392838455407617,
+          "max_mm": 0.9912309504647311
+        },
+        "checks": [
+          {
+            "op": "unfold",
+            "rms_mm": 0.1420769374694275,
+            "max_mm": 0.358441123554926
+          },
+          {
+            "op": "fold_line",
+            "rms_mm": 0.29486753915011454,
+            "max_mm": 0.757160842566917
+          },
+          {
+            "op": "fold_line",
+            "rms_mm": 0.29979794926260256,
+            "max_mm": 0.757160842566917
+          },
+          {
+            "op": "unfold",
+            "rms_mm": 0.19409753866977592,
+            "max_mm": 0.5499406850564622
+          },
+          {
+            "op": "rotate_paper",
+            "rms_mm": 0.19309116232220983,
+            "max_mm": 0.5494848461355166
+          },
+          {
+            "op": "unfold",
+            "rms_mm": 0.19668447787382312,
+            "max_mm": 0.5494848461355166
+          }
+        ]
+      }
+    ]
+  },
+  "O03": {
+    "eligible": true,
+    "fixture_mode": "guided_directional_10000",
+    "execution": {
+      "newton_tolerance": 0.0001,
+      "backend_variant": "codim-ipc-directional",
+      "barrier_distance": 0.0002,
+      "compression_barrier": true,
+      "grip_solve_tolerance": 0.0002,
+      "grip_solve_metric": "rms"
+    },
+    "physics": {
+      "backend_binary_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+      "layer_env_sha256": "9467ad47c86a63380fe8d79b08c22660bed9ae4aa652237692c791c17c9421ec",
+      "document_worker_sha256": "5dac6909302a619c03faa504eb34ad2b3d515e6510d7b5fd64fff74893d3cebf",
+      "continuous_clearance_verifier": "tight-inclusion+exact-plane-v3-piecewise",
+      "contact_barrier_parameter_m": 0.0002,
+      "effective_activation_distance_m": 0.0002,
+      "newton_velocity_RMS_tolerance_m_s": 0.0001,
+      "max_newton_iterations": 600,
+      "maximum_step_seconds": 0.016666666666666666,
+      "youngs_modulus_Pa": 3000000000.0,
+      "poisson_ratio": 0.3,
+      "density_kg_m3": 800,
+      "material_thickness_m": 0.0001,
+      "gravity": [
+        0,
+        0,
+        0
+      ],
+      "friction": 0,
+      "yield_moment_Nm_per_hinge": 1e-05,
+      "contact_clearance_m": 0.0001,
+      "principal_strain_limit": 0.01,
+      "compression_barrier": true,
+      "native_singular_value_limits": [
+        1.009999,
+        0.990001
+      ],
+      "native_strain_barrier_stiffness": [
+        1000.0,
+        1000.0
+      ],
+      "grip_solver_tolerance_m": 0.0002,
+      "grip_solver_metric": "rms",
+      "grip_acceptance_max_error_m": 0.0005,
+      "control_geometry_sha256": "6a30c46b02bef49fc3e61e865985f217171b09d434cd67bc14e8ae7136901b57",
+      "contact_certification_sha256": "a6a83c5e47be81aeaa12169431f2b4a875a9be8168db0f9d05bb7d555560caf1"
+    },
+    "protocol": "9de3fe94b50e71ae911e5d73a63e8220141cd1149310208aca88d54a9a8f13e5",
+    "reason": "两次当前版本参考通过",
+    "references": [
+      {
+        "protocol": "9de3fe94b50e71ae911e5d73a63e8220141cd1149310208aca88d54a9a8f13e5",
+        "execution": {
+          "newton_tolerance": 0.0001,
+          "backend_variant": "codim-ipc-directional",
+          "barrier_distance": 0.0002,
+          "compression_barrier": true,
+          "grip_solve_tolerance": 0.0002,
+          "grip_solve_metric": "rms"
+        },
+        "physics": {
+          "backend_binary_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+          "layer_env_sha256": "9467ad47c86a63380fe8d79b08c22660bed9ae4aa652237692c791c17c9421ec",
+          "document_worker_sha256": "5dac6909302a619c03faa504eb34ad2b3d515e6510d7b5fd64fff74893d3cebf",
+          "continuous_clearance_verifier": "tight-inclusion+exact-plane-v3-piecewise",
+          "contact_barrier_parameter_m": 0.0002,
+          "effective_activation_distance_m": 0.0002,
+          "newton_velocity_RMS_tolerance_m_s": 0.0001,
+          "max_newton_iterations": 600,
+          "maximum_step_seconds": 0.016666666666666666,
+          "youngs_modulus_Pa": 3000000000.0,
+          "poisson_ratio": 0.3,
+          "density_kg_m3": 800,
+          "material_thickness_m": 0.0001,
+          "gravity": [
+            0,
+            0,
+            0
+          ],
+          "friction": 0,
+          "yield_moment_Nm_per_hinge": 1e-05,
+          "contact_clearance_m": 0.0001,
+          "principal_strain_limit": 0.01,
+          "compression_barrier": true,
+          "native_singular_value_limits": [
+            1.009999,
+            0.990001
+          ],
+          "native_strain_barrier_stiffness": [
+            1000.0,
+            1000.0
+          ],
+          "grip_solver_tolerance_m": 0.0002,
+          "grip_solver_metric": "rms",
+          "grip_acceptance_max_error_m": 0.0005,
+          "control_geometry_sha256": "6a30c46b02bef49fc3e61e865985f217171b09d434cd67bc14e8ae7136901b57",
+          "contact_certification_sha256": "a6a83c5e47be81aeaa12169431f2b4a875a9be8168db0f9d05bb7d555560caf1"
+        },
+        "run": "reference-O03-guided10000-02",
+        "passed": true,
+        "scored": true,
+        "mode": "guided_directional_10000",
+        "controller": "layer-boundary-v14-dev27",
+        "backend_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+        "initial_check": {
+          "rms_mm": 0.13365816917706272,
+          "max_mm": 0.358441123554926
+        },
+        "checks": [
+          {
+            "op": "unfold",
+            "rms_mm": 0.12816010138765122,
+            "max_mm": 0.358441123554926
+          },
+          {
+            "op": "unfold",
+            "rms_mm": 0.1264444510996062,
+            "max_mm": 0.358441123554926
+          },
+          {
+            "op": "unfold",
+            "rms_mm": 0.0427194408856481,
+            "max_mm": 0.18535123605014178
+          },
+          {
+            "op": "fold_line",
+            "rms_mm": 0.08884555906526964,
+            "max_mm": 0.31851210699904803
+          },
+          {
+            "op": "fold_line",
+            "rms_mm": 0.3070713048335152,
+            "max_mm": 0.7551115421716523
+          },
+          {
+            "op": "unfold",
+            "rms_mm": 0.4216655651649063,
+            "max_mm": 0.9717644193351326
+          }
+        ]
+      },
+      {
+        "protocol": "9de3fe94b50e71ae911e5d73a63e8220141cd1149310208aca88d54a9a8f13e5",
+        "execution": {
+          "newton_tolerance": 0.0001,
+          "backend_variant": "codim-ipc-directional",
+          "barrier_distance": 0.0002,
+          "compression_barrier": true,
+          "grip_solve_tolerance": 0.0002,
+          "grip_solve_metric": "rms"
+        },
+        "physics": {
+          "backend_binary_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+          "layer_env_sha256": "9467ad47c86a63380fe8d79b08c22660bed9ae4aa652237692c791c17c9421ec",
+          "document_worker_sha256": "5dac6909302a619c03faa504eb34ad2b3d515e6510d7b5fd64fff74893d3cebf",
+          "continuous_clearance_verifier": "tight-inclusion+exact-plane-v3-piecewise",
+          "contact_barrier_parameter_m": 0.0002,
+          "effective_activation_distance_m": 0.0002,
+          "newton_velocity_RMS_tolerance_m_s": 0.0001,
+          "max_newton_iterations": 600,
+          "maximum_step_seconds": 0.016666666666666666,
+          "youngs_modulus_Pa": 3000000000.0,
+          "poisson_ratio": 0.3,
+          "density_kg_m3": 800,
+          "material_thickness_m": 0.0001,
+          "gravity": [
+            0,
+            0,
+            0
+          ],
+          "friction": 0,
+          "yield_moment_Nm_per_hinge": 1e-05,
+          "contact_clearance_m": 0.0001,
+          "principal_strain_limit": 0.01,
+          "compression_barrier": true,
+          "native_singular_value_limits": [
+            1.009999,
+            0.990001
+          ],
+          "native_strain_barrier_stiffness": [
+            1000.0,
+            1000.0
+          ],
+          "grip_solver_tolerance_m": 0.0002,
+          "grip_solver_metric": "rms",
+          "grip_acceptance_max_error_m": 0.0005,
+          "control_geometry_sha256": "6a30c46b02bef49fc3e61e865985f217171b09d434cd67bc14e8ae7136901b57",
+          "contact_certification_sha256": "a6a83c5e47be81aeaa12169431f2b4a875a9be8168db0f9d05bb7d555560caf1"
+        },
+        "run": "reference-O03-guided10000-01",
+        "passed": true,
+        "scored": false,
+        "mode": "guided_directional_10000",
+        "controller": "layer-boundary-v14-dev27",
+        "backend_sha256": "db57b67af7e7c1a4a86ed83ece8f5d2d5a6a268a6ec6617481b12a11d37fd7a8",
+        "initial_check": {
+          "rms_mm": 0.13365816917706272,
+          "max_mm": 0.358441123554926
+        },
+        "checks": [
+          {
+            "op": "unfold",
+            "rms_mm": 0.12816010138765122,
+            "max_mm": 0.358441123554926
+          },
+          {
+            "op": "unfold",
+            "rms_mm": 0.1264444510996062,
+            "max_mm": 0.358441123554926
+          },
+          {
+            "op": "unfold",
+            "rms_mm": 0.0427194408856481,
+            "max_mm": 0.18535123605014178
+          },
+          {
+            "op": "fold_line",
+            "rms_mm": 0.08884555906526964,
+            "max_mm": 0.31851210699904803
+          },
+          {
+            "op": "fold_line",
+            "rms_mm": 0.3070713048335152,
+            "max_mm": 0.7551115421716523
+          },
+          {
+            "op": "unfold",
+            "rms_mm": 0.4216655651649063,
+            "max_mm": 0.9717644193351326
+          }
+        ]
+      }
+    ]
+  }
+}

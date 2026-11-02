@@ -1,0 +1,51 @@
+{
+  "task_id": "M03",
+  "agent_kind": "oracle_installation_check",
+  "task_success": true,
+  "finished": true,
+  "physical_pass": true,
+  "shape": {
+    "rms_mm": 0.36676972661461554,
+    "max_mm": 0.9130998086889414
+  },
+  "memory_pass": true,
+  "goal_available": true,
+  "status": "passed_scoped",
+  "attempts": 3,
+  "retained_paper_operations": 2,
+  "peak_strain": 0.000844201693765978,
+  "material_memory": {
+    "rest_angle_sha256": "4947269f9877c31dab7164f9a4f15de7beb6f3378262fa58713d5f7220e06c8d",
+    "rest_angle_l2": 12.261210943841274,
+    "dissipation_joules": 0.0005171625536528499
+  },
+  "seconds": 84.99468524567783,
+  "scope": "Finite thickness, same ideal boundary grasps and historical contact rule; no real fingers or general collision certification.",
+  "attempt_budget": {
+    "known_wall_seconds": 56.730042630806565,
+    "max_attempts": 40,
+    "output_cap_per_call": 8192,
+    "max_output_tokens": 327680,
+    "attempts_used": 3,
+    "attempts_remaining": 37,
+    "known_costs": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0
+    },
+    "unknown_cost_attempts": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 3
+    },
+    "output_tokens_reserved_for_unknown": 0,
+    "output_tokens_remaining": 327680
+  },
+  "attempt_ledger_version": "sqlite-v1",
+  "release_track": "external_documents",
+  "suite": "external",
+  "policy_version": "document-autonomy-v12-dev2",
+  "release_version": "public-v2-rc",
+  "release_manifest_sha256": "71b57e510a3659aa87b5ef6072bd3933cc62022bd59841671cedafcf20013cd6",
+  "score_eligible": false
+}

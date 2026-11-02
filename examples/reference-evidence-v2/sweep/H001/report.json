@@ -1,0 +1,69 @@
+{
+  "task_id": "H001",
+  "task_success": true,
+  "completion": true,
+  "diagram_semantic_success": true,
+  "shape_success": true,
+  "fixed_mesh_controller_constraints_pass": true,
+  "physical_generalization_certified": null,
+  "scope": "Finite-thickness Codim thin shell under ideal boundary grasps, fixed mesh + historical nonincident clearance rule. No general thickness, real tool access or calibrated material certification. Held checkpoints only, release stability NOT scored.",
+  "checkpoint_shape": [
+    {
+      "rms_mm": 0.4553587576076343,
+      "max_mm": 0.8174425048020091,
+      "alignment": "proper rigid rotation and translation"
+    }
+  ],
+  "semantic_per_step": [
+    true
+  ],
+  "attempted_diagram_steps_correct": [
+    true
+  ],
+  "perception_error_count": 0,
+  "errors": [],
+  "status": "passed_scoped",
+  "steps": 360,
+  "peak_stretch": 0.00022340254727160058,
+  "peak_compression": 0.00014591399456842513,
+  "max_grip_error_mm": 0.0,
+  "limits": {
+    "shape_rms_mm": 1,
+    "shape_max_mm": 3,
+    "principal_strain": 0.01,
+    "grip_error_mm": 0.5,
+    "nominal_thickness_um": 100,
+    "discrete_clearance_um": 100
+  },
+  "error_policy": "Malformed/unsupported actions, simulator rejection, and environment faults are recorded separately. A correct diagram action rejected by the solver is not counted as a perception error.",
+  "agent_kind": "oracle_installation_check",
+  "seconds": 24.507925886660814,
+  "dataset_sha256": "629d39c39f15c1650f0219265a1daf2c0002fbc3e22c6a7bafe52d8f5eb473b3",
+  "attempt_budget": {
+    "known_wall_seconds": 21.869609823450446,
+    "max_attempts": 8,
+    "output_cap_per_call": 8192,
+    "max_output_tokens": 65536,
+    "attempts_used": 2,
+    "attempts_remaining": 6,
+    "known_costs": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0
+    },
+    "unknown_cost_attempts": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 2
+    },
+    "output_tokens_reserved_for_unknown": 0,
+    "output_tokens_remaining": 65536
+  },
+  "attempt_ledger_version": "sqlite-v1",
+  "release_track": "step_panels",
+  "suite": "holdout1",
+  "policy_version": "line-fold-v9-history",
+  "release_version": "public-v2-rc",
+  "release_manifest_sha256": "71b57e510a3659aa87b5ef6072bd3933cc62022bd59841671cedafcf20013cd6",
+  "score_eligible": false
+}

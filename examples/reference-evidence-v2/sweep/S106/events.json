@@ -1,0 +1,125 @@
+[
+  {
+    "index": 0,
+    "instruction_index": 0,
+    "action": {
+      "op": "fold",
+      "line": [
+        [
+          1.0,
+          0.75
+        ],
+        [
+          0.0,
+          0.75
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        1.0
+      ],
+      "sense": "away",
+      "angle_deg": 180
+    },
+    "before": "236c4b9e4f4c6a144619eee06cdc1991d5838eed93c84d6a41b7793fcee2c73b",
+    "after": "8d0c2962db91976bf25ae55c8f06c443fd264f8f94d760b64f08fbec9c3c2eb8",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          7,
+          8,
+          10,
+          14,
+          15,
+          21,
+          23,
+          29,
+          30,
+          33,
+          36,
+          37,
+          41,
+          43,
+          48,
+          50,
+          52,
+          53,
+          61,
+          62,
+          72,
+          76,
+          78,
+          81,
+          89,
+          92,
+          94
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          3,
+          4,
+          7,
+          8,
+          10,
+          14,
+          15,
+          21,
+          23,
+          29,
+          30
+        ],
+        "axis_point": [
+          -0.075,
+          0.0375,
+          -0.00015
+        ],
+        "axis_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "degrees": -180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted",
+      "executed_axis": {
+        "axis_point": [
+          -0.075,
+          0.0375,
+          -0.00015
+        ],
+        "axis_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "degrees": -180.0
+      }
+    }
+  },
+  {
+    "index": 1,
+    "instruction_index": 1,
+    "action": {
+      "op": "finish"
+    },
+    "before": "8d0c2962db91976bf25ae55c8f06c443fd264f8f94d760b64f08fbec9c3c2eb8",
+    "after": "8d0c2962db91976bf25ae55c8f06c443fd264f8f94d760b64f08fbec9c3c2eb8",
+    "low_level_actions": [],
+    "result": {
+      "status": "accepted"
+    }
+  }
+]

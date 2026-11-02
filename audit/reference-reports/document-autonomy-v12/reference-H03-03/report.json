@@ -1,0 +1,153 @@
+{
+  "task_id": "H03",
+  "agent_kind": "private_reference",
+  "task_success": true,
+  "finished": true,
+  "physical_pass": true,
+  "shape": {
+    "rms_mm": 0.29998198446334245,
+    "max_mm": 0.5071235332890651
+  },
+  "memory_pass": true,
+  "goal_available": true,
+  "status": "passed_scoped",
+  "attempts": 26,
+  "retained_paper_operations": 25,
+  "peak_strain": 0.0002523624930250712,
+  "material_memory": {
+    "rest_angle_sha256": "1d0fa75e96a2522f94dbba80f448420ac163f7dd57332a326ff0b4dbbd8d05d6",
+    "rest_angle_l2": 12.25022528375972,
+    "dissipation_joules": 0.005331223685161696
+  },
+  "seconds": 790.493778915843,
+  "scope": "Finite thickness, same ideal boundary grasps and historical contact rule; no real fingers or general collision certification.",
+  "geometric_checks": [
+    {
+      "op": "fold_line",
+      "rms_mm": 0.3680287647086688,
+      "max_mm": 0.6699430835788964
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.06010190283084436,
+      "max_mm": 0.13524600360953737
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.35299209760850025,
+      "max_mm": 0.6431575456748326
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.07903802652834592,
+      "max_mm": 0.18499946444111187
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.32370161193228636,
+      "max_mm": 0.7074991439347483
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.08608439777886569,
+      "max_mm": 0.20547422858379977
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.3167149002377152,
+      "max_mm": 0.663710659578867
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.0905569709254815,
+      "max_mm": 0.18135145917941228
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.3136444059004527,
+      "max_mm": 0.6647331549092462
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.09773132004548853,
+      "max_mm": 0.17955419360562758
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.3175253453621673,
+      "max_mm": 0.6711564169569502
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.10180995742773902,
+      "max_mm": 0.16567678021211021
+    },
+    {
+      "op": "turn_over",
+      "rms_mm": 0.10206816911211679,
+      "max_mm": 0.16612665639281993
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.21457799549667145,
+      "max_mm": 0.5764921874438719
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.0990995949870984,
+      "max_mm": 0.17262203417408825
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.2148081730148679,
+      "max_mm": 0.5759769297121919
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.09259459587080737,
+      "max_mm": 0.19632574095390254
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.21365120135728433,
+      "max_mm": 0.5711332742947379
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.08804728013264009,
+      "max_mm": 0.2206938113064942
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.2145641627449758,
+      "max_mm": 0.5571996526086803
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.08380410249251638,
+      "max_mm": 0.23411664338809357
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.1384016784248239,
+      "max_mm": 0.4673329380760906
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.20369351859279256,
+      "max_mm": 0.47535278506638645
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.2567611409708628,
+      "max_mm": 0.484705242864839
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.29998198446334245,
+      "max_mm": 0.5071235332890651
+    }
+  ],
+  "annotated_plan_complete": true,
+  "annotation_validation": "pending_visual_review"
+}

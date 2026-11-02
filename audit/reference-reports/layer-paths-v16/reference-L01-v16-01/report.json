@@ -1,0 +1,74 @@
+{
+  "task_id": "L01",
+  "agent_kind": "private_layer_reference",
+  "task_success": false,
+  "finished": true,
+  "physical_pass": true,
+  "shape": null,
+  "memory_pass": true,
+  "goal_available": false,
+  "status": "reference_unscored",
+  "attempts": 5,
+  "retained_paper_operations": 4,
+  "peak_strain": 0.005603071827727568,
+  "material_memory": {
+    "rest_angle_sha256": "0150bc91d1912e7db9ed7e4f3f4ade90855c411b35414eb8dc9580a85b70f91b",
+    "rest_angle_l2": 6.3220632552489935,
+    "dissipation_joules": 0.0005608572898587636
+  },
+  "seconds": 1901.725098832976,
+  "scope": "Finite-thickness deformable shell with ideal point fixtures; continuous contact and 1% stretch/compression acceptance. Prepared state is physically replayed. No real finger model.",
+  "unsigned_memory_pass": true,
+  "grading_version": "prepared-shape-ordered-path-and-band-memory-v15-1",
+  "fixed_board_shape": null,
+  "band_memory_pass": true,
+  "initial_frame": 1137,
+  "preparation_operations": 3,
+  "controller_version": "layer-boundary-v16-dev1",
+  "goal_success": false,
+  "geometric_checks": [
+    {
+      "op": "fold_line",
+      "rms_mm": 0.06915024084349303,
+      "max_mm": 0.3975243364377721
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.061547696440661444,
+      "max_mm": 0.3975243364377721
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.07149137285560053,
+      "max_mm": 0.3975243364377721
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.11066577889107367,
+      "max_mm": 0.466629720382745
+    }
+  ],
+  "initial_check": {
+    "rms_mm": 0.06049473817529304,
+    "max_mm": 0.3975243364377721
+  },
+  "annotated_plan_complete": true,
+  "fixture_mode": "guided_directional_10000",
+  "preparation_checks": [
+    {
+      "op": "turn_over",
+      "rms_mm": 4.038296753153233e-08,
+      "max_mm": 1.5340610647241071e-07
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.054404871970042686,
+      "max_mm": 0.3975243364377721
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.06049473817529304,
+      "max_mm": 0.3975243364377721
+    }
+  ]
+}

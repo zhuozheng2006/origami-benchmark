@@ -1,0 +1,82 @@
+{
+  "tasks": [
+    {
+      "id": "E01",
+      "title": "Drinking Cup",
+      "instruction": "Complete ONLY printed step 1. Stop before step 2. Blue is the colored/front side; cream is the white/back side. The initial paper matches the first panel.",
+      "page_count": 1,
+      "source_id": "T001",
+      "tier": "easy",
+      "split": "development",
+      "task_scope": "partial_document_task_not_whole_object",
+      "source_url": "https://www.origami-fun.com/printable-origami.html"
+    },
+    {
+      "id": "E02",
+      "title": "Heart",
+      "instruction": "Complete printed steps 1 through 2. Stop before step 3. Blue is the colored/front side; cream is the white/back side. The initial paper matches the first panel.",
+      "page_count": 1,
+      "source_id": "T003",
+      "tier": "easy",
+      "split": "development",
+      "task_scope": "partial_document_task_not_whole_object",
+      "source_url": "https://www.origami-fun.com/printable-origami.html"
+    },
+    {
+      "id": "H03",
+      "title": "Spindle Spinning Top",
+      "instruction": "Complete printed steps 1 through 4. Stop before step 5. Blue is the colored/front side; cream is the white/back side. The initial paper matches the first panel.",
+      "page_count": 2,
+      "source_id": "T028",
+      "tier": "hard",
+      "split": "development",
+      "task_scope": "partial_document_task_not_whole_object",
+      "source_url": "https://origamiusa.org/thefold/article/diagrams-and-video-spindle-spinning-top"
+    },
+    {
+      "id": "M03",
+      "title": "Bar Envelope",
+      "source_id": "T004",
+      "source_url": "https://www.origami-fun.com/printable-origami.html",
+      "page_count": 1,
+      "tier": "medium",
+      "split": "development",
+      "task_scope": "partial_document_task_not_whole_object",
+      "instruction": "Start with the supplied rectangular paper. Complete printed steps 1 through 2. Stop before step 3. Blue is the colored/front side; cream is the white/back side. The initial paper matches the first panel."
+    },
+    {
+      "id": "D04",
+      "title": "Black Lives Matter Hand",
+      "source_id": "T023",
+      "source_url": "https://bethjohnsonorigami.com/instructions",
+      "page_count": 6,
+      "tier": "hard",
+      "split": "development",
+      "task_scope": "partial_document_task_not_whole_object",
+      "instruction": "Complete printed steps 1 through 7. Stop before step 8. Blue is the colored/front side; cream is the white/back side. The initial paper matches the starting panel."
+    },
+    {
+      "id": "D05",
+      "title": "Cockatiel",
+      "source_id": "T030",
+      "source_url": "https://origamiusa.org/thefold/article/diagrams-and-video-cockatiel",
+      "page_count": 10,
+      "tier": "hard",
+      "split": "development",
+      "task_scope": "partial_document_task_not_whole_object",
+      "instruction": "Locate the section titled Photo diagrams. Reproduce the crease pattern in its numbered photo 2, starting from the flat paper in photo 1. Stop at photo 2. This photograph does not specify mountain/valley assignments; either sign is accepted. Blue is the colored/front side; cream is the white/back side. The initial paper matches the starting panel."
+    },
+    {
+      "id": "L01",
+      "source_id": "T004",
+      "title": "Bar Envelope",
+      "tier": "medium",
+      "instruction": "The paper is already prepared through printed step 2. Complete printed steps 3 and 4. Stop before step 5.",
+      "page_count": 1,
+      "difficulty_status": "candidate_pending_physical_reference_v15",
+      "source_group": "origami-fun:bar-envelope",
+      "source_url": "https://www.origami-fun.com/printable-origami.html",
+      "source_seen_in_prior_development": true
+    }
+  ]
+}

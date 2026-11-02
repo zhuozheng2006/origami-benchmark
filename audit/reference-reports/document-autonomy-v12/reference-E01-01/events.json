@@ -1,0 +1,146 @@
+[
+  {
+    "index": 0,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.5
+        ],
+        [
+          1,
+          0.5
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "aa0b46c74ba74b96262914635c39b9068df7cdd1b9b4f6050f413bf6bc833bd4",
+    "after": "c072ba91f69da5ed6cd44cdbd0382e26204da241b89c81d8b7467d39d538b872",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          41,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ],
+        "axis_point": [
+          0.003995340465950112,
+          0.0,
+          0.00015000004173015054
+        ],
+        "axis_direction": [
+          -1.0,
+          -0.0,
+          0.0
+        ],
+        "degrees": 180.0,
+        "frames": 417
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 882,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "bf341c624a1eabced84b6c054848ed7f099a44a852f785be6cf4fd2be80a3657",
+      "rest_angle_l2": 11.857819811504358,
+      "dissipation_joules": 0.0004773930722966981
+    },
+    "time": 14.70000000000031
+  },
+  {
+    "index": 1,
+    "action": {
+      "op": "finish"
+    },
+    "before": "c072ba91f69da5ed6cd44cdbd0382e26204da241b89c81d8b7467d39d538b872",
+    "after": "c072ba91f69da5ed6cd44cdbd0382e26204da241b89c81d8b7467d39d538b872",
+    "low_level_actions": [],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 882,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "bf341c624a1eabced84b6c054848ed7f099a44a852f785be6cf4fd2be80a3657",
+      "rest_angle_l2": 11.857819811504358,
+      "dissipation_joules": 0.0004773930722966981
+    },
+    "time": 14.70000000000031
+  }
+]

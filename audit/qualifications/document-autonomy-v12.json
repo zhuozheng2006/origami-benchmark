@@ -1,0 +1,287 @@
+{
+  "E01": {
+    "eligible": true,
+    "reason": "通过：两次当前版本参考验收",
+    "references": [
+      {
+        "run": "reference-E01-01",
+        "controller": "stack-boundary-v12-dev3",
+        "physical": true,
+        "complete": true,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.36562276779007463,
+          "max_mm": 0.759727455574855
+        },
+        "passed": false,
+        "scored": false
+      },
+      {
+        "run": "reference-E01-02",
+        "controller": "stack-boundary-v12-dev6",
+        "physical": true,
+        "complete": true,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.3656342980676323,
+          "max_mm": 0.7596492039529686
+        },
+        "passed": true,
+        "scored": true
+      },
+      {
+        "run": "reference-E01-03",
+        "controller": "stack-boundary-v12-dev6",
+        "physical": true,
+        "complete": true,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.3656342980676323,
+          "max_mm": 0.7596492039529686
+        },
+        "passed": true,
+        "scored": true
+      }
+    ]
+  },
+  "E02": {
+    "eligible": true,
+    "reason": "通过：两次当前版本参考验收",
+    "references": [
+      {
+        "run": "reference-E02-01",
+        "controller": "stack-boundary-v12-dev3",
+        "physical": true,
+        "complete": false,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.33974154768953707,
+          "max_mm": 0.7569029066287365
+        },
+        "passed": false,
+        "scored": false
+      },
+      {
+        "run": "reference-E02-02",
+        "controller": "stack-boundary-v12-dev4",
+        "physical": true,
+        "complete": false,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.33974154768953707,
+          "max_mm": 0.7569029066287365
+        },
+        "passed": false,
+        "scored": false
+      },
+      {
+        "run": "reference-E02-03",
+        "controller": "stack-boundary-v12-dev5",
+        "physical": true,
+        "complete": false,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.33244123824585287,
+          "max_mm": 0.7409301122583218
+        },
+        "passed": false,
+        "scored": false
+      },
+      {
+        "run": "reference-E02-04",
+        "controller": "stack-boundary-v12-dev6",
+        "physical": true,
+        "complete": true,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.38648839734768575,
+          "max_mm": 0.8380962068423154
+        },
+        "passed": true,
+        "scored": false
+      },
+      {
+        "run": "reference-E02-05",
+        "controller": "stack-boundary-v12-dev6",
+        "physical": true,
+        "complete": true,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.38648839734768575,
+          "max_mm": 0.8380962068423154
+        },
+        "passed": true,
+        "scored": true
+      }
+    ]
+  },
+  "M01": {
+    "eligible": false,
+    "reason": "待参考验收",
+    "references": []
+  },
+  "M02": {
+    "eligible": false,
+    "reason": "参考路径未通过，暂不计模型成绩",
+    "references": [
+      {
+        "run": "reference-M02-01",
+        "controller": "stack-boundary-v12-dev3",
+        "physical": true,
+        "complete": false,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.366613383335031,
+          "max_mm": 0.7597235278522512
+        },
+        "passed": false,
+        "scored": false
+      },
+      {
+        "run": "reference-M02-02",
+        "controller": "stack-boundary-v12-dev4",
+        "physical": true,
+        "complete": false,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.366613383335031,
+          "max_mm": 0.7597235278522512
+        },
+        "passed": false,
+        "scored": false
+      }
+    ]
+  },
+  "H01": {
+    "eligible": false,
+    "reason": "待参考验收",
+    "references": []
+  },
+  "H02": {
+    "eligible": false,
+    "reason": "待参考验收",
+    "references": []
+  },
+  "H03": {
+    "eligible": true,
+    "reason": "通过：两次当前版本参考验收",
+    "references": [
+      {
+        "run": "reference-H03-01",
+        "controller": "stack-boundary-v12-dev3",
+        "physical": true,
+        "complete": false,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.2567831064938319,
+          "max_mm": 0.5011370860804174
+        },
+        "passed": false,
+        "scored": false
+      },
+      {
+        "run": "reference-H03-02",
+        "controller": "stack-boundary-v12-dev5",
+        "physical": true,
+        "complete": true,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.29998198446334245,
+          "max_mm": 0.5071235332890651
+        },
+        "passed": false,
+        "scored": false
+      },
+      {
+        "run": "reference-H03-03",
+        "controller": "stack-boundary-v12-dev6",
+        "physical": true,
+        "complete": true,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.29998198446334245,
+          "max_mm": 0.5071235332890651
+        },
+        "passed": true,
+        "scored": true
+      },
+      {
+        "run": "reference-H03-04",
+        "controller": "stack-boundary-v12-dev6",
+        "physical": true,
+        "complete": true,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.29998198446334245,
+          "max_mm": 0.5071235332890651
+        },
+        "passed": true,
+        "scored": true
+      }
+    ]
+  },
+  "H04": {
+    "eligible": false,
+    "reason": "参考路径未通过，暂不计模型成绩",
+    "references": [
+      {
+        "run": "reference-H04-01",
+        "controller": "stack-boundary-v12-dev3",
+        "physical": true,
+        "complete": false,
+        "geometry": {
+          "op": "unfold",
+          "rms_mm": 0.07758133043618491,
+          "max_mm": 0.14413346934831098
+        },
+        "passed": false,
+        "scored": false
+      },
+      {
+        "run": "reference-H04-02",
+        "controller": "stack-boundary-v12-dev5",
+        "physical": true,
+        "complete": false,
+        "geometry": {
+          "op": "unfold",
+          "rms_mm": 0.07633156442117106,
+          "max_mm": 0.14302004854699
+        },
+        "passed": false,
+        "scored": false
+      }
+    ]
+  },
+  "M03": {
+    "eligible": true,
+    "reason": "通过：两次当前版本参考验收",
+    "references": [
+      {
+        "run": "reference-M03-01",
+        "controller": "stack-boundary-v12-dev6",
+        "physical": true,
+        "complete": true,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.36676972661461554,
+          "max_mm": 0.9130998086889414
+        },
+        "passed": true,
+        "scored": false
+      },
+      {
+        "run": "reference-M03-02",
+        "controller": "stack-boundary-v12-dev6",
+        "physical": true,
+        "complete": true,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.36676972661461554,
+          "max_mm": 0.9130998086889414
+        },
+        "passed": true,
+        "scored": true
+      }
+    ]
+  }
+}

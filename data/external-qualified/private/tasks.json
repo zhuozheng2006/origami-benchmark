@@ -1,0 +1,2121 @@
+{
+  "E01": {
+    "mesh": "document_universal_v12",
+    "initialization": [
+      {
+        "op": "turn_over",
+        "axis": "y"
+      },
+      {
+        "op": "rotate_paper",
+        "degrees": 45
+      }
+    ],
+    "reference_actions": [
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.5
+          ],
+          [
+            1,
+            0.5
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "pages": [
+      ".local/diagram-sources-tiered-v1/T001/page-001.png"
+    ],
+    "goal": "data/external-qualified/private/goals/E01-goal.npz",
+    "qualification": "pending",
+    "annotation_status": "source_scope_visually_reviewed",
+    "required_signed_hinges": {
+      "14": [
+        1
+      ],
+      "27": [
+        1
+      ],
+      "63": [
+        1
+      ],
+      "67": [
+        1
+      ],
+      "98": [
+        1
+      ],
+      "101": [
+        1
+      ],
+      "103": [
+        1
+      ],
+      "105": [
+        1
+      ],
+      "110": [
+        1
+      ],
+      "143": [
+        1
+      ],
+      "155": [
+        1
+      ],
+      "169": [
+        1
+      ],
+      "271": [
+        1
+      ],
+      "296": [
+        1
+      ],
+      "318": [
+        1
+      ]
+    },
+    "goal_source_run": "reference-E01-01",
+    "goal_sha256": "72368a596727147d4db293497a6ee86fe197baafbd468042959530a530922094"
+  },
+  "E02": {
+    "mesh": "document_universal_v12",
+    "initialization": [
+      {
+        "op": "turn_over",
+        "axis": "y"
+      }
+    ],
+    "reference_actions": [
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0.5,
+            0
+          ],
+          [
+            0.5,
+            1
+          ]
+        ],
+        "moving_point": [
+          0.2,
+          0.5
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.5
+          ],
+          [
+            1,
+            0.5
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.2
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.75
+          ],
+          [
+            1,
+            0.75
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.9
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.1
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "pages": [
+      ".local/diagram-sources-tiered-v1/T003/page-001.png"
+    ],
+    "goal": "data/external-qualified/private/goals/E02-goal.npz",
+    "qualification": "pending",
+    "annotation_status": "source_scope_visually_reviewed",
+    "required_signed_hinges": {
+      "4": [
+        1
+      ],
+      "11": [
+        1
+      ],
+      "26": [
+        1
+      ],
+      "29": [
+        1
+      ],
+      "32": [
+        1
+      ],
+      "33": [
+        1
+      ],
+      "34": [
+        1
+      ],
+      "36": [
+        1
+      ],
+      "38": [
+        1
+      ],
+      "43": [
+        1
+      ],
+      "45": [
+        1
+      ],
+      "47": [
+        1
+      ],
+      "48": [
+        1
+      ],
+      "50": [
+        1
+      ],
+      "53": [
+        1
+      ],
+      "55": [
+        1
+      ],
+      "58": [
+        1
+      ],
+      "59": [
+        1
+      ],
+      "61": [
+        1
+      ],
+      "65": [
+        1
+      ],
+      "162": [
+        1
+      ],
+      "175": [
+        1
+      ],
+      "185": [
+        1
+      ],
+      "200": [
+        1
+      ],
+      "215": [
+        1
+      ],
+      "229": [
+        1
+      ],
+      "250": [
+        1
+      ],
+      "278": [
+        1
+      ],
+      "279": [
+        1
+      ],
+      "290": [
+        1
+      ],
+      "291": [
+        1
+      ],
+      "299": [
+        1
+      ]
+    },
+    "goal_source_run": "reference-E02-04",
+    "goal_sha256": "8494e31e04756b9d844a4aeb1dd83d7ade61a493b796510e3cc17b064666cac5"
+  },
+  "H03": {
+    "mesh": "document_universal_v12",
+    "initialization": [],
+    "reference_actions": [
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0.5,
+            0
+          ],
+          [
+            0.5,
+            1
+          ]
+        ],
+        "moving_point": [
+          0.2,
+          0.5
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.5
+          ],
+          [
+            1,
+            0.5
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.2
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0.25,
+            0
+          ],
+          [
+            0.25,
+            1
+          ]
+        ],
+        "moving_point": [
+          0.1,
+          0.5
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0.75,
+            0
+          ],
+          [
+            0.75,
+            1
+          ]
+        ],
+        "moving_point": [
+          0.9,
+          0.5
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.1
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.75
+          ],
+          [
+            1,
+            0.75
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.9
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "turn_over",
+        "axis": "y"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.5
+          ],
+          [
+            0.5,
+            0
+          ]
+        ],
+        "moving_point": [
+          0.1,
+          0.1
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0.5,
+            1
+          ],
+          [
+            1,
+            0.5
+          ]
+        ],
+        "moving_point": [
+          0.9,
+          0.9
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0.5,
+            0
+          ],
+          [
+            1,
+            0.5
+          ]
+        ],
+        "moving_point": [
+          0.9,
+          0.1
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.5
+          ],
+          [
+            0.5,
+            1
+          ]
+        ],
+        "moving_point": [
+          0.1,
+          0.9
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.25
+          ],
+          [
+            0.25,
+            0
+          ]
+        ],
+        "moving_point": [
+          0.05,
+          0.05
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0.75,
+            1
+          ],
+          [
+            1,
+            0.75
+          ]
+        ],
+        "moving_point": [
+          0.95,
+          0.95
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0.75,
+            0
+          ],
+          [
+            1,
+            0.25
+          ]
+        ],
+        "moving_point": [
+          0.95,
+          0.05
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.75
+          ],
+          [
+            0.25,
+            1
+          ]
+        ],
+        "moving_point": [
+          0.05,
+          0.95
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "pages": [
+      ".local/diagram-sources-tiered-v1/T028/page-001.png",
+      ".local/diagram-sources-tiered-v1/T028/page-002.png"
+    ],
+    "goal": "data/external-qualified/private/goals/H03-goal.npz",
+    "qualification": "pending",
+    "annotation_status": "source_scope_visually_reviewed",
+    "required_signed_hinges": {
+      "0": [
+        1
+      ],
+      "1": [
+        -1
+      ],
+      "3": [
+        1
+      ],
+      "4": [
+        -1
+      ],
+      "5": [
+        1
+      ],
+      "6": [
+        -1
+      ],
+      "9": [
+        1
+      ],
+      "10": [
+        1
+      ],
+      "11": [
+        -1
+      ],
+      "12": [
+        1
+      ],
+      "16": [
+        1
+      ],
+      "17": [
+        1
+      ],
+      "18": [
+        1
+      ],
+      "19": [
+        1
+      ],
+      "23": [
+        1
+      ],
+      "24": [
+        1
+      ],
+      "25": [
+        1
+      ],
+      "26": [
+        -1
+      ],
+      "28": [
+        -1
+      ],
+      "29": [
+        -1
+      ],
+      "32": [
+        -1
+      ],
+      "33": [
+        -1
+      ],
+      "34": [
+        -1
+      ],
+      "36": [
+        -1
+      ],
+      "37": [
+        -1
+      ],
+      "38": [
+        -1
+      ],
+      "40": [
+        -1
+      ],
+      "42": [
+        -1
+      ],
+      "43": [
+        -1
+      ],
+      "44": [
+        -1
+      ],
+      "45": [
+        -1
+      ],
+      "47": [
+        -1
+      ],
+      "48": [
+        -1
+      ],
+      "50": [
+        -1
+      ],
+      "51": [
+        -1
+      ],
+      "53": [
+        -1
+      ],
+      "54": [
+        -1
+      ],
+      "55": [
+        -1
+      ],
+      "57": [
+        -1
+      ],
+      "58": [
+        -1
+      ],
+      "59": [
+        -1
+      ],
+      "61": [
+        -1
+      ],
+      "64": [
+        -1
+      ],
+      "65": [
+        -1
+      ],
+      "66": [
+        -1
+      ],
+      "69": [
+        1
+      ],
+      "73": [
+        1
+      ],
+      "76": [
+        1
+      ],
+      "78": [
+        1
+      ],
+      "79": [
+        1
+      ],
+      "86": [
+        1
+      ],
+      "95": [
+        1
+      ],
+      "97": [
+        1
+      ],
+      "108": [
+        1
+      ],
+      "112": [
+        1
+      ],
+      "115": [
+        1
+      ],
+      "116": [
+        1
+      ],
+      "118": [
+        1
+      ],
+      "123": [
+        1
+      ],
+      "130": [
+        1
+      ],
+      "132": [
+        1
+      ],
+      "134": [
+        1
+      ],
+      "138": [
+        1
+      ],
+      "140": [
+        1
+      ],
+      "150": [
+        1
+      ],
+      "151": [
+        1
+      ],
+      "159": [
+        1
+      ],
+      "160": [
+        1
+      ],
+      "162": [
+        -1
+      ],
+      "171": [
+        -1
+      ],
+      "175": [
+        -1
+      ],
+      "178": [
+        1
+      ],
+      "181": [
+        1
+      ],
+      "185": [
+        -1
+      ],
+      "193": [
+        -1
+      ],
+      "200": [
+        -1
+      ],
+      "203": [
+        1
+      ],
+      "207": [
+        -1
+      ],
+      "215": [
+        -1
+      ],
+      "224": [
+        1
+      ],
+      "225": [
+        1
+      ],
+      "229": [
+        -1
+      ],
+      "246": [
+        1
+      ],
+      "250": [
+        -1
+      ],
+      "278": [
+        -1
+      ],
+      "279": [
+        -1
+      ],
+      "281": [
+        1
+      ],
+      "290": [
+        -1
+      ],
+      "291": [
+        -1
+      ],
+      "299": [
+        -1
+      ],
+      "309": [
+        1
+      ],
+      "315": [
+        -1
+      ],
+      "320": [
+        1
+      ]
+    },
+    "goal_source_run": "reference-H03-02",
+    "goal_sha256": "90275e268cd093ccd232ebf6f4eed065079e208328595813b8ec294e8dd1ecf8"
+  },
+  "M03": {
+    "mesh": "document_rectangle_v12",
+    "initialization": [
+      {
+        "op": "turn_over",
+        "axis": "y"
+      }
+    ],
+    "reference_actions": [
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.5
+          ],
+          [
+            1,
+            0.5
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.8535533905932737
+          ],
+          [
+            1,
+            0.8535533905932737
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.1
+        ],
+        "layers": "top",
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "pages": [
+      ".local/diagram-sources-tiered-v1/T004/page-001.png"
+    ],
+    "goal": "data/external-qualified/private/goals/M03-goal.npz",
+    "qualification": "pending",
+    "annotation_status": "source_scope_visually_reviewed",
+    "required_signed_hinges": {
+      "11": [
+        1
+      ],
+      "26": [
+        -1
+      ],
+      "29": [
+        -1
+      ],
+      "32": [
+        -1
+      ],
+      "36": [
+        -1
+      ],
+      "38": [
+        -1
+      ],
+      "43": [
+        1
+      ],
+      "45": [
+        1
+      ],
+      "50": [
+        1
+      ],
+      "162": [
+        -1
+      ],
+      "175": [
+        1
+      ],
+      "229": [
+        -1
+      ],
+      "250": [
+        1
+      ],
+      "290": [
+        1
+      ],
+      "291": [
+        1
+      ],
+      "299": [
+        -1
+      ]
+    },
+    "goal_source_run": "reference-M03-01",
+    "goal_sha256": "240ed3ab2084dfb662ae5a74c24fbde2230b6c309678d87713160ae8af8d2c5e"
+  },
+  "D04": {
+    "mesh": "document_universal_v12",
+    "initialization": [
+      {
+        "op": "turn_over",
+        "axis": "y"
+      },
+      {
+        "op": "rotate_paper",
+        "degrees": 45
+      }
+    ],
+    "reference_actions": [
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0.5,
+            -0.20710678118654757
+          ],
+          [
+            0.5,
+            1.2071067811865475
+          ]
+        ],
+        "moving_point": [
+          0.9242640687119286,
+          0.5
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            -0.20710678118654757,
+            0.5
+          ],
+          [
+            1.2071067811865475,
+            0.5
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.9242640687119286
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0.1464466094067262,
+            0.1464466094067262
+          ],
+          [
+            0.8535533905932737,
+            0.8535533905932737
+          ]
+        ],
+        "moving_point": [
+          0.7828427124746191,
+          0.21715728752538094
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0.8535533905932737,
+            0.1464466094067262
+          ],
+          [
+            0.1464466094067262,
+            0.8535533905932737
+          ]
+        ],
+        "moving_point": [
+          0.21715728752538094,
+          0.21715728752538094
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0.32322330470336313,
+            -0.030330085889910707
+          ],
+          [
+            1.0303300858899107,
+            0.6767766952966369
+          ]
+        ],
+        "moving_point": [
+          0.7828427124746191,
+          0.21715728752538094
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            -0.030330085889910707,
+            0.32322330470336313
+          ],
+          [
+            0.6767766952966369,
+            1.0303300858899107
+          ]
+        ],
+        "moving_point": [
+          0.21715728752538094,
+          0.7828427124746191
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0.6767766952966369,
+            -0.030330085889910707
+          ],
+          [
+            -0.030330085889910707,
+            0.6767766952966369
+          ]
+        ],
+        "moving_point": [
+          0.21715728752538094,
+          0.21715728752538094
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            1.0303300858899107,
+            0.32322330470336313
+          ],
+          [
+            0.32322330470336313,
+            1.0303300858899107
+          ]
+        ],
+        "moving_point": [
+          0.7828427124746191,
+          0.7828427124746191
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.32322330470336313
+          ],
+          [
+            1,
+            0.32322330470336313
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          -0.1
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "turn_over",
+        "axis": "y"
+      },
+      {
+        "op": "rotate_paper",
+        "degrees": 180
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.32322330470336313
+          ],
+          [
+            1,
+            0.32322330470336313
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          -0.1
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "turn_over",
+        "axis": "y"
+      }
+    ],
+    "goal": "data/external-qualified/private/goals/D04-goal.npz",
+    "qualification": "pending",
+    "annotation_status": "source_scope_visually_reviewed",
+    "crease_sign_unspecified": false,
+    "pages": [
+      ".local/diagram-sources-tiered-v1/T023/page-001.png",
+      ".local/diagram-sources-tiered-v1/T023/page-002.png",
+      ".local/diagram-sources-tiered-v1/T023/page-003.png",
+      ".local/diagram-sources-tiered-v1/T023/page-004.png",
+      ".local/diagram-sources-tiered-v1/T023/page-005.png",
+      ".local/diagram-sources-tiered-v1/T023/page-006.png"
+    ],
+    "required_signed_hinges": {
+      "1": [
+        1
+      ],
+      "2": [
+        1
+      ],
+      "4": [
+        1
+      ],
+      "6": [
+        1
+      ],
+      "7": [
+        1
+      ],
+      "11": [
+        1
+      ],
+      "13": [
+        1
+      ],
+      "14": [
+        1
+      ],
+      "15": [
+        -1
+      ],
+      "21": [
+        1
+      ],
+      "26": [
+        1
+      ],
+      "27": [
+        1
+      ],
+      "28": [
+        1
+      ],
+      "29": [
+        1
+      ],
+      "30": [
+        1
+      ],
+      "32": [
+        1
+      ],
+      "33": [
+        1
+      ],
+      "34": [
+        1
+      ],
+      "35": [
+        1
+      ],
+      "36": [
+        1
+      ],
+      "37": [
+        1
+      ],
+      "38": [
+        1
+      ],
+      "39": [
+        1
+      ],
+      "40": [
+        1
+      ],
+      "41": [
+        -1
+      ],
+      "42": [
+        1
+      ],
+      "43": [
+        1
+      ],
+      "44": [
+        1
+      ],
+      "45": [
+        1
+      ],
+      "46": [
+        1
+      ],
+      "47": [
+        1
+      ],
+      "48": [
+        1
+      ],
+      "50": [
+        1
+      ],
+      "51": [
+        1
+      ],
+      "52": [
+        1
+      ],
+      "53": [
+        1
+      ],
+      "54": [
+        1
+      ],
+      "55": [
+        1
+      ],
+      "56": [
+        1
+      ],
+      "57": [
+        1
+      ],
+      "58": [
+        1
+      ],
+      "59": [
+        1
+      ],
+      "60": [
+        -1
+      ],
+      "61": [
+        1
+      ],
+      "63": [
+        1
+      ],
+      "64": [
+        1
+      ],
+      "65": [
+        1
+      ],
+      "66": [
+        1
+      ],
+      "67": [
+        1
+      ],
+      "71": [
+        1
+      ],
+      "84": [
+        1
+      ],
+      "88": [
+        1
+      ],
+      "90": [
+        1
+      ],
+      "92": [
+        1
+      ],
+      "93": [
+        1
+      ],
+      "98": [
+        1
+      ],
+      "101": [
+        1
+      ],
+      "103": [
+        1
+      ],
+      "105": [
+        1
+      ],
+      "110": [
+        1
+      ],
+      "117": [
+        -1
+      ],
+      "120": [
+        -1
+      ],
+      "122": [
+        -1
+      ],
+      "136": [
+        1
+      ],
+      "143": [
+        1
+      ],
+      "155": [
+        1
+      ],
+      "162": [
+        1
+      ],
+      "165": [
+        -1
+      ],
+      "166": [
+        -1
+      ],
+      "169": [
+        1
+      ],
+      "171": [
+        1
+      ],
+      "175": [
+        1
+      ],
+      "185": [
+        1
+      ],
+      "193": [
+        1
+      ],
+      "200": [
+        1
+      ],
+      "207": [
+        1
+      ],
+      "215": [
+        1
+      ],
+      "218": [
+        1
+      ],
+      "229": [
+        1
+      ],
+      "250": [
+        1
+      ],
+      "253": [
+        1
+      ],
+      "257": [
+        -1
+      ],
+      "262": [
+        1
+      ],
+      "267": [
+        -1
+      ],
+      "271": [
+        1
+      ],
+      "278": [
+        1
+      ],
+      "279": [
+        1
+      ],
+      "287": [
+        1
+      ],
+      "290": [
+        1
+      ],
+      "291": [
+        1
+      ],
+      "293": [
+        -1
+      ],
+      "296": [
+        1
+      ],
+      "299": [
+        1
+      ],
+      "302": [
+        1
+      ],
+      "306": [
+        1
+      ],
+      "315": [
+        1
+      ],
+      "318": [
+        1
+      ]
+    },
+    "goal_source_run": "reference-D04-01",
+    "goal_sha256": "92d66ce40fffc0b6c5994c1975a7f1ba57ad882ed5ec70c9a7fb4abb0d296ced"
+  },
+  "D05": {
+    "mesh": "document_universal_v12",
+    "initialization": [],
+    "reference_actions": [
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "moving_point": [
+          0.8,
+          0.2
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "moving_point": [
+          0.8,
+          0.8
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.5
+          ],
+          [
+            1,
+            0.5
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.1
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0.5,
+            0
+          ],
+          [
+            0.5,
+            1
+          ]
+        ],
+        "moving_point": [
+          0.1,
+          0.5
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.5
+          ],
+          [
+            0.5,
+            1
+          ]
+        ],
+        "moving_point": [
+          0.1,
+          0.9
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0.5,
+            1
+          ],
+          [
+            1,
+            0.5
+          ]
+        ],
+        "moving_point": [
+          0.9,
+          0.9
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0.5,
+            0
+          ],
+          [
+            1,
+            0.5
+          ]
+        ],
+        "moving_point": [
+          0.9,
+          0.1
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.5
+          ],
+          [
+            0.5,
+            0
+          ]
+        ],
+        "moving_point": [
+          0.1,
+          0.1
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      }
+    ],
+    "qualification": "pending",
+    "crease_sign_unspecified": true,
+    "pages": [
+      ".local/diagram-sources-tiered-v1/T030/page-001.png",
+      ".local/diagram-sources-tiered-v1/T030/page-002.png",
+      ".local/diagram-sources-tiered-v1/T030/page-003.png",
+      ".local/diagram-sources-tiered-v1/T030/page-004.png",
+      ".local/diagram-sources-tiered-v1/T030/page-005.png",
+      ".local/diagram-sources-tiered-v1/T030/page-006.png",
+      ".local/diagram-sources-tiered-v1/T030/page-007.png",
+      ".local/diagram-sources-tiered-v1/T030/page-008.png",
+      ".local/diagram-sources-tiered-v1/T030/page-009.png",
+      ".local/diagram-sources-tiered-v1/T030/page-010.png"
+    ],
+    "goal": "data/external-qualified/private/goals/D05-goal.npz",
+    "required_unsigned_hinges": [
+      3,
+      4,
+      7,
+      10,
+      11,
+      14,
+      17,
+      18,
+      21,
+      24,
+      25,
+      27,
+      33,
+      34,
+      35,
+      39,
+      43,
+      45,
+      46,
+      47,
+      48,
+      50,
+      52,
+      56,
+      58,
+      59,
+      63,
+      67,
+      71,
+      76,
+      78,
+      79,
+      86,
+      90,
+      95,
+      97,
+      98,
+      101,
+      103,
+      105,
+      110,
+      115,
+      116,
+      118,
+      123,
+      130,
+      132,
+      136,
+      143,
+      155,
+      159,
+      160,
+      169,
+      175,
+      178,
+      181,
+      200,
+      203,
+      224,
+      225,
+      246,
+      250,
+      253,
+      262,
+      271,
+      281,
+      287,
+      290,
+      291,
+      296,
+      302,
+      309,
+      318,
+      320
+    ],
+    "required_signed_hinges": {},
+    "goal_source_run": "reference-D05-01",
+    "goal_sha256": "b00547e4358bd5f4e0c5630e8d841ea6e7d40922b32062181fc093aaf0b32071"
+  },
+  "L01": {
+    "mesh": "document_bands16_1p4142135623730951_x2_v14",
+    "initialization": [
+      {
+        "op": "turn_over",
+        "axis": "y"
+      }
+    ],
+    "preparation": [
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.5
+          ],
+          [
+            1,
+            0.5
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.8535533905932737
+          ],
+          [
+            1,
+            0.8535533905932737
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.1
+        ],
+        "layers": "top",
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "reference_actions": [
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.6767766952966369
+          ],
+          [
+            1,
+            0.6767766952966369
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.53
+        ],
+        "layers": "top",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "unfold"
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.5883883476483185
+          ],
+          [
+            1,
+            0.5883883476483185
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.52
+        ],
+        "layers": "top",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.6767766952966369
+          ],
+          [
+            1,
+            0.6767766952966369
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.6325825214724776
+        ],
+        "layers": {
+          "side": "top",
+          "count": 2
+        },
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "pages": [
+      ".local/diagram-sources-tiered-v1/T004/page-001.png"
+    ],
+    "goal": "data/external-qualified/private/goals/L01-goal.npz",
+    "initial_goal": "data/external-qualified/private/goals/L01-initial_goal.npz",
+    "required_signed_hinges": {},
+    "annotation_status": "source_reviewed_and_first_physical_reference_passed_v15",
+    "checkpoints": "data/external-qualified/private/goals/L01-checkpoints.npz",
+    "required_band_creases": [
+      {
+        "direction": [
+          1.0,
+          -0.0
+        ],
+        "offset_m": -0.093308,
+        "hinge_ids": [
+          2,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          24
+        ],
+        "weights": [
+          0.5,
+          0.5,
+          0.500044,
+          0.5,
+          0.500044,
+          0.5,
+          0.500011,
+          0.5,
+          0.500011,
+          0.5,
+          0.500011,
+          0.5,
+          0.500011,
+          0.5,
+          0.500011
+        ],
+        "signs": [
+          1
+        ]
+      },
+      {
+        "direction": [
+          1.0,
+          -0.0
+        ],
+        "offset_m": -0.08005,
+        "hinge_ids": [
+          37,
+          40,
+          41,
+          42,
+          44,
+          45,
+          46,
+          47,
+          49,
+          50,
+          51,
+          52,
+          54,
+          55,
+          59
+        ],
+        "weights": [
+          0.5,
+          0.5,
+          0.500044,
+          0.5,
+          0.500044,
+          0.5,
+          0.500011,
+          0.5,
+          0.500011,
+          0.5,
+          0.500011,
+          0.5,
+          0.500011,
+          0.5,
+          0.500011
+        ],
+        "signs": [
+          1
+        ]
+      },
+      {
+        "direction": [
+          1.0,
+          -0.0
+        ],
+        "offset_m": -0.053533,
+        "hinge_ids": [
+          107,
+          110,
+          111,
+          112,
+          114,
+          115,
+          116,
+          117,
+          119,
+          120,
+          121,
+          122,
+          124,
+          125,
+          129
+        ],
+        "weights": [
+          0.5,
+          0.5,
+          0.500044,
+          0.5,
+          0.500044,
+          0.5,
+          0.500011,
+          0.5,
+          0.500011,
+          0.5,
+          0.500011,
+          0.5,
+          0.500011,
+          0.5,
+          0.500011
+        ],
+        "signs": [
+          -1
+        ]
+      }
+    ],
+    "goal_source_run": "reference-L01-v15-01"
+  }
+}

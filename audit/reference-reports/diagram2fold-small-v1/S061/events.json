@@ -1,0 +1,206 @@
+[
+  {
+    "index": 0,
+    "instruction_index": 0,
+    "action": {
+      "op": "fold",
+      "line": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.41421356237309503,
+          0.0
+        ]
+      ],
+      "moving_point": [
+        0.0,
+        0.0
+      ],
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "b9bc1b3e2577c75fe084e24cd8fdccffc0674449784cadf779897ffec14e3528",
+    "after": "2fb1b525ebba6bc924fe76ce3c065f7bb91d4b7377438152e706d55ff0418bfd",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          2,
+          3,
+          4,
+          8,
+          9,
+          14,
+          16,
+          21,
+          35,
+          36,
+          40,
+          41,
+          45,
+          46,
+          48,
+          56,
+          63,
+          67,
+          71,
+          74,
+          77,
+          85,
+          87,
+          90,
+          94,
+          95,
+          102,
+          105
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          0,
+          21,
+          35,
+          36,
+          40,
+          41,
+          45,
+          48,
+          94,
+          102
+        ],
+        "axis_point": [
+          -0.01286796564405,
+          -0.075,
+          0.00015
+        ],
+        "axis_direction": [
+          -0.38268343236501484,
+          0.9238795325113178,
+          0.0
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted",
+      "executed_axis": {
+        "axis_point": [
+          -0.01286796564405,
+          -0.075,
+          0.00015
+        ],
+        "axis_direction": [
+          -0.38268343236501484,
+          0.9238795325113178,
+          0.0
+        ],
+        "degrees": 180.0
+      }
+    }
+  },
+  {
+    "index": 1,
+    "instruction_index": 1,
+    "action": {
+      "op": "fold",
+      "line": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.585786437626905
+        ]
+      ],
+      "moving_point": [
+        1.0,
+        1.0
+      ],
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "2fb1b525ebba6bc924fe76ce3c065f7bb91d4b7377438152e706d55ff0418bfd",
+    "after": "2fb1b525ebba6bc924fe76ce3c065f7bb91d4b7377438152e706d55ff0418bfd",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          4,
+          8,
+          9,
+          14,
+          16,
+          21,
+          35,
+          36,
+          40,
+          41,
+          45,
+          46,
+          48,
+          56,
+          63,
+          67,
+          71,
+          74,
+          77,
+          85,
+          87,
+          90,
+          94,
+          95,
+          102,
+          107
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          4,
+          8,
+          9,
+          14,
+          16,
+          46,
+          56,
+          71,
+          87,
+          95
+        ],
+        "axis_point": [
+          -0.07499429000023959,
+          0.07499335718038216,
+          0.0005494363397699435
+        ],
+        "axis_direction": [
+          0.9238860515102131,
+          -0.38265978448203763,
+          -0.002460318074635744
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "rejected",
+      "category": "simulator_rejection",
+      "detail": "ActionRejected: principal strain reached 1% limit",
+      "rollback_verified": true
+    }
+  }
+]

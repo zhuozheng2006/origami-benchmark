@@ -1,0 +1,65 @@
+{
+  "task_id": "D04",
+  "agent_kind": "oracle_installation_check",
+  "task_success": true,
+  "finished": true,
+  "physical_pass": true,
+  "shape": {
+    "rms_mm": 0.3274037230247559,
+    "max_mm": 0.7197453481162248,
+    "raw_rms_mm": 0.3274236885766207,
+    "rotation_degrees": -1.0651993372529913e-05,
+    "xy_translation_mm": [
+      3.934720787824317e-05,
+      -0.003615585106125224
+    ],
+    "reflection_allowed": false,
+    "z_translation_allowed": false
+  },
+  "memory_pass": true,
+  "goal_available": true,
+  "status": "passed_scoped",
+  "attempts": 23,
+  "retained_paper_operations": 22,
+  "peak_strain": 0.0002530958501463232,
+  "material_memory": {
+    "rest_angle_sha256": "5a5fcb12840396569ff61cce23d02db9a0e6d1ea777812f4e843ffa69490c2d4",
+    "rest_angle_l2": 10.120432587225412,
+    "dissipation_joules": 0.005733105764854332
+  },
+  "seconds": 548.0036358311772,
+  "scope": "Finite thickness, same ideal boundary grasps and historical contact rule; no real fingers or general collision certification.",
+  "unsigned_memory_pass": true,
+  "grading_version": "source-assignment-v13-1",
+  "fixed_board_shape": {
+    "rms_mm": 0.3274236885766207,
+    "max_mm": 0.7197679988931879
+  },
+  "attempt_budget": {
+    "known_wall_seconds": 504.48399373330176,
+    "max_attempts": 40,
+    "output_cap_per_call": 8192,
+    "max_output_tokens": 327680,
+    "attempts_used": 23,
+    "attempts_remaining": 17,
+    "known_costs": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0
+    },
+    "unknown_cost_attempts": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 23
+    },
+    "output_tokens_reserved_for_unknown": 0,
+    "output_tokens_remaining": 327680
+  },
+  "attempt_ledger_version": "sqlite-v1",
+  "release_track": "external_documents",
+  "suite": "external",
+  "policy_version": "document-autonomy-v12-dev2",
+  "release_version": "public-v2-rc",
+  "release_manifest_sha256": "71b57e510a3659aa87b5ef6072bd3933cc62022bd59841671cedafcf20013cd6",
+  "score_eligible": false
+}

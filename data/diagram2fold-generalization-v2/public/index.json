@@ -1,0 +1,85 @@
+{
+  "version": "instance_holdout_v2",
+  "tasks": [
+    {
+      "id": "J001",
+      "label": "新图 1",
+      "split": "instance_holdout_v2",
+      "image": "J001.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "New original Diagram2Fold image; CC BY 4.0. Created after v8 policy freeze. Same renderer and fold families as previous batches."
+    },
+    {
+      "id": "J002",
+      "label": "新图 2",
+      "split": "instance_holdout_v2",
+      "image": "J002.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "New original Diagram2Fold image; CC BY 4.0. Created after v8 policy freeze. Same renderer and fold families as previous batches."
+    },
+    {
+      "id": "J003",
+      "label": "新图 3",
+      "split": "instance_holdout_v2",
+      "image": "J003.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "New original Diagram2Fold image; CC BY 4.0. Created after v8 policy freeze. Same renderer and fold families as previous batches."
+    },
+    {
+      "id": "J004",
+      "label": "新图 4",
+      "split": "instance_holdout_v2",
+      "image": "J004.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "New original Diagram2Fold image; CC BY 4.0. Created after v8 policy freeze. Same renderer and fold families as previous batches."
+    },
+    {
+      "id": "J005",
+      "label": "新图 5",
+      "split": "instance_holdout_v2",
+      "image": "J005.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "New original Diagram2Fold image; CC BY 4.0. Created after v8 policy freeze. Same renderer and fold families as previous batches."
+    },
+    {
+      "id": "J006",
+      "label": "新图 6",
+      "split": "instance_holdout_v2",
+      "image": "J006.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "New original Diagram2Fold image; CC BY 4.0. Created after v8 policy freeze. Same renderer and fold families as previous batches."
+    },
+    {
+      "id": "J007",
+      "label": "新图 7",
+      "split": "instance_holdout_v2",
+      "image": "J007.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "New original Diagram2Fold image; CC BY 4.0. Created after v8 policy freeze. Same renderer and fold families as previous batches."
+    },
+    {
+      "id": "J008",
+      "label": "新图 8",
+      "split": "instance_holdout_v2",
+      "image": "J008.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "New original Diagram2Fold image; CC BY 4.0. Created after v8 policy freeze. Same renderer and fold families as previous batches."
+    }
+  ]
+}

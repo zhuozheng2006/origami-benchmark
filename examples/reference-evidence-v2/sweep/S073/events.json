@@ -1,0 +1,223 @@
+[
+  {
+    "index": 0,
+    "instruction_index": 0,
+    "action": {
+      "op": "fold",
+      "line": [
+        [
+          0.8,
+          0.0
+        ],
+        [
+          0.8,
+          1.0
+        ]
+      ],
+      "moving_point": [
+        1.0,
+        0.5
+      ],
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "cdcc31b6115bd612e75795f3471079c3be2eebfdf9b5dfd42847d1641acfd150",
+    "after": "8d80a76462e8f8ea74546646b657cfd41a6d34f12987d832acde8b42b560660b",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          6,
+          7,
+          9,
+          11,
+          12,
+          13,
+          15,
+          17,
+          18,
+          23,
+          28,
+          29,
+          32,
+          41,
+          42,
+          64,
+          66,
+          76,
+          80,
+          82,
+          88,
+          95,
+          99
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          3,
+          4,
+          11,
+          15,
+          17,
+          80,
+          82,
+          88,
+          95
+        ],
+        "axis_point": [
+          0.045000000000000005,
+          0.075,
+          0.00015
+        ],
+        "axis_direction": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted",
+      "executed_axis": {
+        "axis_point": [
+          0.045000000000000005,
+          0.075,
+          0.00015
+        ],
+        "axis_direction": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "degrees": 180.0
+      }
+    }
+  },
+  {
+    "index": 1,
+    "instruction_index": 1,
+    "action": {
+      "op": "fold",
+      "line": [
+        [
+          0.2,
+          1.0
+        ],
+        [
+          0.2,
+          0.0
+        ]
+      ],
+      "moving_point": [
+        0.0,
+        0.5
+      ],
+      "sense": "away",
+      "angle_deg": 180
+    },
+    "before": "8d80a76462e8f8ea74546646b657cfd41a6d34f12987d832acde8b42b560660b",
+    "after": "1e27ab5f591550eb840e9c43ac5d4bdae23e2d0287b1ff55126c1f6fc3fd37df",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          7,
+          9,
+          11,
+          12,
+          13,
+          15,
+          17,
+          18,
+          23,
+          28,
+          29,
+          32,
+          41,
+          42,
+          64,
+          66,
+          76,
+          80,
+          82,
+          88,
+          95,
+          99
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          0,
+          7,
+          9,
+          12,
+          13,
+          18,
+          29,
+          32,
+          42
+        ],
+        "axis_point": [
+          -0.045,
+          -0.075,
+          -0.00015
+        ],
+        "axis_direction": [
+          -4.625929269271486e-17,
+          1.0,
+          0.0
+        ],
+        "degrees": -180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted",
+      "executed_axis": {
+        "axis_point": [
+          -0.045,
+          -0.075,
+          -0.00015
+        ],
+        "axis_direction": [
+          -4.625929269271486e-17,
+          1.0,
+          0.0
+        ],
+        "degrees": -180.0
+      }
+    }
+  },
+  {
+    "index": 2,
+    "instruction_index": 2,
+    "action": {
+      "op": "finish"
+    },
+    "before": "1e27ab5f591550eb840e9c43ac5d4bdae23e2d0287b1ff55126c1f6fc3fd37df",
+    "after": "1e27ab5f591550eb840e9c43ac5d4bdae23e2d0287b1ff55126c1f6fc3fd37df",
+    "low_level_actions": [],
+    "result": {
+      "status": "accepted"
+    }
+  }
+]

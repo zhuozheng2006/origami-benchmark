@@ -1,0 +1,11 @@
+{
+  "task_id": "L01",
+  "agent_kind": "private_layer_reference",
+  "finished": false,
+  "task_success": false,
+  "physical_pass": false,
+  "status": "reference_environment_failure",
+  "error": "SkillUnsupported: Compliant controlled directions exceeded 0.5mm endpoint accuracy: 0.850mm",
+  "attempts": 0,
+  "fixture_mode": "guided_directional"
+}

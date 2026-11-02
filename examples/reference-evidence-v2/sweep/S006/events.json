@@ -1,0 +1,229 @@
+[
+  {
+    "index": 0,
+    "instruction_index": 0,
+    "action": {
+      "op": "fold",
+      "line": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          0.585786437626905,
+          0.0
+        ]
+      ],
+      "moving_point": [
+        1.0,
+        0.0
+      ],
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "b17e946cf62d1b5a2f56a1afe1c5a7d150fa53ff5bab979b071c5a8f1e24fbea",
+    "after": "65bdbebbf3d041ed4dae2df5d0bd1968d00c4303fb2e1747e348ca5060dc1c00",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          2,
+          4,
+          5,
+          8,
+          9,
+          14,
+          16,
+          21,
+          35,
+          36,
+          40,
+          41,
+          45,
+          46,
+          48,
+          56,
+          63,
+          67,
+          71,
+          74,
+          77,
+          85,
+          87,
+          90,
+          94,
+          95,
+          102,
+          107
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          2,
+          8,
+          9,
+          14,
+          16,
+          46,
+          56,
+          71,
+          87,
+          95
+        ],
+        "axis_point": [
+          0.075,
+          0.075,
+          0.00015
+        ],
+        "axis_direction": [
+          -0.38268343236501484,
+          -0.9238795325113178,
+          0.0
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted",
+      "executed_axis": {
+        "axis_point": [
+          0.075,
+          0.075,
+          0.00015
+        ],
+        "axis_direction": [
+          -0.38268343236501484,
+          -0.9238795325113178,
+          0.0
+        ],
+        "degrees": 180.0
+      }
+    }
+  },
+  {
+    "index": 1,
+    "instruction_index": 1,
+    "action": {
+      "op": "fold",
+      "line": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.585786437626905
+        ]
+      ],
+      "moving_point": [
+        0.0,
+        1.0
+      ],
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "65bdbebbf3d041ed4dae2df5d0bd1968d00c4303fb2e1747e348ca5060dc1c00",
+    "after": "f3393c19e76b1e0fac42ea5ce80f1dc1f71a8c1905908425583101933994c714",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          4,
+          8,
+          9,
+          14,
+          16,
+          21,
+          35,
+          36,
+          40,
+          41,
+          45,
+          46,
+          48,
+          56,
+          63,
+          67,
+          71,
+          74,
+          77,
+          85,
+          87,
+          90,
+          94,
+          95,
+          102,
+          105
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          4,
+          21,
+          35,
+          36,
+          40,
+          41,
+          45,
+          48,
+          94,
+          102
+        ],
+        "axis_point": [
+          -0.075,
+          0.01286796564405,
+          0.00015
+        ],
+        "axis_direction": [
+          0.9238873036189549,
+          0.3826574270188313,
+          0.002354518852036046
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted",
+      "executed_axis": {
+        "axis_point": [
+          -0.075,
+          0.01286796564405,
+          0.00015
+        ],
+        "axis_direction": [
+          0.9238873036189549,
+          0.3826574270188313,
+          0.002354518852036046
+        ],
+        "degrees": 180.0
+      }
+    }
+  },
+  {
+    "index": 2,
+    "instruction_index": 2,
+    "action": {
+      "op": "finish"
+    },
+    "before": "f3393c19e76b1e0fac42ea5ce80f1dc1f71a8c1905908425583101933994c714",
+    "after": "f3393c19e76b1e0fac42ea5ce80f1dc1f71a8c1905908425583101933994c714",
+    "low_level_actions": [],
+    "result": {
+      "status": "accepted"
+    }
+  }
+]

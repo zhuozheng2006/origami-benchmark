@@ -13,6 +13,86 @@ spec.loader.exec_module(mod)
 
 
 class PublicReleaseTests(unittest.TestCase):
+    def test_all_public_v2_reference_evidence_regrades(self):
+        evidence=json.loads((ROOT/'audit/fresh-reference-validation.json').read_text())
+        registry=json.loads((ROOT/'data/evaluation-catalog.json').read_text())['tasks']
+        self.assertEqual(set(evidence['evidence_by_accepted_task']),{k for k,v in registry.items() if v['status']=='accepted'})
+        for run in evidence['completed_runs']:
+            score=mod.rescore(ROOT/run['evidence'],run['task_id'])
+            self.assertEqual(score['task_success'],run['task_success'],run['evidence'])
+
+    def test_suite_startup_failures_remain_in_reports(self):
+        import tempfile,runpy,sys,io
+        from types import SimpleNamespace
+        from unittest.mock import patch
+        with tempfile.TemporaryDirectory() as tmp:
+            output=Path(tmp)/'suite'
+            argv=['run_suite.py','--suite','basics','--agent','missing:create','--output',str(output)]
+            with patch.object(sys,'argv',argv),patch('subprocess.run',return_value=SimpleNamespace(returncode=1)),patch('sys.stdout',io.StringIO()):
+                runpy.run_path(str(ROOT/'scripts/run_suite.py'),run_name='__main__')
+            reports=[json.loads(p.read_text()) for p in output.glob('*/report.json')]
+            self.assertEqual(len(reports),7)
+            self.assertTrue(all(r['status']=='environment_error' and r['score_eligible'] and not r['task_success'] and r['physical_pass'] is None for r in reports))
+            self.assertEqual(len((output/'suite-attempts.jsonl').read_text().splitlines()),7)
+
+    def test_summary_does_not_pool_protocols_or_development(self):
+        import tempfile,subprocess,sys
+        with tempfile.TemporaryDirectory() as tmp:
+            paths=[]
+            for i,(suite,split,eligible) in enumerate([('small','test',True),('small','development',True),('layers','test',True),('ultra','test',False)]):
+                path=Path(tmp)/str(i);path.mkdir();paths.append(str(path))
+                (path/'report.json').write_text(json.dumps(dict(task_id=str(i),suite=suite,split=split,score_eligible=eligible,agent_kind='external_agent:test',task_success=True,release_manifest_sha256='frozen')))
+            result=json.loads(subprocess.check_output([sys.executable,str(ROOT/'scripts/summarize_public.py'),*paths]))
+            self.assertEqual(len(result['groups']),3)
+            self.assertEqual(result['excluded_oracle_diagnostic_or_replay'],1)
+
+    def test_step_layout_selection_never_uses_task_identity(self):
+        from origami_bench.diagram import line_fold_agent_v9, single_panel_policy
+        from PIL import Image
+        import tempfile
+        with tempfile.TemporaryDirectory() as tmp:
+            path=Path(tmp)/'diagram.png'
+            Image.new('RGB',(400,400)).save(path)
+            self.assertIs(single_panel_policy.select_policy({'step_count':1},path),single_panel_policy)
+            Image.new('RGB',(800,400)).save(path)
+            self.assertIs(single_panel_policy.select_policy({'step_count':1},path),line_fold_agent_v9)
+            Image.new('RGB',(1200,400)).save(path)
+            self.assertIs(single_panel_policy.select_policy({'step_count':2},path),line_fold_agent_v9)
+        registry=json.loads((ROOT/'data/evaluation-catalog.json').read_text())['tasks']
+        for tid,specification in registry.items():
+            if specification['episode']!='step':continue
+            data=ROOT/'data'/specification['dataset']
+            task=next(x for x in json.loads((data/'public/index.json').read_text())['tasks'] if x['id']==tid)
+            selected=single_panel_policy.select_policy(task,data/'public'/task['image'])
+            self.assertIn(selected,(line_fold_agent_v9,single_panel_policy))
+
+    def test_expanded_registry_keeps_failed_tasks_out(self):
+        registry=json.loads((ROOT/'data/evaluation-catalog.json').read_text())['tasks']
+        for tid in ['D006','J001','S001','INT-001','INT-01']:
+            self.assertNotIn(tid,registry)
+        self.assertEqual(sum(v['episode']=='step' for v in registry.values()),121)
+        self.assertEqual(registry['D05']['status'],'needs_repair')
+        self.assertEqual(registry['H03']['status'],'needs_repair')
+        self.assertTrue(all(v['status']!='accepted' for v in registry.values() if v['track']=='diagnostic'))
+
+    def test_expanded_assets_and_original_freezes(self):
+        from origami_bench.diagram.episode import check_freeze
+        registry=json.loads((ROOT/'data/evaluation-catalog.json').read_text())['tasks']
+        for ds in {v['dataset'] for v in registry.values() if v['episode']=='step'}:
+            check_freeze(ROOT/'data'/ds)
+        for tid,specification in registry.items():
+            data=ROOT/'data'/specification['dataset']
+            task=json.loads((data/'private/tasks.json').read_text())[tid]
+            self.assertTrue(any((ROOT/'tasks'/folder/f"{task['mesh']}.json").is_file() for folder in ['crease_meshes','multifold_meshes']),tid)
+            if specification['episode']=='step':
+                pub=next(t for t in json.loads((data/'public/index.json').read_text())['tasks'] if t['id']==tid)
+                self.assertTrue((data/'public'/pub['image']).is_file(),tid)
+                self.assertTrue((data/'private'/task['targets']).is_file(),tid)
+            else:
+                self.assertTrue((ROOT/task['goal']).is_file(),tid)
+                if not specification.get('requires_source_download'):
+                    for page in task['pages']:self.assertTrue((ROOT/page).is_file(),tid)
+
     def test_failure_and_undo_keep_history_and_cost(self):
         from origami_bench.diagram.attempt_ledger import AttemptLedger, BudgetExhausted
         with tempfile.TemporaryDirectory() as temp:

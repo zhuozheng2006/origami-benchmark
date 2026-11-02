@@ -1,0 +1,33 @@
+{
+  "version": "diagram2fold-v0.1.1-dev",
+  "created": "2026-10-30",
+  "files": {
+    "private/D001-targets.npz": "413e9022342c8a03379a51c2c53fd3d45b9a925df6bdd96ca7d65d1483bb2fd1",
+    "private/D002-targets.npz": "5e5b004b381f54786461d331e643285a1d43a210c6fcbe54de3ece6e04c5ca24",
+    "private/D003-targets.npz": "f87f53e7acb9894bcc34295af0c1d687a381d963a894731f3e49afe340d2b0ab",
+    "private/D004-targets.npz": "77acc1aa8555ade85c3653b8d9a5fd1a40bf97bbd7c831497c4a838300349941",
+    "private/D005-targets.npz": "b9453ebda528054dd14ce0026a752f4fe2bd8e86af70846c0e64663024297404",
+    "private/D006-targets.npz": "178273bc35a89074b5a2f06fdc9ff78b7a7662ca917ab494427e3dae2ef651b3",
+    "private/D007-targets.npz": "f87f53e7acb9894bcc34295af0c1d687a381d963a894731f3e49afe340d2b0ab",
+    "private/D008-targets.npz": "a93d7062eeac007a3ccf2a188045f0f16050586e43d997fc692aa4f8235d42da",
+    "private/tasks.json": "17655118e7f93854136b0bd6065a0c8bf88f0fbae862b6b005b251f61bc3ebf5",
+    "public/D001.png": "1fbe37d73724f9dec26dba0f1ec3c696f64f5ac238c3da7bf3d73630e3d4470f",
+    "public/D002.png": "a48c06752b0a17c26e392f0d048daaa5a83d72d235f52c93a9b0c24ef20bdd4c",
+    "public/D003.png": "3304f5614f74c5d601d7e832f0cfcfb12ac19a44c505b7d2fa6124cdeece057a",
+    "public/D004.png": "62fbb787ed4b96b1a6e94248b749ab363b12666e3579faeb933cf09e25813c76",
+    "public/D005.png": "b40f1d209d337f3466f9e10d794aa8f226652680e85ef9cd4107ffdd068b7a17",
+    "public/D006.png": "039b469d8875b998bca1097ddc664123ba45090d7f6e27a74ba838f9a7a9011e",
+    "public/D007.png": "10d91526843cace814efef8fdab77885df013173cb3e2ce1912cae299fbe05c3",
+    "public/D008.png": "0e8d7209a84b6bbe923b55e4c583da5db1f79637655dfbcd0a7a50f46b8bd1b8",
+    "public/index.json": "540c7abe6e7da654242e9dccc6c524e3b55f61eda72b8bb0c293ccc5f643f22b",
+    "sources/cup.svg": "a7cfa8d43107965068232d123c5b0f15369bedd6ec495451359d0aa98e41bff8",
+    "sources/fox.pdf": "fac864191489e6eacae0adf6e0e645595ecef8eb6e6f67431d9a1b6e6771a29f",
+    "sources/local-book-reference.json": "2f0d9402aadec865705e14dc3bb64fbc1fa0ea4088e08069c7bde43ab1554a20",
+    "sources/pig.png": "2bc3388feb2576543778ddeb0f08bf6f0ea2627f8c7906594c4e587673dfa995",
+    "sources/pig.svg": "e5b41329143c7bb7e162c64b327575c922b22f190c5dbf3ac8c69fab08411b8b",
+    "sources/provenance.json": "884e7e509a8b11f9abb000ea257ff45457c3dd5cc169511f8175de727e527e45",
+    "sources/sailboat.pdf": "996373534e7ba96a3431de754e9b807feae6647e2dbe8cbd36de8b1c924b0364"
+  },
+  "scope": "Frozen before qualification runs; development fixture, not held-out test. Public export excludes private targets and answer actions.",
+  "supersedes": "v0.1 draft: corrected Fox step-1 moving side after visual review; fixed diagram layer painting. Old data and D001 run preserved, not mixed into new scores."
+}

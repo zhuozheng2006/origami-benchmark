@@ -1,0 +1,50 @@
+[
+  {
+    "index": 0,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "moving_point": [
+        0,
+        0.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "a842ca87f243913f185529c8d2a81db6c07335b5c15d647952eeeffce7a462bb",
+    "after": "0d5b705a059a1c7be11e0ab2f202e161229ac0887dbdb313fdf3420223638ae6",
+    "low_level_actions": [],
+    "result": {
+      "status": "rejected",
+      "category": "environment_error",
+      "detail": "Simulation transport lost; rollback cannot be verified and episode must stop",
+      "rollback_verified": false
+    },
+    "frame": 1184,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "ba460d4ad2b8d12fbd222bbe81bbca7a0ea55ad96c3fc6f64f1721a088464191",
+      "rest_angle_l2": 30.23715690291851,
+      "dissipation_joules": 0.011971874655420779
+    },
+    "time": 19.733333333333494
+  }
+]

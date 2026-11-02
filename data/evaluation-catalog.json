@@ -1,0 +1,1432 @@
+{
+  "version": "public-v2",
+  "tasks": {
+    "D001": {
+      "suite": "basics",
+      "dataset": "diagram2fold-v1.1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/qualification-D001",
+      "split": "development"
+    },
+    "D002": {
+      "suite": "basics",
+      "dataset": "diagram2fold-v1.1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/qualification-D002",
+      "split": "development"
+    },
+    "D003": {
+      "suite": "basics",
+      "dataset": "diagram2fold-v1.1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/qualification-D003",
+      "split": "development"
+    },
+    "D004": {
+      "suite": "basics",
+      "dataset": "diagram2fold-v1.1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/qualification-D004",
+      "split": "development"
+    },
+    "D005": {
+      "suite": "basics",
+      "dataset": "diagram2fold-v1.1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/qualification-D005",
+      "split": "development"
+    },
+    "D007": {
+      "suite": "basics",
+      "dataset": "diagram2fold-v1.1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/qualification-D007",
+      "split": "development"
+    },
+    "D008": {
+      "suite": "basics",
+      "dataset": "diagram2fold-v1.1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/qualification-D008",
+      "split": "development"
+    },
+    "H001": {
+      "suite": "holdout1",
+      "dataset": "diagram2fold-generalization-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/generalization-reference-H001",
+      "split": "instance_holdout"
+    },
+    "H002": {
+      "suite": "holdout1",
+      "dataset": "diagram2fold-generalization-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/generalization-reference-H002",
+      "split": "instance_holdout"
+    },
+    "H003": {
+      "suite": "holdout1",
+      "dataset": "diagram2fold-generalization-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/generalization-reference-H003",
+      "split": "instance_holdout"
+    },
+    "H004": {
+      "suite": "holdout1",
+      "dataset": "diagram2fold-generalization-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/generalization-reference-H004",
+      "split": "instance_holdout"
+    },
+    "H005": {
+      "suite": "holdout1",
+      "dataset": "diagram2fold-generalization-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/generalization-reference-H005",
+      "split": "instance_holdout"
+    },
+    "H006": {
+      "suite": "holdout1",
+      "dataset": "diagram2fold-generalization-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/generalization-reference-H006",
+      "split": "instance_holdout"
+    },
+    "H007": {
+      "suite": "holdout1",
+      "dataset": "diagram2fold-generalization-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/generalization-reference-H007",
+      "split": "instance_holdout"
+    },
+    "H008": {
+      "suite": "holdout1",
+      "dataset": "diagram2fold-generalization-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/generalization-reference-H008",
+      "split": "instance_holdout"
+    },
+    "J002": {
+      "suite": "holdout2",
+      "dataset": "diagram2fold-generalization-v2",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/g2-reference-J002",
+      "split": "instance_holdout_v2"
+    },
+    "J003": {
+      "suite": "holdout2",
+      "dataset": "diagram2fold-generalization-v2",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/g2-reference-J003",
+      "split": "instance_holdout_v2"
+    },
+    "J004": {
+      "suite": "holdout2",
+      "dataset": "diagram2fold-generalization-v2",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/g2-reference-J004",
+      "split": "instance_holdout_v2"
+    },
+    "J005": {
+      "suite": "holdout2",
+      "dataset": "diagram2fold-generalization-v2",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/g2-reference-J005",
+      "split": "instance_holdout_v2"
+    },
+    "J006": {
+      "suite": "holdout2",
+      "dataset": "diagram2fold-generalization-v2",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/g2-reference-J006",
+      "split": "instance_holdout_v2"
+    },
+    "J007": {
+      "suite": "holdout2",
+      "dataset": "diagram2fold-generalization-v2",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/g2-reference-J007",
+      "split": "instance_holdout_v2"
+    },
+    "J008": {
+      "suite": "holdout2",
+      "dataset": "diagram2fold-generalization-v2",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/g2-reference-J008",
+      "split": "instance_holdout_v2"
+    },
+    "S002": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S002",
+      "split": "test"
+    },
+    "S003": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S003",
+      "split": "test"
+    },
+    "S004": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S004",
+      "split": "test"
+    },
+    "S005": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S005",
+      "split": "test"
+    },
+    "S006": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S006",
+      "split": "test"
+    },
+    "S007": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S007",
+      "split": "development"
+    },
+    "S008": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S008",
+      "split": "test"
+    },
+    "S009": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S009",
+      "split": "test"
+    },
+    "S010": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S010",
+      "split": "test"
+    },
+    "S011": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S011",
+      "split": "development"
+    },
+    "S012": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S012",
+      "split": "test"
+    },
+    "S014": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S014",
+      "split": "development"
+    },
+    "S015": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S015",
+      "split": "test"
+    },
+    "S016": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S016",
+      "split": "test"
+    },
+    "S017": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S017",
+      "split": "test"
+    },
+    "S018": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S018",
+      "split": "test"
+    },
+    "S020": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S020",
+      "split": "test"
+    },
+    "S021": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S021",
+      "split": "test"
+    },
+    "S022": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S022",
+      "split": "test"
+    },
+    "S023": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S023",
+      "split": "test"
+    },
+    "S024": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S024",
+      "split": "test"
+    },
+    "S025": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S025",
+      "split": "test"
+    },
+    "S026": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S026",
+      "split": "test"
+    },
+    "S027": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S027",
+      "split": "test"
+    },
+    "S029": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S029",
+      "split": "test"
+    },
+    "S030": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S030",
+      "split": "test"
+    },
+    "S031": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S031",
+      "split": "test"
+    },
+    "S033": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S033",
+      "split": "test"
+    },
+    "S034": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S034",
+      "split": "test"
+    },
+    "S035": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S035",
+      "split": "development"
+    },
+    "S037": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S037",
+      "split": "test"
+    },
+    "S038": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S038",
+      "split": "test"
+    },
+    "S039": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S039",
+      "split": "test"
+    },
+    "S040": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S040",
+      "split": "development"
+    },
+    "S041": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S041",
+      "split": "test"
+    },
+    "S042": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S042",
+      "split": "test"
+    },
+    "S043": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S043",
+      "split": "test"
+    },
+    "S044": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S044",
+      "split": "test"
+    },
+    "S045": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S045",
+      "split": "test"
+    },
+    "S046": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S046",
+      "split": "test"
+    },
+    "S047": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S047",
+      "split": "development"
+    },
+    "S048": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S048",
+      "split": "development"
+    },
+    "S049": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S049",
+      "split": "test"
+    },
+    "S051": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S051",
+      "split": "test"
+    },
+    "S052": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S052",
+      "split": "test"
+    },
+    "S053": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S053",
+      "split": "test"
+    },
+    "S054": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S054",
+      "split": "development"
+    },
+    "S055": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S055",
+      "split": "development"
+    },
+    "S056": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S056",
+      "split": "development"
+    },
+    "S057": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S057",
+      "split": "test"
+    },
+    "S059": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S059",
+      "split": "test"
+    },
+    "S060": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S060",
+      "split": "development"
+    },
+    "S062": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S062",
+      "split": "test"
+    },
+    "S063": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S063",
+      "split": "test"
+    },
+    "S064": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S064",
+      "split": "test"
+    },
+    "S065": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S065",
+      "split": "test"
+    },
+    "S066": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S066",
+      "split": "test"
+    },
+    "S067": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S067",
+      "split": "development"
+    },
+    "S068": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S068",
+      "split": "test"
+    },
+    "S070": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S070",
+      "split": "test"
+    },
+    "S071": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S071",
+      "split": "test"
+    },
+    "S072": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S072",
+      "split": "development"
+    },
+    "S073": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S073",
+      "split": "test"
+    },
+    "S074": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S074",
+      "split": "development"
+    },
+    "S075": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S075",
+      "split": "test"
+    },
+    "S076": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S076",
+      "split": "development"
+    },
+    "S078": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S078",
+      "split": "development"
+    },
+    "S079": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S079",
+      "split": "test"
+    },
+    "S080": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S080",
+      "split": "test"
+    },
+    "S081": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S081",
+      "split": "development"
+    },
+    "S082": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S082",
+      "split": "development"
+    },
+    "S083": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S083",
+      "split": "test"
+    },
+    "S084": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S084",
+      "split": "test"
+    },
+    "S085": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S085",
+      "split": "development"
+    },
+    "S086": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S086",
+      "split": "test"
+    },
+    "S088": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S088",
+      "split": "test"
+    },
+    "S089": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S089",
+      "split": "test"
+    },
+    "S090": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S090",
+      "split": "test"
+    },
+    "S093": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S093",
+      "split": "test"
+    },
+    "S095": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S095",
+      "split": "test"
+    },
+    "S097": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S097",
+      "split": "development"
+    },
+    "S098": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S098",
+      "split": "test"
+    },
+    "S099": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S099",
+      "split": "test"
+    },
+    "S100": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S100",
+      "split": "test"
+    },
+    "S101": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S101",
+      "split": "test"
+    },
+    "S102": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S102",
+      "split": "test"
+    },
+    "S104": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S104",
+      "split": "test"
+    },
+    "S106": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S106",
+      "split": "development"
+    },
+    "S107": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S107",
+      "split": "test"
+    },
+    "S109": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S109",
+      "split": "test"
+    },
+    "S110": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S110",
+      "split": "development"
+    },
+    "S111": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S111",
+      "split": "test"
+    },
+    "S112": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S112",
+      "split": "test"
+    },
+    "S113": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S113",
+      "split": "test"
+    },
+    "S114": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S114",
+      "split": "test"
+    },
+    "S115": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S115",
+      "split": "development"
+    },
+    "S116": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S116",
+      "split": "development"
+    },
+    "S119": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S119",
+      "split": "test"
+    },
+    "S120": {
+      "suite": "small",
+      "dataset": "diagram2fold-small-v1",
+      "episode": "step",
+      "max_attempts": 8,
+      "track": "step_panels",
+      "status": "accepted",
+      "reference_run": "outputs/diagram2fold-v1.1/small-v1-reference-S120",
+      "split": "test"
+    },
+    "O01": {
+      "suite": "layers",
+      "dataset": "release-v1",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "prepared_layers",
+      "status": "accepted"
+    },
+    "O02": {
+      "suite": "layers",
+      "dataset": "release-v1",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "prepared_layers",
+      "status": "accepted"
+    },
+    "O03": {
+      "suite": "layers",
+      "dataset": "release-v1",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "prepared_layers",
+      "status": "accepted"
+    },
+    "O04": {
+      "suite": "layers",
+      "dataset": "release-v1",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "diagnostic",
+      "status": "needs_repair"
+    },
+    "U001": {
+      "suite": "ultra",
+      "dataset": "ultra-hard-100",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "diagnostic",
+      "status": "needs_repair",
+      "reason": "physical path and legacy score pass; ordered rotation/pose grading needs repair",
+      "reference_run": "reference-U001-v17-01"
+    },
+    "U002": {
+      "suite": "ultra",
+      "dataset": "ultra-hard-100",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "diagnostic",
+      "status": "needs_repair",
+      "reason": "physical path and legacy score pass; ordered rotation/pose grading needs repair",
+      "reference_run": "reference-U002-v17-01"
+    },
+    "U003": {
+      "suite": "ultra",
+      "dataset": "ultra-hard-100",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "diagnostic",
+      "status": "needs_repair",
+      "reason": "physical path and legacy score pass; ordered rotation/pose grading needs repair",
+      "reference_run": "reference-U003-v17-01"
+    },
+    "U031": {
+      "suite": "ultra",
+      "dataset": "ultra-hard-100",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "diagnostic",
+      "status": "needs_repair",
+      "reason": "physical path and legacy score pass; ordered rotation/pose grading needs repair",
+      "reference_run": "reference-U031-v17-01"
+    },
+    "U032": {
+      "suite": "ultra",
+      "dataset": "ultra-hard-100",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "diagnostic",
+      "status": "needs_repair",
+      "reason": "physical path and legacy score pass; ordered rotation/pose grading needs repair",
+      "reference_run": "reference-U032-v17-01"
+    },
+    "U033": {
+      "suite": "ultra",
+      "dataset": "ultra-hard-100",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "diagnostic",
+      "status": "needs_repair",
+      "reason": "physical path and legacy score pass; ordered rotation/pose grading needs repair",
+      "reference_run": "reference-U033-v17-01"
+    },
+    "U061": {
+      "suite": "ultra",
+      "dataset": "ultra-hard-100",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "diagnostic",
+      "status": "needs_repair",
+      "reason": "physical path and legacy score pass; ordered rotation/pose grading needs repair",
+      "reference_run": "reference-U061-v17-06"
+    },
+    "U062": {
+      "suite": "ultra",
+      "dataset": "ultra-hard-100",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "diagnostic",
+      "status": "needs_repair",
+      "reason": "physical path and legacy score pass; ordered rotation/pose grading needs repair",
+      "reference_run": "reference-U062-v17-02"
+    },
+    "U063": {
+      "suite": "ultra",
+      "dataset": "ultra-hard-100",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "diagnostic",
+      "status": "needs_repair",
+      "reason": "physical path and legacy score pass; ordered rotation/pose grading needs repair",
+      "reference_run": "reference-U063-v17-01"
+    },
+    "U086": {
+      "suite": "ultra",
+      "dataset": "ultra-hard-100",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "diagnostic",
+      "status": "needs_repair",
+      "reason": "physical path and legacy score pass; ordered rotation/pose grading needs repair",
+      "reference_run": "reference-U086-v17-04"
+    },
+    "U087": {
+      "suite": "ultra",
+      "dataset": "ultra-hard-100",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "diagnostic",
+      "status": "needs_repair",
+      "reason": "physical path and legacy score pass; ordered rotation/pose grading needs repair",
+      "reference_run": "reference-U087-v17-01"
+    },
+    "U088": {
+      "suite": "ultra",
+      "dataset": "ultra-hard-100",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "diagnostic",
+      "status": "needs_repair",
+      "reason": "physical path and legacy score pass; ordered rotation/pose grading needs repair",
+      "reference_run": "reference-U088-v17-01"
+    },
+    "E01": {
+      "suite": "external",
+      "dataset": "external-qualified",
+      "episode": "document",
+      "max_attempts": 40,
+      "track": "external_documents",
+      "status": "accepted",
+      "requires_source_download": true
+    },
+    "E02": {
+      "suite": "external",
+      "dataset": "external-qualified",
+      "episode": "document",
+      "max_attempts": 40,
+      "track": "external_documents",
+      "status": "accepted",
+      "requires_source_download": true
+    },
+    "H03": {
+      "suite": "external",
+      "dataset": "external-qualified",
+      "episode": "document",
+      "max_attempts": 40,
+      "track": "external_manual",
+      "status": "needs_repair",
+      "requires_source_download": true,
+      "reason": "Historical physics passed; source PDF returns HTTP 403. Matching local source required; excluded from default suites."
+    },
+    "M03": {
+      "suite": "external",
+      "dataset": "external-qualified",
+      "episode": "document",
+      "max_attempts": 40,
+      "track": "external_documents",
+      "status": "accepted",
+      "requires_source_download": true
+    },
+    "D04": {
+      "suite": "external",
+      "dataset": "external-qualified",
+      "episode": "hard",
+      "max_attempts": 40,
+      "track": "external_documents",
+      "status": "accepted",
+      "requires_source_download": true
+    },
+    "D05": {
+      "suite": "external",
+      "dataset": "external-qualified",
+      "episode": "hard",
+      "max_attempts": 40,
+      "track": "external_manual",
+      "status": "needs_repair",
+      "requires_source_download": true,
+      "reason": "Historical physics passed; source PDF returns HTTP 403. Matching local source required; excluded from default suites."
+    },
+    "L01": {
+      "suite": "external",
+      "dataset": "external-qualified",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "external_prepared",
+      "status": "accepted",
+      "requires_source_download": true
+    }
+  }
+}

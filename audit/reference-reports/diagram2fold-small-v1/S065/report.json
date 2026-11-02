@@ -1,0 +1,42 @@
+{
+  "task_id": "S065",
+  "task_success": true,
+  "completion": true,
+  "diagram_semantic_success": true,
+  "shape_success": true,
+  "fixed_mesh_controller_constraints_pass": true,
+  "physical_generalization_certified": null,
+  "scope": "Finite-thickness Codim thin shell under ideal boundary grasps, fixed mesh + historical nonincident clearance rule. No general thickness, real tool access or calibrated material certification. Held checkpoints only, release stability NOT scored.",
+  "checkpoint_shape": [
+    {
+      "rms_mm": 0.40983686863164903,
+      "max_mm": 0.6832275895129458,
+      "alignment": "proper rigid rotation and translation"
+    }
+  ],
+  "semantic_per_step": [
+    true
+  ],
+  "attempted_diagram_steps_correct": [
+    true
+  ],
+  "perception_error_count": 0,
+  "errors": [],
+  "status": "passed_scoped",
+  "steps": 360,
+  "peak_stretch": 0.0001315842807050327,
+  "peak_compression": 0.0001241343615474566,
+  "max_grip_error_mm": 0.0,
+  "limits": {
+    "shape_rms_mm": 1,
+    "shape_max_mm": 3,
+    "principal_strain": 0.01,
+    "grip_error_mm": 0.5,
+    "nominal_thickness_um": 100,
+    "discrete_clearance_um": 100
+  },
+  "error_policy": "Malformed/unsupported actions, simulator rejection, and environment faults are recorded separately. A correct diagram action rejected by the solver is not counted as a perception error.",
+  "agent_kind": "private reference qualification",
+  "seconds": 20.85181050002575,
+  "dataset_sha256": "04141f86cf9b987bb47eb97a9101e07350996c1c245c813d69e6f4936f1e363f"
+}

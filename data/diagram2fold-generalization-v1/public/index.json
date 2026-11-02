@@ -1,0 +1,102 @@
+{
+  "version": "generalization-v1",
+  "tasks": [
+    {
+      "id": "H001",
+      "label": "左向右谷折",
+      "split": "instance_holdout",
+      "source_group": "original_templates",
+      "family": "half",
+      "image": "H001.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "New original Diagram2Fold diagrams; CC BY 4.0. Authored after policy freeze; same renderer/families as development."
+    },
+    {
+      "id": "H002",
+      "label": "右向左山折",
+      "split": "instance_holdout",
+      "source_group": "original_templates",
+      "family": "half",
+      "image": "H002.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "New original Diagram2Fold diagrams; CC BY 4.0. Authored after policy freeze; same renderer/families as development."
+    },
+    {
+      "id": "H003",
+      "label": "下边向中线折",
+      "split": "instance_holdout",
+      "source_group": "original_templates",
+      "family": "quarter",
+      "image": "H003.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "New original Diagram2Fold diagrams; CC BY 4.0. Authored after policy freeze; same renderer/families as development."
+    },
+    {
+      "id": "H004",
+      "label": "上边向中线山折",
+      "split": "instance_holdout",
+      "source_group": "original_templates",
+      "family": "quarter",
+      "image": "H004.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "New original Diagram2Fold diagrams; CC BY 4.0. Authored after policy freeze; same renderer/families as development."
+    },
+    {
+      "id": "H005",
+      "label": "开门折：先下后上",
+      "split": "instance_holdout",
+      "source_group": "original_templates",
+      "family": "gate",
+      "image": "H005.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "New original Diagram2Fold diagrams; CC BY 4.0. Authored after policy freeze; same renderer/families as development."
+    },
+    {
+      "id": "H006",
+      "label": "开门折：先左后右",
+      "split": "instance_holdout",
+      "source_group": "original_templates",
+      "family": "gate",
+      "image": "H006.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "New original Diagram2Fold diagrams; CC BY 4.0. Authored after policy freeze; same renderer/families as development."
+    },
+    {
+      "id": "H007",
+      "label": "风筝折：右边再下边",
+      "split": "instance_holdout",
+      "source_group": "original_templates",
+      "family": "kite",
+      "image": "H007.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "New original Diagram2Fold diagrams; CC BY 4.0. Authored after policy freeze; same renderer/families as development."
+    },
+    {
+      "id": "H008",
+      "label": "风筝折：上边再右边",
+      "split": "instance_holdout",
+      "source_group": "original_templates",
+      "family": "kite",
+      "image": "H008.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "New original Diagram2Fold diagrams; CC BY 4.0. Authored after policy freeze; same renderer/families as development."
+    }
+  ],
+  "scope": "Post-policy-freeze instance holdout; same renderer and fold families as development, NOT family-disjoint or arbitrary web/book generalization"
+}

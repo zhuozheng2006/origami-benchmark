@@ -1,0 +1,140 @@
+[
+  {
+    "index": 0,
+    "instruction_index": 0,
+    "action": {
+      "op": "fold",
+      "line": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.585786437626905
+        ]
+      ],
+      "moving_point": [
+        1.0,
+        1.0
+      ],
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "a195eef6b9b260a40c47a26b8e6aaebc5654d38be3766cb7addc08b9e45607fa",
+    "after": "0ba041cdfb96a8b07bbc8b382d86b92ac67dedc5057af79c7e0280b154a8d04d",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          9,
+          12,
+          14,
+          22,
+          23,
+          25,
+          33,
+          38,
+          39,
+          53,
+          57,
+          63,
+          70,
+          71,
+          75,
+          77,
+          78,
+          80,
+          84,
+          91,
+          98,
+          99,
+          102
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          5,
+          6,
+          9,
+          57,
+          63,
+          77,
+          78,
+          80,
+          91,
+          102
+        ],
+        "axis_point": [
+          -0.075,
+          0.075,
+          0.00015
+        ],
+        "axis_direction": [
+          0.9238795325113178,
+          -0.38268343236501484,
+          0.0
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted",
+      "executed_axis": {
+        "axis_point": [
+          -0.075,
+          0.075,
+          0.00015
+        ],
+        "axis_direction": [
+          0.9238795325113178,
+          -0.38268343236501484,
+          0.0
+        ],
+        "degrees": 180.0
+      }
+    }
+  },
+  {
+    "index": 1,
+    "instruction_index": 1,
+    "action": {
+      "op": "fold",
+      "line": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.585786437626905,
+          1.0
+        ]
+      ],
+      "moving_point": [
+        1.0,
+        1.0
+      ],
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "0ba041cdfb96a8b07bbc8b382d86b92ac67dedc5057af79c7e0280b154a8d04d",
+    "after": "0ba041cdfb96a8b07bbc8b382d86b92ac67dedc5057af79c7e0280b154a8d04d",
+    "low_level_actions": [],
+    "result": {
+      "status": "rejected",
+      "category": "capability_limit",
+      "detail": "Crease crosses mesh faces and no complete mesh line is within 0.5mm / 0.5 degrees",
+      "rollback_verified": true
+    }
+  }
+]

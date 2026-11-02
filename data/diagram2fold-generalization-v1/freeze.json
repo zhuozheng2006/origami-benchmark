@@ -1,0 +1,26 @@
+{
+  "created": "2026-10-30T10:31:05.545424+00:00",
+  "files": {
+    "private/H001-targets.npz": "d5c3228ede98f201f9cced7b68446fd37341258b310ff3d4a82c4485c0f39984",
+    "private/H002-targets.npz": "28b8eeabaf33f5d9cbe23c41a4f4bf5311c88713b9c934e7366dc353ce8289ea",
+    "private/H003-targets.npz": "90473929c5d66b7ed804f4073f706c6c948dc490f307244b84b9b4b9143dd17d",
+    "private/H004-targets.npz": "1b4d6ebe9bf0ed536534f8223926887e6f945f0320045555c3f291236011535d",
+    "private/H005-targets.npz": "39f7d630ceb1124691d27f3bb0166f61897a7d1df9ba75a775b83127827af98d",
+    "private/H006-targets.npz": "4c7088691a4e7ec7b7de508be19a2ec6d589b0e59998e6d0bfea5be958247b73",
+    "private/H007-targets.npz": "06fa363ed9eacbb009ada3dc672e09147f91327c3e53dfd1a393520260dc1b41",
+    "private/H008-targets.npz": "3c5f831ffa88626ffd8456ec594c550cdeb3a5f1b94342c63749f9ba4bd8cd34",
+    "private/tasks.json": "54b50f498b6cab24bd8274a73564ae0ab363cb6bc57b2f3644aded4dfdef563a",
+    "provenance.json": "00b14fb4904194d6bdcdb833ca649076c672305e0c2b1f35f57b56dcba8a0c8b",
+    "public/H001.png": "29cbbc69675559000d6987e80ca07eef562bdffa0914e561a86b2d043eeaea90",
+    "public/H002.png": "827162c6fc1293861ffb6e92f5f1336125b44061890526917bf8e9be7fad6b04",
+    "public/H003.png": "13e58b7ffa9ef6ed871b3854f7d504f74366ff8f51ef212e832fbdc99708552e",
+    "public/H004.png": "33df2629256ee790af3102394def08c56b0e4fed740afe8af46a4a7e2b41a5ba",
+    "public/H005.png": "4bb748ad8ca81ee286be9b869792cf8046fc98f51978a8096bd631a6456a09cd",
+    "public/H006.png": "0ddb559c1d2b2f7b5fde2afdf8d14b076eac4a3034117c3613ce02b4b18d8881",
+    "public/H007.png": "9d2f270196d4aebb6dd480cd9cefd0fabb52099246c1d23411efb072b768ece6",
+    "public/H008.png": "ff24bbc023f6137a1e686865c428626b2477b08b0152ec144bbee59fadde85fd",
+    "public/index.json": "59360133047c9958480292f41fd147b0c779fd72d96e6c6582db2a3e2cb4f2e5"
+  },
+  "policy_freeze_sha256": "c76fbaf3916ae18d697ed3921d04eb787fcb417f65d2711320e7831a8e5a3f43",
+  "scope": "Post-policy-freeze instance holdout; same renderer and fold families as development, NOT family-disjoint or arbitrary web/book generalization"
+}

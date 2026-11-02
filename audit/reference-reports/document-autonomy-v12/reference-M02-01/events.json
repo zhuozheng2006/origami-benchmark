@@ -1,0 +1,166 @@
+[
+  {
+    "index": 0,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.5
+        ],
+        [
+          1,
+          0.5
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        1
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "aa0b46c74ba74b96262914635c39b9068df7cdd1b9b4f6050f413bf6bc833bd4",
+    "after": "dcf24cfb23e32fa22b721c4cec0f1f531f195d18d63e392df9d6abeb5427b5f3",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          41,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77,
+          79,
+          83,
+          87,
+          91,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          47,
+          52,
+          59,
+          63,
+          65,
+          69,
+          73,
+          77
+        ],
+        "axis_point": [
+          0.003995340465950112,
+          0.0,
+          0.00015000004173015054
+        ],
+        "axis_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "degrees": 180.0,
+        "frames": 417
+      }
+    ],
+    "result": {
+      "status": "accepted"
+    },
+    "frame": 882,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "e6b44ad807ed7b98f45ffc865939212e87f804deb3b75c8eb7f49abf9ec278e4",
+      "rest_angle_l2": 11.857819739991099,
+      "dissipation_joules": 0.00047739309158162477
+    },
+    "time": 14.70000000000031
+  },
+  {
+    "index": 1,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "moving_point": [
+        0,
+        0.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "dcf24cfb23e32fa22b721c4cec0f1f531f195d18d63e392df9d6abeb5427b5f3",
+    "after": "dcf24cfb23e32fa22b721c4cec0f1f531f195d18d63e392df9d6abeb5427b5f3",
+    "low_level_actions": [],
+    "result": {
+      "status": "rejected",
+      "category": "capability_limit",
+      "detail": "Not enough distinct moving/fixed outer boundary grips",
+      "rollback_verified": true
+    },
+    "frame": 882,
+    "document": {
+      "page": 1,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "material_memory": {
+      "rest_angle_sha256": "e6b44ad807ed7b98f45ffc865939212e87f804deb3b75c8eb7f49abf9ec278e4",
+      "rest_angle_l2": 11.857819739991099,
+      "dissipation_joules": 0.00047739309158162477
+    },
+    "time": 14.70000000000031
+  }
+]

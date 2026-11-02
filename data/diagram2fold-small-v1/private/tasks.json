@@ -1,0 +1,4426 @@
+{
+  "S001": {
+    "mesh": "small_v1_s001",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.25
+          ],
+          [
+            1.0,
+            0.25
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.75
+          ],
+          [
+            0.0,
+            0.75
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S001-targets.npz",
+    "family": "gate",
+    "group": "gate-0.25000",
+    "qualification": "pending"
+  },
+  "S002": {
+    "mesh": "small_v1_s002",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.2
+          ],
+          [
+            1.0,
+            0.2
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.8
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S002-targets.npz",
+    "family": "gate",
+    "group": "gate-0.20000",
+    "qualification": "pending"
+  },
+  "S003": {
+    "mesh": "small_v1_s003",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.375,
+            1.0
+          ],
+          [
+            0.375,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S003-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.37500",
+    "qualification": "pending"
+  },
+  "S004": {
+    "mesh": "small_v1_s004",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.2,
+            1.0
+          ],
+          [
+            0.2,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S004-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.20000",
+    "qualification": "pending"
+  },
+  "S005": {
+    "mesh": "small_v1_s005",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.8,
+            0.0
+          ],
+          [
+            0.8,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S005-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.20000",
+    "qualification": "pending"
+  },
+  "S006": {
+    "mesh": "small_v1_s006",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.585786437626905,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.585786437626905
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S006-targets.npz",
+    "family": "kite",
+    "group": "kite-double",
+    "qualification": "pending"
+  },
+  "S007": {
+    "mesh": "small_v1_s007",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S007-targets.npz",
+    "family": "diagonal",
+    "group": "diagonal-half",
+    "qualification": "pending"
+  },
+  "S008": {
+    "mesh": "small_v1_s008",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.41421356237309503
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.41421356237309503,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S008-targets.npz",
+    "family": "kite",
+    "group": "kite-double",
+    "qualification": "pending"
+  },
+  "S009": {
+    "mesh": "small_v1_s009",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.625
+          ],
+          [
+            0.0,
+            0.625
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S009-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.37500",
+    "qualification": "pending"
+  },
+  "S010": {
+    "mesh": "small_v1_s010",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.6
+          ],
+          [
+            0.0,
+            0.6
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S010-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.40000",
+    "qualification": "pending"
+  },
+  "S011": {
+    "mesh": "small_v1_s011",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S011-targets.npz",
+    "family": "diagonal",
+    "group": "diagonal-half",
+    "qualification": "pending"
+  },
+  "S012": {
+    "mesh": "small_v1_s012",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.3,
+            1.0
+          ],
+          [
+            0.3,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.7,
+            0.0
+          ],
+          [
+            0.7,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S012-targets.npz",
+    "family": "gate",
+    "group": "gate-0.30000",
+    "qualification": "pending"
+  },
+  "S013": {
+    "mesh": "small_v1_s013",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.7
+          ],
+          [
+            0.0,
+            0.7
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.3
+          ],
+          [
+            1.0,
+            0.3
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S013-targets.npz",
+    "family": "gate",
+    "group": "gate-0.30000",
+    "qualification": "pending"
+  },
+  "S014": {
+    "mesh": "small_v1_s014",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.75,
+            0.0
+          ],
+          [
+            0.75,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S014-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.25000",
+    "qualification": "pending"
+  },
+  "S015": {
+    "mesh": "small_v1_s015",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.2
+          ],
+          [
+            1.0,
+            0.2
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S015-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.20000",
+    "qualification": "pending"
+  },
+  "S016": {
+    "mesh": "small_v1_s016",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.8,
+            0.0
+          ],
+          [
+            0.8,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S016-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.20000",
+    "qualification": "pending"
+  },
+  "S017": {
+    "mesh": "small_v1_s017",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.3,
+            1.0
+          ],
+          [
+            0.3,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.7,
+            0.0
+          ],
+          [
+            0.7,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S017-targets.npz",
+    "family": "gate",
+    "group": "gate-0.30000",
+    "qualification": "pending"
+  },
+  "S018": {
+    "mesh": "small_v1_s018",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.7,
+            0.0
+          ],
+          [
+            0.7,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S018-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.30000",
+    "qualification": "pending"
+  },
+  "S019": {
+    "mesh": "small_v1_s019",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.75
+          ],
+          [
+            0.0,
+            0.75
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.25
+          ],
+          [
+            1.0,
+            0.25
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S019-targets.npz",
+    "family": "gate",
+    "group": "gate-0.25000",
+    "qualification": "pending"
+  },
+  "S020": {
+    "mesh": "small_v1_s020",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.3,
+            1.0
+          ],
+          [
+            0.3,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S020-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.30000",
+    "qualification": "pending"
+  },
+  "S021": {
+    "mesh": "small_v1_s021",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.6666666666666667,
+            0.0
+          ],
+          [
+            0.6666666666666667,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S021-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.33333",
+    "qualification": "pending"
+  },
+  "S022": {
+    "mesh": "small_v1_s022",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.6,
+            0.0
+          ],
+          [
+            0.6,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S022-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.40000",
+    "qualification": "pending"
+  },
+  "S023": {
+    "mesh": "small_v1_s023",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.6
+          ],
+          [
+            0.0,
+            0.6
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S023-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.40000",
+    "qualification": "pending"
+  },
+  "S024": {
+    "mesh": "small_v1_s024",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.3333333333333333
+          ],
+          [
+            1.0,
+            0.3333333333333333
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S024-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.33333",
+    "qualification": "pending"
+  },
+  "S025": {
+    "mesh": "small_v1_s025",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.7,
+            0.0
+          ],
+          [
+            0.7,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S025-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.30000",
+    "qualification": "pending"
+  },
+  "S026": {
+    "mesh": "small_v1_s026",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.4
+          ],
+          [
+            1.0,
+            0.4
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S026-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.40000",
+    "qualification": "pending"
+  },
+  "S027": {
+    "mesh": "small_v1_s027",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.3
+          ],
+          [
+            1.0,
+            0.3
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S027-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.30000",
+    "qualification": "pending"
+  },
+  "S028": {
+    "mesh": "small_v1_s028",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.7,
+            0.0
+          ],
+          [
+            0.7,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.3,
+            1.0
+          ],
+          [
+            0.3,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S028-targets.npz",
+    "family": "gate",
+    "group": "gate-0.30000",
+    "qualification": "pending"
+  },
+  "S029": {
+    "mesh": "small_v1_s029",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.3
+          ],
+          [
+            1.0,
+            0.3
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S029-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.30000",
+    "qualification": "pending"
+  },
+  "S030": {
+    "mesh": "small_v1_s030",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.75
+          ],
+          [
+            0.0,
+            0.75
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.25
+          ],
+          [
+            1.0,
+            0.25
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S030-targets.npz",
+    "family": "gate",
+    "group": "gate-0.25000",
+    "qualification": "pending"
+  },
+  "S031": {
+    "mesh": "small_v1_s031",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.25
+          ],
+          [
+            1.0,
+            0.25
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.75
+          ],
+          [
+            0.0,
+            0.75
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S031-targets.npz",
+    "family": "gate",
+    "group": "gate-0.25000",
+    "qualification": "pending"
+  },
+  "S032": {
+    "mesh": "small_v1_s032",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.3,
+            1.0
+          ],
+          [
+            0.3,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.7,
+            0.0
+          ],
+          [
+            0.7,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S032-targets.npz",
+    "family": "gate",
+    "group": "gate-0.30000",
+    "qualification": "pending"
+  },
+  "S033": {
+    "mesh": "small_v1_s033",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.25,
+            1.0
+          ],
+          [
+            0.25,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.75,
+            0.0
+          ],
+          [
+            0.75,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S033-targets.npz",
+    "family": "gate",
+    "group": "gate-0.25000",
+    "qualification": "pending"
+  },
+  "S034": {
+    "mesh": "small_v1_s034",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.75
+          ],
+          [
+            0.0,
+            0.75
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.25
+          ],
+          [
+            1.0,
+            0.25
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S034-targets.npz",
+    "family": "gate",
+    "group": "gate-0.25000",
+    "qualification": "pending"
+  },
+  "S035": {
+    "mesh": "small_v1_s035",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.5,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S035-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.50000",
+    "qualification": "pending"
+  },
+  "S036": {
+    "mesh": "small_v1_s036",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.3
+          ],
+          [
+            1.0,
+            0.3
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.7
+          ],
+          [
+            0.0,
+            0.7
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S036-targets.npz",
+    "family": "gate",
+    "group": "gate-0.30000",
+    "qualification": "pending"
+  },
+  "S037": {
+    "mesh": "small_v1_s037",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.7
+          ],
+          [
+            0.0,
+            0.7
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S037-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.30000",
+    "qualification": "pending"
+  },
+  "S038": {
+    "mesh": "small_v1_s038",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.2,
+            1.0
+          ],
+          [
+            0.2,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.8,
+            0.0
+          ],
+          [
+            0.8,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S038-targets.npz",
+    "family": "gate",
+    "group": "gate-0.20000",
+    "qualification": "pending"
+  },
+  "S039": {
+    "mesh": "small_v1_s039",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.8
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.2
+          ],
+          [
+            1.0,
+            0.2
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S039-targets.npz",
+    "family": "gate",
+    "group": "gate-0.20000",
+    "qualification": "pending"
+  },
+  "S040": {
+    "mesh": "small_v1_s040",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.5
+          ],
+          [
+            0.0,
+            0.5
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S040-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.50000",
+    "qualification": "pending"
+  },
+  "S041": {
+    "mesh": "small_v1_s041",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.375
+          ],
+          [
+            1.0,
+            0.375
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S041-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.37500",
+    "qualification": "pending"
+  },
+  "S042": {
+    "mesh": "small_v1_s042",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.3333333333333333
+          ],
+          [
+            1.0,
+            0.3333333333333333
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S042-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.33333",
+    "qualification": "pending"
+  },
+  "S043": {
+    "mesh": "small_v1_s043",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.2,
+            1.0
+          ],
+          [
+            0.2,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.8,
+            0.0
+          ],
+          [
+            0.8,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S043-targets.npz",
+    "family": "gate",
+    "group": "gate-0.20000",
+    "qualification": "pending"
+  },
+  "S044": {
+    "mesh": "small_v1_s044",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.4
+          ],
+          [
+            1.0,
+            0.4
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S044-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.40000",
+    "qualification": "pending"
+  },
+  "S045": {
+    "mesh": "small_v1_s045",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.25,
+            1.0
+          ],
+          [
+            0.25,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.75,
+            0.0
+          ],
+          [
+            0.75,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S045-targets.npz",
+    "family": "gate",
+    "group": "gate-0.25000",
+    "qualification": "pending"
+  },
+  "S046": {
+    "mesh": "small_v1_s046",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.2
+          ],
+          [
+            1.0,
+            0.2
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S046-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.20000",
+    "qualification": "pending"
+  },
+  "S047": {
+    "mesh": "small_v1_s047",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S047-targets.npz",
+    "family": "diagonal",
+    "group": "diagonal-half",
+    "qualification": "pending"
+  },
+  "S048": {
+    "mesh": "small_v1_s048",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S048-targets.npz",
+    "family": "diagonal",
+    "group": "diagonal-half",
+    "qualification": "pending"
+  },
+  "S049": {
+    "mesh": "small_v1_s049",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.8
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.2
+          ],
+          [
+            1.0,
+            0.2
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S049-targets.npz",
+    "family": "gate",
+    "group": "gate-0.20000",
+    "qualification": "pending"
+  },
+  "S050": {
+    "mesh": "small_v1_s050",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.3
+          ],
+          [
+            1.0,
+            0.3
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.7
+          ],
+          [
+            0.0,
+            0.7
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S050-targets.npz",
+    "family": "gate",
+    "group": "gate-0.30000",
+    "qualification": "pending"
+  },
+  "S051": {
+    "mesh": "small_v1_s051",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.2
+          ],
+          [
+            1.0,
+            0.2
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.8
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S051-targets.npz",
+    "family": "gate",
+    "group": "gate-0.20000",
+    "qualification": "pending"
+  },
+  "S052": {
+    "mesh": "small_v1_s052",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.2
+          ],
+          [
+            1.0,
+            0.2
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.8
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S052-targets.npz",
+    "family": "gate",
+    "group": "gate-0.20000",
+    "qualification": "pending"
+  },
+  "S053": {
+    "mesh": "small_v1_s053",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.625,
+            0.0
+          ],
+          [
+            0.625,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S053-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.37500",
+    "qualification": "pending"
+  },
+  "S054": {
+    "mesh": "small_v1_s054",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S054-targets.npz",
+    "family": "diagonal",
+    "group": "diagonal-half",
+    "qualification": "pending"
+  },
+  "S055": {
+    "mesh": "small_v1_s055",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.25
+          ],
+          [
+            1.0,
+            0.25
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S055-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.25000",
+    "qualification": "pending"
+  },
+  "S056": {
+    "mesh": "small_v1_s056",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.75
+          ],
+          [
+            0.0,
+            0.75
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S056-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.25000",
+    "qualification": "pending"
+  },
+  "S057": {
+    "mesh": "small_v1_s057",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.25
+          ],
+          [
+            1.0,
+            0.25
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.75
+          ],
+          [
+            0.0,
+            0.75
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S057-targets.npz",
+    "family": "gate",
+    "group": "gate-0.25000",
+    "qualification": "pending"
+  },
+  "S058": {
+    "mesh": "small_v1_s058",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.75,
+            0.0
+          ],
+          [
+            0.75,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.25,
+            1.0
+          ],
+          [
+            0.25,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S058-targets.npz",
+    "family": "gate",
+    "group": "gate-0.25000",
+    "qualification": "pending"
+  },
+  "S059": {
+    "mesh": "small_v1_s059",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.2,
+            1.0
+          ],
+          [
+            0.2,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.8,
+            0.0
+          ],
+          [
+            0.8,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S059-targets.npz",
+    "family": "gate",
+    "group": "gate-0.20000",
+    "qualification": "pending"
+  },
+  "S060": {
+    "mesh": "small_v1_s060",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.25,
+            1.0
+          ],
+          [
+            0.25,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S060-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.25000",
+    "qualification": "pending"
+  },
+  "S061": {
+    "mesh": "small_v1_s061",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            0.41421356237309503,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.585786437626905
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S061-targets.npz",
+    "family": "kite",
+    "group": "kite-double",
+    "qualification": "pending"
+  },
+  "S062": {
+    "mesh": "small_v1_s062",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.2,
+            1.0
+          ],
+          [
+            0.2,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S062-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.20000",
+    "qualification": "pending"
+  },
+  "S063": {
+    "mesh": "small_v1_s063",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.7
+          ],
+          [
+            0.0,
+            0.7
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.3
+          ],
+          [
+            1.0,
+            0.3
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S063-targets.npz",
+    "family": "gate",
+    "group": "gate-0.30000",
+    "qualification": "pending"
+  },
+  "S064": {
+    "mesh": "small_v1_s064",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.75,
+            0.0
+          ],
+          [
+            0.75,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.25,
+            1.0
+          ],
+          [
+            0.25,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S064-targets.npz",
+    "family": "gate",
+    "group": "gate-0.25000",
+    "qualification": "pending"
+  },
+  "S065": {
+    "mesh": "small_v1_s065",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.625
+          ],
+          [
+            0.0,
+            0.625
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S065-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.37500",
+    "qualification": "pending"
+  },
+  "S066": {
+    "mesh": "small_v1_s066",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.41421356237309503
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.585786437626905,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S066-targets.npz",
+    "family": "kite",
+    "group": "kite-double",
+    "qualification": "pending"
+  },
+  "S067": {
+    "mesh": "small_v1_s067",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.5,
+            1.0
+          ],
+          [
+            0.5,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S067-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.50000",
+    "qualification": "pending"
+  },
+  "S068": {
+    "mesh": "small_v1_s068",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.75,
+            0.0
+          ],
+          [
+            0.75,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.25,
+            1.0
+          ],
+          [
+            0.25,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S068-targets.npz",
+    "family": "gate",
+    "group": "gate-0.25000",
+    "qualification": "pending"
+  },
+  "S069": {
+    "mesh": "small_v1_s069",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.25,
+            1.0
+          ],
+          [
+            0.25,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.75,
+            0.0
+          ],
+          [
+            0.75,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S069-targets.npz",
+    "family": "gate",
+    "group": "gate-0.25000",
+    "qualification": "pending"
+  },
+  "S070": {
+    "mesh": "small_v1_s070",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.375
+          ],
+          [
+            1.0,
+            0.375
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S070-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.37500",
+    "qualification": "pending"
+  },
+  "S071": {
+    "mesh": "small_v1_s071",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.8
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.2
+          ],
+          [
+            1.0,
+            0.2
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S071-targets.npz",
+    "family": "gate",
+    "group": "gate-0.20000",
+    "qualification": "pending"
+  },
+  "S072": {
+    "mesh": "small_v1_s072",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.25,
+            1.0
+          ],
+          [
+            0.25,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S072-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.25000",
+    "qualification": "pending"
+  },
+  "S073": {
+    "mesh": "small_v1_s073",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.8,
+            0.0
+          ],
+          [
+            0.8,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.2,
+            1.0
+          ],
+          [
+            0.2,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S073-targets.npz",
+    "family": "gate",
+    "group": "gate-0.20000",
+    "qualification": "pending"
+  },
+  "S074": {
+    "mesh": "small_v1_s074",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.5,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S074-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.50000",
+    "qualification": "pending"
+  },
+  "S075": {
+    "mesh": "small_v1_s075",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.4,
+            1.0
+          ],
+          [
+            0.4,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S075-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.40000",
+    "qualification": "pending"
+  },
+  "S076": {
+    "mesh": "small_v1_s076",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.5
+          ],
+          [
+            1.0,
+            0.5
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S076-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.50000",
+    "qualification": "pending"
+  },
+  "S077": {
+    "mesh": "small_v1_s077",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.75,
+            0.0
+          ],
+          [
+            0.75,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.25,
+            1.0
+          ],
+          [
+            0.25,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S077-targets.npz",
+    "family": "gate",
+    "group": "gate-0.25000",
+    "qualification": "pending"
+  },
+  "S078": {
+    "mesh": "small_v1_s078",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S078-targets.npz",
+    "family": "diagonal",
+    "group": "diagonal-half",
+    "qualification": "pending"
+  },
+  "S079": {
+    "mesh": "small_v1_s079",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.6,
+            0.0
+          ],
+          [
+            0.6,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S079-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.40000",
+    "qualification": "pending"
+  },
+  "S080": {
+    "mesh": "small_v1_s080",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.8
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.2
+          ],
+          [
+            1.0,
+            0.2
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S080-targets.npz",
+    "family": "gate",
+    "group": "gate-0.20000",
+    "qualification": "pending"
+  },
+  "S081": {
+    "mesh": "small_v1_s081",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S081-targets.npz",
+    "family": "diagonal",
+    "group": "diagonal-half",
+    "qualification": "pending"
+  },
+  "S082": {
+    "mesh": "small_v1_s082",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.5
+          ],
+          [
+            0.0,
+            0.5
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S082-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.50000",
+    "qualification": "pending"
+  },
+  "S083": {
+    "mesh": "small_v1_s083",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.7,
+            0.0
+          ],
+          [
+            0.7,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.3,
+            1.0
+          ],
+          [
+            0.3,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S083-targets.npz",
+    "family": "gate",
+    "group": "gate-0.30000",
+    "qualification": "pending"
+  },
+  "S084": {
+    "mesh": "small_v1_s084",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.7,
+            0.0
+          ],
+          [
+            0.7,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.3,
+            1.0
+          ],
+          [
+            0.3,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S084-targets.npz",
+    "family": "gate",
+    "group": "gate-0.30000",
+    "qualification": "pending"
+  },
+  "S085": {
+    "mesh": "small_v1_s085",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.5,
+            1.0
+          ],
+          [
+            0.5,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S085-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.50000",
+    "qualification": "pending"
+  },
+  "S086": {
+    "mesh": "small_v1_s086",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.41421356237309503,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.41421356237309503
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S086-targets.npz",
+    "family": "kite",
+    "group": "kite-double",
+    "qualification": "pending"
+  },
+  "S087": {
+    "mesh": "small_v1_s087",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.7,
+            0.0
+          ],
+          [
+            0.7,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.3,
+            1.0
+          ],
+          [
+            0.3,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S087-targets.npz",
+    "family": "gate",
+    "group": "gate-0.30000",
+    "qualification": "pending"
+  },
+  "S088": {
+    "mesh": "small_v1_s088",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.585786437626905
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            0.41421356237309503,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S088-targets.npz",
+    "family": "kite",
+    "group": "kite-double",
+    "qualification": "pending"
+  },
+  "S089": {
+    "mesh": "small_v1_s089",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.2,
+            1.0
+          ],
+          [
+            0.2,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.8,
+            0.0
+          ],
+          [
+            0.8,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S089-targets.npz",
+    "family": "gate",
+    "group": "gate-0.20000",
+    "qualification": "pending"
+  },
+  "S090": {
+    "mesh": "small_v1_s090",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.4,
+            1.0
+          ],
+          [
+            0.4,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S090-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.40000",
+    "qualification": "pending"
+  },
+  "S091": {
+    "mesh": "small_v1_s091",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.75
+          ],
+          [
+            0.0,
+            0.75
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.25
+          ],
+          [
+            1.0,
+            0.25
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S091-targets.npz",
+    "family": "gate",
+    "group": "gate-0.25000",
+    "qualification": "pending"
+  },
+  "S092": {
+    "mesh": "small_v1_s092",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.585786437626905,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.41421356237309503
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S092-targets.npz",
+    "family": "kite",
+    "group": "kite-double",
+    "qualification": "pending"
+  },
+  "S093": {
+    "mesh": "small_v1_s093",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.3,
+            1.0
+          ],
+          [
+            0.3,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S093-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.30000",
+    "qualification": "pending"
+  },
+  "S094": {
+    "mesh": "small_v1_s094",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.3,
+            1.0
+          ],
+          [
+            0.3,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.7,
+            0.0
+          ],
+          [
+            0.7,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S094-targets.npz",
+    "family": "gate",
+    "group": "gate-0.30000",
+    "qualification": "pending"
+  },
+  "S095": {
+    "mesh": "small_v1_s095",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.8,
+            0.0
+          ],
+          [
+            0.8,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.2,
+            1.0
+          ],
+          [
+            0.2,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S095-targets.npz",
+    "family": "gate",
+    "group": "gate-0.20000",
+    "qualification": "pending"
+  },
+  "S096": {
+    "mesh": "small_v1_s096",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.7
+          ],
+          [
+            0.0,
+            0.7
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.3
+          ],
+          [
+            1.0,
+            0.3
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S096-targets.npz",
+    "family": "gate",
+    "group": "gate-0.30000",
+    "qualification": "pending"
+  },
+  "S097": {
+    "mesh": "small_v1_s097",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.75,
+            0.0
+          ],
+          [
+            0.75,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S097-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.25000",
+    "qualification": "pending"
+  },
+  "S098": {
+    "mesh": "small_v1_s098",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.6666666666666667
+          ],
+          [
+            0.0,
+            0.6666666666666667
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S098-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.33333",
+    "qualification": "pending"
+  },
+  "S099": {
+    "mesh": "small_v1_s099",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.625,
+            0.0
+          ],
+          [
+            0.625,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S099-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.37500",
+    "qualification": "pending"
+  },
+  "S100": {
+    "mesh": "small_v1_s100",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.8
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S100-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.20000",
+    "qualification": "pending"
+  },
+  "S101": {
+    "mesh": "small_v1_s101",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.8,
+            0.0
+          ],
+          [
+            0.8,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.2,
+            1.0
+          ],
+          [
+            0.2,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S101-targets.npz",
+    "family": "gate",
+    "group": "gate-0.20000",
+    "qualification": "pending"
+  },
+  "S102": {
+    "mesh": "small_v1_s102",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.7
+          ],
+          [
+            0.0,
+            0.7
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.3
+          ],
+          [
+            1.0,
+            0.3
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S102-targets.npz",
+    "family": "gate",
+    "group": "gate-0.30000",
+    "qualification": "pending"
+  },
+  "S103": {
+    "mesh": "small_v1_s103",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.585786437626905
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.585786437626905,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S103-targets.npz",
+    "family": "kite",
+    "group": "kite-double",
+    "qualification": "pending"
+  },
+  "S104": {
+    "mesh": "small_v1_s104",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.8,
+            0.0
+          ],
+          [
+            0.8,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.2,
+            1.0
+          ],
+          [
+            0.2,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S104-targets.npz",
+    "family": "gate",
+    "group": "gate-0.20000",
+    "qualification": "pending"
+  },
+  "S105": {
+    "mesh": "small_v1_s105",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.3
+          ],
+          [
+            1.0,
+            0.3
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.7
+          ],
+          [
+            0.0,
+            0.7
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S105-targets.npz",
+    "family": "gate",
+    "group": "gate-0.30000",
+    "qualification": "pending"
+  },
+  "S106": {
+    "mesh": "small_v1_s106",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.75
+          ],
+          [
+            0.0,
+            0.75
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S106-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.25000",
+    "qualification": "pending"
+  },
+  "S107": {
+    "mesh": "small_v1_s107",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.7
+          ],
+          [
+            0.0,
+            0.7
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S107-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.30000",
+    "qualification": "pending"
+  },
+  "S108": {
+    "mesh": "small_v1_s108",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.25
+          ],
+          [
+            1.0,
+            0.25
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.75
+          ],
+          [
+            0.0,
+            0.75
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S108-targets.npz",
+    "family": "gate",
+    "group": "gate-0.25000",
+    "qualification": "pending"
+  },
+  "S109": {
+    "mesh": "small_v1_s109",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.6666666666666667
+          ],
+          [
+            0.0,
+            0.6666666666666667
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S109-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.33333",
+    "qualification": "pending"
+  },
+  "S110": {
+    "mesh": "small_v1_s110",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S110-targets.npz",
+    "family": "diagonal",
+    "group": "diagonal-half",
+    "qualification": "pending"
+  },
+  "S111": {
+    "mesh": "small_v1_s111",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.3333333333333333,
+            1.0
+          ],
+          [
+            0.3333333333333333,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S111-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.33333",
+    "qualification": "pending"
+  },
+  "S112": {
+    "mesh": "small_v1_s112",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.6666666666666667,
+            0.0
+          ],
+          [
+            0.6666666666666667,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S112-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.33333",
+    "qualification": "pending"
+  },
+  "S113": {
+    "mesh": "small_v1_s113",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.8
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S113-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.20000",
+    "qualification": "pending"
+  },
+  "S114": {
+    "mesh": "small_v1_s114",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.2
+          ],
+          [
+            1.0,
+            0.2
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.8
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S114-targets.npz",
+    "family": "gate",
+    "group": "gate-0.20000",
+    "qualification": "pending"
+  },
+  "S115": {
+    "mesh": "small_v1_s115",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.25
+          ],
+          [
+            1.0,
+            0.25
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S115-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.25000",
+    "qualification": "pending"
+  },
+  "S116": {
+    "mesh": "small_v1_s116",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.5
+          ],
+          [
+            1.0,
+            0.5
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S116-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.50000",
+    "qualification": "pending"
+  },
+  "S117": {
+    "mesh": "small_v1_s117",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.25,
+            1.0
+          ],
+          [
+            0.25,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.75,
+            0.0
+          ],
+          [
+            0.75,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S117-targets.npz",
+    "family": "gate",
+    "group": "gate-0.25000",
+    "qualification": "pending"
+  },
+  "S118": {
+    "mesh": "small_v1_s118",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.3
+          ],
+          [
+            1.0,
+            0.3
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.7
+          ],
+          [
+            0.0,
+            0.7
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S118-targets.npz",
+    "family": "gate",
+    "group": "gate-0.30000",
+    "qualification": "pending"
+  },
+  "S119": {
+    "mesh": "small_v1_s119",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.3333333333333333,
+            1.0
+          ],
+          [
+            0.3333333333333333,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S119-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.33333",
+    "qualification": "pending"
+  },
+  "S120": {
+    "mesh": "small_v1_s120",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.375,
+            1.0
+          ],
+          [
+            0.375,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.5
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "S120-targets.npz",
+    "family": "parallel",
+    "group": "parallel-0.37500",
+    "qualification": "pending"
+  }
+}

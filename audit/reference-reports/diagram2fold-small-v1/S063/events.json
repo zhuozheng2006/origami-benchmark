@@ -1,0 +1,228 @@
+[
+  {
+    "index": 0,
+    "instruction_index": 0,
+    "action": {
+      "op": "fold",
+      "line": [
+        [
+          1.0,
+          0.7
+        ],
+        [
+          0.0,
+          0.7
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        1.0
+      ],
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before": "a3315e7ab3a41b0701684b6ccf7e643977fd6a58518030c6e1370cb4e2629a82",
+    "after": "d0db163d028c9a382ca7275213268ed5e19aee9e54d454b06302254c89a0d8e1",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          10,
+          12,
+          13,
+          14,
+          25,
+          30,
+          31,
+          32,
+          48,
+          50,
+          52,
+          54,
+          67,
+          69,
+          75,
+          81,
+          85,
+          89,
+          90,
+          98,
+          100
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          4,
+          5,
+          10,
+          30,
+          48,
+          50,
+          52,
+          67,
+          75,
+          89,
+          90
+        ],
+        "axis_point": [
+          -0.075,
+          0.029999999999999992,
+          0.00015
+        ],
+        "axis_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "degrees": 180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted",
+      "executed_axis": {
+        "axis_point": [
+          -0.075,
+          0.029999999999999992,
+          0.00015
+        ],
+        "axis_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "degrees": 180.0
+      }
+    }
+  },
+  {
+    "index": 1,
+    "instruction_index": 1,
+    "action": {
+      "op": "fold",
+      "line": [
+        [
+          0.0,
+          0.3
+        ],
+        [
+          1.0,
+          0.3
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.0
+      ],
+      "sense": "away",
+      "angle_deg": 180
+    },
+    "before": "d0db163d028c9a382ca7275213268ed5e19aee9e54d454b06302254c89a0d8e1",
+    "after": "3977b8c6a527cf727e89281d42e16cbcd983adfaf4b3c600b8d4aff58dc3dcc4",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          8,
+          10,
+          12,
+          13,
+          14,
+          25,
+          30,
+          31,
+          32,
+          48,
+          50,
+          52,
+          54,
+          67,
+          69,
+          75,
+          81,
+          85,
+          89,
+          90,
+          98,
+          100
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          0,
+          1,
+          8,
+          12,
+          13,
+          14,
+          81,
+          85,
+          98,
+          100
+        ],
+        "axis_point": [
+          0.075,
+          -0.03,
+          -0.00015
+        ],
+        "axis_direction": [
+          -1.0,
+          4.625929269271486e-17,
+          0.0
+        ],
+        "degrees": -180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted",
+      "executed_axis": {
+        "axis_point": [
+          0.075,
+          -0.03,
+          -0.00015
+        ],
+        "axis_direction": [
+          -1.0,
+          4.625929269271486e-17,
+          0.0
+        ],
+        "degrees": -180.0
+      }
+    }
+  },
+  {
+    "index": 2,
+    "instruction_index": 2,
+    "action": {
+      "op": "finish"
+    },
+    "before": "3977b8c6a527cf727e89281d42e16cbcd983adfaf4b3c600b8d4aff58dc3dcc4",
+    "after": "3977b8c6a527cf727e89281d42e16cbcd983adfaf4b3c600b8d4aff58dc3dcc4",
+    "low_level_actions": [],
+    "result": {
+      "status": "accepted"
+    }
+  }
+]

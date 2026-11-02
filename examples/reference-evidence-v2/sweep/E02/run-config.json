@@ -1,0 +1,167 @@
+{
+  "public_task": {
+    "id": "E02",
+    "title": "Heart",
+    "instruction": "Complete printed steps 1 through 2. Stop before step 3. Blue is the colored/front side; cream is the white/back side. The initial paper matches the first panel.",
+    "page_count": 1,
+    "source_id": "T003",
+    "tier": "easy",
+    "split": "development",
+    "task_scope": "partial_document_task_not_whole_object",
+    "source_url": "https://www.origami-fun.com/printable-origami.html"
+  },
+  "controller_version": "stack-boundary-v12-dev6",
+  "backend": {
+    "mesh_sha256": "431c95385836b4b49d2549c1d2b558ce190027bd39a410135b9e5182a63206b2",
+    "continuous_clearance_verifier": "tight-inclusion+exact-plane-v3-piecewise",
+    "contact_barrier_parameter_m": 0.001,
+    "newton_velocity_RMS_tolerance_m_s": 0.0001,
+    "max_newton_iterations": 600,
+    "maximum_step_seconds": 0.016666666666666666,
+    "backend": "Codim-IPC 9c6cbe3a5bef09a967ca8d420056adfafdf1fc9a + local guarded extensions",
+    "mesh": "document_universal_v12",
+    "youngs_modulus_Pa": 3000000000.0,
+    "poisson_ratio": 0.3,
+    "density_kg_m3": 800,
+    "material_thickness_m": 0.0001,
+    "gravity": [
+      0,
+      0,
+      0
+    ],
+    "friction": 0,
+    "yield_moment_Nm_per_hinge": 1e-05,
+    "contact_clearance_m": 0.0001,
+    "principal_strain_limit": 0.01,
+    "grip_absolute_L2_tolerance_m": 2e-05,
+    "grip_acceptance_max_error_m": 0.0005,
+    "backend_binary_sha256": "e6d751770d9cfeadd81cb49d86b83543a3a48df03db65d8147bd33117425441c",
+    "backend_variant": "codim-ipc",
+    "initial_contact_certificate": {
+      "clear": true,
+      "method": "tight-inclusion",
+      "exact_plane_certificates": 0
+    },
+    "document_worker_sha256": "eaf4eb6ecf1c4d3d958404cf4ee096d3311e3bb03c60c08169db8bf83437a4bf",
+    "material_state_in_hash": true
+  },
+  "initialization": [
+    {
+      "action": {
+        "op": "turn_over",
+        "axis": "y"
+      },
+      "low_level_actions": [
+        {
+          "op": "release"
+        },
+        {
+          "op": "set_grips",
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            41,
+            47,
+            52,
+            59,
+            63,
+            65,
+            69,
+            73,
+            77,
+            79,
+            83,
+            87,
+            91,
+            93,
+            97,
+            101
+          ]
+        },
+        {
+          "op": "rotate_grips",
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            41,
+            47,
+            52,
+            59,
+            63,
+            65,
+            69,
+            73,
+            77,
+            79,
+            83,
+            87,
+            91,
+            93,
+            97,
+            101
+          ],
+          "axis_point": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "degrees": 180.0,
+          "frames": 360
+        }
+      ],
+      "details": {
+        "axis_point": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "axis_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "degrees": 180.0
+      },
+      "before": "1a022501d02a565255743ae4bb4ab2b69397a7586b1f82e99a00f1f3ff92fcbe",
+      "after": "940fe9888f943a287e35e969126fc5b44106d1a3fde6c294ee9d121143082664",
+      "frame": 360
+    }
+  ],
+  "max_attempts": 40,
+  "measurement_tool": false,
+  "automatic_panel": false,
+  "explicit_finish_phase": false
+}

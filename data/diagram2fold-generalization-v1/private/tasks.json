@@ -1,0 +1,302 @@
+{
+  "H001": {
+    "mesh": "heldout1_horizontal_r1",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.5,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "H001-targets.npz",
+    "status": "candidate_until_reference_qualification",
+    "base_mesh": "horizontal",
+    "rotation_quarter_turns": 1
+  },
+  "H002": {
+    "mesh": "heldout1_horizontal_r1",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.5,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "H002-targets.npz",
+    "status": "candidate_until_reference_qualification",
+    "base_mesh": "horizontal",
+    "rotation_quarter_turns": 1
+  },
+  "H003": {
+    "mesh": "heldout1_gate_r0",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.25
+          ],
+          [
+            1.0,
+            0.25
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "H003-targets.npz",
+    "status": "candidate_until_reference_qualification",
+    "base_mesh": "gate",
+    "rotation_quarter_turns": 0
+  },
+  "H004": {
+    "mesh": "heldout1_gate_r0",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.75
+          ],
+          [
+            1.0,
+            0.75
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          1.0
+        ],
+        "sense": "away",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "H004-targets.npz",
+    "status": "candidate_until_reference_qualification",
+    "base_mesh": "gate",
+    "rotation_quarter_turns": 0
+  },
+  "H005": {
+    "mesh": "heldout1_gate_r0",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.25
+          ],
+          [
+            1.0,
+            0.25
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.75
+          ],
+          [
+            1.0,
+            0.75
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "H005-targets.npz",
+    "status": "candidate_until_reference_qualification",
+    "base_mesh": "gate",
+    "rotation_quarter_turns": 0
+  },
+  "H006": {
+    "mesh": "heldout1_gate_r1",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.25,
+            0.0
+          ],
+          [
+            0.25,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.75,
+            0.0
+          ],
+          [
+            0.75,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "H006-targets.npz",
+    "status": "candidate_until_reference_qualification",
+    "base_mesh": "gate",
+    "rotation_quarter_turns": 1
+  },
+  "H007": {
+    "mesh": "heldout1_kite_r1",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.585786437626905,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.41421356237309503
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "H007-targets.npz",
+    "status": "candidate_until_reference_qualification",
+    "base_mesh": "kite",
+    "rotation_quarter_turns": 1
+  },
+  "H008": {
+    "mesh": "heldout1_kite_r2",
+    "reference_actions": [
+      {
+        "op": "fold",
+        "line": [
+          [
+            0.0,
+            0.585786437626905
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "moving_point": [
+          0.0,
+          1.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      {
+        "op": "fold",
+        "line": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.585786437626905,
+            0.0
+          ]
+        ],
+        "moving_point": [
+          1.0,
+          0.0
+        ],
+        "sense": "toward",
+        "angle_deg": 180
+      }
+    ],
+    "targets": "H008-targets.npz",
+    "status": "candidate_until_reference_qualification",
+    "base_mesh": "kite",
+    "rotation_quarter_turns": 2
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "task_id": "L01",
+  "agent_kind": "private_layer_reference",
+  "task_success": true,
+  "finished": true,
+  "physical_pass": true,
+  "shape": {
+    "rms_mm": 0.11003648347515244,
+    "max_mm": 0.4600270824282384,
+    "raw_rms_mm": 0.11066577889107367,
+    "rotation_degrees": 0.004976578346280786,
+    "xy_translation_mm": [
+      0.0020185023198902746,
+      -0.010173425227917587
+    ],
+    "reflection_allowed": false,
+    "z_translation_allowed": false
+  },
+  "memory_pass": true,
+  "goal_available": true,
+  "status": "passed_scoped",
+  "attempts": 5,
+  "retained_paper_operations": 4,
+  "peak_strain": 0.005603071827727568,
+  "material_memory": {
+    "rest_angle_sha256": "0150bc91d1912e7db9ed7e4f3f4ade90855c411b35414eb8dc9580a85b70f91b",
+    "rest_angle_l2": 6.3220632552489935,
+    "dissipation_joules": 0.0005608572898587636
+  },
+  "seconds": 1707.6172180839349,
+  "scope": "Finite-thickness deformable shell with ideal point fixtures; continuous contact and 1% stretch/compression acceptance. Prepared state is physically replayed. No real finger model.",
+  "unsigned_memory_pass": true,
+  "grading_version": "prepared-shape-and-ordered-path-v14-1",
+  "fixed_board_shape": {
+    "rms_mm": 0.11066577889107367,
+    "max_mm": 0.466629720382745
+  },
+  "initial_frame": 1137,
+  "preparation_operations": 3,
+  "controller_version": "layer-boundary-v14-dev27",
+  "goal_success": true,
+  "diagram_path": {
+    "passed": true,
+    "matched": 4,
+    "required": 4,
+    "matches": [
+      {
+        "frame": 1484,
+        "rms_mm": 0.4800204087575242,
+        "max_mm": 2.88707682222349
+      },
+      {
+        "frame": 1845,
+        "rms_mm": 0.45635107926536994,
+        "max_mm": 2.877197195517617
+      },
+      {
+        "frame": 2190,
+        "rms_mm": 0.2993240922122877,
+        "max_mm": 2.9710378080985573
+      },
+      {
+        "frame": 2553,
+        "rms_mm": 0.6567117808520843,
+        "max_mm": 2.915663042006957
+      }
+    ],
+    "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+  },
+  "geometric_checks": [
+    {
+      "op": "fold_line",
+      "rms_mm": 0.06915024084349303,
+      "max_mm": 0.3975243364377721
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.061547696440661444,
+      "max_mm": 0.3975243364377721
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.07149137285560053,
+      "max_mm": 0.3975243364377721
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.11066577889107367,
+      "max_mm": 0.466629720382745
+    }
+  ],
+  "initial_check": {
+    "rms_mm": 0.06049473817529304,
+    "max_mm": 0.3975243364377721
+  },
+  "annotated_plan_complete": true,
+  "fixture_mode": "guided_directional_10000",
+  "preparation_checks": [
+    {
+      "op": "turn_over",
+      "rms_mm": 4.038296753153233e-08,
+      "max_mm": 1.5340610647241071e-07
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.054404871970042686,
+      "max_mm": 0.3975243364377721
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.06049473817529304,
+      "max_mm": 0.3975243364377721
+    }
+  ]
+}

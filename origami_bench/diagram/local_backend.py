@@ -11,7 +11,9 @@ ROOT = Path(__file__).resolve().parents[2]
 
 
 class LocalLayerClient(RuntimeLayerRemoteClient):
-    def __init__(self, mesh, **settings):
+    def __init__(self, mesh, worker='layer_worker.py', **settings):
+        if worker not in ('layer_worker.py','codim_worker.py','document_worker.py'):
+            raise ValueError('Unknown worker')
         self.on_frame = None
         self.trace = []
         self.mesh = mesh
@@ -23,7 +25,7 @@ class LocalLayerClient(RuntimeLayerRemoteClient):
         self.log = (logs / 'worker.log').open('a')
         env = dict(os.environ, OMP_NUM_THREADS=os.environ.get('OMP_NUM_THREADS', '4'))
         self.proc = subprocess.Popen(
-            [os.environ.get('ORIGAMI_PYTHON', sys.executable), str(ROOT / 'scripts/layer_worker.py')],
+            [os.environ.get('ORIGAMI_PYTHON', sys.executable), str(ROOT / 'scripts' / worker)],
             cwd=ROOT, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=self.log,
             bufsize=0, env=env,
         )

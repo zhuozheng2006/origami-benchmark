@@ -1,6 +1,6 @@
 # Native backend source provenance
 
-`codim-directional-source.tar.gz` contains the source tree used by the project's directional fixture backend, captured on 2026-11-02. It contains no compiled extension, environment, credentials or solver output. The archive includes upstream LICENSE files. Project modifications include plastic crease memory, rollback/controls, soft directional fixtures and solver tolerance controls.
+`codim-directional-source.tar.gz` and `codim-base-source.tar.gz` contain the source tree used by the project's directional fixture backend and earlier base backend, captured on 2026-11-02. It contains no compiled extension, environment, credentials or solver output. The archive includes upstream LICENSE files. Project modifications include plastic crease memory, rollback/controls, soft directional fixtures and solver tolerance controls.
 
 Upstream: https://github.com/ipc-sim/Codim-IPC ; historical project source pin: `9c6cbe3a5bef09a967ca8d420056adfafdf1fc9a`. The captured modified tree was not itself an independent Git checkout; the archive SHA256 in `release-manifest.json` is the authoritative identity for this release, not a claimed clean upstream commit. Do not interpret the parent server directory's Git commit as backend provenance.
 

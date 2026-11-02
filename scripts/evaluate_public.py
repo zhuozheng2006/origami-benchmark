@@ -29,7 +29,8 @@ class ReplayAgent:
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--task', required=True, choices=['O01', 'O02', 'O03', 'O04'])
+    p.add_argument('--task', required=True, help='ID in data/evaluation-catalog.json')
+    p.add_argument('--allow-diagnostic',action='store_true',help='Explicitly run tasks whose scoring still needs repair')
     p.add_argument('--output', type=Path, required=True)
     mode = p.add_mutually_exclusive_group(required=True)
     mode.add_argument('--reference', action='store_true', help='Oracle installation check, never a model score')
@@ -41,16 +42,42 @@ def main():
     from verify_release import verify
     manifest=verify()
     release_digest=hashlib.sha256((ROOT/'release-manifest.json').read_bytes()).hexdigest()
-    data = ROOT / 'data/release-v1'
+    catalog=json.loads((ROOT/'data/evaluation-catalog.json').read_text())['tasks']
+    if args.task not in catalog:
+        raise ValueError('Task is not runnable; see audit/inventory.json for its blockers')
+    spec=catalog[args.task]
+    if spec['status']!='accepted' and not args.allow_diagnostic:
+        raise ValueError('Diagnostic task requires --allow-diagnostic and never contributes to accepted-track scores')
+    data = ROOT / 'data' / spec['dataset']
     task = next(t for t in json.loads((data/'public/index.json').read_text())['tasks'] if t['id'] == args.task)
     private = json.loads((data/'private/tasks.json').read_text())[args.task]
+    for key in ('goal','initial_goal','checkpoints'):
+        if isinstance(private.get(key),str):private[key]=str(ROOT/private[key])
+    for page in private.get('pages',[]):
+        if not (ROOT/page).is_file():raise FileNotFoundError('Missing source page. Run scripts/prepare_external_sources.py first: '+page)
+    if spec.get('requires_source_download'):
+        from PIL import Image
+        source_specs=json.loads((ROOT/'data/external-qualified/source-manifest.json').read_text())
+        expected={f".local/diagram-sources-tiered-v1/{s['id']}/page-{p['page']:03}.png":p for s in source_specs for p in s['pages']}
+        for page in private['pages']:
+            im=Image.open(ROOT/page).convert('RGB');target=expected[page]
+            if list(im.size)!=target['size'] or hashlib.sha256(im.tobytes()).hexdigest()!=target['pixel_sha256']:
+                raise ValueError('Source page pixels changed: '+page)
+    private['pages']=[str(ROOT/x) for x in private.get('pages',[])]
+    decisions=spec['max_attempts']
+    if spec['episode']=='step':
+        from origami_bench.diagram.single_panel_policy import select_policy
+        active_policy=select_policy(task,data/"public"/task["image"])
+    else:
+        active_policy=policy
     if args.reference:
-        agent = ReplayAgent(private['reference_actions'] + [{'op':'finish'}])
+        actions=[dict(a,op='fold_line') if a.get('op')=='fold' else a for a in private['reference_actions']]
+        agent = ReplayAgent(actions + [{'op':'finish'}])
         kind = 'oracle_installation_check'
     elif args.actions:
         actions = json.loads(args.actions.read_text())
-        if not isinstance(actions, list) or len(actions) > 40:
-            raise ValueError('Expected at most 40 actions including failed attempts')
+        if not isinstance(actions, list) or len(actions) > decisions:
+            raise ValueError('Action list exceeds the track attempt budget')
         agent = ReplayAgent(actions)
         kind = 'submitted_action_replay'
     else:
@@ -59,20 +86,36 @@ def main():
         kind = 'external_agent:' + args.agent
     wrapped = None
     try:
-        ep = LayerEpisodeV16(task, private, args.output.resolve(),
-                            lambda mesh: LocalLayerClient(mesh, **SETTINGS),
-                            40, fixture_mode='guided_directional_10000')
+        if spec['episode']=='step':
+            from origami_bench.diagram.public_face_episode import PublicFaceEpisode
+            ep=PublicFaceEpisode(args.task,args.output.resolve(),data=data,
+                backend_factory=lambda mesh:LocalLayerClient(mesh,worker='codim_worker.py',backend_variant='codim-ipc'),max_decisions=decisions)
+        elif spec['episode'] in ('document','hard'):
+            from origami_bench.diagram.hard_episode import HardEpisode
+            from origami_bench.diagram.document_episode import DocumentEpisode
+            klass=HardEpisode if spec['episode']=='hard' else DocumentEpisode
+            ep=klass(task,private,args.output.resolve(),lambda mesh:LocalLayerClient(mesh,worker='document_worker.py',backend_variant='codim-ipc'),decisions)
+            from origami_bench.diagram import document_policy as active_policy
+        else:
+            ep = LayerEpisodeV16(task, private, args.output.resolve(),
+                                lambda mesh: LocalLayerClient(mesh, **SETTINGS),
+                                decisions, fixture_mode='guided_directional_10000')
         wrapped = AccountedEpisode(ep, 8192)
-        for i in range(40):
-            result, stop = wrapped.turn(agent, policy)
+        for i in range(decisions):
+            result, stop = wrapped.turn(agent, active_policy)
             print(json.dumps(dict(attempt=i+1, result=result)), flush=True)
             if stop:
                 break
+        # Legacy step episodes did not persist their final state; save it for the common viewer.
+        (ep.output/'final-state.json').write_text(json.dumps(ep.backend.state()))
         report = wrapped.finish(kind)
-        report['release_track'] = task['release_track']
+        report['release_track'] = spec['track']
+        report['suite']=spec['suite']
+        report['split']=spec.get('split',task.get('split','unspecified'))
+        report['policy_version']=active_policy.VERSION
         report['release_version'] = manifest['version']
         report['release_manifest_sha256'] = release_digest
-        report['score_eligible'] = kind.startswith('external_agent:') and task['release_track']=='core'
+        report['score_eligible'] = kind.startswith('external_agent:') and spec['status']=='accepted'
         (ep.output/'report.json').write_text(json.dumps(report, indent=2))
         print(json.dumps(report, indent=2))
     except Exception as error:

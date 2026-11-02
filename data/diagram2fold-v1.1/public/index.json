@@ -1,0 +1,86 @@
+{
+  "version": "diagram2fold-v0.1.1-dev",
+  "tasks": [
+    {
+      "id": "D001",
+      "split": "development",
+      "source_group": "original_templates",
+      "image": "D001.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered fold instruction(s) shown, then finish while holding the paper. For a web crop, execute only source step 1, not the whole model.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original diagrams by Diagram2Fold project; CC BY 4.0"
+    },
+    {
+      "id": "D002",
+      "split": "development",
+      "source_group": "original_templates",
+      "image": "D002.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered fold instruction(s) shown, then finish while holding the paper. For a web crop, execute only source step 1, not the whole model.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original diagrams by Diagram2Fold project; CC BY 4.0"
+    },
+    {
+      "id": "D003",
+      "split": "development",
+      "source_group": "original_templates",
+      "image": "D003.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered fold instruction(s) shown, then finish while holding the paper. For a web crop, execute only source step 1, not the whole model.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original diagrams by Diagram2Fold project; CC BY 4.0"
+    },
+    {
+      "id": "D004",
+      "split": "development",
+      "source_group": "original_templates",
+      "image": "D004.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered fold instruction(s) shown, then finish while holding the paper. For a web crop, execute only source step 1, not the whole model.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original diagrams by Diagram2Fold project; CC BY 4.0"
+    },
+    {
+      "id": "D005",
+      "split": "development",
+      "source_group": "original_templates",
+      "image": "D005.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered fold instruction(s) shown, then finish while holding the paper. For a web crop, execute only source step 1, not the whole model.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original diagrams by Diagram2Fold project; CC BY 4.0"
+    },
+    {
+      "id": "D006",
+      "split": "development",
+      "source_group": "original_templates",
+      "image": "D006.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered fold instruction(s) shown, then finish while holding the paper. For a web crop, execute only source step 1, not the whole model.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original diagrams by Diagram2Fold project; CC BY 4.0"
+    },
+    {
+      "id": "D007",
+      "split": "development",
+      "source_group": "sailboat",
+      "image": "D007.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered fold instruction(s) shown, then finish while holding the paper. For a web crop, execute only source step 1, not the whole model.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Traditional design; diagram by Tavin; CC BY 3.0. Cropped step 1 from https://tavinsorigami.com/?mdocs-file=880"
+    },
+    {
+      "id": "D008",
+      "split": "development",
+      "source_group": "fox",
+      "image": "D008.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered fold instruction(s) shown, then finish while holding the paper. For a web crop, execute only source step 1, not the whole model.",
+      "paper_frame": "The initial square is drawn as a diamond. Material corners: bottom=(0,0), right=(1,0), top=(1,1), left=(0,1). Initial viewer at +z.",
+      "attribution": "Traditional design; diagram by Tavin; CC BY 3.0. Cropped step 1 from https://tavinsorigami.com/diagram/Fox.pdf"
+    }
+  ],
+  "split_policy": "Development only. No held-out accuracy claim. All transformations of a source/template family stay together in future splits."
+}

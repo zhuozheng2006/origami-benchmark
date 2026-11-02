@@ -1,0 +1,32 @@
+{
+  "mesh_sha256": "a21bd0b0612c506c39c2b57711738dd1db3f269fd5e446d53abaad692167a96f",
+  "continuous_clearance_verifier": "tight-inclusion+exact-plane-v3-piecewise",
+  "contact_barrier_parameter_m": 0.001,
+  "newton_velocity_RMS_tolerance_m_s": 0.0001,
+  "max_newton_iterations": 120,
+  "maximum_step_seconds": 0.016666666666666666,
+  "backend": "Codim-IPC 9c6cbe3a5bef09a967ca8d420056adfafdf1fc9a + local guarded extensions",
+  "mesh": "small_v1_s045",
+  "youngs_modulus_Pa": 3000000000.0,
+  "poisson_ratio": 0.3,
+  "density_kg_m3": 800,
+  "material_thickness_m": 0.0001,
+  "gravity": [
+    0,
+    0,
+    0
+  ],
+  "friction": 0,
+  "yield_moment_Nm_per_hinge": 1e-05,
+  "contact_clearance_m": 0.0001,
+  "principal_strain_limit": 0.01,
+  "grip_absolute_L2_tolerance_m": 2e-05,
+  "grip_acceptance_max_error_m": 0.0005,
+  "backend_binary_sha256": "e6d751770d9cfeadd81cb49d86b83543a3a48df03db65d8147bd33117425441c",
+  "backend_variant": "codim-ipc",
+  "initial_contact_certificate": {
+    "clear": true,
+    "method": "tight-inclusion",
+    "exact_plane_certificates": 0
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "D01": {
+    "eligible": false,
+    "reason": "参考路径未通过，暂不计模型成绩",
+    "references": [
+      {
+        "run": "reference-D01-01",
+        "controller": "stack-boundary-v12-dev6",
+        "physical": true,
+        "complete": false,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.29998198446334245,
+          "max_mm": 0.5071235332890651
+        },
+        "passed": false,
+        "scored": false
+      }
+    ]
+  },
+  "D02": {
+    "eligible": false,
+    "reason": "参考路径未通过，暂不计模型成绩",
+    "references": [
+      {
+        "run": "reference-D02-01",
+        "controller": "stack-boundary-v12-dev6",
+        "physical": true,
+        "complete": false,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.39230414339174813,
+          "max_mm": 0.8181023188916213
+        },
+        "passed": false,
+        "scored": false
+      }
+    ]
+  },
+  "D03": {
+    "eligible": false,
+    "reason": "参考路径未通过，暂不计模型成绩",
+    "references": [
+      {
+        "run": "reference-D03-01",
+        "controller": "stack-boundary-v12-dev6",
+        "physical": true,
+        "complete": false,
+        "geometry": {
+          "op": "fold_line",
+          "rms_mm": 0.3667483834357842,
+          "max_mm": 0.8260779834622735
+        },
+        "passed": false,
+        "scored": false
+      }
+    ]
+  },
+  "D04": {
+    "eligible": true,
+    "reason": "通过：两次当前版本参考验收",
+    "references": [
+      {
+        "run": "reference-D04-01",
+        "controller": "stack-boundary-v12-dev6",
+        "physical": true,
+        "complete": true,
+        "geometry": {
+          "op": "turn_over",
+          "rms_mm": 0.3274238171244695,
+          "max_mm": 0.7197678280132781
+        },
+        "passed": true,
+        "scored": false
+      },
+      {
+        "run": "reference-D04-02",
+        "controller": "stack-boundary-v12-dev6",
+        "physical": true,
+        "complete": true,
+        "geometry": {
+          "op": "turn_over",
+          "rms_mm": 0.3274238171244695,
+          "max_mm": 0.7197678280132781
+        },
+        "passed": true,
+        "scored": true
+      }
+    ]
+  },
+  "D05": {
+    "eligible": true,
+    "reason": "通过：两次当前版本参考验收",
+    "references": [
+      {
+        "run": "reference-D05-01",
+        "controller": "stack-boundary-v12-dev6",
+        "physical": true,
+        "complete": true,
+        "geometry": {
+          "op": "unfold",
+          "rms_mm": 0.10712970095647457,
+          "max_mm": 0.21326330428575493
+        },
+        "passed": true,
+        "scored": false
+      },
+      {
+        "run": "reference-D05-02",
+        "controller": "stack-boundary-v12-dev6",
+        "physical": true,
+        "complete": true,
+        "geometry": {
+          "op": "unfold",
+          "rms_mm": 0.10712970095647457,
+          "max_mm": 0.21326330428575493
+        },
+        "passed": true,
+        "scored": true
+      }
+    ]
+  }
+}

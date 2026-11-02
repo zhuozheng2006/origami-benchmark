@@ -1,0 +1,1468 @@
+[
+  {
+    "run": "reference-U001-v17-01",
+    "task_id": "U001",
+    "original_status": "reference_unscored",
+    "complete": true,
+    "recomputed": {
+      "task_id": "U001",
+      "task_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "shape": {
+        "rms_mm": 0.14831463335398395,
+        "max_mm": 0.5034686788702593,
+        "raw_rms_mm": 0.1537187749758084,
+        "rotation_degrees": 0.0007645576270212367,
+        "xy_translation_mm": [
+          0.00048174818000401424,
+          0.040395690737379114
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "matched": 8,
+        "required": 8,
+        "matches": [
+          {
+            "frame": 1074,
+            "rms_mm": 0.947934375664398,
+            "max_mm": 1.9651556602991207
+          },
+          {
+            "frame": 1432,
+            "rms_mm": 0.8983456620635345,
+            "max_mm": 2.6195518992479623
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.9005795210494979,
+            "max_mm": 2.619438354190735
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.9005795210494979,
+            "max_mm": 2.619438354190735
+          },
+          {
+            "frame": 2151,
+            "rms_mm": 0.9370624776161223,
+            "max_mm": 2.573347883970668
+          },
+          {
+            "frame": 2518,
+            "rms_mm": 0.835074601450414,
+            "max_mm": 1.8470139789091873
+          },
+          {
+            "frame": 2691,
+            "rms_mm": 0.9208699621830371,
+            "max_mm": 2.5252639827733243
+          },
+          {
+            "frame": 2691,
+            "rms_mm": 0.920869962183038,
+            "max_mm": 2.525263982773317
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": true,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  },
+  {
+    "run": "reference-U002-v17-01",
+    "task_id": "U002",
+    "original_status": "reference_unscored",
+    "complete": true,
+    "recomputed": {
+      "task_id": "U002",
+      "task_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "shape": {
+        "rms_mm": 0.146178223962816,
+        "max_mm": 0.5020488368264728,
+        "raw_rms_mm": 0.15284135343433985,
+        "rotation_degrees": 0.0009135016459286574,
+        "xy_translation_mm": [
+          -0.0003950797968918736,
+          -0.04462982057925474
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "matched": 8,
+        "required": 8,
+        "matches": [
+          {
+            "frame": 1074,
+            "rms_mm": 0.947934375664398,
+            "max_mm": 1.9651556602991207
+          },
+          {
+            "frame": 1432,
+            "rms_mm": 0.8983456620635345,
+            "max_mm": 2.6195518992479623
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.9005795210494979,
+            "max_mm": 2.619438354190735
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.9005795210494979,
+            "max_mm": 2.619438354190735
+          },
+          {
+            "frame": 2061,
+            "rms_mm": 0.9753997436371025,
+            "max_mm": 2.7765517002842497
+          },
+          {
+            "frame": 2426,
+            "rms_mm": 0.9954756917965201,
+            "max_mm": 1.8737131950326593
+          },
+          {
+            "frame": 2601,
+            "rms_mm": 0.9188729148565247,
+            "max_mm": 2.522041200319121
+          },
+          {
+            "frame": 2601,
+            "rms_mm": 0.918872914856527,
+            "max_mm": 2.5220412003191277
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": true,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  },
+  {
+    "run": "reference-U003-v17-01",
+    "task_id": "U003",
+    "original_status": "reference_unscored",
+    "complete": true,
+    "recomputed": {
+      "task_id": "U003",
+      "task_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "shape": {
+        "rms_mm": 0.14864652039596718,
+        "max_mm": 0.5271662817973932,
+        "raw_rms_mm": 0.14972513410210236,
+        "rotation_degrees": 0.0009700672036276773,
+        "xy_translation_mm": [
+          0.0006231642217961431,
+          0.01792003229862671
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "matched": 8,
+        "required": 8,
+        "matches": [
+          {
+            "frame": 1074,
+            "rms_mm": 0.947934375664398,
+            "max_mm": 1.9651556602991207
+          },
+          {
+            "frame": 1432,
+            "rms_mm": 0.8983456620635345,
+            "max_mm": 2.6195518992479623
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.9005795210494979,
+            "max_mm": 2.619438354190735
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.9005795210494979,
+            "max_mm": 2.619438354190735
+          },
+          {
+            "frame": 2151,
+            "rms_mm": 0.9370624776161223,
+            "max_mm": 2.573347883970668
+          },
+          {
+            "frame": 2518,
+            "rms_mm": 0.835074601450414,
+            "max_mm": 1.8470139789091873
+          },
+          {
+            "frame": 2601,
+            "rms_mm": 0.9721106022745825,
+            "max_mm": 2.7649457396333217
+          },
+          {
+            "frame": 2601,
+            "rms_mm": 0.9721106022745815,
+            "max_mm": 2.7649457396333217
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": true,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  },
+  {
+    "run": "reference-U031-v17-01",
+    "task_id": "U031",
+    "original_status": "reference_unscored",
+    "complete": true,
+    "recomputed": {
+      "task_id": "U031",
+      "task_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "shape": {
+        "rms_mm": 0.08153113870288511,
+        "max_mm": 0.286116020062951,
+        "raw_rms_mm": 0.08305405118976436,
+        "rotation_degrees": 0.0009925768366256292,
+        "xy_translation_mm": [
+          0.015809943101817436,
+          -0.00041988220310445356
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "matched": 10,
+        "required": 10,
+        "matches": [
+          {
+            "frame": 1432,
+            "rms_mm": 0.8905508643939891,
+            "max_mm": 2.617744837804393
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.890378495430981,
+            "max_mm": 2.617524741577315
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.8903784954309812,
+            "max_mm": 2.6175247415773155
+          },
+          {
+            "frame": 2361,
+            "rms_mm": 0.8898610544537477,
+            "max_mm": 2.62009742098864
+          },
+          {
+            "frame": 2721,
+            "rms_mm": 0.8933419000862005,
+            "max_mm": 2.6188079216523104
+          },
+          {
+            "frame": 3085,
+            "rms_mm": 0.8577714155443731,
+            "max_mm": 1.4975408816874833
+          },
+          {
+            "frame": 3260,
+            "rms_mm": 0.9240309751035107,
+            "max_mm": 2.564863439637603
+          },
+          {
+            "frame": 3260,
+            "rms_mm": 0.9240309751035116,
+            "max_mm": 2.56486343963763
+          },
+          {
+            "frame": 3620,
+            "rms_mm": 0.9246133725312875,
+            "max_mm": 2.5501241876104963
+          },
+          {
+            "frame": 3620,
+            "rms_mm": 0.9246133725312893,
+            "max_mm": 2.5501241876105025
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": true,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  },
+  {
+    "run": "reference-U032-v17-01",
+    "task_id": "U032",
+    "original_status": "reference_unscored",
+    "complete": true,
+    "recomputed": {
+      "task_id": "U032",
+      "task_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "shape": {
+        "rms_mm": 0.07842381919645307,
+        "max_mm": 0.26374516089856226,
+        "raw_rms_mm": 0.07986736157322953,
+        "rotation_degrees": 0.0014718967413939663,
+        "xy_translation_mm": [
+          -0.015065210495879278,
+          0.0007307436221801982
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "matched": 10,
+        "required": 10,
+        "matches": [
+          {
+            "frame": 1432,
+            "rms_mm": 0.8905508643939891,
+            "max_mm": 2.617744837804393
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.890378495430981,
+            "max_mm": 2.617524741577315
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.8903784954309812,
+            "max_mm": 2.6175247415773155
+          },
+          {
+            "frame": 2361,
+            "rms_mm": 0.8898695634092862,
+            "max_mm": 2.620131830614005
+          },
+          {
+            "frame": 2721,
+            "rms_mm": 0.8933660087972168,
+            "max_mm": 2.61875557999353
+          },
+          {
+            "frame": 3085,
+            "rms_mm": 0.8826044720587368,
+            "max_mm": 1.5593959792002308
+          },
+          {
+            "frame": 3170,
+            "rms_mm": 0.9643980723826736,
+            "max_mm": 2.772630005501529
+          },
+          {
+            "frame": 3170,
+            "rms_mm": 0.9643980723826736,
+            "max_mm": 2.77263000550151
+          },
+          {
+            "frame": 3440,
+            "rms_mm": 0.9668251844379412,
+            "max_mm": 2.763299736377486
+          },
+          {
+            "frame": 3440,
+            "rms_mm": 0.9668251844379407,
+            "max_mm": 2.7632997363774834
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": true,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  },
+  {
+    "run": "reference-U033-v17-01",
+    "task_id": "U033",
+    "original_status": "reference_unscored",
+    "complete": true,
+    "recomputed": {
+      "task_id": "U033",
+      "task_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "shape": {
+        "rms_mm": 0.08085672355301406,
+        "max_mm": 0.28246845128606124,
+        "raw_rms_mm": 0.08399400259765771,
+        "rotation_degrees": -0.0009885865376246738,
+        "xy_translation_mm": [
+          0.022723967140349244,
+          0.0008259076640883882
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "matched": 10,
+        "required": 10,
+        "matches": [
+          {
+            "frame": 1432,
+            "rms_mm": 0.8905508643939891,
+            "max_mm": 2.617744837804393
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.890378495430981,
+            "max_mm": 2.617524741577315
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.8903784954309812,
+            "max_mm": 2.6175247415773155
+          },
+          {
+            "frame": 2361,
+            "rms_mm": 0.8898610544537477,
+            "max_mm": 2.62009742098864
+          },
+          {
+            "frame": 2721,
+            "rms_mm": 0.8933419000862005,
+            "max_mm": 2.6188079216523104
+          },
+          {
+            "frame": 3085,
+            "rms_mm": 0.8577714155443731,
+            "max_mm": 1.4975408816874833
+          },
+          {
+            "frame": 3350,
+            "rms_mm": 0.9584087737313006,
+            "max_mm": 2.74277148599849
+          },
+          {
+            "frame": 3350,
+            "rms_mm": 0.9584087737313021,
+            "max_mm": 2.7427714859984924
+          },
+          {
+            "frame": 3814,
+            "rms_mm": 0.9602441201050368,
+            "max_mm": 2.7325508496795115
+          },
+          {
+            "frame": 3814,
+            "rms_mm": 0.9602441201050401,
+            "max_mm": 2.732550849679519
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": true,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  },
+  {
+    "run": "reference-U061-v17-01",
+    "task_id": "U061",
+    "original_status": "reference_unscored",
+    "complete": false,
+    "recomputed": {
+      "task_id": "U061",
+      "task_success": false,
+      "physical_pass": true,
+      "memory_pass": false,
+      "shape": {
+        "rms_mm": 33.59335688887622,
+        "max_mm": 50.281186710772786,
+        "raw_rms_mm": 76.59157841030277,
+        "rotation_degrees": -89.99995709225564,
+        "xy_translation_mm": [
+          0.00014170033732098414,
+          24.880695756063016
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": false,
+        "matched": 0,
+        "required": 12,
+        "matches": [],
+        "next_best": {
+          "frame": 721,
+          "rms_mm": 23.441981187561154,
+          "max_mm": 64.93426534372747
+        },
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": false,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  },
+  {
+    "run": "reference-U061-v17-02",
+    "task_id": "U061",
+    "original_status": "reference_unscored",
+    "complete": false,
+    "recomputed": {
+      "task_id": "U061",
+      "task_success": false,
+      "physical_pass": true,
+      "memory_pass": false,
+      "shape": {
+        "rms_mm": 44.39051965363014,
+        "max_mm": 83.49891011771689,
+        "raw_rms_mm": 46.92662111882495,
+        "rotation_degrees": -4.422736064916292e-05,
+        "xy_translation_mm": [
+          0.00012513749632786148,
+          15.218066056192322
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": false,
+        "matched": 0,
+        "required": 12,
+        "matches": [],
+        "next_best": {
+          "frame": 721,
+          "rms_mm": 23.441981187561154,
+          "max_mm": 64.93426534372747
+        },
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": false,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  },
+  {
+    "run": "reference-U061-v17-03",
+    "task_id": "U061",
+    "original_status": "reference_unscored",
+    "complete": false,
+    "recomputed": {
+      "task_id": "U061",
+      "task_success": false,
+      "physical_pass": true,
+      "memory_pass": false,
+      "shape": {
+        "rms_mm": 55.11712274262632,
+        "max_mm": 95.5905814325891,
+        "raw_rms_mm": 85.53994010943934,
+        "rotation_degrees": -89.99976866172163,
+        "xy_translation_mm": [
+          0.00010602378421791631,
+          24.87745880213046
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": false,
+        "matched": 0,
+        "required": 12,
+        "matches": [],
+        "next_best": {
+          "frame": 721,
+          "rms_mm": 23.441981187561154,
+          "max_mm": 64.93426534372747
+        },
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": false,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  },
+  {
+    "run": "reference-U061-v17-04",
+    "task_id": "U061",
+    "original_status": "reference_unscored",
+    "complete": false,
+    "recomputed": {
+      "task_id": "U061",
+      "task_success": false,
+      "physical_pass": true,
+      "memory_pass": true,
+      "shape": {
+        "rms_mm": 19.493027745561122,
+        "max_mm": 48.71579633816309,
+        "raw_rms_mm": 106.24316718002717,
+        "rotation_degrees": -179.99947459829528,
+        "xy_translation_mm": [
+          -3.8863760545915116e-05,
+          6.379240205892304
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": false,
+        "matched": 6,
+        "required": 12,
+        "matches": [
+          {
+            "frame": 1432,
+            "rms_mm": 0.8905508643939891,
+            "max_mm": 2.617744837804393
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.890378495430981,
+            "max_mm": 2.617524741577315
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.8903784954309812,
+            "max_mm": 2.6175247415773155
+          },
+          {
+            "frame": 2361,
+            "rms_mm": 0.8898610544537477,
+            "max_mm": 2.62009742098864
+          },
+          {
+            "frame": 2721,
+            "rms_mm": 0.8933419000862005,
+            "max_mm": 2.6188079216523104
+          },
+          {
+            "frame": 3085,
+            "rms_mm": 0.8577714155443731,
+            "max_mm": 1.4975408816874833
+          }
+        ],
+        "next_best": {
+          "frame": 3089,
+          "rms_mm": 9.648675362910883,
+          "max_mm": 28.17328201633944
+        },
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": false,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  },
+  {
+    "run": "reference-U061-v17-06",
+    "task_id": "U061",
+    "original_status": "reference_unscored",
+    "complete": true,
+    "recomputed": {
+      "task_id": "U061",
+      "task_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "shape": {
+        "rms_mm": 0.07905009236078915,
+        "max_mm": 0.2601568497330835,
+        "raw_rms_mm": 0.08038866790530999,
+        "rotation_degrees": 0.0018554173473999363,
+        "xy_translation_mm": [
+          0.0006808558442223988,
+          0.0145255216086361
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "matched": 12,
+        "required": 12,
+        "matches": [
+          {
+            "frame": 1432,
+            "rms_mm": 0.8905508643939891,
+            "max_mm": 2.617744837804393
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.890378495430981,
+            "max_mm": 2.617524741577315
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.8903784954309812,
+            "max_mm": 2.6175247415773155
+          },
+          {
+            "frame": 2361,
+            "rms_mm": 0.8898610544537477,
+            "max_mm": 2.62009742098864
+          },
+          {
+            "frame": 2721,
+            "rms_mm": 0.8933419000862005,
+            "max_mm": 2.6188079216523104
+          },
+          {
+            "frame": 3085,
+            "rms_mm": 0.8577714155443731,
+            "max_mm": 1.4975408816874833
+          },
+          {
+            "frame": 3170,
+            "rms_mm": 0.9642666794879862,
+            "max_mm": 2.772303492068519
+          },
+          {
+            "frame": 3170,
+            "rms_mm": 0.9642666794879855,
+            "max_mm": 2.7723034920685192
+          },
+          {
+            "frame": 3440,
+            "rms_mm": 0.9668624310292872,
+            "max_mm": 2.7634549212647825
+          },
+          {
+            "frame": 3440,
+            "rms_mm": 0.966862431029286,
+            "max_mm": 2.7634549212647777
+          },
+          {
+            "frame": 3710,
+            "rms_mm": 0.9215454600923417,
+            "max_mm": 2.553915765288312
+          },
+          {
+            "frame": 3710,
+            "rms_mm": 0.9215454600923415,
+            "max_mm": 2.55391576528827
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": true,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  },
+  {
+    "run": "reference-U062-v17-01",
+    "task_id": "U062",
+    "original_status": "reference_unscored",
+    "complete": false,
+    "recomputed": {
+      "task_id": "U062",
+      "task_success": false,
+      "physical_pass": true,
+      "memory_pass": true,
+      "shape": {
+        "rms_mm": 16.67743349097812,
+        "max_mm": 46.17073856229168,
+        "raw_rms_mm": 77.49093537052465,
+        "rotation_degrees": -89.99838757979784,
+        "xy_translation_mm": [
+          0.000839001203383769,
+          6.877285780693816
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": false,
+        "matched": 10,
+        "required": 12,
+        "matches": [
+          {
+            "frame": 1432,
+            "rms_mm": 0.8905508643939891,
+            "max_mm": 2.617744837804393
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.890378495430981,
+            "max_mm": 2.617524741577315
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.8903784954309812,
+            "max_mm": 2.6175247415773155
+          },
+          {
+            "frame": 2361,
+            "rms_mm": 0.8898695634092862,
+            "max_mm": 2.620131830614005
+          },
+          {
+            "frame": 2721,
+            "rms_mm": 0.8933660087972168,
+            "max_mm": 2.61875557999353
+          },
+          {
+            "frame": 3085,
+            "rms_mm": 0.8826044720587368,
+            "max_mm": 1.5593959792002308
+          },
+          {
+            "frame": 3170,
+            "rms_mm": 0.9643980723826736,
+            "max_mm": 2.772630005501529
+          },
+          {
+            "frame": 3170,
+            "rms_mm": 0.9643980723826736,
+            "max_mm": 2.77263000550151
+          },
+          {
+            "frame": 3440,
+            "rms_mm": 0.9668251844379412,
+            "max_mm": 2.763299736377486
+          },
+          {
+            "frame": 3440,
+            "rms_mm": 0.9668251844379407,
+            "max_mm": 2.7632997363774834
+          }
+        ],
+        "next_best": {
+          "frame": 3440,
+          "rms_mm": 16.59717187165766,
+          "max_mm": 45.90770506034814
+        },
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": false,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  },
+  {
+    "run": "reference-U062-v17-02",
+    "task_id": "U062",
+    "original_status": "reference_unscored",
+    "complete": true,
+    "recomputed": {
+      "task_id": "U062",
+      "task_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "shape": {
+        "rms_mm": 0.07928201605991177,
+        "max_mm": 0.25966328541272704,
+        "raw_rms_mm": 0.0813664738876213,
+        "rotation_degrees": 0.0012382338917008738,
+        "xy_translation_mm": [
+          0.0006399167161140299,
+          0.018267894410787383
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "matched": 12,
+        "required": 12,
+        "matches": [
+          {
+            "frame": 1432,
+            "rms_mm": 0.8905508643939891,
+            "max_mm": 2.617744837804393
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.890378495430981,
+            "max_mm": 2.617524741577315
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.8903784954309812,
+            "max_mm": 2.6175247415773155
+          },
+          {
+            "frame": 2361,
+            "rms_mm": 0.8898695634092862,
+            "max_mm": 2.620131830614005
+          },
+          {
+            "frame": 2721,
+            "rms_mm": 0.8933660087972168,
+            "max_mm": 2.61875557999353
+          },
+          {
+            "frame": 3085,
+            "rms_mm": 0.8826044720587368,
+            "max_mm": 1.5593959792002308
+          },
+          {
+            "frame": 3170,
+            "rms_mm": 0.9643980723826736,
+            "max_mm": 2.772630005501529
+          },
+          {
+            "frame": 3170,
+            "rms_mm": 0.9643980723826736,
+            "max_mm": 2.77263000550151
+          },
+          {
+            "frame": 3440,
+            "rms_mm": 0.9668251844379412,
+            "max_mm": 2.763299736377486
+          },
+          {
+            "frame": 3440,
+            "rms_mm": 0.9668251844379407,
+            "max_mm": 2.7632997363774834
+          },
+          {
+            "frame": 3800,
+            "rms_mm": 0.9578624363142012,
+            "max_mm": 2.7380642516023688
+          },
+          {
+            "frame": 3800,
+            "rms_mm": 0.9578624363142041,
+            "max_mm": 2.7380642516023714
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": true,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  },
+  {
+    "run": "reference-U063-v17-01",
+    "task_id": "U063",
+    "original_status": "reference_unscored",
+    "complete": true,
+    "recomputed": {
+      "task_id": "U063",
+      "task_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "shape": {
+        "rms_mm": 0.0787835135583816,
+        "max_mm": 0.259988772280593,
+        "raw_rms_mm": 0.08010770908296752,
+        "rotation_degrees": -0.00031709969249793144,
+        "xy_translation_mm": [
+          -8.68300419769915e-05,
+          0.014502756465313571
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "matched": 12,
+        "required": 12,
+        "matches": [
+          {
+            "frame": 1432,
+            "rms_mm": 0.8905508643939891,
+            "max_mm": 2.617744837804393
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.890378495430981,
+            "max_mm": 2.617524741577315
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.8903784954309812,
+            "max_mm": 2.6175247415773155
+          },
+          {
+            "frame": 2361,
+            "rms_mm": 0.8898610544537477,
+            "max_mm": 2.62009742098864
+          },
+          {
+            "frame": 2721,
+            "rms_mm": 0.8933419000862005,
+            "max_mm": 2.6188079216523104
+          },
+          {
+            "frame": 3085,
+            "rms_mm": 0.8577714155443731,
+            "max_mm": 1.4975408816874833
+          },
+          {
+            "frame": 3170,
+            "rms_mm": 0.9642666794879862,
+            "max_mm": 2.772303492068519
+          },
+          {
+            "frame": 3170,
+            "rms_mm": 0.9642666794879855,
+            "max_mm": 2.7723034920685183
+          },
+          {
+            "frame": 3440,
+            "rms_mm": 0.9668660424108871,
+            "max_mm": 2.762866755570016
+          },
+          {
+            "frame": 3440,
+            "rms_mm": 0.9668660424108859,
+            "max_mm": 2.7628667555700117
+          },
+          {
+            "frame": 3710,
+            "rms_mm": 0.9215175917827351,
+            "max_mm": 2.5539572736609957
+          },
+          {
+            "frame": 3710,
+            "rms_mm": 0.9215175917827355,
+            "max_mm": 2.5539572736609744
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": true,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  },
+  {
+    "run": "reference-U086-v17-01",
+    "task_id": "U086",
+    "original_status": "reference_unscored",
+    "complete": false,
+    "recomputed": {
+      "task_id": "U086",
+      "task_success": false,
+      "physical_pass": true,
+      "memory_pass": false,
+      "shape": {
+        "rms_mm": 51.22468306277291,
+        "max_mm": 92.43408587791201,
+        "raw_rms_mm": 58.53673080241432,
+        "rotation_degrees": 7.623209456283742e-05,
+        "xy_translation_mm": [
+          -28.329855243889142,
+          0.00010495464243624453
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": false,
+        "matched": 0,
+        "required": 14,
+        "matches": [],
+        "next_best": {
+          "frame": 721,
+          "rms_mm": 23.441981187561154,
+          "max_mm": 64.93426534372747
+        },
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": false,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  },
+  {
+    "run": "reference-U086-v17-02",
+    "task_id": "U086",
+    "original_status": "reference_unscored",
+    "complete": false,
+    "recomputed": {
+      "task_id": "U086",
+      "task_success": false,
+      "physical_pass": true,
+      "memory_pass": true,
+      "shape": {
+        "rms_mm": 23.540718028285685,
+        "max_mm": 46.57197266482292,
+        "raw_rms_mm": 78.18100391536376,
+        "rotation_degrees": -89.99961400274003,
+        "xy_translation_mm": [
+          -9.831636648064125,
+          -8.49341057645722e-05
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": false,
+        "matched": 6,
+        "required": 14,
+        "matches": [
+          {
+            "frame": 1432,
+            "rms_mm": 0.8905508643939891,
+            "max_mm": 2.617744837804393
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.890378495430981,
+            "max_mm": 2.617524741577315
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.8903784954309812,
+            "max_mm": 2.6175247415773155
+          },
+          {
+            "frame": 2361,
+            "rms_mm": 0.8898610544537477,
+            "max_mm": 2.62009742098864
+          },
+          {
+            "frame": 2721,
+            "rms_mm": 0.8933419000862005,
+            "max_mm": 2.6188079216523104
+          },
+          {
+            "frame": 3085,
+            "rms_mm": 0.8577714155443731,
+            "max_mm": 1.4975408816874833
+          }
+        ],
+        "next_best": {
+          "frame": 3089,
+          "rms_mm": 9.648675362910883,
+          "max_mm": 28.17328201633944
+        },
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": false,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  },
+  {
+    "run": "reference-U086-v17-04",
+    "task_id": "U086",
+    "original_status": "reference_unscored",
+    "complete": true,
+    "recomputed": {
+      "task_id": "U086",
+      "task_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "shape": {
+        "rms_mm": 0.08110371793438514,
+        "max_mm": 0.28088393288673963,
+        "raw_rms_mm": 0.08275585375618552,
+        "rotation_degrees": 0.0021127079992423973,
+        "xy_translation_mm": [
+          -0.016357734406235308,
+          0.0009062623741105532
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "matched": 14,
+        "required": 14,
+        "matches": [
+          {
+            "frame": 1432,
+            "rms_mm": 0.8905508643939891,
+            "max_mm": 2.617744837804393
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.890378495430981,
+            "max_mm": 2.617524741577315
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.8903784954309812,
+            "max_mm": 2.6175247415773155
+          },
+          {
+            "frame": 2361,
+            "rms_mm": 0.8898610544537477,
+            "max_mm": 2.62009742098864
+          },
+          {
+            "frame": 2721,
+            "rms_mm": 0.8933419000862005,
+            "max_mm": 2.6188079216523104
+          },
+          {
+            "frame": 3085,
+            "rms_mm": 0.8577714155443731,
+            "max_mm": 1.4975408816874833
+          },
+          {
+            "frame": 3170,
+            "rms_mm": 0.9642666794879862,
+            "max_mm": 2.772303492068519
+          },
+          {
+            "frame": 3170,
+            "rms_mm": 0.9642666794879855,
+            "max_mm": 2.7723034920685192
+          },
+          {
+            "frame": 3440,
+            "rms_mm": 0.9668624310292872,
+            "max_mm": 2.7634549212647825
+          },
+          {
+            "frame": 3440,
+            "rms_mm": 0.966862431029286,
+            "max_mm": 2.7634549212647777
+          },
+          {
+            "frame": 3710,
+            "rms_mm": 0.9215454600923417,
+            "max_mm": 2.553915765288312
+          },
+          {
+            "frame": 3710,
+            "rms_mm": 0.9215454600923415,
+            "max_mm": 2.55391576528827
+          },
+          {
+            "frame": 3980,
+            "rms_mm": 0.9247515555674112,
+            "max_mm": 2.55119848358031
+          },
+          {
+            "frame": 3980,
+            "rms_mm": 0.92475155556741,
+            "max_mm": 2.5511984835803028
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": true,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  },
+  {
+    "run": "reference-U087-v17-01",
+    "task_id": "U087",
+    "original_status": "reference_unscored",
+    "complete": true,
+    "recomputed": {
+      "task_id": "U087",
+      "task_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "shape": {
+        "rms_mm": 0.08014787017573824,
+        "max_mm": 0.2810748170888677,
+        "raw_rms_mm": 0.08270304690861909,
+        "rotation_degrees": 0.001554070534433298,
+        "xy_translation_mm": [
+          -0.0203529895398194,
+          0.0009477170814881806
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "matched": 14,
+        "required": 14,
+        "matches": [
+          {
+            "frame": 1432,
+            "rms_mm": 0.8905508643939891,
+            "max_mm": 2.617744837804393
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.890378495430981,
+            "max_mm": 2.617524741577315
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.8903784954309812,
+            "max_mm": 2.6175247415773155
+          },
+          {
+            "frame": 2361,
+            "rms_mm": 0.8898695634092862,
+            "max_mm": 2.620131830614005
+          },
+          {
+            "frame": 2721,
+            "rms_mm": 0.8933660087972168,
+            "max_mm": 2.61875557999353
+          },
+          {
+            "frame": 3085,
+            "rms_mm": 0.8826044720587368,
+            "max_mm": 1.5593959792002308
+          },
+          {
+            "frame": 3170,
+            "rms_mm": 0.9643980723826736,
+            "max_mm": 2.772630005501529
+          },
+          {
+            "frame": 3170,
+            "rms_mm": 0.9643980723826736,
+            "max_mm": 2.77263000550151
+          },
+          {
+            "frame": 3440,
+            "rms_mm": 0.9668251844379412,
+            "max_mm": 2.763299736377486
+          },
+          {
+            "frame": 3440,
+            "rms_mm": 0.9668251844379407,
+            "max_mm": 2.7632997363774834
+          },
+          {
+            "frame": 3800,
+            "rms_mm": 0.9578624363142012,
+            "max_mm": 2.7380642516023688
+          },
+          {
+            "frame": 3800,
+            "rms_mm": 0.9578624363142041,
+            "max_mm": 2.7380642516023714
+          },
+          {
+            "frame": 4174,
+            "rms_mm": 0.9613804869817603,
+            "max_mm": 2.735920833513743
+          },
+          {
+            "frame": 4174,
+            "rms_mm": 0.9613804869817618,
+            "max_mm": 2.7359208335137386
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": true,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  },
+  {
+    "run": "reference-U088-v17-01",
+    "task_id": "U088",
+    "original_status": "reference_unscored",
+    "complete": true,
+    "recomputed": {
+      "task_id": "U088",
+      "task_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "shape": {
+        "rms_mm": 0.08113483337159592,
+        "max_mm": 0.28049745804500403,
+        "raw_rms_mm": 0.08277914125991614,
+        "rotation_degrees": -0.001063829504417307,
+        "xy_translation_mm": [
+          0.016393061361343053,
+          0.0004997374129905747
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "matched": 14,
+        "required": 14,
+        "matches": [
+          {
+            "frame": 1432,
+            "rms_mm": 0.8905508643939891,
+            "max_mm": 2.617744837804393
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.890378495430981,
+            "max_mm": 2.617524741577315
+          },
+          {
+            "frame": 1792,
+            "rms_mm": 0.8903784954309812,
+            "max_mm": 2.6175247415773155
+          },
+          {
+            "frame": 2361,
+            "rms_mm": 0.8898610544537477,
+            "max_mm": 2.62009742098864
+          },
+          {
+            "frame": 2721,
+            "rms_mm": 0.8933419000862005,
+            "max_mm": 2.6188079216523104
+          },
+          {
+            "frame": 3085,
+            "rms_mm": 0.8577714155443731,
+            "max_mm": 1.4975408816874833
+          },
+          {
+            "frame": 3170,
+            "rms_mm": 0.9642666794879862,
+            "max_mm": 2.772303492068519
+          },
+          {
+            "frame": 3170,
+            "rms_mm": 0.9642666794879855,
+            "max_mm": 2.7723034920685183
+          },
+          {
+            "frame": 3440,
+            "rms_mm": 0.9668660424108871,
+            "max_mm": 2.762866755570016
+          },
+          {
+            "frame": 3440,
+            "rms_mm": 0.9668660424108859,
+            "max_mm": 2.7628667555700117
+          },
+          {
+            "frame": 3710,
+            "rms_mm": 0.9215175917827351,
+            "max_mm": 2.5539572736609957
+          },
+          {
+            "frame": 3710,
+            "rms_mm": 0.9215175917827355,
+            "max_mm": 2.5539572736609744
+          },
+          {
+            "frame": 3980,
+            "rms_mm": 0.9247700931221529,
+            "max_mm": 2.550197702556934
+          },
+          {
+            "frame": 3980,
+            "rms_mm": 0.9247700931221514,
+            "max_mm": 2.5501977025569267
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "finished": true,
+      "environment_error": false,
+      "mode": "untrusted_evidence_rescore_not_new_simulation"
+    }
+  }
+]

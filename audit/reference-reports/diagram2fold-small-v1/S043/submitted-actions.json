@@ -1,0 +1,40 @@
+[
+  {
+    "op": "fold",
+    "line": [
+      [
+        0.2,
+        1.0
+      ],
+      [
+        0.2,
+        0.0
+      ]
+    ],
+    "moving_point": [
+      0.0,
+      0.5
+    ],
+    "sense": "toward",
+    "angle_deg": 180
+  },
+  {
+    "op": "fold",
+    "line": [
+      [
+        0.8,
+        0.0
+      ],
+      [
+        0.8,
+        1.0
+      ]
+    ],
+    "moving_point": [
+      1.0,
+      0.5
+    ],
+    "sense": "away",
+    "angle_deg": 180
+  }
+]

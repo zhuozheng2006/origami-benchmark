@@ -1,0 +1,119 @@
+Experiment CPU affinity: [16, 17, 18, 19] OMP threads: 4
+Verified 674 files; public-v2-rc
+  File "<string>", line 1
+    import sys; print(sys.prefix + 
+                     ^
+SyntaxError: '(' was never closed
+scripts/install_native_base.sh: line 21:  + sys.base_prefix): command not found
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: /data/ckpt/zhengzhuo/origami-public-release-check/.venv-public/bin/python (found suitable version "3.10.22", minimum required is "3") 
+-- Found Git: /usr/bin/git (found version "2.50.1") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Setting default Kokkos CXX standard to 17
+-- Setting policy CMP0074 to use <Package>_ROOT variables
+-- The project name is: Kokkos
+-- Using -std=gnu++17 for C++17 extensions as feature
+-- Execution Spaces:
+--     Device Parallel: NONE
+--     Host Parallel: OPENMP
+--       Host Serial: SERIAL
+-- 
+-- Architectures:
+-- Found TPLLIBDL: /usr/lib/x86_64-linux-gnu/libdl.so  
+-- Enable Devices: Serial
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Performing Test COMPILER_SUPPORTS_MARCH
+-- Performing Test COMPILER_SUPPORTS_MARCH - Success
+-- Cabana Revision = 'Not a git repository'
+-- Could NOT find CLANG_FORMAT (missing: CLANG_FORMAT_EXECUTABLE) (found version "0.0")
+-- Setting policy CMP0074 to use <Package>_ROOT variables
+-- The project name is: KokkosKernels
+
+=======================
+KokkosKernels ETI Types
+   Devices:  <OpenMP,HostSpace>;<Serial,HostSpace>
+   Scalars:  double
+   Ordinals: int
+   Offsets:  int;size_t
+   Layouts:  LayoutLeft
+
+KokkosKernels TPLs
+=======================
+
+-- Creating ETI files for Blas1_abs
+-- Creating ETI files for Blas1_abs_mv
+-- Creating ETI files for Blas1_scal
+-- Creating ETI files for Blas1_scal_mv
+-- Creating ETI files for Blas1_dot
+-- Creating ETI files for Blas1_dot_mv
+-- Creating ETI files for Blas_gesv
+-- Creating ETI files for Blas1_axpby
+-- Creating ETI files for Blas1_axpby_mv
+-- Creating ETI files for Blas1_update
+-- Creating ETI files for Blas1_update_mv
+-- Creating ETI files for Blas1_sum
+-- Creating ETI files for Blas1_sum_mv
+-- Creating ETI files for Blas1_nrm1
+-- Creating ETI files for Blas1_nrm1_mv
+-- Creating ETI files for Blas1_nrm2w
+-- Creating ETI files for Blas1_nrm2w_mv
+-- Creating ETI files for Blas1_nrminf
+-- Creating ETI files for Blas1_nrminf_mv
+-- Creating ETI files for Blas1_iamax
+-- Creating ETI files for Blas1_iamax_mv
+-- Creating ETI files for Blas1_nrm2
+-- Creating ETI files for Blas1_nrm2_mv
+-- Creating ETI files for Blas1_mult
+-- Creating ETI files for Blas1_mult_mv
+-- Creating ETI files for Blas1_reciprocal
+-- Creating ETI files for Blas1_reciprocal_mv
+-- Creating ETI files for Blas2_gemv
+-- Creating ETI files for Blas3_gemm
+-- Creating ETI files for Blas3_trsm
+-- Creating ETI files for Sparse_sptrsv_solve
+-- Creating ETI files for Sparse_spmv_struct
+-- Creating ETI files for Sparse_spmv_mv_struct
+-- Creating ETI files for Sparse_spmv
+-- Creating ETI files for Sparse_spmv_mv
+-- Creating ETI files for Sparse_spgemm_symbolic
+-- Creating ETI files for Sparse_spgemm_numeric
+-- Creating ETI files for Sparse_spgemm_jacobi
+-- Creating ETI files for Sparse_spiluk_symbolic
+-- Creating ETI files for Sparse_spiluk_numeric
+-- Creating ETI files for Sparse_sptrsv_symbolic
+-- Creating ETI files for Sparse_trsv
+-- Creating ETI files for Sparse_gauss_seidel_symbolic
+-- Creating ETI files for Sparse_gauss_seidel_numeric
+-- Creating ETI files for Sparse_gauss_seidel_apply
+-- Found PythonInterp: /data/ckpt/zhengzhuo/origami-public-release-check/.venv-public/bin/python (found version "3.10.22") 
+-- Found PythonLibs: /home/zhengzhuo/code/miniconda3/envs/origami-codim/lib/libpython3.10.so
+-- pybind11 v2.4.dev4
+-- Performing Test HAS_FLTO
+-- Performing Test HAS_FLTO - Success
+-- LTO enabled
+CMake Error at CMakeLists.txt:37 (find_package):
+  By not providing "FindEigen3.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Eigen3", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "Eigen3" with any
+  of the following names:
+
+    Eigen3Config.cmake
+    eigen3-config.cmake
+
+  Add the installation prefix of "Eigen3" to CMAKE_PREFIX_PATH or set
+  "Eigen3_DIR" to a directory containing one of the above files.  If "Eigen3"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/data/ckpt/zhengzhuo/origami-public-release-check/external/codim-ipc/build/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,16 @@
+{
+  "created": "2026-10-30T10:31:05.544105+00:00",
+  "author": "Diagram2Fold project",
+  "license": "CC BY 4.0",
+  "policy_frozen_before_generation": "c76fbaf3916ae18d697ed3921d04eb787fcb417f65d2711320e7831a8e5a3f43",
+  "renderer_sha256": "bd4235340b21024e737812f275fd5937235e4ae815e71c824356295b2d95b8f4",
+  "source": "New original raster diagrams generated locally, no external images or book pages",
+  "contamination_scope": "Exact images first created after deployed weights were downloaded; related fold concepts and rendering family are NOT held out. No image used for model tuning or retries.",
+  "mesh_files": {
+    "tasks/crease_meshes/heldout1_horizontal_r1.json": "78664e0131028c8e8f27047c214d7e702e23dc455f68f2b5f9cb6cfc47ebbd2f",
+    "tasks/crease_meshes/heldout1_gate_r0.json": "aa59efc425b300eff64caa496164b8b9166e8a46c0c31013d4b2dac32d921109",
+    "tasks/crease_meshes/heldout1_gate_r1.json": "12b1d0add94e43f051b102c9056bbd0b26c9889eab169ae503f3c3fea87faa53",
+    "tasks/crease_meshes/heldout1_kite_r1.json": "1b5c74daa94144f04f8894ccfc82fae68e0df8d55537754c5b4a88a9b2c82825",
+    "tasks/crease_meshes/heldout1_kite_r2.json": "d05dff7cffde41a3786654a33da908a3937d221ae1ae360c4a3d64f7e42c3ba6"
+  }
+}

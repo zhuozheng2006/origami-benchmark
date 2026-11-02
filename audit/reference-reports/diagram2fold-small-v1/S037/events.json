@@ -1,0 +1,119 @@
+[
+  {
+    "index": 0,
+    "instruction_index": 0,
+    "action": {
+      "op": "fold",
+      "line": [
+        [
+          1.0,
+          0.7
+        ],
+        [
+          0.0,
+          0.7
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        1.0
+      ],
+      "sense": "away",
+      "angle_deg": 180
+    },
+    "before": "4f53f559dd31ec6f42adf9b2bd49bf1dc2a20f5baac9df6bcee2452038f7f963",
+    "after": "328c9587897e682ebfbcc2bb0e3c6f7802e3ba22435469e276a2626b51341f28",
+    "low_level_actions": [
+      {
+        "op": "release"
+      },
+      {
+        "op": "set_grips",
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          7,
+          9,
+          11,
+          12,
+          18,
+          20,
+          33,
+          38,
+          41,
+          46,
+          47,
+          48,
+          53,
+          54,
+          59,
+          60,
+          66,
+          67,
+          72,
+          81,
+          85,
+          86,
+          102
+        ]
+      },
+      {
+        "op": "rotate_grips",
+        "vertices": [
+          3,
+          4,
+          7,
+          9,
+          11,
+          12,
+          33,
+          38,
+          46
+        ],
+        "axis_point": [
+          -0.075,
+          0.029999999999999992,
+          -0.00015
+        ],
+        "axis_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "degrees": -180.0,
+        "frames": 360
+      }
+    ],
+    "result": {
+      "status": "accepted",
+      "executed_axis": {
+        "axis_point": [
+          -0.075,
+          0.029999999999999992,
+          -0.00015
+        ],
+        "axis_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "degrees": -180.0
+      }
+    }
+  },
+  {
+    "index": 1,
+    "instruction_index": 1,
+    "action": {
+      "op": "finish"
+    },
+    "before": "328c9587897e682ebfbcc2bb0e3c6f7802e3ba22435469e276a2626b51341f28",
+    "after": "328c9587897e682ebfbcc2bb0e3c6f7802e3ba22435469e276a2626b51341f28",
+    "low_level_actions": [],
+    "result": {
+      "status": "accepted"
+    }
+  }
+]

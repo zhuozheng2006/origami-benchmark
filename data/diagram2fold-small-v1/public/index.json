@@ -1,0 +1,1205 @@
+{
+  "version": "small-v1-candidates",
+  "tasks": [
+    {
+      "id": "S001",
+      "label": "Original diagram 1",
+      "split": "test",
+      "image": "S001.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S002",
+      "label": "Original diagram 2",
+      "split": "test",
+      "image": "S002.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S003",
+      "label": "Original diagram 3",
+      "split": "test",
+      "image": "S003.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S004",
+      "label": "Original diagram 4",
+      "split": "test",
+      "image": "S004.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S005",
+      "label": "Original diagram 5",
+      "split": "test",
+      "image": "S005.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S006",
+      "label": "Original diagram 6",
+      "split": "test",
+      "image": "S006.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S007",
+      "label": "Original diagram 7",
+      "split": "development",
+      "image": "S007.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S008",
+      "label": "Original diagram 8",
+      "split": "test",
+      "image": "S008.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S009",
+      "label": "Original diagram 9",
+      "split": "test",
+      "image": "S009.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S010",
+      "label": "Original diagram 10",
+      "split": "test",
+      "image": "S010.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S011",
+      "label": "Original diagram 11",
+      "split": "development",
+      "image": "S011.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S012",
+      "label": "Original diagram 12",
+      "split": "test",
+      "image": "S012.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S013",
+      "label": "Original diagram 13",
+      "split": "test",
+      "image": "S013.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S014",
+      "label": "Original diagram 14",
+      "split": "development",
+      "image": "S014.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S015",
+      "label": "Original diagram 15",
+      "split": "test",
+      "image": "S015.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S016",
+      "label": "Original diagram 16",
+      "split": "test",
+      "image": "S016.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S017",
+      "label": "Original diagram 17",
+      "split": "test",
+      "image": "S017.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S018",
+      "label": "Original diagram 18",
+      "split": "test",
+      "image": "S018.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S019",
+      "label": "Original diagram 19",
+      "split": "test",
+      "image": "S019.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S020",
+      "label": "Original diagram 20",
+      "split": "test",
+      "image": "S020.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S021",
+      "label": "Original diagram 21",
+      "split": "test",
+      "image": "S021.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S022",
+      "label": "Original diagram 22",
+      "split": "test",
+      "image": "S022.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S023",
+      "label": "Original diagram 23",
+      "split": "test",
+      "image": "S023.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S024",
+      "label": "Original diagram 24",
+      "split": "test",
+      "image": "S024.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S025",
+      "label": "Original diagram 25",
+      "split": "test",
+      "image": "S025.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S026",
+      "label": "Original diagram 26",
+      "split": "test",
+      "image": "S026.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S027",
+      "label": "Original diagram 27",
+      "split": "test",
+      "image": "S027.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S028",
+      "label": "Original diagram 28",
+      "split": "test",
+      "image": "S028.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S029",
+      "label": "Original diagram 29",
+      "split": "test",
+      "image": "S029.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S030",
+      "label": "Original diagram 30",
+      "split": "test",
+      "image": "S030.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S031",
+      "label": "Original diagram 31",
+      "split": "test",
+      "image": "S031.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S032",
+      "label": "Original diagram 32",
+      "split": "test",
+      "image": "S032.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S033",
+      "label": "Original diagram 33",
+      "split": "test",
+      "image": "S033.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S034",
+      "label": "Original diagram 34",
+      "split": "test",
+      "image": "S034.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S035",
+      "label": "Original diagram 35",
+      "split": "development",
+      "image": "S035.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S036",
+      "label": "Original diagram 36",
+      "split": "test",
+      "image": "S036.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S037",
+      "label": "Original diagram 37",
+      "split": "test",
+      "image": "S037.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S038",
+      "label": "Original diagram 38",
+      "split": "test",
+      "image": "S038.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S039",
+      "label": "Original diagram 39",
+      "split": "test",
+      "image": "S039.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S040",
+      "label": "Original diagram 40",
+      "split": "development",
+      "image": "S040.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S041",
+      "label": "Original diagram 41",
+      "split": "test",
+      "image": "S041.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S042",
+      "label": "Original diagram 42",
+      "split": "test",
+      "image": "S042.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S043",
+      "label": "Original diagram 43",
+      "split": "test",
+      "image": "S043.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S044",
+      "label": "Original diagram 44",
+      "split": "test",
+      "image": "S044.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S045",
+      "label": "Original diagram 45",
+      "split": "test",
+      "image": "S045.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S046",
+      "label": "Original diagram 46",
+      "split": "test",
+      "image": "S046.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S047",
+      "label": "Original diagram 47",
+      "split": "development",
+      "image": "S047.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S048",
+      "label": "Original diagram 48",
+      "split": "development",
+      "image": "S048.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S049",
+      "label": "Original diagram 49",
+      "split": "test",
+      "image": "S049.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S050",
+      "label": "Original diagram 50",
+      "split": "test",
+      "image": "S050.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S051",
+      "label": "Original diagram 51",
+      "split": "test",
+      "image": "S051.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S052",
+      "label": "Original diagram 52",
+      "split": "test",
+      "image": "S052.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S053",
+      "label": "Original diagram 53",
+      "split": "test",
+      "image": "S053.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S054",
+      "label": "Original diagram 54",
+      "split": "development",
+      "image": "S054.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S055",
+      "label": "Original diagram 55",
+      "split": "development",
+      "image": "S055.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S056",
+      "label": "Original diagram 56",
+      "split": "development",
+      "image": "S056.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S057",
+      "label": "Original diagram 57",
+      "split": "test",
+      "image": "S057.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S058",
+      "label": "Original diagram 58",
+      "split": "test",
+      "image": "S058.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S059",
+      "label": "Original diagram 59",
+      "split": "test",
+      "image": "S059.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S060",
+      "label": "Original diagram 60",
+      "split": "development",
+      "image": "S060.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S061",
+      "label": "Original diagram 61",
+      "split": "test",
+      "image": "S061.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S062",
+      "label": "Original diagram 62",
+      "split": "test",
+      "image": "S062.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S063",
+      "label": "Original diagram 63",
+      "split": "test",
+      "image": "S063.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S064",
+      "label": "Original diagram 64",
+      "split": "test",
+      "image": "S064.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S065",
+      "label": "Original diagram 65",
+      "split": "test",
+      "image": "S065.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S066",
+      "label": "Original diagram 66",
+      "split": "test",
+      "image": "S066.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S067",
+      "label": "Original diagram 67",
+      "split": "development",
+      "image": "S067.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S068",
+      "label": "Original diagram 68",
+      "split": "test",
+      "image": "S068.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S069",
+      "label": "Original diagram 69",
+      "split": "test",
+      "image": "S069.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S070",
+      "label": "Original diagram 70",
+      "split": "test",
+      "image": "S070.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S071",
+      "label": "Original diagram 71",
+      "split": "test",
+      "image": "S071.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S072",
+      "label": "Original diagram 72",
+      "split": "development",
+      "image": "S072.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S073",
+      "label": "Original diagram 73",
+      "split": "test",
+      "image": "S073.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S074",
+      "label": "Original diagram 74",
+      "split": "development",
+      "image": "S074.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S075",
+      "label": "Original diagram 75",
+      "split": "test",
+      "image": "S075.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S076",
+      "label": "Original diagram 76",
+      "split": "development",
+      "image": "S076.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S077",
+      "label": "Original diagram 77",
+      "split": "test",
+      "image": "S077.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S078",
+      "label": "Original diagram 78",
+      "split": "development",
+      "image": "S078.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S079",
+      "label": "Original diagram 79",
+      "split": "test",
+      "image": "S079.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S080",
+      "label": "Original diagram 80",
+      "split": "test",
+      "image": "S080.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S081",
+      "label": "Original diagram 81",
+      "split": "development",
+      "image": "S081.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S082",
+      "label": "Original diagram 82",
+      "split": "development",
+      "image": "S082.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S083",
+      "label": "Original diagram 83",
+      "split": "test",
+      "image": "S083.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S084",
+      "label": "Original diagram 84",
+      "split": "test",
+      "image": "S084.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S085",
+      "label": "Original diagram 85",
+      "split": "development",
+      "image": "S085.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S086",
+      "label": "Original diagram 86",
+      "split": "test",
+      "image": "S086.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S087",
+      "label": "Original diagram 87",
+      "split": "test",
+      "image": "S087.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S088",
+      "label": "Original diagram 88",
+      "split": "test",
+      "image": "S088.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S089",
+      "label": "Original diagram 89",
+      "split": "test",
+      "image": "S089.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S090",
+      "label": "Original diagram 90",
+      "split": "test",
+      "image": "S090.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S091",
+      "label": "Original diagram 91",
+      "split": "test",
+      "image": "S091.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S092",
+      "label": "Original diagram 92",
+      "split": "test",
+      "image": "S092.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S093",
+      "label": "Original diagram 93",
+      "split": "test",
+      "image": "S093.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S094",
+      "label": "Original diagram 94",
+      "split": "test",
+      "image": "S094.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S095",
+      "label": "Original diagram 95",
+      "split": "test",
+      "image": "S095.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S096",
+      "label": "Original diagram 96",
+      "split": "test",
+      "image": "S096.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S097",
+      "label": "Original diagram 97",
+      "split": "development",
+      "image": "S097.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S098",
+      "label": "Original diagram 98",
+      "split": "test",
+      "image": "S098.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S099",
+      "label": "Original diagram 99",
+      "split": "test",
+      "image": "S099.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S100",
+      "label": "Original diagram 100",
+      "split": "test",
+      "image": "S100.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S101",
+      "label": "Original diagram 101",
+      "split": "test",
+      "image": "S101.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S102",
+      "label": "Original diagram 102",
+      "split": "test",
+      "image": "S102.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S103",
+      "label": "Original diagram 103",
+      "split": "test",
+      "image": "S103.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S104",
+      "label": "Original diagram 104",
+      "split": "test",
+      "image": "S104.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S105",
+      "label": "Original diagram 105",
+      "split": "test",
+      "image": "S105.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S106",
+      "label": "Original diagram 106",
+      "split": "development",
+      "image": "S106.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S107",
+      "label": "Original diagram 107",
+      "split": "test",
+      "image": "S107.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S108",
+      "label": "Original diagram 108",
+      "split": "test",
+      "image": "S108.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S109",
+      "label": "Original diagram 109",
+      "split": "test",
+      "image": "S109.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S110",
+      "label": "Original diagram 110",
+      "split": "development",
+      "image": "S110.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S111",
+      "label": "Original diagram 111",
+      "split": "test",
+      "image": "S111.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S112",
+      "label": "Original diagram 112",
+      "split": "test",
+      "image": "S112.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S113",
+      "label": "Original diagram 113",
+      "split": "test",
+      "image": "S113.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S114",
+      "label": "Original diagram 114",
+      "split": "test",
+      "image": "S114.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S115",
+      "label": "Original diagram 115",
+      "split": "development",
+      "image": "S115.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S116",
+      "label": "Original diagram 116",
+      "split": "development",
+      "image": "S116.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S117",
+      "label": "Original diagram 117",
+      "split": "test",
+      "image": "S117.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S118",
+      "label": "Original diagram 118",
+      "split": "test",
+      "image": "S118.png",
+      "step_count": 2,
+      "instruction": "Execute the 2 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S119",
+      "label": "Original diagram 119",
+      "split": "test",
+      "image": "S119.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    },
+    {
+      "id": "S120",
+      "label": "Original diagram 120",
+      "split": "test",
+      "image": "S120.png",
+      "step_count": 1,
+      "instruction": "Execute the 1 numbered folds, then finish while holding the paper.",
+      "paper_frame": "Diagram x right, y up. Original sheet corners: bottom-left=(0,0), bottom-right=(1,0), top-right=(1,1), top-left=(0,1).",
+      "attribution": "Original Diagram2Fold project diagram; CC BY 4.0. Same drawing family as development; no web/book generalization claim."
+    }
+  ]
+}

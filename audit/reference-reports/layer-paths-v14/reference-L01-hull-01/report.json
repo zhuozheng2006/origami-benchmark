@@ -1,0 +1,67 @@
+{
+  "task_id": "L01",
+  "agent_kind": "private_layer_reference",
+  "task_success": false,
+  "finished": false,
+  "physical_pass": true,
+  "shape": null,
+  "memory_pass": true,
+  "goal_available": false,
+  "status": "reference_unscored",
+  "attempts": 4,
+  "retained_paper_operations": 3,
+  "peak_strain": 0.00047409887578986343,
+  "material_memory": {
+    "rest_angle_sha256": "349e3eef64a20dea3dfa0336418639b0431f54b9bfd94f8c774f6aa62875df5c",
+    "rest_angle_l2": 21.383416139524847,
+    "dissipation_joules": 0.0024710705181441926
+  },
+  "seconds": 752.6291914589237,
+  "scope": "Finite-thickness deformable shell with ideal point fixtures; continuous contact and 1% stretch/compression acceptance. Prepared state is physically replayed. No real finger model.",
+  "unsigned_memory_pass": true,
+  "grading_version": "source-assignment-v13-1",
+  "fixed_board_shape": null,
+  "initial_frame": 1137,
+  "preparation_operations": 3,
+  "controller_version": "layer-boundary-v14-dev18",
+  "geometric_checks": [
+    {
+      "op": "fold_line",
+      "rms_mm": 0.17111736723530965,
+      "max_mm": 0.42581069659188436
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.15730094700555072,
+      "max_mm": 0.38565767318691735
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.18836181238701824,
+      "max_mm": 0.4474646914472855
+    }
+  ],
+  "initial_check": {
+    "rms_mm": 0.15143156956613543,
+    "max_mm": 0.38565767318691735
+  },
+  "annotated_plan_complete": false,
+  "fixture_mode": "hull_panel",
+  "preparation_checks": [
+    {
+      "op": "turn_over",
+      "rms_mm": 1.7662070181457093e-06,
+      "max_mm": 3.6418866341321247e-06
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.11705593085908256,
+      "max_mm": 0.23422128840788223
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.15143156956613543,
+      "max_mm": 0.38565767318691735
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "task_id": "L01",
+  "agent_kind": "private_layer_reference",
+  "finished": false,
+  "task_success": false,
+  "physical_pass": false,
+  "status": "reference_environment_failure",
+  "error": "RuntimeError: Simulation transport lost; further commands are disabled and paper state is unverified",
+  "attempts": 0,
+  "fixture_mode": "hull_panel"
+}

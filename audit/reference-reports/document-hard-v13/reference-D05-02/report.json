@@ -1,0 +1,82 @@
+{
+  "task_id": "D05",
+  "agent_kind": "private_reference",
+  "task_success": true,
+  "finished": true,
+  "physical_pass": true,
+  "shape": {
+    "rms_mm": 0.10712969817542206,
+    "max_mm": 0.21326330599927262,
+    "raw_rms_mm": 0.10712970095647457,
+    "rotation_degrees": 1.8388739201851213e-05,
+    "xy_translation_mm": [
+      1.8774535604556414e-07,
+      -1.1472362069310299e-05
+    ],
+    "reflection_allowed": false,
+    "z_translation_allowed": false
+  },
+  "memory_pass": true,
+  "goal_available": true,
+  "status": "passed_scoped",
+  "attempts": 9,
+  "retained_paper_operations": 8,
+  "peak_strain": 0.00023719374283470707,
+  "material_memory": {
+    "rest_angle_sha256": "81b1a3dd5182ee0bf2c473a9bb074eec1d60d1254e7e65424176636152037787",
+    "rest_angle_l2": 0.21869129590644798,
+    "dissipation_joules": 0.0028142641846065097
+  },
+  "seconds": 196.2140505828429,
+  "scope": "Finite thickness, same ideal boundary grasps and historical contact rule; no real fingers or general collision certification.",
+  "unsigned_memory_pass": true,
+  "grading_version": "source-assignment-v13-1",
+  "fixed_board_shape": {
+    "rms_mm": 0.10712970095647457,
+    "max_mm": 0.21326330428575493
+  },
+  "geometric_checks": [
+    {
+      "op": "fold_line",
+      "rms_mm": 0.37810706632814034,
+      "max_mm": 0.7875889705200068
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.09834635689472142,
+      "max_mm": 0.1740021508125006
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.37262328384561594,
+      "max_mm": 0.7730685201501865
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.11813408038055495,
+      "max_mm": 0.24141842259684118
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.3773964156300893,
+      "max_mm": 0.6831980283739775
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.10900459390811694,
+      "max_mm": 0.23142713325555792
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.35636874529590334,
+      "max_mm": 0.6611001603530989
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.10712970095647457,
+      "max_mm": 0.21326330428575493
+    }
+  ],
+  "annotated_plan_complete": true,
+  "annotation_validation": "pending_visual_review"
+}

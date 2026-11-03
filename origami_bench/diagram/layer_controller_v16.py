@@ -443,8 +443,10 @@ def compile_stack_fold_v15(vertices, faces, action, fixture_mode='boundary'):
         center[2] += sign * delta
         lift += delta
 
-    cmd = motion(moving, center, axis, sign * degrees, v)
+    packet_fold = len(hits) >= 2 and action['layers'] == 'all'
+    cmd = motion(moving, center, axis, sign * degrees, v, packet=packet_fold)
     info = dict(
+        packet_fold_frames=cmd['frames'] if packet_fold else None,
         endpoint_clearance_axis_lift_m=lift,
         endpoint_clearance_axis_horiz_shift_m=horiz_shift,
         selected_faces=sorted(selected),

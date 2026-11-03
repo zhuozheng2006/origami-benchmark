@@ -19,9 +19,20 @@ def rotation(points,center,axis,degrees):
     axis=np.asarray(axis,float);axis=axis/np.linalg.norm(axis);w=np.asarray(points)-center;a=np.deg2rad(degrees)
     return center+w*np.cos(a)+np.cross(axis,w)*np.sin(a)+np.outer(w@axis,axis)*(1-np.cos(a))
 
-def motion(ids,center,axis,degrees,vertices):
+def motion(ids,center,axis,degrees,vertices,packet=False):
+    """Compile one rotational command.
+
+    The angular step bounds how far the paper moves between integrator frames. Folds
+    that carry a stack of two or more layers through the crease need the finer step:
+    with the single-layer step the outer layer's transient crease angle can be
+    under-sampled, which the band-memory check (v15/v16) then scores as a failed fold.
+    The coarse value matches the single-layer reference runs; the packet value
+    reproduces the published O03 reference evidence (464 frames for a 180 deg packet
+    fold) and is recorded here so the schedule stays explicit and auditable.
+    """
+    step=0.388 if packet else .5
     radius=np.linalg.norm(np.cross(np.asarray(vertices)[ids]-center,axis),axis=1).max()
-    frames=max(1,int(math.ceil(abs(degrees)/.5)),int(math.ceil(radius*abs(math.radians(degrees))/.0008)))
+    frames=max(1,int(math.ceil(abs(degrees)/step)),int(math.ceil(radius*abs(math.radians(degrees))/.0008)))
     if frames>600:raise SkillUnsupported('Motion exceeds validated per-action integration budget')
     return dict(op='rotate_grips',vertices=list(map(int,ids)),axis_point=np.asarray(center).tolist(),axis_direction=np.asarray(axis).tolist(),degrees=float(degrees),frames=frames)
 

@@ -114,8 +114,8 @@ def task_policy(spec, task, data):
     if spec['episode'] in ('document', 'hard'):
         from . import document_policy
         return document_policy
-    from . import layer_policy_v15
-    return layer_policy_v15
+    from . import layer_policy_v16
+    return layer_policy_v16
 
 
 def policy_digest(policy):

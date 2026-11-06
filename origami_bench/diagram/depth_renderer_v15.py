@@ -20,6 +20,8 @@ BACK = np.array([255.0, 221.0, 155.0])
 SILHOUETTE_RGB = np.array([32.0, 48.0, 64.0])
 DEPTH_JUMP_RGB = np.array([45.0, 65.0, 85.0])
 CREASE_RGB = np.array([95.0, 115.0, 135.0])
+VERSION = 'depth-three-view-complete-paper-v16-1'
+BOARD_UNIT_M = 0.15
 
 
 def _camera_frame(view: str):
@@ -34,13 +36,48 @@ def _camera_frame(view: str):
         u = np.array([-np.sin(a), np.cos(a), 0.0])
         up = np.cross(u, camera)
         limit = 0.115
-    else:
+    elif view == 'oblique':
         e, a = np.deg2rad([28.0, -65.0])
         camera = np.array([np.cos(e) * np.cos(a), np.cos(e) * np.sin(a), np.sin(e)])
         u = np.array([-np.sin(a), np.cos(a), 0.0])
         up = np.cross(camera, u)
         limit = 0.115
+    else:
+        raise ValueError('Unknown paper camera view')
     return u, up, camera, limit
+
+
+def view_projection(vertices, view='top', size=512):
+    """Fit only the camera window; never transform or renormalize the paper.
+
+The world origin and camera directions remain fixed. The existing minimum
+window is expanded symmetrically using ONLY current vertices, with a margin.
+This also handles off-centre paper and oblique projections of tall sheets.
+    """
+    vertices = np.asarray(vertices, dtype=float)
+    if vertices.ndim != 2 or vertices.shape[1] != 3 or not len(vertices) or not np.isfinite(vertices).all():
+        raise ValueError('Finite current XYZ vertices required for paper camera')
+    if type(size) is not int or size < 16:
+        raise ValueError('Paper camera resolution must be at least 16 pixels')
+    u, up, camera, minimum_limit = _camera_frame(view)
+    projected = np.column_stack([vertices @ u, vertices @ up])
+    extent = float(np.max(np.abs(projected)))
+    limit = max(minimum_limit, extent * 1.12, extent + 0.0075)
+    screen = (projected / (2.0 * limit) + 0.5) * (size - 1)
+    screen[:, 1] = (size - 1) - screen[:, 1]
+    return dict(screen=screen, depth=vertices @ camera, camera=camera,
+                half_extent_m=limit, world_origin_fixed=True)
+
+
+def board_ticks(half_extent_m):
+    """Visible physical board coordinates, with enough spacing for labels."""
+    span = 2.0 * half_extent_m / BOARD_UNIT_M
+    step = 0.25
+    while span / step > 12:
+        step *= 2.0
+    lo, hi = 0.5 - half_extent_m / BOARD_UNIT_M, 0.5 + half_extent_m / BOARD_UNIT_M
+    ticks = np.arange(np.ceil(lo / step), np.floor(hi / step) + 1) * step
+    return ticks.tolist(), step
 
 
 def _extract_feature_edges(vertices: np.ndarray, faces: np.ndarray, crease_deg: float = 15.0):
@@ -70,9 +107,9 @@ def _extract_feature_edges(vertices: np.ndarray, faces: np.ndarray, crease_deg: 
 
 
 def _draw_board_grid_top(pixels: np.ndarray, owner: np.ndarray, size: int, limit: float):
-    """Draw faint board coordinate grid lines for [0, 1]^2 on the TOP view background and lightly over paper."""
-    for t in (0.0, 0.25, 0.5, 0.75, 1.0):
-        world = (t - 0.5) * 0.15
+    """Draw the visible physical board grid; its range is not the paper outline."""
+    for t in board_ticks(limit)[0]:
+        world = (t - 0.5) * BOARD_UNIT_M
         pos = int(round((world / limit / 2.0 + 0.5) * (size - 1)))
         if 0 <= pos < size:
             # Vertical line x = t (dashed every 4 pixels)
@@ -123,12 +160,8 @@ def _raster_depth_tested_edges(
 def raster_v15(vertices, faces, size=512, view='top', return_buffers=False):
     v = np.asarray(vertices, dtype=float)
     f = np.asarray(faces, dtype=int)
-    u, up, camera, limit = _camera_frame(view)
-
-    p = np.column_stack([v @ u, v @ up])
-    screen = (p / limit / 2.0 + 0.5) * (size - 1)
-    screen[:, 1] = (size - 1) - screen[:, 1]
-    z = v @ camera
+    projection = view_projection(v, view, size)
+    screen, z, camera, limit = (projection[k] for k in ('screen', 'depth', 'camera', 'half_extent_m'))
 
     pixels = np.full((size, size, 3), 249.0, dtype=float)
     depth = np.full((size, size), -np.inf, dtype=float)
@@ -241,11 +274,16 @@ def render_public_v15(state, path):
         draw.rectangle([x, y, x + size, y + size], outline='#cbd5e1', width=1)
         draw.text((x, y - 28), label, fill='#253f50', font=font)
         if i == 0:
-            for t in [-0.25, 0, 0.25, 0.5, 0.75, 1, 1.25]:
-                pos = ((t - 0.5) * 0.15 / 0.24 + 0.5) * (size - 1)
-                draw.text((x + pos - 10, y + size + 7), str(t), fill='#294456', font=font)
-                draw.text((x - 34, y + size - 1 - pos - 8), str(t), fill='#294456', font=font)
-            draw.text((x + 150, 592), 'board x (right), y (up) — dashed grid = 0.25 units', fill='#294456', font=font)
+            limit = view_projection(state['vertices'], view, size)['half_extent_m']
+            ticks, step = board_ticks(limit)
+            for t in ticks:
+                pos = ((t - 0.5) * BOARD_UNIT_M / (2.0 * limit) + 0.5) * (size - 1)
+                text = f'{t:g}'
+                box = draw.textbbox((0, 0), text, font=font)
+                width = box[2] - box[0]
+                draw.text((x + pos - width / 2, y + size + 7), text, fill='#294456', font=font)
+                draw.text((x - width - 6, y + size - 1 - pos - 8), text, fill='#294456', font=font)
+            draw.text((x + 15, 592), f'Board x right, y up | grid = {step:g} | 1 unit = 15 cm', fill='#294456', font=font)
 
     draw.text(
         (600, 588),
@@ -253,4 +291,5 @@ def render_public_v15(state, path):
         fill='#294456',
         font=font,
     )
+    draw.text((600, 610), 'Physical board coordinates; camera windows expand to keep the current paper visible.', fill='#294456', font=font)
     canvas.save(path)

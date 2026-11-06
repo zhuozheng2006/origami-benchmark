@@ -34,6 +34,27 @@ def write_new(path, value):
         json.dump(value, f, ensure_ascii=False, indent=2, allow_nan=False)
 
 
+def response_identity_evidence(api_dir):
+    """Account for missing and malformed responses without hiding the failure."""
+    api_dir = Path(api_dir)
+    stems = {p.name.removesuffix('-request.json') for p in api_dir.glob('*-request.json')}
+    stems.update(p.name.removesuffix('-response.json') for p in api_dir.glob('*-response.json'))
+    names, missing, issues = set(), 0, []
+    for stem in sorted(stems):
+        path = api_dir / (stem + '-response.json')
+        try:
+            value = json.loads(path.read_text())
+            name = value.get('response', {}).get('model')
+            if not isinstance(name, str) or not name.strip():
+                raise ValueError('missing returned model')
+            names.add(name.strip())
+        except (OSError, ValueError, TypeError, AttributeError):
+            missing += 1
+            issues.append(dict(call=stem, issue='missing_or_invalid_response_identity'))
+    return dict(returned_models=sorted(names), returned_model_missing_calls=missing,
+                response_identity_issues=issues)
+
+
 def freeze(config_path, output, ledger):
     verify()
     cfg = json.loads(config_path.read_text())
@@ -48,6 +69,9 @@ def freeze(config_path, output, ledger):
     if contract not in ('structural-v3','precrease-artifact-v4'):
         raise ValueError('Unsupported explicit pilot grading contract')
     ids = cfg['tasks']
+    repeat_id = cfg.get('repeat_id', 1)
+    if type(repeat_id) is not int or repeat_id < 1:
+        raise ValueError('repeat_id must be a positive integer')
     if any(catalog[x].get('required_grading_contract', contract) != contract for x in ids):
         raise ValueError('Task and pilot grading contracts differ')
     if len(set(ids)) != len(ids) or not ids:
@@ -75,12 +99,13 @@ def freeze(config_path, output, ledger):
             parameters=model.get('parameters',{}), output_cap=8192,
             output_parameter=model.get('output_parameter','max_tokens'), adapter_version='public-api-v3-pilot1'), ADAPTER)
         write_new(folder/'identity-declaration.json', identity)
+        suites = sorted({catalog[tid]['suite'] for tid in ids})
         plan = dict(schema='experiment-plan-v1', experiment_id=str(uuid.uuid4()), model_identity=identity,
-                    suite='layers', release_manifest_sha256=release, runs=[])
+                    suite=suites[0] if len(suites) == 1 else 'mixed', release_manifest_sha256=release, runs=[])
         for tid in ids:
             spec = catalog[tid]; data = ROOT/'data'/spec['dataset']
             task = next(t for t in json.loads((data/'public/index.json').read_text())['tasks'] if t['id']==tid)
-            plan['runs'].append(dict(run_id=str(uuid.uuid4()), task_id=tid, repeat_id=1, output=tid,
+            plan['runs'].append(dict(run_id=str(uuid.uuid4()), task_id=tid, repeat_id=repeat_id, output=tid,
                 score_eligible=spec['status']=='accepted',
                 release_manifest_sha256=release, policy_sha256=policy_digest(task_policy(spec,task,data)),
                 grading_contract=cfg.get('grading_contract','structural-v3'), model_identity_sha256=identity['identity_sha256']))
@@ -141,7 +166,7 @@ def execute(study, credentials, ledger):
             env['ORIGAMI_API_LOGDIR']=str(study/'api-calls'/slug/tid)
             cmd=[sys.executable,str(ROOT/'scripts/evaluate_public.py'),'--task',tid,'--output',str(out),
                  '--agent',ADAPTER,'--identity',str(folder/'identity-declaration.json'),
-                 '--run-id',entry['run_id'],'--repeat-id','1','--grading-contract',entry['grading_contract']]
+                 '--run-id',entry['run_id'],'--repeat-id',str(entry['repeat_id']),'--grading-contract',entry['grading_contract']]
             if spec['status']!='accepted': cmd.append('--allow-diagnostic')
             timed_out=False
             with (folder/(tid+'.log')).open('x') as log:
@@ -168,20 +193,16 @@ def execute(study, credentials, ledger):
             if not complete:
                 out.mkdir(exist_ok=True)
                 if report_path.exists():report_path.rename(out/'report-incomplete.json')
-                returned=[]
                 api_dir=Path(env['ORIGAMI_API_LOGDIR'])
-                if api_dir.exists():
-                    for response in api_dir.glob('*-response.json'):
-                        name=json.loads(response.read_text()).get('response',{}).get('model')
-                        if isinstance(name,str) and name: returned.append(name)
+                response_evidence = response_identity_evidence(api_dir)
                 write_new(report_path,dict(task_id=tid,task_success=False,status='environment_error',
                     failure_stage='supervisor_timeout' if timed_out else 'subprocess_or_grading_incomplete',
                     physical_pass=None,agent_kind='external_agent:'+ADAPTER,score_eligible=spec['status']=='accepted',
                     suite=spec['suite'],split=spec.get('split','unspecified'),release_track=spec['track'],
                     release_manifest_sha256=frozen['release_manifest_sha256'],exit_code=code,
-                    run_id=entry['run_id'],repeat_id=1,model_identity=plan['model_identity'],
+                    run_id=entry['run_id'],repeat_id=entry['repeat_id'],model_identity=plan['model_identity'],
                     policy_sha256=entry['policy_sha256'],grading_contract=entry['grading_contract'],
-                    returned_models=sorted(set(returned)),returned_model_missing_calls=0))
+                    **response_evidence))
             record=dict(task_id=tid,model=model['model'],exit_code=code,run_id=entry['run_id'],
                         report=str(report_path),status=json.loads(report_path.read_text()).get('status'))
             with (folder/'suite-attempts.jsonl').open('a') as f: f.write(json.dumps(record)+'\n')

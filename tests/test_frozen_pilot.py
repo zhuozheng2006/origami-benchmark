@@ -12,6 +12,18 @@ from origami_bench.diagram.cost_book import CostBook
 
 
 class FrozenPilotTests(unittest.TestCase):
+    def test_failed_response_identity_counts_missing_and_corrupt_records(self):
+        with tempfile.TemporaryDirectory() as d:
+            folder=Path(d)
+            for call in (1,2,3):
+                (folder/f'call-{call:05d}-request.json').write_text('{}')
+            (folder/'call-00001-response.json').write_text(json.dumps({'response':{'model':'actual-model'}}))
+            (folder/'call-00002-response.json').write_text('{broken')
+            value=pilot.response_identity_evidence(folder)
+            self.assertEqual(value['returned_models'],['actual-model'])
+            self.assertEqual(value['returned_model_missing_calls'],2)
+            self.assertEqual(len(value['response_identity_issues']),2)
+
     def prepare(self, folder):
         ledger=folder/'shared.sqlite3'
         book=CostBook(ledger,150,140);book.db.close()
@@ -47,6 +59,20 @@ class FrozenPilotTests(unittest.TestCase):
             cfg['stage_cap_cny']=30;config.write_text(json.dumps(cfg))
             with self.assertRaises(Exception):pilot.freeze(config,folder/'study',folder/'missing.sqlite3')
             self.assertFalse((folder/'missing.sqlite3').exists())
+
+    def test_precrease_suite_and_independent_repeat_are_declared_before_execution(self):
+        with tempfile.TemporaryDirectory() as d,patch.object(pilot,'verify'):
+            folder=Path(d);ledger,config,cfg=self.prepare(folder)
+            cfg.update(tasks=['H102','H103'],grading_contract='precrease-artifact-v4',repeat_id=2)
+            config.write_text(json.dumps(cfg));out=folder/'study'
+            pilot.freeze(config,out,ledger)
+            plan=json.loads((out/'modela/experiment-plan.json').read_text())
+            self.assertEqual(plan['suite'],'precrease-hard')
+            self.assertEqual([r['repeat_id'] for r in plan['runs']],[2,2])
+            for invalid in (0,-1,True,1.5):
+                cfg['repeat_id']=invalid;config.write_text(json.dumps(cfg))
+                with self.assertRaises(ValueError):pilot.freeze(config,folder/'bad-study',ledger)
+                self.assertFalse((folder/'bad-study').exists())
 
 
 if __name__=='__main__':unittest.main()

@@ -18,6 +18,9 @@ def rescore(folder, task_id, dataset=None):
     specification=registry.get(task_id,{})
     dataset=dataset or specification.get('dataset','release-v1')
     private = json.loads((ROOT/'data'/dataset/'private/tasks.json').read_text())[task_id]
+    if specification.get('required_grading_contract') == 'precrease-artifact-v4':
+        from scripts.score_precrease_candidates import rescore as precrease_rescore
+        return precrease_rescore(folder, task_id, private, ROOT)
     def read(name):
         return json.loads((folder/name).read_text())
     state, events = read('final-state.json'), read('events.json')

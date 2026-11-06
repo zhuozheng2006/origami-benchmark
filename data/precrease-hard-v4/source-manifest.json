@@ -1,0 +1,66 @@
+[
+  {
+    "id": "STURM_BOXPLEAT_II",
+    "url": "https://www.origami.at/diagrams/boxpleating_guide_2.pdf",
+    "pdf_sha256": "60702d77c9cae11083f06a7a41573b7715668fa18e17b0279c2d00bc977b96e1",
+    "cache_root": ".local/precrease-hard-v4/STURM_BOXPLEAT_II",
+    "pdf_page_count": 5,
+    "automatic_download": true,
+    "source_scope": "Selected precreasing subtask pages only; original source PDF remains local",
+    "render": {
+      "max_dimension": 1280,
+      "color_mode": "RGB",
+      "versions": {
+        "pypdfium2": "5.14.0",
+        "pdfium": "156.0.8076.0",
+        "pillow": "13.0.0"
+      }
+    },
+    "pages": [
+      {
+        "page": 1,
+        "size": [
+          905,
+          1280
+        ],
+        "pixel_sha256": "642111313fb35930d52a66260257e6a77497a0405f5b88865a1dca2d21ae3b5f"
+      }
+    ]
+  },
+  {
+    "id": "MITCHELL_4STAR",
+    "url": "https://www.origamiheaven.com/pdfs/4star.pdf",
+    "pdf_sha256": "ca89141967eca7d19764d5427e5543a2a776d3af8f12a626176d0b82d910cf39",
+    "cache_root": ".local/precrease-hard-v4/MITCHELL_4STAR",
+    "pdf_page_count": 14,
+    "automatic_download": true,
+    "source_scope": "Selected precreasing subtask pages only; original source PDF remains local",
+    "render": {
+      "max_dimension": 1280,
+      "color_mode": "RGB",
+      "versions": {
+        "pypdfium2": "5.14.0",
+        "pdfium": "156.0.8076.0",
+        "pillow": "13.0.0"
+      }
+    },
+    "pages": [
+      {
+        "page": 4,
+        "size": [
+          905,
+          1280
+        ],
+        "pixel_sha256": "006b4fe1e28d54d73e5eb7a0ba99f77d5e5f8929c3ec9ec3a18d561b50326690"
+      },
+      {
+        "page": 5,
+        "size": [
+          905,
+          1280
+        ],
+        "pixel_sha256": "7751a2e79c470c693c8d1f454792d57be72cd113856d50dc7a3dd0a7ab6aa73a"
+      }
+    ]
+  }
+]

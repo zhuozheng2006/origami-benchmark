@@ -1,0 +1,38 @@
+{
+  "version": "precrease-hard-v4",
+  "scope": "Independent real-source precrease history tasks, not completed multi-part works or measured frontier difficulty",
+  "tasks": [
+    {
+      "id": "H102",
+      "title": "Gerwin Sturm: 8×8 signed grid precreasing",
+      "page_count": 1,
+      "source_id": "STURM_BOXPLEAT_II",
+      "instruction": "Complete ONLY the 8×8 grid example on source page 1. The supplied sheet already holds the first centre fold of the first panel; open it and continue. Include the shown turnover, all remaining horizontal and vertical creases, and finish with the sheet unfolded. Do not continue the later odd-division examples or fold the Porcupine. The first sheet face corresponds to the grey face in the diagram. This task is to complete the depicted precrease pattern and finish unfolded on the shown face. It does not require the reference execution order or which half is moved for an otherwise equivalent crease. All specified material mountain/valley directions must have been physically formed on the retained paper history; do not add opposite-direction precreases or obvious non-target crease lines. Undo does not count as retaining a crease.",
+      "split": "development",
+      "task_scope": "real_source_precreasing_subtask",
+      "qualification": "physical_and_scoring_controls_passed",
+      "tier": "hard_candidate",
+      "difficulty_status": "structural_candidate_pending_frontier_calibration",
+      "source_seen_in_previous_model_evaluations": false,
+      "pretraining_exposure": "unknown",
+      "source_group": "https://www.origami.at/diagrams/boxpleating_guide_2.pdf",
+      "grading_contract": "precrease-artifact-v4"
+    },
+    {
+      "id": "H103",
+      "title": "David Mitchell: 4Star Method 1 steps 8–15",
+      "page_count": 2,
+      "source_id": "MITCHELL_4STAR",
+      "instruction": "Complete ONLY Method 1 printed steps 8 through 15. The supplied 2:1 rectangle already has the earlier diagonal precreases and holds the downward half-fold in step 8; start by opening it. Include the printed turnover and all fold-and-unfold operations. Stop unfolded after step 15. Blue corresponds to the coloured side. Do not continue step 16 or later. This task is to complete the depicted precrease pattern and finish unfolded on the shown face. It does not require the reference execution order or which half is moved for an otherwise equivalent crease. All specified material mountain/valley directions must have been physically formed on the retained paper history; do not add opposite-direction precreases or obvious non-target crease lines. Undo does not count as retaining a crease.",
+      "split": "development",
+      "task_scope": "real_source_precreasing_subtask",
+      "qualification": "physical_and_scoring_controls_passed",
+      "tier": "hard_candidate",
+      "difficulty_status": "structural_candidate_pending_frontier_calibration",
+      "source_seen_in_previous_model_evaluations": false,
+      "pretraining_exposure": "unknown",
+      "source_group": "https://www.origamiheaven.com/pdfs/4star.pdf",
+      "grading_contract": "precrease-artifact-v4"
+    }
+  ]
+}

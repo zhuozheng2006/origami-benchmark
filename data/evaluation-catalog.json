@@ -1,5 +1,5 @@
 {
-  "version": "public-v2",
+  "version": "public-v4-precrease1",
   "tasks": {
     "D001": {
       "suite": "basics",
@@ -1427,6 +1427,32 @@
       "track": "external_prepared",
       "status": "accepted",
       "requires_source_download": true
+    },
+    "H102": {
+      "suite": "precrease-hard",
+      "dataset": "precrease-hard-v4",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "whole_document_precrease_history",
+      "status": "accepted",
+      "reference_run": "examples/reference-evidence-v4/reference-H102-01",
+      "split": "development",
+      "required_grading_contract": "precrease-artifact-v4",
+      "requires_source_download": true,
+      "source_manifest": "data/precrease-hard-v4/source-manifest.json"
+    },
+    "H103": {
+      "suite": "precrease-hard",
+      "dataset": "precrease-hard-v4",
+      "episode": "layer",
+      "max_attempts": 40,
+      "track": "whole_document_precrease_history",
+      "status": "accepted",
+      "reference_run": "examples/reference-evidence-v4/reference-H103-01",
+      "split": "development",
+      "required_grading_contract": "precrease-artifact-v4",
+      "requires_source_download": true,
+      "source_manifest": "data/precrease-hard-v4/source-manifest.json"
     }
   }
 }

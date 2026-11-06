@@ -1,0 +1,245 @@
+{
+  "initialization": [
+    {
+      "op": "turn_over",
+      "axis": "y"
+    },
+    {
+      "op": "rotate_paper",
+      "degrees": 45
+    }
+  ],
+  "preparation": [
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.853553390593,
+          0.146446609407
+        ],
+        [
+          0.146446609407,
+          0.853553390593
+        ]
+      ],
+      "moving_point": [
+        0.287867965644,
+        0.287867965644
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.146446609407,
+          0.146446609407
+        ],
+        [
+          0.853553390593,
+          0.853553390593
+        ]
+      ],
+      "moving_point": [
+        0.712132034356,
+        0.287867965644
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.323223304703,
+          -0.03033008589
+        ],
+        [
+          1.03033008589,
+          0.676776695297
+        ]
+      ],
+      "moving_point": [
+        0.782842712475,
+        0.217157287525
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          -0.03033008589,
+          0.323223304703
+        ],
+        [
+          0.676776695297,
+          1.03033008589
+        ]
+      ],
+      "moving_point": [
+        0.217157287525,
+        0.782842712475
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    }
+  ],
+  "reference_actions": [
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.676776695297,
+          -0.03033008589
+        ],
+        [
+          -0.03033008589,
+          0.676776695297
+        ]
+      ],
+      "moving_point": [
+        0.217157287525,
+        0.217157287525
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          1.03033008589,
+          0.323223304703
+        ],
+        [
+          0.323223304703,
+          1.03033008589
+        ]
+      ],
+      "moving_point": [
+        0.782842712475,
+        0.782842712475
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.5,
+          0.15
+        ],
+        [
+          0.5,
+          0.85
+        ]
+      ],
+      "moving_point": [
+        0.1,
+        0.65
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.5,
+          0.8535533905932737
+        ],
+        [
+          0.8535533905932737,
+          0.5
+        ]
+      ],
+      "moving_point": [
+        0.7,
+        0.9
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "turn_over",
+      "axis": "y"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.14644660940672627,
+          0.5
+        ],
+        [
+          0.5,
+          0.14644660940672627
+        ]
+      ],
+      "moving_point": [
+        0.2,
+        0.15
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.41161165235168157,
+          0.2
+        ],
+        [
+          0.41161165235168157,
+          0.8
+        ]
+      ],
+      "moving_point": [
+        0.25,
+        0.5
+      ],
+      "layers": "top",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "rotate_paper",
+      "degrees": 90
+    }
+  ],
+  "mesh": "document_uniform8_center_1p0_v14",
+  "pages": [
+    "/Users/zane/Documents/ChatGPT/折纸benchmark/artifacts/hard-expansion-20261107/sources-incoming/mitchell-mixandmatch-14.png",
+    "/Users/zane/Documents/ChatGPT/折纸benchmark/artifacts/hard-expansion-20261107/sources-incoming/mitchell-mixandmatch-15.png",
+    "/Users/zane/Documents/ChatGPT/折纸benchmark/artifacts/hard-expansion-20261107/sources-incoming/mitchell-mixandmatch-16.png"
+  ],
+  "goal": null,
+  "initial_goal": null,
+  "required_signed_hinges": {}
+}

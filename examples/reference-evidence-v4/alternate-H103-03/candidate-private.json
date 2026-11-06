@@ -1,0 +1,597 @@
+{
+  "mesh": "document_uniform8_center_2p0_hard_candidate",
+  "initialization": [
+    {
+      "op": "turn_over",
+      "axis": "y"
+    }
+  ],
+  "preparation": [
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          1.5
+        ],
+        [
+          1,
+          0.5
+        ]
+      ],
+      "moving_point": [
+        0.8,
+        1.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          -0.5
+        ],
+        [
+          1,
+          0.5
+        ]
+      ],
+      "moving_point": [
+        0.8,
+        -0.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.5
+        ],
+        [
+          1,
+          1.5
+        ]
+      ],
+      "moving_point": [
+        0.2,
+        1.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.5
+        ],
+        [
+          1,
+          -0.5
+        ]
+      ],
+      "moving_point": [
+        0.2,
+        -0.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "turn_over",
+      "axis": "y"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.5
+        ],
+        [
+          1,
+          0.5
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        1.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    }
+  ],
+  "reference_actions": [
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        1.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        -0.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.5,
+          1.5
+        ],
+        [
+          0.5,
+          -0.5
+        ]
+      ],
+      "moving_point": [
+        0.9,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "turn_over",
+      "axis": "y"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.75,
+          1.5
+        ],
+        [
+          0.75,
+          -0.5
+        ]
+      ],
+      "moving_point": [
+        0.6,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.25,
+          1.5
+        ],
+        [
+          0.25,
+          -0.5
+        ]
+      ],
+      "moving_point": [
+        0.4,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          1,
+          0.75
+        ],
+        [
+          0,
+          0.75
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        1.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          1,
+          0.25
+        ],
+        [
+          0,
+          0.25
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        -0.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          1,
+          1.25
+        ],
+        [
+          0,
+          1.25
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        1.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          1,
+          -0.25
+        ],
+        [
+          0,
+          -0.25
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        -0.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.5,
+          1.5
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.05,
+        1.45
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          1,
+          1
+        ],
+        [
+          0.5,
+          1.5
+        ]
+      ],
+      "moving_point": [
+        0.95,
+        1.45
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.5,
+          -0.5
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "moving_point": [
+        0.05,
+        -0.45
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          1,
+          0
+        ],
+        [
+          0.5,
+          -0.5
+        ]
+      ],
+      "moving_point": [
+        0.95,
+        -0.45
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    }
+  ],
+  "pages": [
+    "/Users/zane/Documents/ChatGPT/折纸benchmark/artifacts/hard-expansion-20261107/precrease-candidates/sources/4star-page-004.png",
+    "/Users/zane/Documents/ChatGPT/折纸benchmark/artifacts/hard-expansion-20261107/precrease-candidates/sources/4star-page-005.png"
+  ],
+  "goal": null,
+  "annotation_status": "source_visually_reviewed_reference_pending",
+  "checkpoint_plan": {
+    "version": "grouped-precrease-candidate1",
+    "indexing": "zero_based_reference_action_index",
+    "groups": [
+      {
+        "reference_action_indices": [
+          1,
+          3
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "retained fold endpoints; no repeated unfolded-flat endpoints"
+      },
+      {
+        "reference_action_indices": [
+          5
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "retained fold endpoints; no repeated unfolded-flat endpoints"
+      },
+      {
+        "reference_action_indices": [
+          7
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "step11 turnover"
+      },
+      {
+        "reference_action_indices": [
+          8,
+          10
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "retained fold endpoints; no repeated unfolded-flat endpoints"
+      },
+      {
+        "reference_action_indices": [
+          12
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "retained fold endpoints; no repeated unfolded-flat endpoints"
+      },
+      {
+        "reference_action_indices": [
+          14
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "retained fold endpoints; no repeated unfolded-flat endpoints"
+      },
+      {
+        "reference_action_indices": [
+          16,
+          18
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "retained fold endpoints; no repeated unfolded-flat endpoints"
+      },
+      {
+        "reference_action_indices": [
+          20,
+          22,
+          24,
+          26
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "retained fold endpoints; no repeated unfolded-flat endpoints"
+      }
+    ],
+    "required_initial_unfold": true,
+    "retain_full_trace": true,
+    "note": "Numbered source steps are ordered. Step13 explicitly says top then bottom, so these are separate groups; other simultaneous arrows commute. No flat-repeat checkpoints."
+  },
+  "alternate_provenance": {
+    "method": "opposite half if statically supported by frozen controller; reverse all fold line endpoints",
+    "reference_run": "reference-H103-01",
+    "changes": [
+      {
+        "action_index": 1,
+        "opposite_half": false,
+        "line_endpoints_reversed": true,
+        "alternative_unsupported_reason": "SkillUnsupported: Motion exceeds validated per-action integration budget"
+      },
+      {
+        "action_index": 3,
+        "opposite_half": false,
+        "line_endpoints_reversed": true,
+        "alternative_unsupported_reason": "SkillUnsupported: Motion exceeds validated per-action integration budget"
+      },
+      {
+        "action_index": 5,
+        "opposite_half": true,
+        "line_endpoints_reversed": true,
+        "alternative_unsupported_reason": null
+      },
+      {
+        "action_index": 8,
+        "opposite_half": true,
+        "line_endpoints_reversed": true,
+        "alternative_unsupported_reason": null
+      },
+      {
+        "action_index": 10,
+        "opposite_half": true,
+        "line_endpoints_reversed": true,
+        "alternative_unsupported_reason": null
+      },
+      {
+        "action_index": 12,
+        "opposite_half": false,
+        "line_endpoints_reversed": true,
+        "alternative_unsupported_reason": "SkillUnsupported: Motion exceeds validated per-action integration budget"
+      },
+      {
+        "action_index": 14,
+        "opposite_half": false,
+        "line_endpoints_reversed": true,
+        "alternative_unsupported_reason": "SkillUnsupported: Motion exceeds validated per-action integration budget"
+      },
+      {
+        "action_index": 16,
+        "opposite_half": false,
+        "line_endpoints_reversed": true,
+        "alternative_unsupported_reason": "SkillUnsupported: Motion exceeds validated per-action integration budget"
+      },
+      {
+        "action_index": 18,
+        "opposite_half": false,
+        "line_endpoints_reversed": true,
+        "alternative_unsupported_reason": "SkillUnsupported: Motion exceeds validated per-action integration budget"
+      },
+      {
+        "action_index": 20,
+        "opposite_half": false,
+        "line_endpoints_reversed": true,
+        "alternative_unsupported_reason": "SkillUnsupported: Motion exceeds validated per-action integration budget"
+      },
+      {
+        "action_index": 22,
+        "opposite_half": false,
+        "line_endpoints_reversed": true,
+        "alternative_unsupported_reason": "SkillUnsupported: Motion exceeds validated per-action integration budget"
+      },
+      {
+        "action_index": 24,
+        "opposite_half": false,
+        "line_endpoints_reversed": true,
+        "alternative_unsupported_reason": "SkillUnsupported: Motion exceeds validated per-action integration budget"
+      },
+      {
+        "action_index": 26,
+        "opposite_half": false,
+        "line_endpoints_reversed": true,
+        "alternative_unsupported_reason": "SkillUnsupported: Motion exceeds validated per-action integration budget"
+      }
+    ],
+    "semantic_equivalence": "Same material crease and sense; no core controller changes; compiler is not a physics certificate"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "contract": "precrease-artifact-v4",
+  "version": "precrease-artifact-signed-memory-v4-candidate2",
+  "scope": "final unfolded labelled geometry and face orientation + signed crease coverage + physical validity + finish",
+  "process_order_scored": false,
+  "moving_half_scored": false,
+  "extra_precreases_allowed": false,
+  "old_reference_input_unchanged": true,
+  "nonempty_task_new_crease_requirements": true,
+  "diagnostic_checkpoint_groups_only": true,
+  "expected_source_crease_lines": {
+    "H102": 14,
+    "H103": 18
+  },
+  "expected_new_source_crease_lines": {
+    "H102": 13,
+    "H103": 13
+  },
+  "opposite_sign_veto": true,
+  "obvious_extra_line_veto": true
+}

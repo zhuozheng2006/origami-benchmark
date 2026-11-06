@@ -1,0 +1,387 @@
+{
+  "schema": "hard-expansion-candidate-catalog-v1",
+  "stage": "candidate_development_not_frozen",
+  "generated_at": "2026-11-06T18:27:41.466701+00:00",
+  "status_note": "Catalog records source/annotation readiness only. Physical qualification must be overlaid from actual run reports and scoring controls; do not interpret pending as model failure.",
+  "fixed_candidate_ids": [
+    "H101",
+    "H102",
+    "H103",
+    "H104",
+    "H105",
+    "H106",
+    "H107"
+  ],
+  "candidates": [
+    {
+      "id": "H101",
+      "title": "Humphrey 三驼峰单片",
+      "source": {
+        "title": "Mix and Match Animals / Humphrey",
+        "author": "David Mitchell",
+        "page_url": "https://www.origamiheaven.com/diagramsindex.htm",
+        "download_url": "https://www.origamiheaven.com/pdfs/mixandmatch.pdf",
+        "local_pdf": "artifacts/hard-expansion-20261107/sources-incoming/mitchell-mixandmatch.pdf",
+        "pdf_sha256": "cfc2c3f8468cfd8dc4dec31900b6da251b746e77d7d68d8524a1924fbb8a5a5e",
+        "pdf_page_count": 23,
+        "pages": [
+          {
+            "pdf_page_one_based": 14,
+            "local_path": "artifacts/hard-expansion-20261107/sources-incoming/mitchell-mixandmatch-14.png",
+            "sha256": "76a2213c75296c73cd835d76a4430d236603b4097a96e59c81d1c31edc9710d8"
+          },
+          {
+            "pdf_page_one_based": 15,
+            "local_path": "artifacts/hard-expansion-20261107/sources-incoming/mitchell-mixandmatch-15.png",
+            "sha256": "124eb51209fd519f5a2b3db89d05fa0f3f1c13ea77d7d36e375e8d4f2c727fad"
+          },
+          {
+            "pdf_page_one_based": 16,
+            "local_path": "artifacts/hard-expansion-20261107/sources-incoming/mitchell-mixandmatch-16.png",
+            "sha256": "b839bff8773c657f3a45c1552434ea9047cf615ed00e4e1324a9f625f5e98eb2"
+          }
+        ],
+        "cache_distribution": "local_only_original_diagrams_not_in_public_package"
+      },
+      "printed_steps": "44–52",
+      "scope": "single_sheet_component",
+      "source_group": "david-mitchell/mix-and-match",
+      "source_style_group": "david-mitchell",
+      "status": "reference_pending",
+      "reason": "均匀8×8中心网格18动作几何编译通过；native物理参考进行中，以run报告为准。",
+      "skills": [
+        "多层选择",
+        "翻面追踪",
+        "长步骤链"
+      ],
+      "annotation_path": "artifacts/hard-expansion-20261107/sources-incoming/humphrey-annotation.json",
+      "physical_validated": false,
+      "grading_controls_passed": false,
+      "eligible_for_model_evaluation": false,
+      "paid_model_calls": 0
+    },
+    {
+      "id": "H102",
+      "title": "Sturm 8×8 带山谷符号预折",
+      "source": {
+        "title": "Boxpleating Guide II / 8×8 grid",
+        "author": "Gerwin Sturm",
+        "page_url": "https://www.origami.at/",
+        "download_url": "https://www.origami.at/diagrams/boxpleating_guide_2.pdf",
+        "local_pdf": "artifacts/hard-expansion-20261107/precrease-candidates/sources/boxpleating-guide2.pdf",
+        "pdf_sha256": "60702d77c9cae11083f06a7a41573b7715668fa18e17b0279c2d00bc977b96e1",
+        "pdf_page_count": 5,
+        "pages": [
+          {
+            "pdf_page_one_based": 1,
+            "local_path": "artifacts/hard-expansion-20261107/precrease-candidates/sources/sturm-page-001.png",
+            "sha256": "7281bb42fb608c340bf0e90af5a10bbc90bad662abf7bba439ce4bccbba9a5e5"
+          }
+        ],
+        "cache_distribution": "local_only_original_diagrams_not_in_public_package"
+      },
+      "printed_steps": "第1页8×8示例",
+      "scope": "real_source_precreasing_subtask",
+      "source_group": "gerwin-sturm/boxpleating-guide",
+      "source_style_group": "gerwin-sturm",
+      "status": "reference_pending",
+      "reason": "长序列预折任务，物理验收以独立run报告为准。",
+      "skills": [
+        "山谷折追踪",
+        "翻面追踪",
+        "长步骤链",
+        "真实展开"
+      ],
+      "annotation_path": "artifacts/hard-expansion-20261107/precrease-candidates/private/tasks.json",
+      "physical_validated": false,
+      "grading_controls_passed": false,
+      "eligible_for_model_evaluation": false,
+      "paid_model_calls": 0
+    },
+    {
+      "id": "H103",
+      "title": "Mitchell 4Star 方法一预折",
+      "source": {
+        "title": "4Star / Method 1",
+        "author": "David Mitchell",
+        "page_url": "https://www.origamiheaven.com/diagramsindex.htm",
+        "download_url": "https://www.origamiheaven.com/pdfs/4star.pdf",
+        "local_pdf": "artifacts/hard-expansion-20261107/precrease-candidates/sources/4star.pdf",
+        "pdf_sha256": "ca89141967eca7d19764d5427e5543a2a776d3af8f12a626176d0b82d910cf39",
+        "pdf_page_count": 14,
+        "pages": [
+          {
+            "pdf_page_one_based": 4,
+            "local_path": "artifacts/hard-expansion-20261107/precrease-candidates/sources/4star-page-004.png",
+            "sha256": "21ed348854cc52693d04368b8a28da5eee8d351604a988997b1d7de974714d18"
+          },
+          {
+            "pdf_page_one_based": 5,
+            "local_path": "artifacts/hard-expansion-20261107/precrease-candidates/sources/4star-page-005.png",
+            "sha256": "0c63f7c6aaf88b0130faf41e277f95288d701c942fb623a611af912f5d3d8825"
+          }
+        ],
+        "cache_distribution": "local_only_original_diagrams_not_in_public_package"
+      },
+      "printed_steps": "8–15",
+      "scope": "real_source_precreasing_subtask",
+      "source_group": "david-mitchell/4star",
+      "source_style_group": "david-mitchell",
+      "status": "reference_pending",
+      "reason": "2:1纸张；只取完整印刷步骤8–15，物理验收以run报告为准。",
+      "skills": [
+        "非方纸坐标",
+        "翻面追踪",
+        "长步骤链",
+        "真实展开"
+      ],
+      "annotation_path": "artifacts/hard-expansion-20261107/precrease-candidates/private/tasks.json",
+      "physical_validated": false,
+      "grading_controls_passed": false,
+      "eligible_for_model_evaluation": false,
+      "paid_model_calls": 0
+    },
+    {
+      "id": "H104",
+      "title": "Mitchell Kite 局部展开",
+      "source": {
+        "title": "Kite",
+        "author": "David Mitchell",
+        "page_url": "https://www.origamiheaven.com/singlesheetdesignsindex.htm",
+        "download_url": "https://www.origamiheaven.com/pdfs/kite.pdf",
+        "local_pdf": "artifacts/hard-expansion-20261107/sources-incoming/mitchell-kite.pdf",
+        "pdf_sha256": "09abbd88b754f6c88d3349364844d915a16e8dadd81312a32cc0f373e1c07b32",
+        "pdf_page_count": 3,
+        "pages": [
+          {
+            "pdf_page_one_based": 1,
+            "local_path": "artifacts/hard-expansion-20261107/sources-incoming/mitchell-kite-1.png",
+            "sha256": "63a9686d1f3741e685b5722f45d413cdab21957436886e3fad7d49b3bb3811d9"
+          },
+          {
+            "pdf_page_one_based": 2,
+            "local_path": "artifacts/hard-expansion-20261107/sources-incoming/mitchell-kite-2.png",
+            "sha256": "971c8b2c29ff570a135190ee9904919a46ccbb6e7f0ec4757095d0254d6ab3cd"
+          },
+          {
+            "pdf_page_one_based": 3,
+            "local_path": "artifacts/hard-expansion-20261107/sources-incoming/mitchell-kite-3.png",
+            "sha256": "b3ed89d5560c169fb8601e3171799ff30920deb3334ff279ad15375fb75300fa"
+          }
+        ],
+        "cache_distribution": "local_only_original_diagrams_not_in_public_package"
+      },
+      "printed_steps": "1–9",
+      "scope": "single_sheet_complete_model_candidate",
+      "source_group": "david-mitchell/kite",
+      "source_style_group": "david-mitchell",
+      "status": "semantic_and_interface_pending",
+      "reason": "图7文字的底右角与图示底左角、移动侧有歧义；步骤8需跨依赖层部分展开，尚无现有接口合格路径。",
+      "skills": [
+        "多层选择",
+        "局部展开再折",
+        "翻面追踪"
+      ],
+      "annotation_path": null,
+      "physical_validated": false,
+      "grading_controls_passed": false,
+      "eligible_for_model_evaluation": false,
+      "paid_model_calls": 0
+    },
+    {
+      "id": "H105",
+      "title": "Pureland Cat 长序列",
+      "source": {
+        "title": "Pureland Cat",
+        "author": "Xabier Sevillano",
+        "page_url": "https://cfcorigami.com/diagram/pureland-cat-gato-pureland",
+        "download_url": "https://cfcorigami.com/sites/default/files/diagrams/Xevi6960/Pureland_Cat_Instructions_XabierSevillano_0.pdf",
+        "local_pdf": "artifacts/hard-expansion-20261107/sources-incoming/sevillano-pureland-cat.pdf",
+        "pdf_sha256": "7d4a7e396cf0d5806ff27b2b8575fbeeb751e37f3f7651e1fa9703c70bbca1e5",
+        "pdf_page_count": 2,
+        "pages": [
+          {
+            "pdf_page_one_based": 1,
+            "local_path": "artifacts/hard-expansion-20261107/sources-incoming/sevillano-pureland-cat-1.png",
+            "sha256": "4b98cd0e569d0eff9e3d876501532776a4f2504e13c62aa63ec454f43bc5d30a"
+          },
+          {
+            "pdf_page_one_based": 2,
+            "local_path": "artifacts/hard-expansion-20261107/sources-incoming/sevillano-pureland-cat-2.png",
+            "sha256": "1a5ea19a3bc93ac006ea25382b8e09e5e2cb043a8d2826fb03f22512961e6705"
+          }
+        ],
+        "cache_distribution": "local_only_original_diagrams_not_in_public_package"
+      },
+      "printed_steps": "1–21必做；22为原图可选项",
+      "scope": "single_sheet_complete_model_candidate",
+      "source_group": "xabier-sevillano/pureland",
+      "source_style_group": "xabier-sevillano",
+      "status": "annotation_pending",
+      "reason": "两页已独立审图，未形成冻结参考动作；耳鼻细折、连续多层风筝与尾巴需物理验收。",
+      "skills": [
+        "翻面追踪",
+        "山谷折追踪",
+        "长步骤链"
+      ],
+      "annotation_path": null,
+      "physical_validated": false,
+      "grading_controls_passed": false,
+      "eligible_for_model_evaluation": false,
+      "paid_model_calls": 0
+    },
+    {
+      "id": "H106",
+      "title": "Pureland Penguin 塞袋前中段",
+      "source": {
+        "title": "Pureland Penguin",
+        "author": "Xabier Sevillano",
+        "page_url": "https://cfcorigami.com/diagram/pinguino-purelandpureland-penguin",
+        "download_url": "https://cfcorigami.com/sites/default/files/diagrams/Xevi6960/Pureland%20Penguin_XabierSevillano.pdf",
+        "local_pdf": "artifacts/hard-expansion-20261107/sources-incoming/sevillano-pureland-penguin.pdf",
+        "pdf_sha256": "36e56e472bbe31a0bfca2eecc1fe1a68ed5e75a613f3f19501bee159a7d6206a",
+        "pdf_page_count": 2,
+        "pages": [
+          {
+            "pdf_page_one_based": 1,
+            "local_path": "artifacts/hard-expansion-20261107/sources-incoming/sevillano-pureland-penguin-1.png",
+            "sha256": "a7223f93b832a496f3858ee622ec1099e08daf6a26d3fbe56ad044e90918f80d"
+          },
+          {
+            "pdf_page_one_based": 2,
+            "local_path": "artifacts/hard-expansion-20261107/sources-incoming/sevillano-pureland-penguin-2.png",
+            "sha256": "ababd15c795038b4332ca5dee7ac1e7cd8eef3a4666615627e489f3b2d532524"
+          }
+        ],
+        "cache_distribution": "local_only_original_diagrams_not_in_public_package"
+      },
+      "printed_steps": "动作1–21，停在图22所示状态",
+      "scope": "real_source_partial_model_candidate",
+      "source_group": "xabier-sevillano/pureland",
+      "source_style_group": "xabier-sevillano",
+      "status": "annotation_pending",
+      "reason": "完整模型图22起有塞袋操作；仅评测前1–21，尚无冻结参考路径，不宣称完成企鹅。",
+      "skills": [
+        "翻面追踪",
+        "多层选择",
+        "长步骤链",
+        "真实展开"
+      ],
+      "annotation_path": null,
+      "physical_validated": false,
+      "grading_controls_passed": false,
+      "eligible_for_model_evaluation": false,
+      "paid_model_calls": 0
+    },
+    {
+      "id": "H107",
+      "title": "NASA Dart",
+      "source": {
+        "title": "Wingin' It / Dart",
+        "author": "NASA Next Gen STEM",
+        "page_url": "https://www.nasa.gov/stem-content/wingin-it-paper-airplane/",
+        "download_url": "https://www.nasa.gov/wp-content/uploads/2022/08/wingin_it_508.pdf",
+        "local_pdf": "artifacts/hard-expansion-20261107/sources-incoming/nasa-wingin-it.pdf",
+        "pdf_sha256": "21e7b9f48ca44cbc886da30a23e7c0988c89317fc3129663a846fe790f8a69d2",
+        "pdf_page_count": 29,
+        "pages": [
+          {
+            "pdf_page_one_based": 19,
+            "printed_page": 19,
+            "local_path": "artifacts/hard-expansion-20261107/sources-incoming/nasa-wingin-it-19.png",
+            "sha256": "407cb4c30fce7b4a501141076f34901527ea7b2749538c7c8e7c1dfe8c372bdf"
+          },
+          {
+            "pdf_page_one_based": 20,
+            "printed_page": 20,
+            "local_path": "artifacts/hard-expansion-20261107/sources-incoming/nasa-wingin-it-20.png",
+            "sha256": "51584e45f44334e870fdaf2445ced32f421de105f823a5f433b6e71606d0e6a5"
+          },
+          {
+            "pdf_page_one_based": 21,
+            "printed_page": 21,
+            "local_path": "artifacts/hard-expansion-20261107/sources-incoming/nasa-wingin-it-21.png",
+            "sha256": "d7d4ae20516dd2e3d0474130bc7a522692d89d6156fc458a3104d9fd407c21b7"
+          }
+        ],
+        "cache_distribution": "local_only_original_diagrams_not_in_public_package",
+        "source_format": "photographs_with_fold_arrows_and_captions"
+      },
+      "printed_steps": "未编号；PDF/印刷第19–21页Dart段，共8行操作说明（含双边折与翻面后重复）",
+      "scope": "single_sheet_complete_model_candidate",
+      "source_group": "nasa/paper-airplane",
+      "source_style_group": "nasa",
+      "status": "unsupported_mesh_angles",
+      "reason": "原图已独立审查；第二轮斜边向中线折产生22.5°类角平分折线，后续翼折还需新的斜向线，现有冻结网格未支持完整路径。本轮未运行物理，不进入模型评分。末尾仅示意上抬双翼，未给唯一数值二面角。",
+      "skills": [
+        "多层选择",
+        "连续角平分斜折",
+        "翻面追踪",
+        "长步骤链"
+      ],
+      "annotation_path": null,
+      "physical_validated": false,
+      "grading_controls_passed": false,
+      "eligible_for_model_evaluation": false,
+      "paid_model_calls": 0,
+      "diagram_review": {
+        "visually_inspected_pdf_pages": [
+          19,
+          20,
+          21
+        ],
+        "sequence": [
+          {
+            "page": 19,
+            "row": 1,
+            "action": "沿长向中线对折"
+          },
+          {
+            "page": 19,
+            "row": 2,
+            "action": "展开"
+          },
+          {
+            "page": 19,
+            "row": 3,
+            "action": "两个上角分别折到中线"
+          },
+          {
+            "page": 20,
+            "row": 1,
+            "action": "两条新的斜上边再次折到中线"
+          },
+          {
+            "page": 20,
+            "row": 2,
+            "action": "沿中线折合多层纸"
+          },
+          {
+            "page": 20,
+            "row": 3,
+            "action": "折回一侧机翼，使右边对齐左边"
+          },
+          {
+            "page": 20,
+            "row": 4,
+            "action": "翻面，重复另一侧机翼"
+          },
+          {
+            "page": 21,
+            "row": 1,
+            "action": "持住机身，抬起两翼形成二面角"
+          }
+        ],
+        "preconditions": "矩形整张纸；教材示范指定8.5×11英寸纸。Dart三页操作本身没有切割或粘接。",
+        "new_requirement": "需通用网格支持连续角平分斜线，并为末尾翼展开预先约定可观察、非唯一目标角容差；均未在本轮验收。",
+        "important_limit": "unsupported_mesh_angles为本轮环境能力分类，不是模型失败或物理不可折证明。"
+      }
+    }
+  ],
+  "updated_at": "2026-11-06T18:34:14.644763+00:00",
+  "accepted_ids": [
+    "H102",
+    "H103"
+  ],
+  "model_calibration": "not_run_in_this_expansion"
+}

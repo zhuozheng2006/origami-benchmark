@@ -1,0 +1,29 @@
+{
+  "action": {
+    "op": "fold_line",
+    "line": [
+      [
+        0,
+        0.75
+      ],
+      [
+        1,
+        0.75
+      ]
+    ],
+    "moving_point": [
+      0.5,
+      0.9
+    ],
+    "layers": "all",
+    "sense": "toward",
+    "angle_deg": 180
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "raw_output": "scripted replay",
+  "public_image_files": [
+    "/Users/zane/Documents/ChatGPT/折纸benchmark/outputs/hard-expansion-20261107/public-harness-H102/document-view-005.png",
+    "/Users/zane/Documents/ChatGPT/折纸benchmark/outputs/hard-expansion-20261107/public-harness-H102/observation-005.png"
+  ]
+}

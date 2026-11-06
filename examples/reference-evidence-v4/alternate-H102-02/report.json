@@ -1,0 +1,180 @@
+{
+  "version": "candidate-reference-qualification-v1",
+  "task_id": "H102",
+  "run_id": "4b8251d1-5cad-4e07-ba5c-347ecd581dfa",
+  "agent_kind": "private_candidate_reference",
+  "score_eligible": false,
+  "task_success": false,
+  "candidate_reference_pass": true,
+  "annotated_plan_complete": true,
+  "reference_actions_complete": true,
+  "finished": true,
+  "status": "candidate_reference_qualified",
+  "attempts": 29,
+  "accepted_reference_actions": 28,
+  "expected_reference_actions": 28,
+  "remaining_decisions": 71,
+  "physical_pass": true,
+  "retained_prefix_physical_pass": true,
+  "geometry_pass": true,
+  "memory_pass": true,
+  "initial_check": {
+    "rms_mm": 0.037371394301159454,
+    "max_mm": 0.1500040032943519
+  },
+  "preparation_checks": [
+    {
+      "op": "fold_line",
+      "rms_mm": 0.037371394301159454,
+      "max_mm": 0.1500040032943519
+    }
+  ],
+  "geometric_checks": [
+    {
+      "op": "unfold",
+      "rms_mm": 0.005884594918524419,
+      "max_mm": 0.035495187771549724
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.04243748618294796,
+      "max_mm": 0.16880956824057416
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.010282838455304666,
+      "max_mm": 0.04011738169843769
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.04804394020071133,
+      "max_mm": 0.18886450790530449
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.01534015890261238,
+      "max_mm": 0.0552907168259786
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.04937414390042016,
+      "max_mm": 0.188864627191587
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.01910247479920654,
+      "max_mm": 0.055290716825978574
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.05363804781702738,
+      "max_mm": 0.202880851484718
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.022521549383057914,
+      "max_mm": 0.06413687158423736
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.054948665558965194,
+      "max_mm": 0.20288085695811806
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.025485976434475886,
+      "max_mm": 0.06413851298574699
+    },
+    {
+      "op": "turn_over",
+      "rms_mm": 0.02644039326316384,
+      "max_mm": 0.058391930686658475
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.04913729046164992,
+      "max_mm": 0.17210971057847996
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.026145660515109075,
+      "max_mm": 0.058391930686658475
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.04200209498567362,
+      "max_mm": 0.1380031149349994
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.025918416154550802,
+      "max_mm": 0.05839193068665843
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.04185974878696924,
+      "max_mm": 0.13799733195254335
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.025689626141299368,
+      "max_mm": 0.05839193068665839
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.048734899781895,
+      "max_mm": 0.171989744259411
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.02538545994204414,
+      "max_mm": 0.05839193068665837
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.051678262594962256,
+      "max_mm": 0.18513400320832743
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.026544646865424366,
+      "max_mm": 0.058391930686658405
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.04782841324151822,
+      "max_mm": 0.1655167560031556
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.027149114431994706,
+      "max_mm": 0.05839193068665831
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.04816634838465573,
+      "max_mm": 0.16551783390035404
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.02774043183444068,
+      "max_mm": 0.05839193068665831
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.05287490478941434,
+      "max_mm": 0.1851340760775028
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.028804979758672897,
+      "max_mm": 0.052797503634482795
+    }
+  ],
+  "environment_error": null,
+  "failure": null,
+  "strict_physical_evidence_pass": true,
+  "fixture_mode": "guided_directional_10000",
+  "qualification_note": "Candidate only. A complete replay and checks do not certify source annotation, difficulty, repeatability, or formal eligibility.",
+  "ideal_trace_scope": "Independent vertex transform calculation using recorded controller selections and axes; does not independently validate diagram interpretation or chosen layer selection."
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "attempt_id": 1,
+    "reference_action_index": 0,
+    "action": {
+      "op": "unfold"
+    },
+    "before_hash": "8ca7b61721bba61f537513508590ca194c596a9dddc3fba7b6fc40175d1f30e1",
+    "before_frame": 4646,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "ee228ce326e1b54492401a6f4f6a0ac94a8bb800624853dbf942917176c52b46",
+    "after_frame": 5236,
+    "seconds": 18.669377207988873
+  },
+  {
+    "attempt_id": 2,
+    "reference_action_index": 1,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.6
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before_hash": "ee228ce326e1b54492401a6f4f6a0ac94a8bb800624853dbf942917176c52b46",
+    "before_frame": 5236,
+    "status": "returned",
+    "result": {
+      "status": "rejected",
+      "category": "capability_limit",
+      "detail": "Motion exceeds validated per-action integration budget",
+      "rollback_verified": true
+    },
+    "after_hash": "ee228ce326e1b54492401a6f4f6a0ac94a8bb800624853dbf942917176c52b46",
+    "after_frame": 5236,
+    "seconds": 0.029901083005825058
+  }
+]

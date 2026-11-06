@@ -42,7 +42,7 @@ def main():
     p.add_argument('--identity', type=Path, help='Explicit safe model identity declaration for custom adapters')
     p.add_argument('--run-id', default=None)
     p.add_argument('--repeat-id', type=int, default=1)
-    p.add_argument('--grading-contract', choices=['legacy-public-v2','structural-v3'], default='legacy-public-v2',
+    p.add_argument('--grading-contract', choices=['legacy-public-v2','structural-v3','precrease-artifact-v4'], default='legacy-public-v2',
                    help='Opt-in candidate layer scoring; preserves report-legacy.json')
     args = p.parse_args()
     if args.repeat_id < 1: p.error('repeat-id must be positive')
@@ -57,8 +57,15 @@ def main():
     if args.task not in catalog:
         raise ValueError('Task is not runnable; see audit/inventory.json for its blockers')
     spec=catalog[args.task]
+    required_contract = spec.get('required_grading_contract')
+    if required_contract and args.grading_contract != required_contract:
+        p.error('This task requires the explicit grading contract: ' + required_contract)
     if args.grading_contract == 'structural-v3' and spec['episode'] != 'layer':
         p.error('structural-v3 is scoped to prepared layer tasks only')
+    if args.grading_contract == 'precrease-artifact-v4' and (
+        spec['episode'] != 'layer' or required_contract != 'precrease-artifact-v4'
+    ):
+        p.error('precrease-artifact-v4 requires a registered precrease layer task')
     if spec['status']!='accepted' and not args.allow_diagnostic:
         raise ValueError('Diagnostic task requires --allow-diagnostic and never contributes to accepted-track scores')
     data = ROOT / 'data' / spec['dataset']
@@ -70,8 +77,8 @@ def main():
         if not (ROOT/page).is_file():raise FileNotFoundError('Missing source page. Run scripts/prepare_external_sources.py first: '+page)
     if spec.get('requires_source_download'):
         from PIL import Image
-        source_specs=json.loads((ROOT/'data/external-qualified/source-manifest.json').read_text())
-        expected={f".local/diagram-sources-tiered-v1/{s['id']}/page-{p['page']:03}.png":p for s in source_specs for p in s['pages']}
+        source_specs=json.loads((ROOT/spec.get('source_manifest','data/external-qualified/source-manifest.json')).read_text())
+        expected={f"{s.get('cache_root', '.local/diagram-sources-tiered-v1/'+s['id'])}/page-{p['page']:03}.png":p for s in source_specs for p in s['pages']}
         for page in private['pages']:
             im=Image.open(ROOT/page).convert('RGB');target=expected[page]
             if list(im.size)!=target['size'] or hashlib.sha256(im.tobytes()).hexdigest()!=target['pixel_sha256']:
@@ -147,6 +154,9 @@ def main():
         if args.grading_contract == 'structural-v3':
             from apply_structural_grading import apply_candidate
             report = apply_candidate(ep.output, args.task)
+        elif args.grading_contract == 'precrease-artifact-v4':
+            from apply_precrease_grading import apply_candidate
+            report = apply_candidate(ep.output, args.task, private)
         (ep.output/'evaluation-complete.json').write_text(json.dumps(dict(
             run_id=run_id, grading_contract=args.grading_contract,
             report_sha256=hashlib.sha256((ep.output/'report.json').read_bytes()).hexdigest()),indent=2))

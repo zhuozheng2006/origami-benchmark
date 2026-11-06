@@ -1,0 +1,75 @@
+{
+  "audit_version": "independent-environment-status-regression-v1",
+  "checked_at_utc": "2026-11-06T18:50:34.117732+00:00",
+  "scope": "Only reproduce the previously confirmed environment-status false-success bug against H102 saved candidate2 evidence; no new research, physics execution or model calls.",
+  "task_id": "H102",
+  "grading_version": "precrease-artifact-signed-memory-v4-candidate2",
+  "source_run": "outputs/hard-expansion-20261107/runs/reference-H102-01",
+  "baseline": {
+    "task_success": true,
+    "environment_error": false,
+    "input_valid": true,
+    "recorded_status": "candidate_reference_qualified"
+  },
+  "cases": [
+    {
+      "case": "environment_status_boolean_absent",
+      "report_status": "environment_error",
+      "environment_boolean": "absent",
+      "rescore": {
+        "task_success": false,
+        "environment_error": true,
+        "input_valid": true,
+        "recorded_status": "environment_error"
+      },
+      "apply": {
+        "task_success": false,
+        "environment_error": true,
+        "status": "environment_error"
+      },
+      "persisted_status": "environment_error",
+      "legacy_status_preserved": "environment_error",
+      "passed": true
+    },
+    {
+      "case": "environment_status_boolean_false",
+      "report_status": "environment_error",
+      "environment_boolean": "false",
+      "rescore": {
+        "task_success": false,
+        "environment_error": true,
+        "input_valid": true,
+        "recorded_status": "environment_error"
+      },
+      "apply": {
+        "task_success": false,
+        "environment_error": true,
+        "status": "environment_error"
+      },
+      "persisted_status": "environment_error",
+      "legacy_status_preserved": "environment_error",
+      "passed": true
+    }
+  ],
+  "all_checks_passed": true,
+  "original_evidence_unchanged": true,
+  "source_evidence_sha256": {
+    "trajectory.npz": "4beb4b7f3598dc3970ee9f796c90c7ce2fc7c009f2a30f2e5af63d0620fa93f8",
+    "material-history.json": "36d8d1ab354a03af02ca5746f566b7a4f6133ee6a4eaeda7529395cba6596966",
+    "metrics.json": "8350cfb55be0c28de0af4fd20bea83f81879bbe9331f9c17d7888c09df86dd20",
+    "events.json": "a54ddb3dbce371a0e1514506c80b42c1247b584bb6347369c338a8b5640b5ff3",
+    "run-config.json": "4cc472336e71fa0106c666437f651ed10a491eb04ea26a5faed04e286315eaff",
+    "final-state.json": "d39c3e712af3fb2fa6c78f10b9645dd0e18ff023fe5c76f57c8d9801e4928425",
+    "candidate-private.json": "dce9e572e5cb0022b9333f274ef3efae50c8d377cbb0b22a78a6c3c3e7ffd9a2",
+    "report.json": "7283baeadd79a947f485cc9922182b3abaa5b6d792a6d011ccdd13684d23b0b9"
+  },
+  "reviewed_code_sha256": {
+    "scripts/score_precrease_candidates.py": "4e5264f54fe3712d33d5501cb64ca016e4c968d1c9b1ceba653320b06752367b",
+    "scripts/apply_precrease_grading.py": "bba3d5185823a2af344ae468aa951faa8b3754f739a4008dc45cae4d807c3d17",
+    "origami_bench/diagram/precrease_artifact_grading.py": "722da71e48494b873bfcc05ffad3f327402de9b036cdc3cfb1584bb6360923ef"
+  },
+  "finding_status": "Confirmed fixed for both absent and explicit false environment_error fields when status is environment_error; apply preserves environment failure and does not mark passed_scoped.",
+  "limitations": [
+    "This is a saved-evidence integration regression, not a new physical run or a complete re-audit of unrelated scoring behavior."
+  ]
+}

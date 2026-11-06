@@ -1,0 +1,211 @@
+{
+  "mesh": "document_uniform8_center_2p0_hard_candidate",
+  "initialization": [
+    {
+      "op": "turn_over",
+      "axis": "y"
+    }
+  ],
+  "preparation": [
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          1.5
+        ],
+        [
+          1,
+          0.5
+        ]
+      ],
+      "moving_point": [
+        0.8,
+        1.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          -0.5
+        ],
+        [
+          1,
+          0.5
+        ]
+      ],
+      "moving_point": [
+        0.8,
+        -0.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.5
+        ],
+        [
+          1,
+          1.5
+        ]
+      ],
+      "moving_point": [
+        0.2,
+        1.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.5
+        ],
+        [
+          1,
+          -0.5
+        ]
+      ],
+      "moving_point": [
+        0.2,
+        -0.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "turn_over",
+      "axis": "y"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.5
+        ],
+        [
+          1,
+          0.5
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        1.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    }
+  ],
+  "reference_actions": [
+    {
+      "op": "unfold"
+    }
+  ],
+  "pages": [
+    "/Users/zane/Documents/ChatGPT/折纸benchmark/artifacts/hard-expansion-20261107/precrease-candidates/sources/4star-page-004.png",
+    "/Users/zane/Documents/ChatGPT/折纸benchmark/artifacts/hard-expansion-20261107/precrease-candidates/sources/4star-page-005.png"
+  ],
+  "goal": null,
+  "annotation_status": "source_visually_reviewed_reference_pending",
+  "checkpoint_plan": {
+    "version": "grouped-precrease-candidate1",
+    "indexing": "zero_based_reference_action_index",
+    "groups": [
+      {
+        "reference_action_indices": [
+          1,
+          3
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "retained fold endpoints; no repeated unfolded-flat endpoints"
+      },
+      {
+        "reference_action_indices": [
+          5
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "retained fold endpoints; no repeated unfolded-flat endpoints"
+      },
+      {
+        "reference_action_indices": [
+          7
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "step11 turnover"
+      },
+      {
+        "reference_action_indices": [
+          8,
+          10
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "retained fold endpoints; no repeated unfolded-flat endpoints"
+      },
+      {
+        "reference_action_indices": [
+          12
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "retained fold endpoints; no repeated unfolded-flat endpoints"
+      },
+      {
+        "reference_action_indices": [
+          14
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "retained fold endpoints; no repeated unfolded-flat endpoints"
+      },
+      {
+        "reference_action_indices": [
+          16,
+          18
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "retained fold endpoints; no repeated unfolded-flat endpoints"
+      },
+      {
+        "reference_action_indices": [
+          20,
+          22,
+          24,
+          26
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "retained fold endpoints; no repeated unfolded-flat endpoints"
+      }
+    ],
+    "required_initial_unfold": true,
+    "retain_full_trace": true,
+    "note": "Numbered source steps are ordered. Step13 explicitly says top then bottom, so these are separate groups; other simultaneous arrows commute. No flat-repeat checkpoints."
+  },
+  "control_kind": "negative_missing_all_new_creases",
+  "expected_task_score": false
+}

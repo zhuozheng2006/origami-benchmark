@@ -44,7 +44,12 @@ def freeze(config_path, output, ledger):
     if (before['configured_ceiling_cny'],before['operating_ceiling_cny']) != tuple(caps[2:]+[caps[1]]):
         raise ValueError('Existing shared ledger must match the authorized study ceilings')
     catalog = json.loads((ROOT/'data/evaluation-catalog.json').read_text())['tasks']
+    contract = cfg.get('grading_contract','structural-v3')
+    if contract not in ('structural-v3','precrease-artifact-v4'):
+        raise ValueError('Unsupported explicit pilot grading contract')
     ids = cfg['tasks']
+    if any(catalog[x].get('required_grading_contract', contract) != contract for x in ids):
+        raise ValueError('Task and pilot grading contracts differ')
     if len(set(ids)) != len(ids) or not ids:
         raise ValueError('Unique nonempty catalog task selection required')
     if any(catalog[x]['episode'] != 'layer' for x in ids):
@@ -78,7 +83,7 @@ def freeze(config_path, output, ledger):
             plan['runs'].append(dict(run_id=str(uuid.uuid4()), task_id=tid, repeat_id=1, output=tid,
                 score_eligible=spec['status']=='accepted',
                 release_manifest_sha256=release, policy_sha256=policy_digest(task_policy(spec,task,data)),
-                grading_contract='structural-v3', model_identity_sha256=identity['identity_sha256']))
+                grading_contract=cfg.get('grading_contract','structural-v3'), model_identity_sha256=identity['identity_sha256']))
         write_new(folder/'experiment-plan.json', plan)
         plans[model['slug']] = sha(folder/'experiment-plan.json')
     value = dict(schema='frozen-pilot-v1', created=datetime.now(timezone.utc).isoformat(),
@@ -136,7 +141,7 @@ def execute(study, credentials, ledger):
             env['ORIGAMI_API_LOGDIR']=str(study/'api-calls'/slug/tid)
             cmd=[sys.executable,str(ROOT/'scripts/evaluate_public.py'),'--task',tid,'--output',str(out),
                  '--agent',ADAPTER,'--identity',str(folder/'identity-declaration.json'),
-                 '--run-id',entry['run_id'],'--repeat-id','1','--grading-contract','structural-v3']
+                 '--run-id',entry['run_id'],'--repeat-id','1','--grading-contract',entry['grading_contract']]
             if spec['status']!='accepted': cmd.append('--allow-diagnostic')
             timed_out=False
             with (folder/(tid+'.log')).open('x') as log:
@@ -155,9 +160,9 @@ def execute(study, credentials, ledger):
                     completed=json.loads((out/'evaluation-complete.json').read_text())
                     result=json.loads(report_path.read_text())
                     complete=(code==0 and completed.get('run_id')==entry['run_id']
-                        and completed.get('grading_contract')=='structural-v3'
+                        and completed.get('grading_contract')==entry['grading_contract']
                         and completed.get('report_sha256')==sha(report_path)
-                        and result.get('grading_contract')=='structural-v3'
+                        and result.get('grading_contract')==entry['grading_contract']
                         and result.get('grading_candidate') is True and (out/'candidate-grading.json').is_file())
                 except (ValueError,TypeError):pass
             if not complete:

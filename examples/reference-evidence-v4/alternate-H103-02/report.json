@@ -1,0 +1,95 @@
+{
+  "version": "candidate-reference-qualification-v1",
+  "task_id": "H103",
+  "run_id": "bec9f6ad-c8a9-443f-af59-b60ec2eef768",
+  "agent_kind": "private_candidate_reference",
+  "score_eligible": false,
+  "task_success": false,
+  "candidate_reference_pass": false,
+  "annotated_plan_complete": false,
+  "reference_actions_complete": false,
+  "finished": false,
+  "status": "candidate_reference_incomplete",
+  "attempts": 2,
+  "accepted_reference_actions": 1,
+  "expected_reference_actions": 28,
+  "remaining_decisions": 98,
+  "physical_pass": true,
+  "retained_prefix_physical_pass": true,
+  "geometry_pass": false,
+  "memory_pass": true,
+  "initial_check": {
+    "rms_mm": 0.16773885630232532,
+    "max_mm": 0.5271134248022042
+  },
+  "preparation_checks": [
+    {
+      "op": "turn_over",
+      "rms_mm": 1.7460901729965464e-06,
+      "max_mm": 3.4148956909625457e-06
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.034913032219300616,
+      "max_mm": 0.15046211838469137
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.03373084991390246,
+      "max_mm": 0.2395444426608581
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.05163069544160439,
+      "max_mm": 0.2395444426608581
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.056868518489929916,
+      "max_mm": 0.2691149379969942
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.0704190818526134,
+      "max_mm": 0.2691149379969942
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.06885562346231253,
+      "max_mm": 0.2691149379969942
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.08347472450432779,
+      "max_mm": 0.3035740954963194
+    },
+    {
+      "op": "unfold",
+      "rms_mm": 0.07741680693052841,
+      "max_mm": 0.26905253028144116
+    },
+    {
+      "op": "turn_over",
+      "rms_mm": 0.1420557205364073,
+      "max_mm": 0.42090015442908346
+    },
+    {
+      "op": "fold_line",
+      "rms_mm": 0.16773885630232535,
+      "max_mm": 0.5271134248022042
+    }
+  ],
+  "geometric_checks": [
+    {
+      "op": "unfold",
+      "rms_mm": 0.1443044765424554,
+      "max_mm": 0.42090015442908346
+    }
+  ],
+  "environment_error": null,
+  "failure": null,
+  "strict_physical_evidence_pass": true,
+  "fixture_mode": "guided_directional_10000",
+  "qualification_note": "Candidate only. A complete replay and checks do not certify source annotation, difficulty, repeatability, or formal eligibility.",
+  "ideal_trace_scope": "Independent vertex transform calculation using recorded controller selections and axes; does not independently validate diagram interpretation or chosen layer selection."
+}

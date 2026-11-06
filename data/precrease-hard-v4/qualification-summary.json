@@ -1,0 +1,406 @@
+{
+  "grading_contract": "precrease-artifact-v4",
+  "grading_version": "precrease-artifact-signed-memory-v4-candidate2",
+  "tasks": {
+    "H102": {
+      "scoring_acceptance_pass": true,
+      "positive_runs": [
+        "alternate-H102-02",
+        "reference-H102-01"
+      ],
+      "negative_runs": [
+        "negative-H102-empty",
+        "negative-H102-sign"
+      ],
+      "runs": [
+        {
+          "id": "alternate-H102-02",
+          "run_id": "4b8251d1-5cad-4e07-ba5c-347ecd581dfa",
+          "folder": "/Users/zane/Documents/ChatGPT/折纸benchmark/outputs/hard-expansion-20261107/runs/alternate-H102-02",
+          "control_kind": null,
+          "alternate": true,
+          "complete": true,
+          "physical_sequence_pass": true,
+          "task_success": true,
+          "physical_pass": true,
+          "memory_pass": true,
+          "environment_error": false,
+          "initial_shape": {
+            "rms_mm": 2.3653478656263802e-17,
+            "max_mm": 1.0401975219501408e-16,
+            "passed": true,
+            "placement_offset_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "yaw_degrees": -7.946523715694651e-17,
+            "translation_allowed": "XYZ",
+            "reflection_allowed": false,
+            "arbitrary_3d_rotation_allowed": false
+          },
+          "evidence_error": null,
+          "physics_signature_match": true,
+          "identical_prepared_vertices": true,
+          "initial_vertices_max_abs_difference_m": 0.0,
+          "observed_bands_equal_source_reference": true,
+          "first_rejection": null,
+          "known_interface_boundary": false,
+          "model_evaluation": false,
+          "memory_signature_sha256": "3c84f6bd3a06e77c697a65b6afe87acae0510a40b1668a3477b36f9f06093bb2"
+        },
+        {
+          "id": "negative-H102-empty",
+          "run_id": "7935e3de-fab6-4daa-835b-894a6175adcb",
+          "folder": "/Users/zane/Documents/ChatGPT/折纸benchmark/outputs/hard-expansion-20261107/runs/negative-H102-empty",
+          "control_kind": "negative_missing_all_new_creases",
+          "alternate": false,
+          "complete": true,
+          "physical_sequence_pass": true,
+          "task_success": false,
+          "physical_pass": true,
+          "memory_pass": false,
+          "environment_error": false,
+          "initial_shape": {
+            "rms_mm": 2.3653478656263802e-17,
+            "max_mm": 1.0401975219501408e-16,
+            "passed": true,
+            "placement_offset_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "yaw_degrees": -7.946523715694651e-17,
+            "translation_allowed": "XYZ",
+            "reflection_allowed": false,
+            "arbitrary_3d_rotation_allowed": false
+          },
+          "evidence_error": null,
+          "physics_signature_match": true,
+          "identical_prepared_vertices": true,
+          "initial_vertices_max_abs_difference_m": 0.0,
+          "observed_bands_equal_source_reference": false,
+          "first_rejection": null,
+          "known_interface_boundary": false,
+          "model_evaluation": false,
+          "memory_signature_sha256": "7f3dab69e61209b8687e953e62f0d364f1b0703b84a5839d1767bbaa762e423b"
+        },
+        {
+          "id": "negative-H102-sign",
+          "run_id": "f8a4a558-c9ae-4a0b-a208-02af96244016",
+          "folder": "/Users/zane/Documents/ChatGPT/折纸benchmark/outputs/hard-expansion-20261107/runs/negative-H102-sign",
+          "control_kind": "negative_one_wrong_signed_crease",
+          "alternate": false,
+          "complete": true,
+          "physical_sequence_pass": true,
+          "task_success": false,
+          "physical_pass": true,
+          "memory_pass": false,
+          "environment_error": false,
+          "initial_shape": {
+            "rms_mm": 2.3653478656263802e-17,
+            "max_mm": 1.0401975219501408e-16,
+            "passed": true,
+            "placement_offset_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "yaw_degrees": -7.946523715694651e-17,
+            "translation_allowed": "XYZ",
+            "reflection_allowed": false,
+            "arbitrary_3d_rotation_allowed": false
+          },
+          "evidence_error": null,
+          "physics_signature_match": true,
+          "identical_prepared_vertices": true,
+          "initial_vertices_max_abs_difference_m": 0.0,
+          "observed_bands_equal_source_reference": false,
+          "first_rejection": null,
+          "known_interface_boundary": false,
+          "model_evaluation": false,
+          "memory_signature_sha256": "7b11da0bf39dc68273c15874d7400a3cbd23eea16caf2ddb6434d8ca1cc7a42b"
+        },
+        {
+          "id": "reference-H102-01",
+          "run_id": "ca8badaa-48e8-40a5-875d-a751f7323d4a",
+          "folder": "/Users/zane/Documents/ChatGPT/折纸benchmark/outputs/hard-expansion-20261107/runs/reference-H102-01",
+          "control_kind": null,
+          "alternate": false,
+          "complete": true,
+          "physical_sequence_pass": true,
+          "task_success": true,
+          "physical_pass": true,
+          "memory_pass": true,
+          "environment_error": false,
+          "initial_shape": {
+            "rms_mm": 2.3653478656263802e-17,
+            "max_mm": 1.0401975219501408e-16,
+            "passed": true,
+            "placement_offset_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "yaw_degrees": -7.946523715694651e-17,
+            "translation_allowed": "XYZ",
+            "reflection_allowed": false,
+            "arbitrary_3d_rotation_allowed": false
+          },
+          "evidence_error": null,
+          "physics_signature_match": true,
+          "identical_prepared_vertices": true,
+          "initial_vertices_max_abs_difference_m": 0.0,
+          "observed_bands_equal_source_reference": true,
+          "first_rejection": null,
+          "known_interface_boundary": false,
+          "model_evaluation": false,
+          "memory_signature_sha256": "3c84f6bd3a06e77c697a65b6afe87acae0510a40b1668a3477b36f9f06093bb2"
+        }
+      ],
+      "gates": {
+        "two_independent_positive_runs": true,
+        "alternate_moving_half_positive": true,
+        "physical_empty_negative": true,
+        "physical_wrong_sign_negative": true,
+        "all_observed_physics_signatures_match": true,
+        "all_observed_prepared_states_identical": true,
+        "synthetic_controls": true
+      },
+      "reason": "All scoring qualification gates passed",
+      "automatic_formal_promotion": false
+    },
+    "H103": {
+      "scoring_acceptance_pass": true,
+      "positive_runs": [
+        "alternate-H103-03",
+        "reference-H103-01"
+      ],
+      "negative_runs": [
+        "negative-H103-empty",
+        "negative-H103-sign"
+      ],
+      "runs": [
+        {
+          "id": "alternate-H103-02",
+          "run_id": "bec9f6ad-c8a9-443f-af59-b60ec2eef768",
+          "folder": "/Users/zane/Documents/ChatGPT/折纸benchmark/outputs/hard-expansion-20261107/runs/alternate-H103-02",
+          "control_kind": null,
+          "alternate": true,
+          "complete": true,
+          "physical_sequence_pass": false,
+          "task_success": false,
+          "physical_pass": true,
+          "memory_pass": false,
+          "environment_error": false,
+          "initial_shape": {
+            "rms_mm": 1.7933592681395586e-14,
+            "max_mm": 3.1030919308603314e-14,
+            "passed": true,
+            "placement_offset_mm": [
+              1.481579738755979e-16,
+              2.7755575615628914e-14,
+              0.0
+            ],
+            "yaw_degrees": -1.5745509082570848e-19,
+            "translation_allowed": "XYZ",
+            "reflection_allowed": false,
+            "arbitrary_3d_rotation_allowed": false
+          },
+          "evidence_error": null,
+          "physics_signature_match": true,
+          "identical_prepared_vertices": true,
+          "initial_vertices_max_abs_difference_m": 0.0,
+          "observed_bands_equal_source_reference": false,
+          "first_rejection": {
+            "attempt_index": 1,
+            "action": {
+              "op": "fold_line",
+              "line": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              "moving_point": [
+                0.5,
+                0.6
+              ],
+              "layers": "all",
+              "sense": "toward",
+              "angle_deg": 180
+            },
+            "result": {
+              "status": "rejected",
+              "category": "capability_limit",
+              "detail": "Motion exceeds validated per-action integration budget",
+              "rollback_verified": true
+            }
+          },
+          "known_interface_boundary": true,
+          "model_evaluation": false,
+          "memory_signature_sha256": "833267fbf2e8fc869677cd5a0ccceb8db5389075aa1201d45f6d8091d556e440"
+        },
+        {
+          "id": "alternate-H103-03",
+          "run_id": "c5dbf298-f840-4edf-be6b-985284de028c",
+          "folder": "/Users/zane/Documents/ChatGPT/折纸benchmark/outputs/hard-expansion-20261107/runs/alternate-H103-03",
+          "control_kind": null,
+          "alternate": true,
+          "complete": true,
+          "physical_sequence_pass": true,
+          "task_success": true,
+          "physical_pass": true,
+          "memory_pass": true,
+          "environment_error": false,
+          "initial_shape": {
+            "rms_mm": 1.7933592681395586e-14,
+            "max_mm": 3.1030919308603314e-14,
+            "passed": true,
+            "placement_offset_mm": [
+              1.481579738755979e-16,
+              2.7755575615628914e-14,
+              0.0
+            ],
+            "yaw_degrees": -1.5745509082570848e-19,
+            "translation_allowed": "XYZ",
+            "reflection_allowed": false,
+            "arbitrary_3d_rotation_allowed": false
+          },
+          "evidence_error": null,
+          "physics_signature_match": true,
+          "identical_prepared_vertices": true,
+          "initial_vertices_max_abs_difference_m": 0.0,
+          "observed_bands_equal_source_reference": true,
+          "first_rejection": null,
+          "known_interface_boundary": false,
+          "model_evaluation": false,
+          "memory_signature_sha256": "c49a7a32cfe054ebded3e153fa63f6396482e63cb38dd268d2e86954f28180e9"
+        },
+        {
+          "id": "negative-H103-empty",
+          "run_id": "5e2aaf95-f8c5-4522-b1f2-f8136849b6cc",
+          "folder": "/Users/zane/Documents/ChatGPT/折纸benchmark/outputs/hard-expansion-20261107/runs/negative-H103-empty",
+          "control_kind": "negative_missing_all_new_creases",
+          "alternate": false,
+          "complete": true,
+          "physical_sequence_pass": true,
+          "task_success": false,
+          "physical_pass": true,
+          "memory_pass": false,
+          "environment_error": false,
+          "initial_shape": {
+            "rms_mm": 1.7933592681395586e-14,
+            "max_mm": 3.1030919308603314e-14,
+            "passed": true,
+            "placement_offset_mm": [
+              1.481579738755979e-16,
+              2.7755575615628914e-14,
+              0.0
+            ],
+            "yaw_degrees": -1.5745509082570848e-19,
+            "translation_allowed": "XYZ",
+            "reflection_allowed": false,
+            "arbitrary_3d_rotation_allowed": false
+          },
+          "evidence_error": null,
+          "physics_signature_match": true,
+          "identical_prepared_vertices": true,
+          "initial_vertices_max_abs_difference_m": 0.0,
+          "observed_bands_equal_source_reference": false,
+          "first_rejection": null,
+          "known_interface_boundary": false,
+          "model_evaluation": false,
+          "memory_signature_sha256": "833267fbf2e8fc869677cd5a0ccceb8db5389075aa1201d45f6d8091d556e440"
+        },
+        {
+          "id": "negative-H103-sign",
+          "run_id": "00bf2205-dbda-4b1c-8174-f36df00420b9",
+          "folder": "/Users/zane/Documents/ChatGPT/折纸benchmark/outputs/hard-expansion-20261107/runs/negative-H103-sign",
+          "control_kind": "negative_one_wrong_signed_crease",
+          "alternate": false,
+          "complete": true,
+          "physical_sequence_pass": true,
+          "task_success": false,
+          "physical_pass": true,
+          "memory_pass": false,
+          "environment_error": false,
+          "initial_shape": {
+            "rms_mm": 1.7933592681395586e-14,
+            "max_mm": 3.1030919308603314e-14,
+            "passed": true,
+            "placement_offset_mm": [
+              1.481579738755979e-16,
+              2.7755575615628914e-14,
+              0.0
+            ],
+            "yaw_degrees": -1.5745509082570848e-19,
+            "translation_allowed": "XYZ",
+            "reflection_allowed": false,
+            "arbitrary_3d_rotation_allowed": false
+          },
+          "evidence_error": null,
+          "physics_signature_match": true,
+          "identical_prepared_vertices": true,
+          "initial_vertices_max_abs_difference_m": 0.0,
+          "observed_bands_equal_source_reference": false,
+          "first_rejection": null,
+          "known_interface_boundary": false,
+          "model_evaluation": false,
+          "memory_signature_sha256": "d68e582f4cc59638f6f947f1b19f53d14e0e27abd4126a307dd11207cb5f9510"
+        },
+        {
+          "id": "reference-H103-01",
+          "run_id": "992e560f-720b-430c-b7fb-40fd911e2127",
+          "folder": "/Users/zane/Documents/ChatGPT/折纸benchmark/outputs/hard-expansion-20261107/runs/reference-H103-01",
+          "control_kind": null,
+          "alternate": false,
+          "complete": true,
+          "physical_sequence_pass": true,
+          "task_success": true,
+          "physical_pass": true,
+          "memory_pass": true,
+          "environment_error": false,
+          "initial_shape": {
+            "rms_mm": 1.7933592681395586e-14,
+            "max_mm": 3.1030919308603314e-14,
+            "passed": true,
+            "placement_offset_mm": [
+              1.481579738755979e-16,
+              2.7755575615628914e-14,
+              0.0
+            ],
+            "yaw_degrees": -1.5745509082570848e-19,
+            "translation_allowed": "XYZ",
+            "reflection_allowed": false,
+            "arbitrary_3d_rotation_allowed": false
+          },
+          "evidence_error": null,
+          "physics_signature_match": true,
+          "identical_prepared_vertices": true,
+          "initial_vertices_max_abs_difference_m": 0.0,
+          "observed_bands_equal_source_reference": true,
+          "first_rejection": null,
+          "known_interface_boundary": false,
+          "model_evaluation": false,
+          "memory_signature_sha256": "c49a7a32cfe054ebded3e153fa63f6396482e63cb38dd268d2e86954f28180e9"
+        }
+      ],
+      "gates": {
+        "two_independent_positive_runs": true,
+        "alternate_moving_half_positive": true,
+        "physical_empty_negative": true,
+        "physical_wrong_sign_negative": true,
+        "all_observed_physics_signatures_match": true,
+        "all_observed_prepared_states_identical": true,
+        "synthetic_controls": true
+      },
+      "reason": "All scoring qualification gates passed",
+      "automatic_formal_promotion": false
+    }
+  }
+}

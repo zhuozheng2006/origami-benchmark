@@ -1,0 +1,104 @@
+[
+  {
+    "attempt_id": 1,
+    "reference_action_index": 0,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0.676776695297,
+          -0.03033008589
+        ],
+        [
+          -0.03033008589,
+          0.676776695297
+        ]
+      ],
+      "moving_point": [
+        0.217157287525,
+        0.217157287525
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before_hash": "2591323b2fb3210fe7ff5ecfc3f5201474e5ec6849e14c0b30da00aaeed6455b",
+    "before_frame": 3345,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "70846e62c38575dd7e4a55598622032240534d23005edba8b8e5df4957cdadde",
+    "after_frame": 3705,
+    "seconds": 19.09346987500612
+  },
+  {
+    "attempt_id": 2,
+    "reference_action_index": 1,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          1.03033008589,
+          0.323223304703
+        ],
+        [
+          0.323223304703,
+          1.03033008589
+        ]
+      ],
+      "moving_point": [
+        0.782842712475,
+        0.782842712475
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before_hash": "70846e62c38575dd7e4a55598622032240534d23005edba8b8e5df4957cdadde",
+    "before_frame": 3705,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "0707abd09049d2d8d08e6a53ff35a1a271e42178748f4744461dfb8f5990ea9e",
+    "after_frame": 4065,
+    "seconds": 11.564474375001737
+  },
+  {
+    "attempt_id": 3,
+    "reference_action_index": 2,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0.5,
+          0.15
+        ],
+        [
+          0.5,
+          0.85
+        ]
+      ],
+      "moving_point": [
+        0.1,
+        0.65
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before_hash": "0707abd09049d2d8d08e6a53ff35a1a271e42178748f4744461dfb8f5990ea9e",
+    "before_frame": 4065,
+    "status": "returned",
+    "result": {
+      "status": "rejected",
+      "category": "simulator_rejection",
+      "detail": "ActionRejected: 100um continuous clearance not certified",
+      "rollback_verified": true
+    },
+    "after_hash": "0707abd09049d2d8d08e6a53ff35a1a271e42178748f4744461dfb8f5990ea9e",
+    "after_frame": 4065,
+    "seconds": 124.2986353340093
+  }
+]

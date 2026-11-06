@@ -16,10 +16,22 @@ class PublicReleaseTests(unittest.TestCase):
     def test_all_public_v2_reference_evidence_regrades(self):
         evidence=json.loads((ROOT/'audit/fresh-reference-validation.json').read_text())
         registry=json.loads((ROOT/'data/evaluation-catalog.json').read_text())['tasks']
-        self.assertEqual(set(evidence['evidence_by_accepted_task']),{k for k,v in registry.items() if v['status']=='accepted'})
+        # Historical v2 evidence stays immutable; newly accepted tracks must
+        # carry their own complete qualification, not rewrite old experiments.
+        fresh=json.loads((ROOT/'data/precrease-hard-v4/qualification-summary.json').read_text())['tasks']
+        new_ids={k for k,v in fresh.items() if v.get('scoring_acceptance_pass') is True}
+        self.assertFalse(set(evidence['evidence_by_accepted_task']) & new_ids)
+        self.assertEqual(set(evidence['evidence_by_accepted_task']) | new_ids,
+                         {k for k,v in registry.items() if v['status']=='accepted'})
         for run in evidence['completed_runs']:
             score=mod.rescore(ROOT/run['evidence'],run['task_id'])
             self.assertEqual(score['task_success'],run['task_success'],run['evidence'])
+        for tid in new_ids:
+            for names,expected in [('positive_runs',True),('negative_runs',False)]:
+                for name in fresh[tid][names]:
+                    score=mod.rescore(ROOT/'examples/reference-evidence-v4'/name,tid)
+                    self.assertIs(score['task_success'],expected,(tid,name))
+                    self.assertTrue(score['physical_pass'],(tid,name))
 
     def test_suite_startup_failures_remain_in_reports(self):
         import tempfile,runpy,sys,io

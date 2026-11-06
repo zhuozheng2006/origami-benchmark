@@ -1,0 +1,688 @@
+[
+  {
+    "attempt_id": 1,
+    "reference_action_index": 0,
+    "action": {
+      "op": "unfold"
+    },
+    "before_hash": "a6a8346e03154efc1b783a3240a57572210010566a429464d671807af28d7a06",
+    "before_frame": 360,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "4392c885add81d529fec2cc6efac0a814f265ffa9c7eba3034617b793c4d04c9",
+    "after_frame": 720,
+    "seconds": 6.277943916997174
+  },
+  {
+    "attempt_id": 2,
+    "reference_action_index": 1,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0.5,
+          0
+        ],
+        [
+          0.5,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.1,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before_hash": "4392c885add81d529fec2cc6efac0a814f265ffa9c7eba3034617b793c4d04c9",
+    "before_frame": 720,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "2de14e9b9d2791f6e4423808fd2a85bd95093608f82613d462ad6442f2239757",
+    "after_frame": 1080,
+    "seconds": 6.301348749999306
+  },
+  {
+    "attempt_id": 3,
+    "reference_action_index": 2,
+    "action": {
+      "op": "unfold"
+    },
+    "before_hash": "2de14e9b9d2791f6e4423808fd2a85bd95093608f82613d462ad6442f2239757",
+    "before_frame": 1080,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "24133104728f0fa40da260e2563e5bf3a8d02f1fd2ca8d66592f9084f0842284",
+    "after_frame": 1440,
+    "seconds": 6.462124208002933
+  },
+  {
+    "attempt_id": 4,
+    "reference_action_index": 3,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.25
+        ],
+        [
+          1,
+          0.25
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.4
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before_hash": "24133104728f0fa40da260e2563e5bf3a8d02f1fd2ca8d66592f9084f0842284",
+    "before_frame": 1440,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "1126df8f70cc4b107e30f194c536906c309242a0ee088cb0421af7bec884b899",
+    "after_frame": 1882,
+    "seconds": 8.412774666998303
+  },
+  {
+    "attempt_id": 5,
+    "reference_action_index": 4,
+    "action": {
+      "op": "unfold"
+    },
+    "before_hash": "1126df8f70cc4b107e30f194c536906c309242a0ee088cb0421af7bec884b899",
+    "before_frame": 1882,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "51f33c0c70ca6640954d4650a1ef6df915abfbfc4ee225f1a4fedc6c6e5ef651",
+    "after_frame": 2324,
+    "seconds": 7.994262416003039
+  },
+  {
+    "attempt_id": 6,
+    "reference_action_index": 5,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.75
+        ],
+        [
+          1,
+          0.75
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.6
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before_hash": "51f33c0c70ca6640954d4650a1ef6df915abfbfc4ee225f1a4fedc6c6e5ef651",
+    "before_frame": 2324,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "e7f76d3663b560ea0626316939af7b154d17b237516d5b627eaa90f12f7543fa",
+    "after_frame": 2766,
+    "seconds": 8.501837291987613
+  },
+  {
+    "attempt_id": 7,
+    "reference_action_index": 6,
+    "action": {
+      "op": "unfold"
+    },
+    "before_hash": "e7f76d3663b560ea0626316939af7b154d17b237516d5b627eaa90f12f7543fa",
+    "before_frame": 2766,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "b09dabc50524167aa3e9463477e6e5856a32ee82f2ad8c525a18134ab718ee1a",
+    "after_frame": 3208,
+    "seconds": 8.459062499998254
+  },
+  {
+    "attempt_id": 8,
+    "reference_action_index": 7,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0.25,
+          0
+        ],
+        [
+          0.25,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.4,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before_hash": "b09dabc50524167aa3e9463477e6e5856a32ee82f2ad8c525a18134ab718ee1a",
+    "before_frame": 3208,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "6b17b1ba0fb3402d3f47909c56ee5fe6572ec91b406ff319d3affdd92a9b11d8",
+    "after_frame": 3650,
+    "seconds": 7.738991707999958
+  },
+  {
+    "attempt_id": 9,
+    "reference_action_index": 8,
+    "action": {
+      "op": "unfold"
+    },
+    "before_hash": "6b17b1ba0fb3402d3f47909c56ee5fe6572ec91b406ff319d3affdd92a9b11d8",
+    "before_frame": 3650,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "2f7d1834125ceeb7bc905e01f63dc21ac5fcaf0ff614407d36679d5effc584a8",
+    "after_frame": 4092,
+    "seconds": 8.24679362498864
+  },
+  {
+    "attempt_id": 10,
+    "reference_action_index": 9,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0.75,
+          0
+        ],
+        [
+          0.75,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.6,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before_hash": "2f7d1834125ceeb7bc905e01f63dc21ac5fcaf0ff614407d36679d5effc584a8",
+    "before_frame": 4092,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "b4badbdb8da9a08da8578316f91e7d913cc3ce0ca7d1696e679af85fff2eb15a",
+    "after_frame": 4534,
+    "seconds": 8.374754415999632
+  },
+  {
+    "attempt_id": 11,
+    "reference_action_index": 10,
+    "action": {
+      "op": "unfold"
+    },
+    "before_hash": "b4badbdb8da9a08da8578316f91e7d913cc3ce0ca7d1696e679af85fff2eb15a",
+    "before_frame": 4534,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "6d1b2c7698a99ad1b77f77e712d1c8dd0cf33c437a804f17246e23aade1e4304",
+    "after_frame": 4976,
+    "seconds": 8.244219458996668
+  },
+  {
+    "attempt_id": 12,
+    "reference_action_index": 11,
+    "action": {
+      "op": "turn_over",
+      "axis": "y"
+    },
+    "before_hash": "6d1b2c7698a99ad1b77f77e712d1c8dd0cf33c437a804f17246e23aade1e4304",
+    "before_frame": 4976,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "5ab469f5970fd4f8c63d9e36d87c904744cc9b59ead6f8a644df03b3412da64b",
+    "after_frame": 5336,
+    "seconds": 27.396912541997153
+  },
+  {
+    "attempt_id": 13,
+    "reference_action_index": 12,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0.125,
+          0
+        ],
+        [
+          0.125,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.22,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before_hash": "5ab469f5970fd4f8c63d9e36d87c904744cc9b59ead6f8a644df03b3412da64b",
+    "before_frame": 5336,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "005f5f4d253485c8c79b19722189b561f5e9aa6d342daaa2f4f136c4d85da995",
+    "after_frame": 5852,
+    "seconds": 10.00332845900266
+  },
+  {
+    "attempt_id": 14,
+    "reference_action_index": 13,
+    "action": {
+      "op": "unfold"
+    },
+    "before_hash": "005f5f4d253485c8c79b19722189b561f5e9aa6d342daaa2f4f136c4d85da995",
+    "before_frame": 5852,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "d16a993d68203348513140e89eff1ab72ef38dcf86afcadea4df10e9d8be3f53",
+    "after_frame": 6368,
+    "seconds": 9.898272666003322
+  },
+  {
+    "attempt_id": 15,
+    "reference_action_index": 14,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0.375,
+          0
+        ],
+        [
+          0.375,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.72,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before_hash": "d16a993d68203348513140e89eff1ab72ef38dcf86afcadea4df10e9d8be3f53",
+    "before_frame": 6368,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "b5bf8fef484b977ecbc271eda72ce571e6590d7929b001efe464089283372171",
+    "after_frame": 6737,
+    "seconds": 6.847043000001577
+  },
+  {
+    "attempt_id": 16,
+    "reference_action_index": 15,
+    "action": {
+      "op": "unfold"
+    },
+    "before_hash": "b5bf8fef484b977ecbc271eda72ce571e6590d7929b001efe464089283372171",
+    "before_frame": 6737,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "ede4f91f7ae2cece351267dcab45c9cde91a4a2beb92c5c295c7e09abbcb36c4",
+    "after_frame": 7106,
+    "seconds": 7.2090753329976
+  },
+  {
+    "attempt_id": 17,
+    "reference_action_index": 16,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0.625,
+          0
+        ],
+        [
+          0.625,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.28,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before_hash": "ede4f91f7ae2cece351267dcab45c9cde91a4a2beb92c5c295c7e09abbcb36c4",
+    "before_frame": 7106,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "3252d111295f36badfa97071455cee213d809e696dd0d1040a548944207707fc",
+    "after_frame": 7475,
+    "seconds": 7.327595333990757
+  },
+  {
+    "attempt_id": 18,
+    "reference_action_index": 17,
+    "action": {
+      "op": "unfold"
+    },
+    "before_hash": "3252d111295f36badfa97071455cee213d809e696dd0d1040a548944207707fc",
+    "before_frame": 7475,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "6d4276a8268bbec169d5605515094433251c4a7ab7b806061690a6102780dd92",
+    "after_frame": 7844,
+    "seconds": 7.096210708012222
+  },
+  {
+    "attempt_id": 19,
+    "reference_action_index": 18,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0.875,
+          0
+        ],
+        [
+          0.875,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.78,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before_hash": "6d4276a8268bbec169d5605515094433251c4a7ab7b806061690a6102780dd92",
+    "before_frame": 7844,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "0b2ad023d7da244267f7a54bd7445ebc087d447e32afb8cd2507b82eef5bdcb4",
+    "after_frame": 8360,
+    "seconds": 9.899171917000785
+  },
+  {
+    "attempt_id": 20,
+    "reference_action_index": 19,
+    "action": {
+      "op": "unfold"
+    },
+    "before_hash": "0b2ad023d7da244267f7a54bd7445ebc087d447e32afb8cd2507b82eef5bdcb4",
+    "before_frame": 8360,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "ccb9ba9ae4b630a4f920ece4ad04534458cd72e707a875897e7d65de74dacf42",
+    "after_frame": 8876,
+    "seconds": 10.479891334005515
+  },
+  {
+    "attempt_id": 21,
+    "reference_action_index": 20,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.125
+        ],
+        [
+          1,
+          0.125
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.22
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before_hash": "ccb9ba9ae4b630a4f920ece4ad04534458cd72e707a875897e7d65de74dacf42",
+    "before_frame": 8876,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "2aed32781ca4692e52621cb03255749ad9b1c371d5bb1a32214e975b78c2e1c6",
+    "after_frame": 9392,
+    "seconds": 11.761289417001535
+  },
+  {
+    "attempt_id": 22,
+    "reference_action_index": 21,
+    "action": {
+      "op": "unfold"
+    },
+    "before_hash": "2aed32781ca4692e52621cb03255749ad9b1c371d5bb1a32214e975b78c2e1c6",
+    "before_frame": 9392,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "1dde8a4f2494c2a761d47bd6fe952fdb932d59597d5b2ea12dba32861c93178f",
+    "after_frame": 9908,
+    "seconds": 11.294144333005534
+  },
+  {
+    "attempt_id": 23,
+    "reference_action_index": 22,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.375
+        ],
+        [
+          1,
+          0.375
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.72
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before_hash": "1dde8a4f2494c2a761d47bd6fe952fdb932d59597d5b2ea12dba32861c93178f",
+    "before_frame": 9908,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "9325cd32a9dbb26d8f322f0043835094bd18303d3fc9afe6f26b11e7e5d37d38",
+    "after_frame": 10277,
+    "seconds": 7.94866350000666
+  },
+  {
+    "attempt_id": 24,
+    "reference_action_index": 23,
+    "action": {
+      "op": "unfold"
+    },
+    "before_hash": "9325cd32a9dbb26d8f322f0043835094bd18303d3fc9afe6f26b11e7e5d37d38",
+    "before_frame": 10277,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "a3bbc83397b83a22fd5462e5ba1ecf31dbf94401b4790774703770604ef2eff2",
+    "after_frame": 10646,
+    "seconds": 8.260321291993023
+  },
+  {
+    "attempt_id": 25,
+    "reference_action_index": 24,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.625
+        ],
+        [
+          1,
+          0.625
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.28
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before_hash": "a3bbc83397b83a22fd5462e5ba1ecf31dbf94401b4790774703770604ef2eff2",
+    "before_frame": 10646,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "640e1334f79b0a3cbf12931fa64f6cef2ff42748fa6a19058c1eb6d5a6e71b50",
+    "after_frame": 11015,
+    "seconds": 8.1239509589941
+  },
+  {
+    "attempt_id": 26,
+    "reference_action_index": 25,
+    "action": {
+      "op": "unfold"
+    },
+    "before_hash": "640e1334f79b0a3cbf12931fa64f6cef2ff42748fa6a19058c1eb6d5a6e71b50",
+    "before_frame": 11015,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "ed4605fa5a2bc919992b8ee387faa4ecdad3052b36ab5deb5594432852cc1087",
+    "after_frame": 11384,
+    "seconds": 7.821912250001333
+  },
+  {
+    "attempt_id": 27,
+    "reference_action_index": 26,
+    "action": {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.875
+        ],
+        [
+          1,
+          0.875
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.78
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    "before_hash": "ed4605fa5a2bc919992b8ee387faa4ecdad3052b36ab5deb5594432852cc1087",
+    "before_frame": 11384,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "e38ab307e4f56ccfc4bc3ecc40b89a17d6402b6e89040e62b0479916f6baf0a0",
+    "after_frame": 11900,
+    "seconds": 11.785556000002543
+  },
+  {
+    "attempt_id": 28,
+    "reference_action_index": 27,
+    "action": {
+      "op": "unfold"
+    },
+    "before_hash": "e38ab307e4f56ccfc4bc3ecc40b89a17d6402b6e89040e62b0479916f6baf0a0",
+    "before_frame": 11900,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "b1403e881d3df735e98504154c0f59760200e8bcfb1656a91b30ebe86099c6fd",
+    "after_frame": 12416,
+    "seconds": 11.290654083000845
+  },
+  {
+    "attempt_id": 29,
+    "reference_action_index": null,
+    "action": {
+      "op": "finish"
+    },
+    "before_hash": "b1403e881d3df735e98504154c0f59760200e8bcfb1656a91b30ebe86099c6fd",
+    "before_frame": 12416,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "b1403e881d3df735e98504154c0f59760200e8bcfb1656a91b30ebe86099c6fd",
+    "after_frame": 12416,
+    "seconds": 0.00249779099249281
+  }
+]

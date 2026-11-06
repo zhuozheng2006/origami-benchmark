@@ -1,0 +1,34 @@
+[
+  {
+    "attempt_id": 1,
+    "reference_action_index": 0,
+    "action": {
+      "op": "unfold"
+    },
+    "before_hash": "8ca7b61721bba61f537513508590ca194c596a9dddc3fba7b6fc40175d1f30e1",
+    "before_frame": 4646,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "ee228ce326e1b54492401a6f4f6a0ac94a8bb800624853dbf942917176c52b46",
+    "after_frame": 5236,
+    "seconds": 19.697171416002675
+  },
+  {
+    "attempt_id": 2,
+    "reference_action_index": null,
+    "action": {
+      "op": "finish"
+    },
+    "before_hash": "ee228ce326e1b54492401a6f4f6a0ac94a8bb800624853dbf942917176c52b46",
+    "before_frame": 5236,
+    "status": "returned",
+    "result": {
+      "status": "accepted"
+    },
+    "after_hash": "ee228ce326e1b54492401a6f4f6a0ac94a8bb800624853dbf942917176c52b46",
+    "after_frame": 5236,
+    "seconds": 0.0027356250066077337
+  }
+]

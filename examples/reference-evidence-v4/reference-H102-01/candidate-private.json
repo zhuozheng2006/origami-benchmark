@@ -1,0 +1,386 @@
+{
+  "mesh": "document_uniform8_center_1p0_v14",
+  "initialization": [],
+  "preparation": [
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.5
+        ],
+        [
+          1,
+          0.5
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.9
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    }
+  ],
+  "reference_actions": [
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.5,
+          0
+        ],
+        [
+          0.5,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.9,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.25
+        ],
+        [
+          1,
+          0.25
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.1
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.75
+        ],
+        [
+          1,
+          0.75
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.9
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.25,
+          0
+        ],
+        [
+          0.25,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.1,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.75,
+          0
+        ],
+        [
+          0.75,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.9,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "turn_over",
+      "axis": "y"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.125,
+          0
+        ],
+        [
+          0.125,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.03,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.375,
+          0
+        ],
+        [
+          0.375,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.03,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.625,
+          0
+        ],
+        [
+          0.625,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.97,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.875,
+          0
+        ],
+        [
+          0.875,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.97,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.125
+        ],
+        [
+          1,
+          0.125
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.03
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.375
+        ],
+        [
+          1,
+          0.375
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.03
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.625
+        ],
+        [
+          1,
+          0.625
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.97
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.875
+        ],
+        [
+          1,
+          0.875
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.97
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    }
+  ],
+  "pages": [
+    "/Users/zane/Documents/ChatGPT/折纸benchmark/artifacts/hard-expansion-20261107/precrease-candidates/sources/sturm-page-001.png"
+  ],
+  "goal": null,
+  "annotation_status": "source_visually_reviewed_reference_pending",
+  "checkpoint_plan": {
+    "version": "grouped-precrease-candidate1",
+    "indexing": "zero_based_reference_action_index",
+    "groups": [
+      {
+        "reference_action_indices": [
+          1
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "retained fold endpoints; no repeated unfolded-flat endpoints"
+      },
+      {
+        "reference_action_indices": [
+          3,
+          5,
+          7,
+          9
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "retained fold endpoints; no repeated unfolded-flat endpoints"
+      },
+      {
+        "reference_action_indices": [
+          11
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "explicit source turnover"
+      },
+      {
+        "reference_action_indices": [
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          26
+        ],
+        "matching": "unordered_distinct_coverage",
+        "includes_only": "retained fold endpoints; no repeated unfolded-flat endpoints"
+      }
+    ],
+    "required_initial_unfold": true,
+    "retain_full_trace": true,
+    "note": "Figure 1 has grouped arrows, not a total order within each group. First held fold is preparation history."
+  }
+}

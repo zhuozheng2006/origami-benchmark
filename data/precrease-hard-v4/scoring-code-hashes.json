@@ -1,0 +1,12 @@
+{
+  "grading_version": "precrease-artifact-signed-memory-v4-candidate2",
+  "new_grading_tests_passed": 18,
+  "code": {
+    "origami_bench/diagram/precrease_artifact_grading.py": "722da71e48494b873bfcc05ffad3f327402de9b036cdc3cfb1584bb6360923ef",
+    "scripts/score_precrease_candidates.py": "4e5264f54fe3712d33d5501cb64ca016e4c968d1c9b1ceba653320b06752367b",
+    "scripts/prepare_precrease_sources.py": "bce5c0edfbadd62212ebe159c5f1ea72c6d83ecffb9623e45013763169755f10",
+    "tests/test_precrease_artifact_grading.py": "e10131ace08d3bee0b7d74787b6a146814dc3d347e39a291f0d8671822d2a834",
+    "tests/test_precrease_rescore.py": "7a5eb0e9f77b7062de3ebe0cea97a21a1f6392e2f6515a9e89df1fe01fcae13f"
+  },
+  "note": "Scorer files after final fail-closed fix; no native/API calls in this subtask. The full study freeze is maintained separately."
+}

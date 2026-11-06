@@ -1,0 +1,23 @@
+{
+  "version": "public-v4-precrease1",
+  "tests": 107,
+  "tests_passed": true,
+  "tests_log_sha256": "d832a6bf012a4023ae1b6c63d82ec5f693a42ba9d1b4f5949a156e5c007d6318",
+  "paid_model_calls": 0,
+  "accepted_added": [
+    "H102",
+    "H103"
+  ],
+  "accepted_total": 131,
+  "reference_runs_passed": 4,
+  "real_negative_controls_rejected": 4,
+  "synthetic_controls": 24,
+  "physical_parameters_unchanged": true,
+  "controller_and_prompt_unchanged": true,
+  "source_reproduction": "two PDF downloads and three fixed page pixel hashes verified",
+  "limitations": [
+    "Directed precrease history, not exact plastic rest-angle field",
+    "Model difficulty not calibrated",
+    "H103 large complementary half exceeds existing 600 frame motion limit"
+  ]
+}

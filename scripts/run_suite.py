@@ -20,13 +20,17 @@ p.add_argument('--reference', action='store_true')
 p.add_argument('--output', type=Path)
 p.add_argument('--list', action='store_true')
 p.add_argument('--allow-diagnostic', action='store_true')
-p.add_argument('--grading-contract', choices=['legacy-public-v2','structural-v3'], default='legacy-public-v2')
+p.add_argument('--grading-contract', choices=['legacy-public-v2','structural-v3','precrease-artifact-v4'], default='legacy-public-v2')
 a = p.parse_args()
 registry = json.loads((ROOT/'data/evaluation-catalog.json').read_text())['tasks']
 ids = sorted(k for k,v in registry.items() if v['suite']==a.suite and (v['status']=='accepted' or a.allow_diagnostic) and (not a.split or v.get('split')==a.split))
 if not ids: raise ValueError('Empty/unknown suite or split')
 if a.grading_contract == 'structural-v3' and any(registry[x]['episode'] != 'layer' for x in ids):
     p.error('structural-v3 requires a layer-only suite')
+if a.grading_contract == 'precrease-artifact-v4' and any(
+    registry[x]['episode'] != 'layer' or registry[x].get('required_grading_contract') != a.grading_contract for x in ids
+):
+    p.error('precrease-artifact-v4 requires a registered precrease layer suite')
 if a.list:
     print('\n'.join(ids))
     sys.exit(0)
@@ -81,7 +85,7 @@ for entry in plan['runs']:
         and previous.get('grading_contract') == entry['grading_contract']
         and marker.get('run_id') == entry['run_id']
         and marker.get('grading_contract') == entry['grading_contract'])
-    if a.grading_contract == 'structural-v3':
+    if a.grading_contract in ('structural-v3','precrease-artifact-v4'):
         completed = completed and (report_path.parent/'candidate-grading.json').is_file() and previous.get('grading_candidate') is True
     if not completed:
         report_path.parent.mkdir(exist_ok=True)

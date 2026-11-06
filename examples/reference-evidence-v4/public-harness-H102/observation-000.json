@@ -1,0 +1,95 @@
+{
+  "task": {
+    "id": "H102",
+    "instruction": "Complete ONLY the 8×8 grid example on source page 1. The supplied sheet already holds the first centre fold of the first panel; open it and continue. Include the shown turnover, all remaining horizontal and vertical creases, and finish with the sheet unfolded. Do not continue the later odd-division examples or fold the Porcupine. The first sheet face corresponds to the grey face in the diagram. This task is to complete the depicted precrease pattern and finish unfolded on the shown face. It does not require the reference execution order or which half is moved for an otherwise equivalent crease. All specified material mountain/valley directions must have been physically formed on the retained paper history; do not add opposite-direction precreases or obvious non-target crease lines. Undo does not count as retaining a crease.",
+    "title": "Gerwin Sturm: 8×8 signed grid precreasing",
+    "page_count": 1
+  },
+  "document": {
+    "page": 1,
+    "page_count": 1,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  "diagram": "/Users/zane/Documents/ChatGPT/折纸benchmark/artifacts/github-public/.local/precrease-hard-v4/STURM_BOXPLEAT_II/page-001.png",
+  "current_image": "/Users/zane/Documents/ChatGPT/折纸benchmark/outputs/hard-expansion-20261107/public-harness-H102/observation-000.png",
+  "current": {
+    "state_hash": "a6a8346e03154efc1b783a3240a57572210010566a429464d671807af28d7a06"
+  },
+  "accepted_actions": [],
+  "previous_action_result": null,
+  "max_decisions": 40,
+  "preparation_actions": [
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.5
+        ],
+        [
+          1,
+          0.5
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.9
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    }
+  ],
+  "active_folds": [
+    {
+      "fold_id": 0,
+      "created_by": {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.5
+          ],
+          [
+            1,
+            0.5
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.9
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      "remaining_angle_deg": 180.0
+    }
+  ],
+  "attempt_history": [],
+  "attempt_budget": {
+    "known_wall_seconds": 0,
+    "max_attempts": 40,
+    "output_cap_per_call": 8192,
+    "max_output_tokens": 327680,
+    "attempts_used": 1,
+    "attempts_remaining": 39,
+    "known_costs": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0
+    },
+    "unknown_cost_attempts": {
+      "input_tokens": 1,
+      "output_tokens": 1,
+      "seconds": 1
+    },
+    "output_tokens_reserved_for_unknown": 8192,
+    "output_tokens_remaining": 319488
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "task_id": "H102",
+  "grading_contract": "precrease-artifact-v4",
+  "synthetic_controls": [
+    {
+      "name": "retained_reference",
+      "expected_success": true,
+      "observed_success": true,
+      "expectation_met": true,
+      "synthetic": true,
+      "physical_gate_assumed": true,
+      "not_a_new_physical_replay": true,
+      "shape": {
+        "rms_mm": 1.4609654526063547e-14,
+        "max_mm": 2.5018537765542005e-14,
+        "passed": true,
+        "placement_offset_mm": [
+          -1.9141776286013894e-16,
+          -4.785444071654935e-15,
+          0.0
+        ],
+        "yaw_degrees": 3.246988643149816e-21,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "memory_pass": true,
+      "finished": true,
+      "missing_hinge_count": 0,
+      "missing_band_count": 0,
+      "opposite_hinge_count": 0,
+      "opposite_band_count": 0,
+      "extra_band_count": 0
+    },
+    {
+      "name": "finish_only_from_prepared",
+      "expected_success": false,
+      "observed_success": false,
+      "expectation_met": true,
+      "synthetic": true,
+      "physical_gate_assumed": true,
+      "not_a_new_physical_replay": true,
+      "shape": {
+        "passed": false
+      },
+      "memory_pass": false,
+      "finished": true,
+      "missing_hinge_count": 104,
+      "missing_band_count": 13,
+      "opposite_hinge_count": 0,
+      "opposite_band_count": 0,
+      "extra_band_count": 0
+    },
+    {
+      "name": "undo_all_task_actions_to_prepared",
+      "expected_success": false,
+      "observed_success": false,
+      "expectation_met": true,
+      "synthetic": true,
+      "physical_gate_assumed": true,
+      "not_a_new_physical_replay": true,
+      "shape": {
+        "passed": false
+      },
+      "memory_pass": false,
+      "finished": true,
+      "missing_hinge_count": 104,
+      "missing_band_count": 13,
+      "opposite_hinge_count": 0,
+      "opposite_band_count": 0,
+      "extra_band_count": 0
+    },
+    {
+      "name": "flat_final_and_repeated_static_frames_cannot_supply_memory",
+      "expected_success": false,
+      "observed_success": false,
+      "expectation_met": true,
+      "synthetic": true,
+      "physical_gate_assumed": true,
+      "not_a_new_physical_replay": true,
+      "shape": {
+        "rms_mm": 1.4609654526063547e-14,
+        "max_mm": 2.5018537765542005e-14,
+        "passed": true,
+        "placement_offset_mm": [
+          -1.9141776286013894e-16,
+          -4.785444071654935e-15,
+          0.0
+        ],
+        "yaw_degrees": 3.246988643149816e-21,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "memory_pass": false,
+      "finished": true,
+      "missing_hinge_count": 104,
+      "missing_band_count": 13,
+      "opposite_hinge_count": 0,
+      "opposite_band_count": 0,
+      "extra_band_count": 0
+    },
+    {
+      "name": "missing_one_new_source_band",
+      "expected_success": false,
+      "observed_success": false,
+      "expectation_met": true,
+      "synthetic": true,
+      "physical_gate_assumed": true,
+      "not_a_new_physical_replay": true,
+      "shape": {
+        "rms_mm": 1.4609654526063547e-14,
+        "max_mm": 2.5018537765542005e-14,
+        "passed": true,
+        "placement_offset_mm": [
+          -1.9141776286013894e-16,
+          -4.785444071654935e-15,
+          0.0
+        ],
+        "yaw_degrees": 3.246988643149816e-21,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "memory_pass": false,
+      "finished": true,
+      "missing_hinge_count": 8,
+      "missing_band_count": 1,
+      "opposite_hinge_count": 0,
+      "opposite_band_count": 0,
+      "extra_band_count": 0
+    },
+    {
+      "name": "wrong_mountain_valley_one_new_source_band",
+      "expected_success": false,
+      "observed_success": false,
+      "expectation_met": true,
+      "synthetic": true,
+      "physical_gate_assumed": true,
+      "not_a_new_physical_replay": true,
+      "shape": {
+        "rms_mm": 1.4609654526063547e-14,
+        "max_mm": 2.5018537765542005e-14,
+        "passed": true,
+        "placement_offset_mm": [
+          -1.9141776286013894e-16,
+          -4.785444071654935e-15,
+          0.0
+        ],
+        "yaw_degrees": 3.246988643149816e-21,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "memory_pass": false,
+      "finished": true,
+      "missing_hinge_count": 8,
+      "missing_band_count": 1,
+      "opposite_hinge_count": 8,
+      "opposite_band_count": 1,
+      "extra_band_count": 0
+    },
+    {
+      "name": "all_required_plus_opposite_sign_saturation",
+      "expected_success": false,
+      "observed_success": false,
+      "expectation_met": true,
+      "synthetic": true,
+      "physical_gate_assumed": true,
+      "not_a_new_physical_replay": true,
+      "shape": {
+        "rms_mm": 1.4609654526063547e-14,
+        "max_mm": 2.5018537765542005e-14,
+        "passed": true,
+        "placement_offset_mm": [
+          -1.9141776286013894e-16,
+          -4.785444071654935e-15,
+          0.0
+        ],
+        "yaw_degrees": 3.246988643149816e-21,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "memory_pass": false,
+      "finished": true,
+      "missing_hinge_count": 0,
+      "missing_band_count": 0,
+      "opposite_hinge_count": 104,
+      "opposite_band_count": 13,
+      "extra_band_count": 0
+    },
+    {
+      "name": "obvious_non_target_crease_lines",
+      "expected_success": false,
+      "observed_success": false,
+      "expectation_met": true,
+      "synthetic": true,
+      "physical_gate_assumed": true,
+      "not_a_new_physical_replay": true,
+      "shape": {
+        "rms_mm": 1.4609654526063547e-14,
+        "max_mm": 2.5018537765542005e-14,
+        "passed": true,
+        "placement_offset_mm": [
+          -1.9141776286013894e-16,
+          -4.785444071654935e-15,
+          0.0
+        ],
+        "yaw_degrees": 3.246988643149816e-21,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "memory_pass": false,
+      "finished": true,
+      "missing_hinge_count": 0,
+      "missing_band_count": 0,
+      "opposite_hinge_count": 0,
+      "opposite_band_count": 0,
+      "extra_band_count": 30
+    },
+    {
+      "name": "synthetic_task_evidence_order_permutation",
+      "expected_success": true,
+      "observed_success": true,
+      "expectation_met": true,
+      "synthetic": true,
+      "physical_gate_assumed": true,
+      "not_a_new_physical_replay": true,
+      "shape": {
+        "rms_mm": 1.4609654526063547e-14,
+        "max_mm": 2.5018537765542005e-14,
+        "passed": true,
+        "placement_offset_mm": [
+          -1.9141776286013894e-16,
+          -4.785444071654935e-15,
+          0.0
+        ],
+        "yaw_degrees": 3.246988643149816e-21,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "memory_pass": true,
+      "finished": true,
+      "missing_hinge_count": 0,
+      "missing_band_count": 0,
+      "opposite_hinge_count": 0,
+      "opposite_band_count": 0,
+      "extra_band_count": 0
+    },
+    {
+      "name": "missing_finish",
+      "expected_success": false,
+      "observed_success": false,
+      "expectation_met": true,
+      "synthetic": true,
+      "physical_gate_assumed": true,
+      "not_a_new_physical_replay": true,
+      "shape": {
+        "rms_mm": 1.4609654526063547e-14,
+        "max_mm": 2.5018537765542005e-14,
+        "passed": true,
+        "placement_offset_mm": [
+          -1.9141776286013894e-16,
+          -4.785444071654935e-15,
+          0.0
+        ],
+        "yaw_degrees": 3.246988643149816e-21,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "memory_pass": true,
+      "finished": false,
+      "missing_hinge_count": 0,
+      "missing_band_count": 0,
+      "opposite_hinge_count": 0,
+      "opposite_band_count": 0,
+      "extra_band_count": 0
+    },
+    {
+      "name": "unknown_physics",
+      "expected_success": false,
+      "observed_success": false,
+      "expectation_met": true,
+      "synthetic": true,
+      "physical_gate_assumed": null,
+      "not_a_new_physical_replay": true,
+      "shape": {
+        "rms_mm": 1.4609654526063547e-14,
+        "max_mm": 2.5018537765542005e-14,
+        "passed": true,
+        "placement_offset_mm": [
+          -1.9141776286013894e-16,
+          -4.785444071654935e-15,
+          0.0
+        ],
+        "yaw_degrees": 3.246988643149816e-21,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "memory_pass": true,
+      "finished": true,
+      "missing_hinge_count": 0,
+      "missing_band_count": 0,
+      "opposite_hinge_count": 0,
+      "opposite_band_count": 0,
+      "extra_band_count": 0
+    },
+    {
+      "name": "wrong_material_face_orientation",
+      "expected_success": false,
+      "observed_success": false,
+      "expectation_met": true,
+      "synthetic": true,
+      "physical_gate_assumed": true,
+      "not_a_new_physical_replay": true,
+      "shape": {
+        "rms_mm": 92.1720110080292,
+        "max_mm": 150.00023428596572,
+        "passed": false,
+        "placement_offset_mm": [
+          9.202042384786594e-10,
+          -1.9141776286013894e-16,
+          0.07615719334625103
+        ],
+        "yaw_degrees": -0.00017705411031694918,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "memory_pass": true,
+      "finished": true,
+      "missing_hinge_count": 0,
+      "missing_band_count": 0,
+      "opposite_hinge_count": 0,
+      "opposite_band_count": 0,
+      "extra_band_count": 0
+    }
+  ],
+  "all_expectations_met": true,
+  "note": "Synthetic gate controls are not independent reference or physical negative runs."
+}

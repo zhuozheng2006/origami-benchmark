@@ -1,0 +1,1078 @@
+{
+  "task": {
+    "id": "H102",
+    "instruction": "Complete ONLY the 8×8 grid example on source page 1. The supplied sheet already holds the first centre fold of the first panel; open it and continue. Include the shown turnover, all remaining horizontal and vertical creases, and finish with the sheet unfolded. Do not continue the later odd-division examples or fold the Porcupine. The first sheet face corresponds to the grey face in the diagram. This task is to complete the depicted precrease pattern and finish unfolded on the shown face. It does not require the reference execution order or which half is moved for an otherwise equivalent crease. All specified material mountain/valley directions must have been physically formed on the retained paper history; do not add opposite-direction precreases or obvious non-target crease lines. Undo does not count as retaining a crease.",
+    "title": "Gerwin Sturm: 8×8 signed grid precreasing",
+    "page_count": 1
+  },
+  "document": {
+    "page": 1,
+    "page_count": 1,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  "diagram": "/Users/zane/Documents/ChatGPT/折纸benchmark/artifacts/github-public/.local/precrease-hard-v4/STURM_BOXPLEAT_II/page-001.png",
+  "current_image": "/Users/zane/Documents/ChatGPT/折纸benchmark/outputs/hard-expansion-20261107/public-harness-H102/observation-028.png",
+  "current": {
+    "state_hash": "887f2dca96072a7705389b9cb4e0dcdad496df7398ce5ec6cf9dcc0370dad41e"
+  },
+  "accepted_actions": [
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.5,
+          0
+        ],
+        [
+          0.5,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.9,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.25
+        ],
+        [
+          1,
+          0.25
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.1
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.75
+        ],
+        [
+          1,
+          0.75
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.9
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.25,
+          0
+        ],
+        [
+          0.25,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.1,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.75,
+          0
+        ],
+        [
+          0.75,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.9,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "turn_over",
+      "axis": "y"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.125,
+          0
+        ],
+        [
+          0.125,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.03,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.375,
+          0
+        ],
+        [
+          0.375,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.03,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.625,
+          0
+        ],
+        [
+          0.625,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.97,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0.875,
+          0
+        ],
+        [
+          0.875,
+          1
+        ]
+      ],
+      "moving_point": [
+        0.97,
+        0.5
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.125
+        ],
+        [
+          1,
+          0.125
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.03
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.375
+        ],
+        [
+          1,
+          0.375
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.03
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.625
+        ],
+        [
+          1,
+          0.625
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.97
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    },
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.875
+        ],
+        [
+          1,
+          0.875
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.97
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    },
+    {
+      "op": "unfold"
+    }
+  ],
+  "previous_action_result": {
+    "status": "accepted"
+  },
+  "max_decisions": 40,
+  "preparation_actions": [
+    {
+      "op": "fold_line",
+      "line": [
+        [
+          0,
+          0.5
+        ],
+        [
+          1,
+          0.5
+        ]
+      ],
+      "moving_point": [
+        0.5,
+        0.9
+      ],
+      "layers": "all",
+      "sense": "toward",
+      "angle_deg": 180
+    }
+  ],
+  "active_folds": [],
+  "attempt_history": [
+    {
+      "attempt_id": 0,
+      "action": {
+        "op": "unfold"
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "a6a8346e03154efc1b783a3240a57572210010566a429464d671807af28d7a06",
+      "after": "4392c885add81d529fec2cc6efac0a814f265ffa9c7eba3034617b793c4d04c9",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 1,
+      "action": {
+        "op": "fold_line",
+        "line": [
+          [
+            0.5,
+            0
+          ],
+          [
+            0.5,
+            1
+          ]
+        ],
+        "moving_point": [
+          0.9,
+          0.5
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "4392c885add81d529fec2cc6efac0a814f265ffa9c7eba3034617b793c4d04c9",
+      "after": "6365f6d9f84ac49b38520dec7085c80de7d229a58fd4c34eb74d8cdd48f3a1c4",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 2,
+      "action": {
+        "op": "unfold"
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "6365f6d9f84ac49b38520dec7085c80de7d229a58fd4c34eb74d8cdd48f3a1c4",
+      "after": "389f17df0c090a234ce97e570c6836c1fb0d819237fb30c9c1510c6daf0ad8ef",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 3,
+      "action": {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.1
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "389f17df0c090a234ce97e570c6836c1fb0d819237fb30c9c1510c6daf0ad8ef",
+      "after": "def49f4c390f65d53b1ef30573c83b601d72b909dc3e7c915866921f8cc2f952",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 4,
+      "action": {
+        "op": "unfold"
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "def49f4c390f65d53b1ef30573c83b601d72b909dc3e7c915866921f8cc2f952",
+      "after": "f3b9726e5a2561719910bc6bc6b2e2eb65d548dfe70d2fb8654ab3afc0d7aeff",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 5,
+      "action": {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.75
+          ],
+          [
+            1,
+            0.75
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.9
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "f3b9726e5a2561719910bc6bc6b2e2eb65d548dfe70d2fb8654ab3afc0d7aeff",
+      "after": "a705cd00196f1f15c2d45f26c89c6c524e25418d169566f8e6fc8b467ded2877",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 6,
+      "action": {
+        "op": "unfold"
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "a705cd00196f1f15c2d45f26c89c6c524e25418d169566f8e6fc8b467ded2877",
+      "after": "6433a397fe72ffcce2a2cd9bbb3efdbab2ddda12f2aa2965fc7e1fcd0c8abb11",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 7,
+      "action": {
+        "op": "fold_line",
+        "line": [
+          [
+            0.25,
+            0
+          ],
+          [
+            0.25,
+            1
+          ]
+        ],
+        "moving_point": [
+          0.1,
+          0.5
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "6433a397fe72ffcce2a2cd9bbb3efdbab2ddda12f2aa2965fc7e1fcd0c8abb11",
+      "after": "73010bfdeef39a8c255c85f12c3badbb28711b5e9a9d7335171134e53f832e61",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 8,
+      "action": {
+        "op": "unfold"
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "73010bfdeef39a8c255c85f12c3badbb28711b5e9a9d7335171134e53f832e61",
+      "after": "e763f137843f64469b363b1ae5ba3be63e9ed1fd2b34521278518dcd5fa34167",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 9,
+      "action": {
+        "op": "fold_line",
+        "line": [
+          [
+            0.75,
+            0
+          ],
+          [
+            0.75,
+            1
+          ]
+        ],
+        "moving_point": [
+          0.9,
+          0.5
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "e763f137843f64469b363b1ae5ba3be63e9ed1fd2b34521278518dcd5fa34167",
+      "after": "95e658c9b6d466dc6387d393c6455715293457dfd13d8c77da699375f932bc0d",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 10,
+      "action": {
+        "op": "unfold"
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "95e658c9b6d466dc6387d393c6455715293457dfd13d8c77da699375f932bc0d",
+      "after": "fee9e51013558ed832abf330f734d2fd250ed898c6368daa605ffbcf6d4d38ac",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 11,
+      "action": {
+        "op": "turn_over",
+        "axis": "y"
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "fee9e51013558ed832abf330f734d2fd250ed898c6368daa605ffbcf6d4d38ac",
+      "after": "3d4fc7136254f77a8fccab5b8fca48c86aa0ebcda0d16e406fec9946b6531a95",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 12,
+      "action": {
+        "op": "fold_line",
+        "line": [
+          [
+            0.125,
+            0
+          ],
+          [
+            0.125,
+            1
+          ]
+        ],
+        "moving_point": [
+          0.03,
+          0.5
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "3d4fc7136254f77a8fccab5b8fca48c86aa0ebcda0d16e406fec9946b6531a95",
+      "after": "9d7a20ac100d2fc191348cc18e4d886173be85611f74c7514d5ea84b735ac4b5",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 13,
+      "action": {
+        "op": "unfold"
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "9d7a20ac100d2fc191348cc18e4d886173be85611f74c7514d5ea84b735ac4b5",
+      "after": "d55502a5844d7c5b4f4b1e2a52f5c3da303fcaa59880b3f90823841809538fd5",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 14,
+      "action": {
+        "op": "fold_line",
+        "line": [
+          [
+            0.375,
+            0
+          ],
+          [
+            0.375,
+            1
+          ]
+        ],
+        "moving_point": [
+          0.03,
+          0.5
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "d55502a5844d7c5b4f4b1e2a52f5c3da303fcaa59880b3f90823841809538fd5",
+      "after": "3a87752f5d83b4c9bd03283e47d0cff0c561260e533c1d3ac02eb5924e5ef37e",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 15,
+      "action": {
+        "op": "unfold"
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "3a87752f5d83b4c9bd03283e47d0cff0c561260e533c1d3ac02eb5924e5ef37e",
+      "after": "356a7222a05515b40547723bcf681beb1cb9c861895914ee8a8944fe8b0d4a1b",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 16,
+      "action": {
+        "op": "fold_line",
+        "line": [
+          [
+            0.625,
+            0
+          ],
+          [
+            0.625,
+            1
+          ]
+        ],
+        "moving_point": [
+          0.97,
+          0.5
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "356a7222a05515b40547723bcf681beb1cb9c861895914ee8a8944fe8b0d4a1b",
+      "after": "c2a1d225033cee10c851e97fa5f3c57b48e30f849a6a2e87a794e638b84f10d1",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 17,
+      "action": {
+        "op": "unfold"
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "c2a1d225033cee10c851e97fa5f3c57b48e30f849a6a2e87a794e638b84f10d1",
+      "after": "1a7467a4bac8bdb546e745dd178e8c90aff950aad5220791a234ff46bb311a9c",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 18,
+      "action": {
+        "op": "fold_line",
+        "line": [
+          [
+            0.875,
+            0
+          ],
+          [
+            0.875,
+            1
+          ]
+        ],
+        "moving_point": [
+          0.97,
+          0.5
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "1a7467a4bac8bdb546e745dd178e8c90aff950aad5220791a234ff46bb311a9c",
+      "after": "0476a64cc77003656f69f40e98852fa011c9c1b85d6cc4606e2961277eac3372",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 19,
+      "action": {
+        "op": "unfold"
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "0476a64cc77003656f69f40e98852fa011c9c1b85d6cc4606e2961277eac3372",
+      "after": "980381b8e12938bc1c1d2c645e994848326bd4f6c4f6df3b70b6ba5cee1980ec",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 20,
+      "action": {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.125
+          ],
+          [
+            1,
+            0.125
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.03
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "980381b8e12938bc1c1d2c645e994848326bd4f6c4f6df3b70b6ba5cee1980ec",
+      "after": "30193c3ee03e768816f53dd9eef5ff885c3551fc7b4bbdee4e6bc92748cb3e40",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 21,
+      "action": {
+        "op": "unfold"
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "30193c3ee03e768816f53dd9eef5ff885c3551fc7b4bbdee4e6bc92748cb3e40",
+      "after": "3919477f60c2fb157e312571da2297ad19b4accc6008f9547d3857eb66524b3b",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 22,
+      "action": {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.375
+          ],
+          [
+            1,
+            0.375
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.03
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "3919477f60c2fb157e312571da2297ad19b4accc6008f9547d3857eb66524b3b",
+      "after": "4c8a17980d22e6f2b5cb7b6ad086c53d03d37267f7bd8465c7104fd40fc87726",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 23,
+      "action": {
+        "op": "unfold"
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "4c8a17980d22e6f2b5cb7b6ad086c53d03d37267f7bd8465c7104fd40fc87726",
+      "after": "24f6e1bfcbb1bb4a57a4838e57c7ca3f447f4df337ab4abfd0304dc109ae271d",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 24,
+      "action": {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.625
+          ],
+          [
+            1,
+            0.625
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.97
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "24f6e1bfcbb1bb4a57a4838e57c7ca3f447f4df337ab4abfd0304dc109ae271d",
+      "after": "c85b4e6166d07c55d55d3a5202d25fe3a947c6ec244f96fd6653afa70739a81c",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 25,
+      "action": {
+        "op": "unfold"
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "c85b4e6166d07c55d55d3a5202d25fe3a947c6ec244f96fd6653afa70739a81c",
+      "after": "c44d1e6659a1c52a8c1260794f844b16273854f071edb67d1c7dbf5af58903cc",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 26,
+      "action": {
+        "op": "fold_line",
+        "line": [
+          [
+            0,
+            0.875
+          ],
+          [
+            1,
+            0.875
+          ]
+        ],
+        "moving_point": [
+          0.5,
+          0.97
+        ],
+        "layers": "all",
+        "sense": "toward",
+        "angle_deg": 180
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "c44d1e6659a1c52a8c1260794f844b16273854f071edb67d1c7dbf5af58903cc",
+      "after": "bf97179af8818f287a3565b9c09132d905c1931afa2126e3e8ea11b9e0cce7e8",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    },
+    {
+      "attempt_id": 27,
+      "action": {
+        "op": "unfold"
+      },
+      "raw_output": "scripted replay",
+      "result": {
+        "status": "accepted"
+      },
+      "before": "bf97179af8818f287a3565b9c09132d905c1931afa2126e3e8ea11b9e0cce7e8",
+      "after": "887f2dca96072a7705389b9cb4e0dcdad496df7398ce5ec6cf9dcc0370dad41e",
+      "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "seconds": null
+      }
+    }
+  ],
+  "attempt_budget": {
+    "known_wall_seconds": 222.4943961650133,
+    "max_attempts": 40,
+    "output_cap_per_call": 8192,
+    "max_output_tokens": 327680,
+    "attempts_used": 29,
+    "attempts_remaining": 11,
+    "known_costs": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0
+    },
+    "unknown_cost_attempts": {
+      "input_tokens": 1,
+      "output_tokens": 1,
+      "seconds": 29
+    },
+    "output_tokens_reserved_for_unknown": 8192,
+    "output_tokens_remaining": 319488
+  }
+}

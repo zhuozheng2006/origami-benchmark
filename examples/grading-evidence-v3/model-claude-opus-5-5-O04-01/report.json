@@ -1,0 +1,89 @@
+{
+  "task_id": "O04",
+  "agent_kind": "external_agent:claude-opus-5-5",
+  "task_success": false,
+  "finished": false,
+  "physical_pass": true,
+  "shape": {
+    "rms_mm": 34.42843579182622,
+    "max_mm": 48.66040699583147,
+    "raw_rms_mm": 98.16452179707925,
+    "rotation_degrees": -179.99932485981077,
+    "xy_translation_mm": [
+      0.00034440461031982726,
+      -48.647380158660596
+    ],
+    "reflection_allowed": false,
+    "z_translation_allowed": false
+  },
+  "memory_pass": true,
+  "goal_available": true,
+  "status": "environment_error",
+  "attempts": 1,
+  "retained_paper_operations": 0,
+  "peak_strain": 0.0028273651731871574,
+  "material_memory": {
+    "rest_angle_sha256": "16c983348ffa8800df37c9bfb4d45e894ca16f8bcd398cdfe456d2fec0c90d19",
+    "rest_angle_l2": 14.606008729888377,
+    "dissipation_joules": 0.0016507556394686229
+  },
+  "seconds": 234.88032995909452,
+  "scope": "Finite-thickness deformable shell with ideal point fixtures; continuous contact and 1% stretch/compression acceptance. Prepared state is physically replayed. No real finger model.",
+  "unsigned_memory_pass": true,
+  "grading_version": "prepared-shape-ordered-path-and-band-memory-v16-1",
+  "fixed_board_shape": {
+    "rms_mm": 98.16452179707925,
+    "max_mm": 159.94602720869304
+  },
+  "band_memory_pass": false,
+  "initial_frame": 720,
+  "preparation_operations": 2,
+  "controller_version": "layer-boundary-v16-dev1",
+  "goal_success": false,
+  "diagram_path": {
+    "passed": false,
+    "matched": 0,
+    "required": 8,
+    "matches": [],
+    "next_best": {
+      "frame": 720,
+      "rms_mm": 20.959999604179316,
+      "max_mm": 67.81575489274803
+    },
+    "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+  },
+  "attempt_budget": {
+    "known_wall_seconds": 125.86699758376926,
+    "max_attempts": 40,
+    "output_cap_per_call": 8192,
+    "max_output_tokens": 327680,
+    "attempts_used": 1,
+    "attempts_remaining": 39,
+    "known_costs": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0
+    },
+    "unknown_cost_attempts": {
+      "input_tokens": 1,
+      "output_tokens": 1,
+      "seconds": 1
+    },
+    "output_tokens_reserved_for_unknown": 8192,
+    "output_tokens_remaining": 319488
+  },
+  "attempt_ledger_version": "sqlite-v1",
+  "model": "claude-opus-5-5",
+  "model_settings": {
+    "connection": "gateway",
+    "model": "claude-opus-5-5",
+    "upper_cny_per_million": [
+      9,
+      45
+    ],
+    "max_output_tokens": 8192
+  },
+  "provider": "gateway",
+  "freeze_sha256": "47ebbe7508aaa4443cc5ab8c8bb2f579f8e53521fc36468833977d9541b62129",
+  "tier": "ultra_hard"
+}

@@ -5,6 +5,12 @@ from urllib.parse import urlsplit
 from origami_bench.diagram.api_policy import ApiPolicy, CostBook
 
 
+def describe_identity():
+    return dict(requested_model=os.environ['ORIGAMI_MODEL'], endpoint=os.environ['ORIGAMI_API_BASE'],
+                parameters={}, output_cap=8192, adapter_version='public-api-v2.1',
+                output_parameter=os.environ.get('ORIGAMI_OUTPUT_PARAMETER', 'max_tokens'))
+
+
 class PublicAPI(ApiPolicy):
     def __init__(self):
         endpoint = os.environ['ORIGAMI_API_BASE'].rstrip('/')
@@ -26,7 +32,7 @@ class PublicAPI(ApiPolicy):
             raise ValueError('Unsupported output token parameter')
         self.spec['output_parameter']=output_parameter
         self.stage = 'public_release_evaluation'
-        self.metadata = dict(model=self.spec['model'], endpoint=endpoint)
+        self.metadata = describe_identity()
 
     def close(self):
         self.book.db.close()

@@ -41,7 +41,9 @@ class PublicReleaseTests(unittest.TestCase):
             paths=[]
             for i,(suite,split,eligible) in enumerate([('small','test',True),('small','development',True),('layers','test',True),('ultra','test',False)]):
                 path=Path(tmp)/str(i);path.mkdir();paths.append(str(path))
-                (path/'report.json').write_text(json.dumps(dict(task_id=str(i),suite=suite,split=split,score_eligible=eligible,agent_kind='external_agent:test',task_success=True,release_manifest_sha256='frozen')))
+                from origami_bench.diagram.model_identity import normalize_identity
+                identity=normalize_identity(dict(model='test',provider='synthetic',output_cap=8192),'examples.openai_compatible:create')
+                (path/'report.json').write_text(json.dumps(dict(task_id=str(i),suite=suite,split=split,score_eligible=eligible,agent_kind='external_agent:test',task_success=True,release_manifest_sha256='frozen',model_identity=identity,run_id=str(i),repeat_id=1,release_track='synthetic',policy_sha256='policy')))
             result=json.loads(subprocess.check_output([sys.executable,str(ROOT/'scripts/summarize_public.py'),*paths]))
             self.assertEqual(len(result['groups']),3)
             self.assertEqual(result['excluded_oracle_diagnostic_or_replay'],1)

@@ -5,6 +5,7 @@ import importlib
 import json
 from pathlib import Path
 import sys
+import uuid
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -12,6 +13,8 @@ from origami_bench.diagram.accounted_episode import AccountedEpisode
 from origami_bench.diagram import layer_policy_v15 as policy
 from origami_bench.diagram.layer_episode_v16 import LayerEpisodeV16
 from origami_bench.diagram.local_backend import LocalLayerClient
+
+from origami_bench.diagram.model_identity import declared_identity, normalize_identity, RecordingAgent, task_policy, policy_digest
 
 SETTINGS = dict(backend_variant='codim-ipc-directional', barrier_distance=.0002,
                 compression_barrier=True, grip_solve_tolerance=.0002,
@@ -36,7 +39,15 @@ def main():
     mode.add_argument('--reference', action='store_true', help='Oracle installation check, never a model score')
     mode.add_argument('--actions', type=Path, help='JSON list of all attempted actions; replay, including rejected actions')
     mode.add_argument('--agent', help='Importable module:factory; factory() returns request_public(text,image_paths) agent')
+    p.add_argument('--identity', type=Path, help='Explicit safe model identity declaration for custom adapters')
+    p.add_argument('--run-id', default=None)
+    p.add_argument('--repeat-id', type=int, default=1)
+    p.add_argument('--grading-contract', choices=['legacy-public-v2','structural-v3'], default='legacy-public-v2',
+                   help='Opt-in candidate layer scoring; preserves report-legacy.json')
     args = p.parse_args()
+    if args.repeat_id < 1: p.error('repeat-id must be positive')
+    run_id = args.run_id or str(uuid.uuid4())
+    uuid.UUID(run_id)
     if args.output.exists():
         raise FileExistsError('Existing attempts are immutable; choose a new output directory')
     from verify_release import verify
@@ -46,6 +57,8 @@ def main():
     if args.task not in catalog:
         raise ValueError('Task is not runnable; see audit/inventory.json for its blockers')
     spec=catalog[args.task]
+    if args.grading_contract == 'structural-v3' and spec['episode'] != 'layer':
+        p.error('structural-v3 is scoped to prepared layer tasks only')
     if spec['status']!='accepted' and not args.allow_diagnostic:
         raise ValueError('Diagnostic task requires --allow-diagnostic and never contributes to accepted-track scores')
     data = ROOT / 'data' / spec['dataset']
@@ -65,11 +78,8 @@ def main():
                 raise ValueError('Source page pixels changed: '+page)
     private['pages']=[str(ROOT/x) for x in private.get('pages',[])]
     decisions=spec['max_attempts']
-    if spec['episode']=='step':
-        from origami_bench.diagram.single_panel_policy import select_policy
-        active_policy=select_policy(task,data/"public"/task["image"])
-    else:
-        active_policy=policy
+    active_policy = task_policy(spec, task, data)
+    identity = None
     if args.reference:
         actions=[dict(a,op='fold_line') if a.get('op')=='fold' else a for a in private['reference_actions']]
         agent = ReplayAgent(actions + [{'op':'finish'}])
@@ -82,7 +92,13 @@ def main():
         kind = 'submitted_action_replay'
     else:
         module, factory = args.agent.split(':')
-        agent = getattr(importlib.import_module(module), factory)()
+        identity = declared_identity(args.agent, args.identity)
+        actual_agent = getattr(importlib.import_module(module), factory)()
+        actual_metadata = getattr(actual_agent, 'metadata', None)
+        if actual_metadata is not None and normalize_identity(actual_metadata, args.agent) != identity:
+            if hasattr(actual_agent, 'close'): actual_agent.close()
+            raise ValueError('Actual adapter identity differs from the preregistered declaration')
+        agent = RecordingAgent(actual_agent)
         kind = 'external_agent:' + args.agent
     wrapped = None
     try:
@@ -100,6 +116,9 @@ def main():
             ep = LayerEpisodeV16(task, private, args.output.resolve(),
                                 lambda mesh: LocalLayerClient(mesh, **SETTINGS),
                                 decisions, fixture_mode='guided_directional_10000')
+        run_meta = dict(run_id=run_id, repeat_id=args.repeat_id, model_identity=identity,
+                        policy_sha256=policy_digest(active_policy), grading_contract=args.grading_contract)
+        (ep.output/'experiment-identity.json').write_text(json.dumps(run_meta, indent=2))
         wrapped = AccountedEpisode(ep, 8192)
         for i in range(decisions):
             result, stop = wrapped.turn(agent, active_policy)
@@ -109,6 +128,10 @@ def main():
         # Legacy step episodes did not persist their final state; save it for the common viewer.
         (ep.output/'final-state.json').write_text(json.dumps(ep.backend.state()))
         report = wrapped.finish(kind)
+        report.update(run_meta)
+        report['returned_models'] = sorted(getattr(agent, 'returned_models', []))
+        report['returned_model_missing_calls'] = getattr(agent, 'returned_model_missing', 0)
+        report['returned_model_mismatch'] = bool(identity and any(m != identity['requested_model'] for m in report['returned_models']))
         report['release_track'] = spec['track']
         report['suite']=spec['suite']
         report['split']=spec.get('split',task.get('split','unspecified'))
@@ -117,6 +140,9 @@ def main():
         report['release_manifest_sha256'] = release_digest
         report['score_eligible'] = kind.startswith('external_agent:') and spec['status']=='accepted'
         (ep.output/'report.json').write_text(json.dumps(report, indent=2))
+        if args.grading_contract == 'structural-v3':
+            from apply_structural_grading import apply_candidate
+            report = apply_candidate(ep.output, args.task)
         print(json.dumps(report, indent=2))
     except Exception as error:
         args.output.mkdir(parents=True, exist_ok=True)

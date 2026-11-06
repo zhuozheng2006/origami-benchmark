@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>评分修复验证 · Origami Benchmark</title>
+<style>
+:root{color-scheme:light;--ink:#1c2938;--muted:#627084;--line:#dce3eb;--paper:#fff;--bg:#f2f5f8;--blue:#216ac9;--green:#18775a;--orange:#976014;--red:#b33a43;--ref:#277ea4;--actual:#bc588f}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;font-size:15px;line-height:1.6}button,select,input{font:inherit}button,select{color:inherit;background:white;border:1px solid var(--line);border-radius:8px;padding:7px 11px}button{cursor:pointer}button:hover{background:#f1f6fc}button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #7ba9e7;outline-offset:2px}button.active{background:var(--ink);border-color:var(--ink);color:white}button:disabled{opacity:.45;cursor:default}a{color:var(--blue)}header{max-width:1440px;margin:auto;padding:30px 28px 18px}.eyebrow{color:var(--muted);font-size:13px;letter-spacing:.04em}h1{font-size:29px;line-height:1.3;margin:7px 0 9px;font-weight:650}h2{font-size:18px;margin:0 0 12px}h3{font-size:15px;margin:0 0 7px}p{margin:5px 0}main{max-width:1440px;margin:auto;padding:0 28px 36px}.subtitle{color:var(--muted);max-width:900px}.notice{padding:13px 16px;border-left:3px solid #9baec6;background:#e8eef5;border-radius:0 8px 8px 0;margin:16px 0}.notice strong{font-weight:600}.topstats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}.stat{background:white;border:1px solid var(--line);border-radius:12px;padding:15px 18px}.stat .label{font-size:13px;color:var(--muted)}.stat .value{font-size:25px;font-weight:600;font-variant-numeric:tabular-nums}.stat small{color:var(--muted)}.panel{background:var(--paper);border:1px solid var(--line);border-radius:13px;margin:16px 0;padding:20px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px}.toolbar h2{margin:0}.toolbar label{font-size:13px;color:var(--muted);display:flex;align-items:center;gap:8px}.toolbar select{max-width:500px}.badge{display:inline-block;border-radius:6px;padding:2px 8px;font-size:12px;background:#e9edf2;color:#536073;white-space:nowrap}.badge.pass{color:var(--green);background:#e7f3ec}.badge.fail{color:var(--red);background:#faebed}.badge.warn{color:var(--orange);background:#fbf0db}.muted{color:var(--muted)}.small{font-size:13px}.compare-status{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:10px 0 14px}.compare-status .arrow{color:#8998aa}.views{display:grid;grid-template-columns:1fr 1fr;gap:13px}.view{position:relative;background:#eef2f6;border-radius:10px;overflow:hidden;border:1px solid var(--line)}.view h3{position:absolute;top:12px;left:14px;z-index:1;background:#fffffff0;padding:5px 9px;border-radius:7px;font-size:13px;font-weight:500;max-width:calc(100% - 26px)}canvas{display:block;width:100%;height:340px;touch-action:none;cursor:grab}canvas:active{cursor:grabbing}.view .empty{position:absolute;top:45%;width:100%;text-align:center;color:var(--muted);pointer-events:none}.legend{display:flex;gap:17px;align-items:center;flex-wrap:wrap;font-size:13px;color:var(--muted);margin:12px 0 0}.swatch{width:17px;height:9px;display:inline-block;margin-right:5px;border-radius:2px}.swatch.ref{background:var(--ref)}.swatch.actual{background:var(--actual)}.camera-controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:12px 0 8px}.camera-controls label{font-size:13px;color:var(--muted);display:flex;gap:6px;align-items:center}.camera-controls input[type=range]{width:130px}.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;border-top:1px solid var(--line);padding-top:16px;margin-top:15px}.metric .name{font-size:12px;color:var(--muted)}.metric .number{font-size:22px;font-variant-numeric:tabular-nums}.metric .secondary{font-size:12px;color:var(--muted)}.evaluation-parts{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding-top:15px}.part{padding:5px 9px;background:#f5f7fa;border-radius:7px;font-size:13px}.reason{margin-top:12px;padding:10px 13px;background:#f5f7fa;border-radius:8px;font-size:13px;color:var(--muted)}.timeline{display:none;gap:10px;align-items:center;margin-top:12px;font-size:13px}.timeline input{flex:1}.identity-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.identity-block{background:#f5f7fa;padding:15px;border-radius:9px}.identity-num{font-size:28px;font-variant-numeric:tabular-nums;margin-right:5px}.chip-list{display:flex;gap:7px;flex-wrap:wrap;margin-top:7px}.chip{border:1px solid var(--line);border-radius:6px;padding:3px 8px;font-size:13px;background:white}.scroll{overflow:auto}table{border-collapse:collapse;width:100%;font-size:13px}th{text-align:left;color:var(--muted);font-weight:500;border-bottom:1px solid var(--line);padding:10px 12px}td{border-bottom:1px solid #edf0f4;padding:11px 12px;vertical-align:top}tbody tr:last-child td{border-bottom:0}td:first-child{min-width:170px}td.detail{min-width:250px;color:var(--muted)}.filter{display:flex;gap:6px;flex-wrap:wrap}.filter button{font-size:13px;padding:5px 10px}.contract{font-size:13px;color:var(--muted);padding-left:20px}.contract li{margin:6px 0}.footer{font-size:12px;color:var(--muted);overflow-wrap:anywhere}.status-line{font-size:13px;color:var(--muted);margin-top:13px}.error{color:var(--red);white-space:pre-wrap}#loading{padding:30px;background:white;border-radius:12px;margin:20px 0}code{font-family:ui-monospace,monospace;font-size:.94em}.single-view .views{grid-template-columns:1fr}.single-view canvas{height:420px}.hidden{display:none!important}@media(max-width:800px){header{padding:22px 16px 12px}main{padding:0 16px 24px}.topstats,.metrics{grid-template-columns:repeat(2,1fr)}.views,.identity-grid{grid-template-columns:1fr}.panel{padding:15px}canvas{height:300px}.toolbar select{max-width:100%;width:100%}.toolbar label{flex:1;min-width:210px}h1{font-size:24px}.camera-controls input[type=range]{width:110px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+  <div class="eyebrow">ORIGAMI BENCHMARK · VALIDATION</div>
+  <h1>评分修复验证</h1>
+  <p class="subtitle">模型身份分组、O04 整体高度与必要过程对照。这里展示的是离线验证与已有记录重评分，不是新模型排行榜。</p>
+</header>
+<main>
+  <div id="loading" role="status">正在读取验证结果…</div>
+  <div id="content" hidden>
+    <div class="notice"><strong>旧版记录保留。</strong> 新评分是有明确适用范围的候选规则；形状对齐通过，不代表完整任务通过。原始失败和环境故障不会被覆盖。</div>
+    <section class="topstats" aria-label="验证摘要">
+      <div class="stat"><div class="label">对照测试</div><div class="value" id="testCount">—</div><small id="testCountNote">未提供</small></div>
+      <div class="stat"><div class="label">已有记录</div><div class="value" id="runCount">—</div><small>分别比较原判定与候选判定</small></div>
+      <div class="stat"><div class="label">本轮付费调用</div><div class="value" id="paidCalls">—</div><small>以验证报告为准</small></div>
+      <div class="stat"><div class="label">本轮新物理运行</div><div class="value" id="physicsRuns">—</div><small>离线评分不计作新仿真</small></div>
+    </section>
+
+    <section class="panel" id="geometryPanel" aria-labelledby="geometryTitle">
+      <div class="toolbar"><h2 id="geometryTitle">O04：高度差还是折叠形状差？</h2><label>记录<select id="runSelect" aria-label="选择已有记录"></select></label></div>
+      <div class="compare-status"><span>原记录</span><span id="oldStatus" class="badge">未提供</span><span class="arrow">→</span><span>候选规则</span><span id="candidateStatus" class="badge">未提供</span></div>
+      <div class="filter" style="margin-bottom:12px" aria-label="显示模式"><button class="active" data-view="both">并排对照</button><button data-view="raw">原姿态</button><button data-view="aligned">结构对齐</button></div>
+      <div class="views">
+        <div class="view" id="rawView"><h3 id="rawTitle">原记录坐标</h3><canvas id="rawCanvas" aria-label="原姿态三维网格，拖动旋转"></canvas><div class="empty" id="rawEmpty">未提供网格</div></div>
+        <div class="view" id="alignedView"><h3 id="alignedTitle">结构对齐</h3><canvas id="alignedCanvas" aria-label="结构对齐后的三维网格，拖动旋转"></canvas><div class="empty" id="alignedEmpty">未提供网格</div></div>
+      </div>
+      <div class="legend"><span><i class="swatch ref"></i>参考形状</span><span><i class="swatch actual"></i>实际形状</span><span>两幅视图共享视角；拖动旋转，滚轮缩放</span></div>
+      <div class="camera-controls"><button id="resetView">重置视角</button><label><input id="showReference" type="checkbox" checked>参考</label><label><input id="showActual" type="checkbox" checked>实际</label><label><input id="showEdges" type="checkbox">三角网格</label><label>不透明度<input id="opacity" type="range" min="0.15" max="1" step="0.05" value="0.65"></label></div>
+      <div class="timeline" id="timeline"><span>记录帧</span><input id="frameSlider" type="range" min="0" max="0" value="0"><span id="frameLabel">—</span><span class="muted">下方数值为终态</span></div>
+      <div class="metrics">
+        <div class="metric"><div class="name">原评分 RMS</div><div class="number" id="rmsBefore">—</div><div class="secondary" id="maxBefore">最大误差未提供</div></div>
+        <div class="metric"><div class="name">结构对齐 RMS</div><div class="number" id="rmsAfter">—</div><div class="secondary" id="maxAfter">最大误差未提供</div></div>
+        <div class="metric"><div class="name">整体高度偏移</div><div class="number" id="heightOffset">—</div><div class="secondary">仅移除允许的整体摆放差异</div></div>
+        <div class="metric"><div class="name">必要检查点</div><div class="number" id="pathCount">—</div><div class="secondary" id="pathStatus">未提供</div></div>
+      </div>
+      <div class="evaluation-parts" id="parts"></div>
+      <div class="reason" id="runReason">未提供评分说明。</div>
+      <div style="margin-top:19px">
+        <h3>检查点匹配：有没有重复使用同一帧？</h3>
+        <p class="small muted" id="checkpointSummary">未提供检查点记录。</p>
+        <div class="scroll"><table aria-label="新旧检查点匹配帧对照"><thead><tr><th>检查点</th><th>旧规则匹配帧</th><th>候选规则匹配帧</th><th>候选 RMS</th></tr></thead><tbody id="checkpointRows"></tbody></table></div>
+        <p class="small muted">帧号对照展示匹配位置；完整过程仍须满足状态变化、物理证据和任务合同。</p>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="identityTitle">
+      <h2 id="identityTitle">相同适配器，必须区分不同模型</h2>
+      <div class="identity-grid">
+        <div class="identity-block"><h3>修复前的分组</h3><span class="identity-num" id="groupsBefore">—</span><span class="muted">组</span><p class="small muted">使用同一适配器时，模型身份可能被合并。</p></div>
+        <div class="identity-block"><h3>修复后的分组</h3><span class="identity-num" id="groupsAfter">—</span><span class="muted">组</span><div class="chip-list" id="modelChips"></div></div>
+      </div>
+      <p class="status-line" id="identityNotes">未提供身份分组验证结果。</p>
+    </section>
+
+    <section class="panel" aria-labelledby="testsTitle">
+      <div class="toolbar"><h2 id="testsTitle">正负对照：该通过的通过，该拒绝的拒绝</h2><div class="filter" aria-label="测试筛选"><button class="active" data-filter="all">全部</button><button data-filter="failed">未达到预期</button><button data-filter="synthetic">合成对照</button><button data-filter="recorded">已有记录</button></div></div>
+      <p class="small muted" style="margin-bottom:10px">“验证通过”表示评分行为符合该对照的预期；负对照被拒绝，也属于验证通过。合成几何不代表已完成物理运动。</p>
+      <div class="scroll"><table><thead><tr><th>对照</th><th>类型</th><th>预期</th><th>实际</th><th>验证</th><th>说明</th></tr></thead><tbody id="testRows"></tbody></table></div>
+      <p class="status-line" id="testFilterCount"></p>
+    </section>
+    <section class="panel"><h2>规则与证据边界</h2><ul class="contract" id="contractNotes"></ul><p class="footer" id="provenance"></p><p class="footer"><a href="report.json">查看机器可读验证结果</a></p></section>
+  </div>
+</main>
+<script>
+(() => {
+  'use strict';
+  const $ = id => document.getElementById(id);
+  const text = (id, value) => { $(id).textContent = value ?? '未提供'; };
+  const finite = x => typeof x === 'number' && Number.isFinite(x);
+  const mm = x => finite(x) ? `${x.toFixed(3)} mm` : '未提供';
+  const string = x => x == null ? '未提供' : typeof x === 'object' ? JSON.stringify(x) : String(x);
+  let report, current, mesh, frameIndex = 0, filter = 'all', drag = null;
+  let camera = {yaw: .56, pitch: .72, zoom: 1};
+  let meshRequest = 0;
+  const labels = {passed_scoped:'通过（限定范围）',passed:'通过',not_passed:'未通过',environment_error:'环境故障',annotation_invalid:'标注／合同无效',contract_invalid:'合同无效',unscored:'未评分',true:'通过',false:'未通过'};
+  function badge(el, status) {
+    el.textContent = labels[String(status)] || string(status);
+    const pass = status === true || status === 'passed' || status === 'passed_scoped';
+    const fail = status === false || status === 'not_passed';
+    el.className = `badge ${pass ? 'pass' : fail ? 'fail' : 'warn'}`;
+  }
+  function addPart(label, value) {
+    const p = document.createElement('span');p.className='part';
+    p.append(document.createTextNode(label+' '));const b=document.createElement('span');badge(b,value);p.append(b);$('parts').append(p);
+  }
+  function checkpointTable() {
+    const before=current?.old_path, after=current?.path;
+    const oldMatches=Array.isArray(before?.matches)?before.matches:[];
+    const newMatches=Array.isArray(after?.matches)?after.matches:[];
+    const counts=matches=>{const result=new Map();for(const m of matches)if(finite(m.frame))result.set(m.frame,(result.get(m.frame)||0)+1);return result;};
+    const oldCounts=counts(oldMatches),newCounts=counts(newMatches);
+    const oldDuplicates=[...oldCounts.values()].filter(n=>n>1).length,newDuplicates=[...newCounts.values()].filter(n=>n>1).length;
+    text('checkpointSummary',before&&after?`旧规则有 ${oldDuplicates} 个帧号被重复使用；候选规则有 ${newDuplicates} 个。`:'未提供完整新旧匹配记录；只显示已有证据。');
+    $('checkpointRows').replaceChildren();
+    const length=Math.max(finite(before?.required)?before.required:0,finite(after?.required)?after.required:0,oldMatches.length,newMatches.length);
+    if(!length){const row=document.createElement('tr'),cell=document.createElement('td');cell.colSpan=4;cell.textContent='未提供检查点记录';row.append(cell);$('checkpointRows').append(row);return;}
+    for(let i=0;i<length;i++){
+      const row=document.createElement('tr'),label=document.createElement('td');label.textContent=`第 ${i+1} 个`;row.append(label);
+      for(const [match,available,map,isNew] of [[oldMatches[i],before,oldCounts,false],[newMatches[i],after,newCounts,true]]){
+        const cell=document.createElement('td');
+        if(finite(match?.frame)){cell.append(document.createTextNode(String(match.frame)+' '));const mark=document.createElement('span');const duplicate=map.get(match.frame)>1;mark.className='badge '+(duplicate?'warn':'');mark.textContent=duplicate?'同一帧复用':isNew?'独立帧':'单次匹配';cell.append(mark);}
+        else cell.textContent=available?'未匹配':'未提供';
+        row.append(cell);
+      }
+      const error=document.createElement('td');error.textContent=mm(newMatches[i]?.rms_mm);row.append(error);$('checkpointRows').append(row);
+    }
+  }
+  function loadTests() {
+    const tests = Array.isArray(report.tests) ? report.tests : [];
+    const rows = tests.filter(t => filter==='all' || filter==='failed' && t.passed!==true || filter==='synthetic' && String(t.kind).includes('synthetic') || filter==='recorded' && !String(t.kind).includes('synthetic'));
+    $('testRows').replaceChildren();
+    for (const t of rows) {
+      const tr=document.createElement('tr');
+      const values=[t.name,t.kind==='synthetic'?'合成对照':t.kind==='recorded'?'已有记录':t.kind,t.expected,t.actual,t.passed,t.detail];
+      values.forEach((value,i) => {const td=document.createElement('td');if(i===4){const b=document.createElement('span');badge(b,value);b.textContent=value===true?'符合预期':value===false?'未达预期':'待验证';td.append(b);}else td.textContent=string(value);if(i===5)td.className='detail';tr.append(td);});
+      $('testRows').append(tr);
+    }
+    text('testFilterCount',`显示 ${rows.length} / ${tests.length} 项对照`);
+  }
+  async function selectRun() {
+    const n = Number($('runSelect').value);current=report.runs?.[n];mesh=null;frameIndex=0;const request=++meshRequest;
+    if (!current) { draw();return; }
+    badge($('oldStatus'),current.old_status);badge($('candidateStatus'),current.candidate_status);
+    text('rmsBefore',mm(current.shape_before?.rms_mm));text('maxBefore','最大误差 '+mm(current.shape_before?.max_mm));
+    text('rmsAfter',mm(current.shape_after?.rms_mm));text('maxAfter','最大误差 '+mm(current.shape_after?.max_mm));text('heightOffset',mm(current.z_offset_mm));
+    const path=current.path;text('pathCount',path && finite(path.matched) && finite(path.required) ? `${path.matched} / ${path.required}` : '未提供');text('pathStatus',labels[String(path?.passed)] || path?.status || '未提供');
+    checkpointTable();
+    $('parts').replaceChildren();addPart('物理证据',current.physical_pass);addPart('折痕记忆',current.memory_pass);addPart('显式结束',current.finished);
+    text('runReason',current.note || current.reason || path?.reason || '此处为已有记录的离线重评分；原始报告保持不变。');
+    mesh=current.mesh || null;
+    if (mesh?.url) {
+      try {const response=await fetch(mesh.url);if(!response.ok)throw Error(`HTTP ${response.status}`);const loaded=await response.json();if(request!==meshRequest)return;mesh=loaded;}
+      catch(error){if(request===meshRequest){mesh=null;text('runReason','网格读取失败：'+error.message);}}
+    }
+    if(request!==meshRequest)return;
+    const frames=current.frames || mesh?.frames;const available=Array.isArray(frames)&&frames.length>0;
+    $('timeline').style.display=available?'flex':'none';if(available){frameIndex=frames.length-1;$('frameSlider').max=String(frameIndex);$('frameSlider').value=String(frameIndex);text('frameLabel',frames[frameIndex].label || `${frameIndex+1} / ${frames.length}`);}
+    text('rawTitle',mesh?.xy_aligned_vertices?'原评分姿态（XY 对齐）':'原记录坐标');text('alignedTitle',mesh?.aligned_vertices?'结构对齐（允许的整体摆放）':'仅校正整体高度');
+    draw();
+  }
+  function geometry(aligned) {
+    if (!mesh) return null;
+    const frames=current?.frames || mesh.frames;const frame=frames?.[frameIndex];
+    const raw=frame?.xy_aligned_vertices || frame?.vertices || mesh.xy_aligned_vertices || mesh.vertices;
+    const reference=frame?.reference_vertices || mesh.reference_vertices;
+    if (!Array.isArray(raw)||!Array.isArray(reference)||!raw.length||!reference.length) return null;
+    const multiplier=mesh.units==='mm'?1:1000;
+    let actual=raw;
+    if(aligned){
+      if(frame?.aligned_vertices || !frame && mesh.aligned_vertices) actual=frame?.aligned_vertices || mesh.aligned_vertices;
+      else if(finite(current.z_offset_mm)) actual=raw.map(v=>[v[0],v[1],v[2]-current.z_offset_mm/multiplier]);
+      else return null;
+    }
+    return {actual:actual.map(v=>v.map(x=>x*multiplier)),reference:reference.map(v=>v.map(x=>x*multiplier)),faces:mesh.faces || []};
+  }
+  function render(canvas, data, emptyId) {
+    const r=canvas.getBoundingClientRect();if(!r.width)return;const dpr=Math.min(window.devicePixelRatio||1,2);canvas.width=Math.round(r.width*dpr);canvas.height=Math.round(r.height*dpr);
+    const ctx=canvas.getContext('2d');ctx.scale(dpr,dpr);ctx.clearRect(0,0,r.width,r.height);$(emptyId).hidden=!!data;if(!data)return;
+    const all=data.reference.concat(data.actual);const min=[0,1,2].map(k=>Math.min(...all.map(v=>v[k]))),max=[0,1,2].map(k=>Math.max(...all.map(v=>v[k])));
+    const center=min.map((v,k)=>(v+max[k])/2);const span=Math.max(max[0]-min[0],max[1]-min[1],max[2]-min[2],1);const scale=Math.min(r.width,r.height)*.67/span*camera.zoom;
+    const cy=Math.cos(camera.yaw),sy=Math.sin(camera.yaw),cp=Math.cos(camera.pitch),sp=Math.sin(camera.pitch);
+    function project(v){const x=v[0]-center[0],y=v[1]-center[1],z=v[2]-center[2];const u=cy*x-sy*y,w=sy*x+cy*y;return [r.width/2+u*scale,r.height/2+(cp*w-sp*z)*scale,sp*w+cp*z];}
+    const surfaces=[];
+    function collect(vertices,color,show){if(!show)return;const pts=vertices.map(project);if(data.faces.length){for(const f of data.faces){if(f.length<3||f.some(i=>!pts[i]))continue;const ps=f.map(i=>pts[i]);surfaces.push({pts:ps,depth:ps.reduce((s,p)=>s+p[2],0)/ps.length,color});}}else{for(const p of pts)surfaces.push({pts:[p],depth:p[2],color});}}
+    collect(data.reference,'39,126,164',$('showReference').checked);collect(data.actual,'188,88,143',$('showActual').checked);surfaces.sort((a,b)=>a.depth-b.depth);
+    const opacity=Number($('opacity').value);for(const s of surfaces){ctx.beginPath();ctx.fillStyle=`rgba(${s.color},${opacity})`;if(s.pts.length===1){ctx.arc(s.pts[0][0],s.pts[0][1],2,0,Math.PI*2);ctx.fill();continue;}ctx.moveTo(s.pts[0][0],s.pts[0][1]);for(const p of s.pts.slice(1))ctx.lineTo(p[0],p[1]);ctx.closePath();ctx.fill();if($('showEdges').checked){ctx.strokeStyle=`rgba(${s.color},.5)`;ctx.lineWidth=.5;ctx.stroke();}}
+    const barMm=20,bar=barMm*scale;ctx.strokeStyle='#64778b';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(20,r.height-25);ctx.lineTo(20+bar,r.height-25);ctx.stroke();ctx.fillStyle='#56687b';ctx.font='12px system-ui';ctx.fillText(`${barMm} mm`,20,r.height-33);
+    ctx.fillText('中面三角网格 · mm',r.width-145,r.height-15);
+  }
+  function draw(){render($('rawCanvas'),geometry(false),'rawEmpty');render($('alignedCanvas'),geometry(true),'alignedEmpty');}
+  for(const id of ['rawCanvas','alignedCanvas']){
+    const canvas=$(id);canvas.addEventListener('pointerdown',e=>{drag={x:e.clientX,y:e.clientY};canvas.setPointerCapture(e.pointerId);});canvas.addEventListener('pointermove',e=>{if(!drag)return;camera.yaw+=(e.clientX-drag.x)*.009;camera.pitch=Math.max(-1.5,Math.min(1.5,camera.pitch+(e.clientY-drag.y)*.009));drag={x:e.clientX,y:e.clientY};draw();});for(const event of ['pointerup','pointercancel'])canvas.addEventListener(event,()=>{drag=null;});canvas.addEventListener('wheel',e=>{e.preventDefault();camera.zoom=Math.max(.4,Math.min(4,camera.zoom*Math.exp(-e.deltaY*.001)));draw();},{passive:false});
+  }
+  $('resetView').addEventListener('click',()=>{camera={yaw:.56,pitch:.72,zoom:1};draw();});for(const id of ['showReference','showActual','showEdges','opacity'])$(id).addEventListener('input',draw);
+  $('runSelect').addEventListener('change',selectRun);$('frameSlider').addEventListener('input',()=>{frameIndex=Number($('frameSlider').value);const frames=current.frames||mesh.frames;text('frameLabel',frames[frameIndex].label || `${frameIndex+1} / ${frames.length}`);draw();});
+  for(const button of document.querySelectorAll('[data-view]'))button.addEventListener('click',()=>{for(const b of document.querySelectorAll('[data-view]'))b.classList.toggle('active',b===button);$('rawView').classList.toggle('hidden',button.dataset.view==='aligned');$('alignedView').classList.toggle('hidden',button.dataset.view==='raw');$('geometryPanel').classList.toggle('single-view',button.dataset.view!=='both');draw();});
+  for(const button of document.querySelectorAll('[data-filter]'))button.addEventListener('click',()=>{filter=button.dataset.filter;for(const b of document.querySelectorAll('[data-filter]'))b.classList.toggle('active',b===button);loadTests();});
+  window.addEventListener('resize',draw);
+  async function init(){try{
+    const response=await fetch('report.json',{cache:'no-store'});if(!response.ok)throw Error(`report.json: HTTP ${response.status}`);report=await response.json();
+    if(!Array.isArray(report.tests)||!Array.isArray(report.runs))throw Error('报告缺少 tests 或 runs 数组');
+    $('loading').hidden=true;$('content').hidden=false;
+    text('testCount',`${report.tests.filter(t=>t.passed===true).length} / ${report.tests.length}`);text('testCountNote','符合预期 / 已列对照');text('runCount',report.runs.length);text('paidCalls',report.summary?.paid_calls);text('physicsRuns',report.summary?.new_physics_runs);
+    for(let i=0;i<report.runs.length;i++){const option=document.createElement('option');option.value=String(i);option.textContent=report.runs[i].label || report.runs[i].id || `记录 ${i+1}`;$('runSelect').append(option);}
+    $('runSelect').disabled=report.runs.length===0;
+    text('groupsBefore',report.identity?.before_groups);text('groupsAfter',report.identity?.after_groups);text('identityNotes',report.identity?.notes);
+    for(const model of report.identity?.models || []){const chip=document.createElement('span');chip.className='chip';chip.textContent=string(model);$('modelChips').append(chip);}
+    for(const note of report.contract_notes || []){const li=document.createElement('li');li.textContent=string(note);$('contractNotes').append(li);}
+    text('provenance',`版本：${string(report.version)} · 来源提交：${string(report.source_commit)} · 验证日期：${string(report.generated_at)}`);
+    loadTests();await selectRun();
+  }catch(error){$('loading').classList.add('error');$('loading').textContent='验证报告无法读取。请通过本地 HTTP 服务打开，并确保同目录存在 report.json。\n'+error.message;}}
+  init();
+})();
+</script>
+</body>
+</html>

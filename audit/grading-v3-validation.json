@@ -1,0 +1,2126 @@
+{
+  "grading_version": "structure-and-diagram-motion-v3-candidate1",
+  "controls": [
+    {
+      "name": "reference_path",
+      "scope": "synthetic_path_component",
+      "expected": true,
+      "actual": true,
+      "verified": true,
+      "old_actual": true,
+      "details": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 2,
+        "required": 2,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 2,
+            "rms_mm": 1.8397879283339828e-14,
+            "max_mm": 2.3848488515817685e-14
+          },
+          {
+            "checkpoint": 1,
+            "frame": 3,
+            "rms_mm": 1.8397879283339828e-14,
+            "max_mm": 2.3848488515817685e-14
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 10.000000000000002,
+            "max_mm": 20.000000000000004
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 16.000000000000004,
+            "max_mm": 32.00000000000001
+          }
+        ],
+        "fixed_initial_yaw_degrees": 1.0222553033338205e-15
+      }
+    },
+    {
+      "name": "global_yaw_xyz_and_height_drift",
+      "scope": "synthetic_path_component",
+      "expected": true,
+      "actual": true,
+      "verified": true,
+      "old_actual": false,
+      "details": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 2,
+        "required": 2,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 2,
+            "rms_mm": 3.142675531463723e-14,
+            "max_mm": 3.929062510380681e-14
+          },
+          {
+            "checkpoint": 1,
+            "frame": 3,
+            "rms_mm": 3.1873626176892186e-14,
+            "max_mm": 3.94053425015214e-14
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 10.000000000000002,
+            "max_mm": 20.000000000000004
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 16.000000000000004,
+            "max_mm": 32.00000000000001
+          }
+        ],
+        "fixed_initial_yaw_degrees": -90.0
+      }
+    },
+    {
+      "name": "extra_samples_valid_decomposition",
+      "scope": "synthetic_path_component",
+      "expected": true,
+      "actual": true,
+      "verified": true,
+      "old_actual": true,
+      "details": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 2,
+        "required": 2,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 6,
+            "rms_mm": 1.8397879283339828e-14,
+            "max_mm": 2.3848488515817685e-14
+          },
+          {
+            "checkpoint": 1,
+            "frame": 9,
+            "rms_mm": 1.8397879283339828e-14,
+            "max_mm": 2.3848488515817685e-14
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 10.000000000000002,
+            "max_mm": 20.000000000000004
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 16.000000000000004,
+            "max_mm": 32.00000000000001
+          }
+        ],
+        "fixed_initial_yaw_degrees": 1.0222553033338205e-15
+      }
+    },
+    {
+      "name": "no_motion_static_padding",
+      "scope": "synthetic_path_component",
+      "expected": false,
+      "actual": false,
+      "verified": true,
+      "old_actual": false,
+      "details": {
+        "passed": false,
+        "contract_valid": true,
+        "reason": "required_state_not_reached_in_order",
+        "matched": 0,
+        "required": 2,
+        "matches": [],
+        "next_best": {
+          "checkpoint": 0,
+          "frame": 1,
+          "rms_mm": 10.000000000000002,
+          "max_mm": 20.000000000000004
+        },
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 10.000000000000002,
+            "max_mm": 20.000000000000004
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 16.000000000000004,
+            "max_mm": 32.00000000000001
+          }
+        ],
+        "fixed_initial_yaw_degrees": 1.0222553033338205e-15
+      }
+    },
+    {
+      "name": "skip_required_state",
+      "scope": "synthetic_path_component",
+      "expected": false,
+      "actual": false,
+      "verified": true,
+      "old_actual": false,
+      "details": {
+        "passed": false,
+        "contract_valid": true,
+        "reason": "required_state_not_reached_in_order",
+        "matched": 0,
+        "required": 2,
+        "matches": [],
+        "next_best": {
+          "checkpoint": 0,
+          "frame": 1,
+          "rms_mm": 16.000000000000004,
+          "max_mm": 32.00000000000001
+        },
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 10.000000000000002,
+            "max_mm": 20.000000000000004
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 16.000000000000004,
+            "max_mm": 32.00000000000001
+          }
+        ],
+        "fixed_initial_yaw_degrees": 1.0222553033338205e-15
+      }
+    },
+    {
+      "name": "reverse_state_order",
+      "scope": "synthetic_path_component",
+      "expected": false,
+      "actual": false,
+      "verified": true,
+      "old_actual": false,
+      "details": {
+        "passed": false,
+        "contract_valid": true,
+        "reason": "required_state_not_reached_in_order",
+        "matched": 1,
+        "required": 2,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 2,
+            "rms_mm": 1.8397879283339828e-14,
+            "max_mm": 2.3848488515817685e-14
+          }
+        ],
+        "next_best": null,
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 10.000000000000002,
+            "max_mm": 20.000000000000004
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 16.000000000000004,
+            "max_mm": 32.00000000000001
+          }
+        ],
+        "fixed_initial_yaw_degrees": 1.0222553033338205e-15
+      }
+    },
+    {
+      "name": "four_duplicate_checkpoints",
+      "scope": "synthetic_path_component",
+      "expected": false,
+      "actual": false,
+      "verified": true,
+      "old_actual": true,
+      "details": {
+        "passed": false,
+        "contract_valid": false,
+        "reason": "ambiguous_checkpoint_transition",
+        "ambiguous_checkpoint": 1,
+        "matched": 0,
+        "required": 4,
+        "matches": [],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 10.000000000000002,
+            "max_mm": 20.000000000000004
+          },
+          {
+            "checkpoint": 1,
+            "distinct": false,
+            "rms_mm": 0.0,
+            "max_mm": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "near_checkpoints_with_padded_frames",
+      "scope": "synthetic_path_component",
+      "expected": false,
+      "actual": false,
+      "verified": true,
+      "old_actual": true,
+      "details": {
+        "passed": false,
+        "contract_valid": false,
+        "reason": "ambiguous_checkpoint_transition",
+        "ambiguous_checkpoint": 1,
+        "matched": 0,
+        "required": 4,
+        "matches": [],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 10.000000000000002,
+            "max_mm": 20.000000000000004
+          },
+          {
+            "checkpoint": 1,
+            "distinct": false,
+            "rms_mm": 0.03999999999999941,
+            "max_mm": 0.07999999999999674
+          }
+        ]
+      }
+    },
+    {
+      "name": "required_paper_rotation_present",
+      "scope": "synthetic_path_component",
+      "expected": true,
+      "actual": true,
+      "verified": true,
+      "old_actual": true,
+      "details": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 2,
+        "required": 2,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 1,
+            "rms_mm": 1.8397879283339828e-14,
+            "max_mm": 2.3848488515817685e-14
+          },
+          {
+            "checkpoint": 1,
+            "frame": 2,
+            "rms_mm": 1.8551487758630993e-14,
+            "max_mm": 2.4135131204679735e-14
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 10.000000000000002,
+            "max_mm": 20.000000000000004
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 69.05070600652827,
+            "max_mm": 89.8443097808648
+          }
+        ],
+        "fixed_initial_yaw_degrees": 1.0222553033338205e-15
+      }
+    },
+    {
+      "name": "required_paper_rotation_omitted",
+      "scope": "synthetic_path_component",
+      "expected": false,
+      "actual": false,
+      "verified": true,
+      "old_actual": true,
+      "details": {
+        "passed": false,
+        "contract_valid": true,
+        "reason": "required_state_not_reached_in_order",
+        "matched": 1,
+        "required": 2,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 1,
+            "rms_mm": 1.8397879283339828e-14,
+            "max_mm": 2.3848488515817685e-14
+          }
+        ],
+        "next_best": {
+          "checkpoint": 1,
+          "frame": 2,
+          "rms_mm": 69.05070600652826,
+          "max_mm": 89.8443097808648
+        },
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 10.000000000000002,
+            "max_mm": 20.000000000000004
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 69.05070600652827,
+            "max_mm": 89.8443097808648
+          }
+        ],
+        "fixed_initial_yaw_degrees": 1.0222553033338205e-15
+      }
+    },
+    {
+      "name": "mirror_material",
+      "scope": "synthetic_shape_component",
+      "expected": false,
+      "actual": false,
+      "verified": true,
+      "details": {
+        "rms_mm": 53.1030921823887,
+        "max_mm": 70.46182198309701,
+        "passed": false,
+        "placement_offset_mm": [
+          8.748548004628597,
+          69.91660221283901,
+          0.0
+        ],
+        "yaw_degrees": 165.7354877019201,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      }
+    },
+    {
+      "name": "wrong_mountain_valley",
+      "scope": "synthetic_shape_component",
+      "expected": false,
+      "actual": false,
+      "verified": true,
+      "details": {
+        "rms_mm": 68.2934843158555,
+        "max_mm": 116.0,
+        "passed": false,
+        "placement_offset_mm": [
+          2.0816681711721685e-14,
+          1.0408340855860843e-14,
+          44.0
+        ],
+        "yaw_degrees": 1.0222553033338205e-15,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      }
+    },
+    {
+      "name": "wrong_turnover",
+      "scope": "synthetic_shape_component",
+      "expected": false,
+      "actual": false,
+      "verified": true,
+      "details": {
+        "rms_mm": 86.50975898319953,
+        "max_mm": 116.00425253845225,
+        "passed": false,
+        "placement_offset_mm": [
+          8.748548004628597,
+          69.91660221283901,
+          44.0
+        ],
+        "yaw_degrees": 165.7354877019201,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      }
+    },
+    {
+      "name": "scaled_paper",
+      "scope": "synthetic_shape_component",
+      "expected": false,
+      "actual": false,
+      "verified": true,
+      "details": {
+        "rms_mm": 11.916375287812974,
+        "max_mm": 12.969194269498765,
+        "passed": false,
+        "placement_offset_mm": [
+          -8.799999999999988,
+          -5.999999999999991,
+          -4.400000000000001
+        ],
+        "yaw_degrees": 2.0865875133875938e-16,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      }
+    },
+    {
+      "name": "all_evidence_present",
+      "scope": "evidence_conjunction",
+      "expected": true,
+      "actual": true,
+      "verified": true
+    },
+    {
+      "name": "missing_finish",
+      "scope": "evidence_conjunction",
+      "expected": false,
+      "actual": false,
+      "verified": true
+    },
+    {
+      "name": "unknown_physics",
+      "scope": "evidence_conjunction",
+      "expected": false,
+      "actual": false,
+      "verified": true
+    },
+    {
+      "name": "failed_physics",
+      "scope": "evidence_conjunction",
+      "expected": false,
+      "actual": false,
+      "verified": true
+    },
+    {
+      "name": "missing_signed_crease_memory",
+      "scope": "evidence_conjunction",
+      "expected": false,
+      "actual": false,
+      "verified": true
+    },
+    {
+      "name": "environment_fault",
+      "scope": "evidence_conjunction",
+      "expected": false,
+      "actual": false,
+      "verified": true
+    },
+    {
+      "name": "empty_path",
+      "scope": "input_validation",
+      "expected": "ValueError",
+      "actual": "ValueError",
+      "verified": true
+    },
+    {
+      "name": "empty_targets",
+      "scope": "input_validation",
+      "expected": "ValueError",
+      "actual": "ValueError",
+      "verified": true
+    },
+    {
+      "name": "nan_geometry",
+      "scope": "input_validation",
+      "expected": "ValueError",
+      "actual": "ValueError",
+      "verified": true
+    },
+    {
+      "name": "nan_compression",
+      "scope": "physical_evidence_validation",
+      "expected": false,
+      "actual": false,
+      "verified": true
+    },
+    {
+      "name": "missing_compression",
+      "scope": "physical_evidence_validation",
+      "expected": false,
+      "actual": false,
+      "verified": true
+    },
+    {
+      "name": "strain_at_limit",
+      "scope": "physical_evidence_validation",
+      "expected": false,
+      "actual": false,
+      "verified": true
+    }
+  ],
+  "control_count": 26,
+  "controls_verified": 26,
+  "archived_runs": [
+    {
+      "task_id": "O01",
+      "grading_version": "structure-and-diagram-motion-v3-candidate1",
+      "mode": "candidate_evidence_rescore_not_new_simulation",
+      "score_eligible": false,
+      "task_success": true,
+      "structure_success": true,
+      "shape": {
+        "rms_mm": 0.12047459451296286,
+        "max_mm": 0.31607870353647044,
+        "passed": true,
+        "placement_offset_mm": [
+          0.0013717163066882911,
+          0.00840571302473947,
+          -0.04203666335476936
+        ],
+        "yaw_degrees": -0.002268369855541172,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 4,
+        "required": 4,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 711,
+            "rms_mm": 0.5990939548459534,
+            "max_mm": 2.757093894450233
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1071,
+            "rms_mm": 0.62392256992644,
+            "max_mm": 2.861489896378905
+          },
+          {
+            "checkpoint": 2,
+            "frame": 1251,
+            "rms_mm": 0.576687455433938,
+            "max_mm": 2.7074567624833143
+          },
+          {
+            "checkpoint": 3,
+            "frame": 1430,
+            "rms_mm": 0.6282952584810443,
+            "max_mm": 2.9662238565373786
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 15.257457930061104,
+            "max_mm": 71.43535048102308
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.257221166764573,
+            "max_mm": 71.435168434217
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 10.788651966014672,
+            "max_mm": 50.51242074156917
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 10.788651966014672,
+            "max_mm": 50.512420741569095
+          }
+        ],
+        "fixed_initial_yaw_degrees": 2.2890313693208466e-05
+      },
+      "finished": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "environment_error": false,
+      "recorded_task_success": true,
+      "recorded_status": "passed_scoped",
+      "legacy_recomputed_task_success": true,
+      "legacy_shape": {
+        "rms_mm": 0.12759784084797446,
+        "max_mm": 0.3576258985386725,
+        "raw_rms_mm": 0.12789166549891612,
+        "rotation_degrees": -0.002268369855541172,
+        "xy_translation_mm": [
+          0.0013717163066878243,
+          0.008405713024701306
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "legacy_diagram_path": {
+        "passed": true,
+        "matched": 4,
+        "required": 4,
+        "matches": [
+          {
+            "frame": 711,
+            "rms_mm": 0.6276502248941105,
+            "max_mm": 2.944163755247127
+          },
+          {
+            "frame": 1071,
+            "rms_mm": 0.6294350995983484,
+            "max_mm": 2.944544366636935
+          },
+          {
+            "frame": 1251,
+            "rms_mm": 0.5788840450595049,
+            "max_mm": 2.705130142632261
+          },
+          {
+            "frame": 1431,
+            "rms_mm": 0.5922455517895152,
+            "max_mm": 2.8387102417157086
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "scope": "XYZ placement-invariant structural shape plus required relative board motions. Same labelled vertices, crease memory and recorded physical gates. No re-simulation or real-world certification.",
+      "run": "final-O01",
+      "evidence": "examples/reference-evidence-v2/followup/final-O01"
+    },
+    {
+      "task_id": "O02",
+      "grading_version": "structure-and-diagram-motion-v3-candidate1",
+      "mode": "candidate_evidence_rescore_not_new_simulation",
+      "score_eligible": false,
+      "task_success": true,
+      "structure_success": true,
+      "shape": {
+        "rms_mm": 0.18200292874607768,
+        "max_mm": 0.48336250370461037,
+        "passed": true,
+        "placement_offset_mm": [
+          0.04687346748090751,
+          0.000337324067459541,
+          -0.0600941197840868
+        ],
+        "yaw_degrees": -0.0006315899729149582,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 6,
+        "required": 6,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 1070,
+            "rms_mm": 0.8698599868282656,
+            "max_mm": 2.8850362661098266
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1431,
+            "rms_mm": 0.6553372021375186,
+            "max_mm": 2.8438344039565124
+          },
+          {
+            "checkpoint": 2,
+            "frame": 1791,
+            "rms_mm": 0.6620109156414361,
+            "max_mm": 2.9410976731693137
+          },
+          {
+            "checkpoint": 3,
+            "frame": 1971,
+            "rms_mm": 0.5921191700542467,
+            "max_mm": 2.697786986658326
+          },
+          {
+            "checkpoint": 4,
+            "frame": 2158,
+            "rms_mm": 0.9127470882642117,
+            "max_mm": 1.811811327229181
+          },
+          {
+            "checkpoint": 5,
+            "frame": 2331,
+            "rms_mm": 0.6353390511014647,
+            "max_mm": 2.8686265142290677
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 20.982394692930704,
+            "max_mm": 67.87292454865137
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.267043956516888,
+            "max_mm": 71.46943465876278
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 15.258818703432299,
+            "max_mm": 71.43848759837249
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 10.795430310326191,
+            "max_mm": 50.536521894780044
+          },
+          {
+            "checkpoint": 4,
+            "distinct": true,
+            "rms_mm": 72.64979229691384,
+            "max_mm": 111.52891898353103
+          },
+          {
+            "checkpoint": 5,
+            "distinct": true,
+            "rms_mm": 10.789614178093101,
+            "max_mm": 50.51463901852026
+          }
+        ],
+        "fixed_initial_yaw_degrees": 0.00019866027203332086
+      },
+      "finished": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "environment_error": false,
+      "recorded_task_success": true,
+      "recorded_status": "passed_scoped",
+      "legacy_recomputed_task_success": true,
+      "legacy_shape": {
+        "rms_mm": 0.1916673402141707,
+        "max_mm": 0.5034475316883291,
+        "raw_rms_mm": 0.19731652751357934,
+        "rotation_degrees": -0.0006315899729149582,
+        "xy_translation_mm": [
+          0.04687346748091445,
+          0.0003373240674602057
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "legacy_diagram_path": {
+        "passed": true,
+        "matched": 6,
+        "required": 6,
+        "matches": [
+          {
+            "frame": 1071,
+            "rms_mm": 0.8461148010191321,
+            "max_mm": 2.9183241318588213
+          },
+          {
+            "frame": 1432,
+            "rms_mm": 0.6396574193857958,
+            "max_mm": 2.766489704877488
+          },
+          {
+            "frame": 1791,
+            "rms_mm": 0.6622542537494409,
+            "max_mm": 2.9231322970470717
+          },
+          {
+            "frame": 1971,
+            "rms_mm": 0.5978466594074177,
+            "max_mm": 2.6925820385355546
+          },
+          {
+            "frame": 1971,
+            "rms_mm": 0.5978466594074177,
+            "max_mm": 2.6925820385355403
+          },
+          {
+            "frame": 2331,
+            "rms_mm": 0.6384478440394941,
+            "max_mm": 2.8711862905088803
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "scope": "XYZ placement-invariant structural shape plus required relative board motions. Same labelled vertices, crease memory and recorded physical gates. No re-simulation or real-world certification.",
+      "run": "O02",
+      "evidence": "examples/reference-evidence-v2/sweep/O02"
+    },
+    {
+      "task_id": "O03",
+      "grading_version": "structure-and-diagram-motion-v3-candidate1",
+      "mode": "candidate_evidence_rescore_not_new_simulation",
+      "score_eligible": false,
+      "task_success": true,
+      "structure_success": true,
+      "shape": {
+        "rms_mm": 0.4722863067836226,
+        "max_mm": 1.1074749591044977,
+        "passed": true,
+        "placement_offset_mm": [
+          0.0005991264100391192,
+          -0.20779674428749936,
+          0.18447497844748365
+        ],
+        "yaw_degrees": -0.0009413304511652807,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 6,
+        "required": 6,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 1430,
+            "rms_mm": 0.6286937776822411,
+            "max_mm": 2.968228510610542
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1791,
+            "rms_mm": 0.6195033497784619,
+            "max_mm": 2.8452086119711946
+          },
+          {
+            "checkpoint": 2,
+            "frame": 2155,
+            "rms_mm": 0.9546224301369942,
+            "max_mm": 2.8004331611659388
+          },
+          {
+            "checkpoint": 3,
+            "frame": 2619,
+            "rms_mm": 0.9372674957788145,
+            "max_mm": 2.7735200013452572
+          },
+          {
+            "checkpoint": 4,
+            "frame": 2976,
+            "rms_mm": 0.9867400115756406,
+            "max_mm": 2.4391368768645627
+          },
+          {
+            "checkpoint": 5,
+            "frame": 3155,
+            "rms_mm": 0.9210003121674661,
+            "max_mm": 2.5625974726832013
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 15.257457930061106,
+            "max_mm": 71.4353504810231
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.257221166764577,
+            "max_mm": 71.435168434217
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 42.58788045250283,
+            "max_mm": 120.34791161406862
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 42.58787268269433,
+            "max_mm": 120.34791784720117
+          },
+          {
+            "checkpoint": 4,
+            "distinct": true,
+            "rms_mm": 20.983414692976748,
+            "max_mm": 67.87397453952624
+          },
+          {
+            "checkpoint": 5,
+            "distinct": true,
+            "rms_mm": 14.837514821853297,
+            "max_mm": 47.994147662982094
+          }
+        ],
+        "fixed_initial_yaw_degrees": 0.0002618427049129283
+      },
+      "finished": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "environment_error": false,
+      "recorded_task_success": true,
+      "recorded_status": "passed_scoped",
+      "legacy_recomputed_task_success": true,
+      "legacy_shape": {
+        "rms_mm": 0.5070358697848836,
+        "max_mm": 1.2323537884251863,
+        "raw_rms_mm": 0.5479649557934426,
+        "rotation_degrees": -0.0009413304511652807,
+        "xy_translation_mm": [
+          0.0005991264100386951,
+          -0.20779674428751324
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "legacy_diagram_path": {
+        "passed": true,
+        "matched": 6,
+        "required": 6,
+        "matches": [
+          {
+            "frame": 1431,
+            "rms_mm": 0.5920868881325966,
+            "max_mm": 2.838952050026196
+          },
+          {
+            "frame": 1791,
+            "rms_mm": 0.6274499716328549,
+            "max_mm": 2.9446753243908006
+          },
+          {
+            "frame": 2156,
+            "rms_mm": 0.9325879843574258,
+            "max_mm": 2.803055458842531
+          },
+          {
+            "frame": 2620,
+            "rms_mm": 0.933989778676153,
+            "max_mm": 2.802218142958358
+          },
+          {
+            "frame": 2976,
+            "rms_mm": 0.9973963778568012,
+            "max_mm": 2.582677539833091
+          },
+          {
+            "frame": 3155,
+            "rms_mm": 0.9378583926625281,
+            "max_mm": 2.543021342078068
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "scope": "XYZ placement-invariant structural shape plus required relative board motions. Same labelled vertices, crease memory and recorded physical gates. No re-simulation or real-world certification.",
+      "run": "O03",
+      "evidence": "examples/reference-evidence-v2/sweep/O03"
+    },
+    {
+      "task_id": "L01",
+      "grading_version": "structure-and-diagram-motion-v3-candidate1",
+      "mode": "candidate_evidence_rescore_not_new_simulation",
+      "score_eligible": false,
+      "task_success": true,
+      "structure_success": true,
+      "shape": {
+        "rms_mm": 0.10948031261360477,
+        "max_mm": 0.4999584512689751,
+        "passed": true,
+        "placement_offset_mm": [
+          0.0018271082293447713,
+          -0.009408767707143328,
+          -0.005264809707835282
+        ],
+        "yaw_degrees": 0.0046409016013922045,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 4,
+        "required": 4,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 1483,
+            "rms_mm": 0.4948483548560278,
+            "max_mm": 2.9702957251358897
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1844,
+            "rms_mm": 0.4733199096988403,
+            "max_mm": 2.9697543552207493
+          },
+          {
+            "checkpoint": 2,
+            "frame": 2190,
+            "rms_mm": 0.2943110977384011,
+            "max_mm": 2.9148996180296645
+          },
+          {
+            "checkpoint": 3,
+            "frame": 2552,
+            "rms_mm": 0.6610379808686051,
+            "max_mm": 2.9635736680009477
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 8.22286526141984,
+            "max_mm": 50.7443947214997
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 8.22286526141984,
+            "max_mm": 50.7443947214997
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 2.58484542680125,
+            "max_mm": 26.225870981165357
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 6.074334279645741,
+            "max_mm": 24.854350675013038
+          }
+        ],
+        "fixed_initial_yaw_degrees": -0.000534466173571176
+      },
+      "finished": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "environment_error": false,
+      "recorded_task_success": true,
+      "recorded_status": "passed_scoped",
+      "legacy_recomputed_task_success": true,
+      "legacy_shape": {
+        "rms_mm": 0.1096068294917445,
+        "max_mm": 0.4948227646073892,
+        "raw_rms_mm": 0.11015044467005691,
+        "rotation_degrees": 0.0046409016013922045,
+        "xy_translation_mm": [
+          0.0018271082293445332,
+          -0.009408767707157206
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "legacy_diagram_path": {
+        "passed": true,
+        "matched": 4,
+        "required": 4,
+        "matches": [
+          {
+            "frame": 1484,
+            "rms_mm": 0.4796441746170347,
+            "max_mm": 2.8870422144579932
+          },
+          {
+            "frame": 1845,
+            "rms_mm": 0.45633386995621145,
+            "max_mm": 2.8773157404562837
+          },
+          {
+            "frame": 2190,
+            "rms_mm": 0.2976038739405362,
+            "max_mm": 2.9587279325527978
+          },
+          {
+            "frame": 2554,
+            "rms_mm": 0.6323267917986068,
+            "max_mm": 2.9177399719184733
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "scope": "XYZ placement-invariant structural shape plus required relative board motions. Same labelled vertices, crease memory and recorded physical gates. No re-simulation or real-world certification.",
+      "run": "L01-longpath",
+      "evidence": "examples/reference-evidence-v2/followup/L01-longpath"
+    },
+    {
+      "task_id": "O04",
+      "grading_version": "structure-and-diagram-motion-v3-candidate1",
+      "mode": "candidate_evidence_rescore_not_new_simulation",
+      "score_eligible": false,
+      "task_success": false,
+      "structure_success": false,
+      "shape": {
+        "rms_mm": 34.27313446572878,
+        "max_mm": 48.554234351281025,
+        "passed": false,
+        "placement_offset_mm": [
+          0.00034440461031983436,
+          -48.647380158660596,
+          3.266411634496612
+        ],
+        "yaw_degrees": -179.99932485981077,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": false,
+        "contract_valid": true,
+        "reason": "required_state_not_reached_in_order",
+        "matched": 0,
+        "required": 8,
+        "matches": [],
+        "next_best": null,
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 20.982394692930704,
+            "max_mm": 67.87292454865137
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.266928022485562,
+            "max_mm": 71.46868867475048
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 15.258866308864873,
+            "max_mm": 71.4387423210161
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 72.77482640546948,
+            "max_mm": 110.75764493106601
+          },
+          {
+            "checkpoint": 4,
+            "distinct": true,
+            "rms_mm": 10.795348332586471,
+            "max_mm": 50.53599440442628
+          },
+          {
+            "checkpoint": 5,
+            "distinct": true,
+            "rms_mm": 37.71274275854063,
+            "max_mm": 77.3689728851382
+          },
+          {
+            "checkpoint": 6,
+            "distinct": true,
+            "rms_mm": 10.789647840217297,
+            "max_mm": 50.51481913462887
+          },
+          {
+            "checkpoint": 7,
+            "distinct": true,
+            "rms_mm": 72.42285291229247,
+            "max_mm": 112.35910029619043
+          }
+        ],
+        "fixed_initial_yaw_degrees": 0.00019866027203332086
+      },
+      "finished": false,
+      "physical_pass": true,
+      "memory_pass": false,
+      "environment_error": true,
+      "recorded_task_success": false,
+      "recorded_status": "environment_error",
+      "legacy_recomputed_task_success": false,
+      "legacy_shape": {
+        "rms_mm": 34.42843579182622,
+        "max_mm": 48.66040699583147,
+        "raw_rms_mm": 98.16452179707925,
+        "rotation_degrees": -179.99932485981077,
+        "xy_translation_mm": [
+          0.00034440461031982726,
+          -48.647380158660596
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "legacy_diagram_path": {
+        "passed": false,
+        "matched": 0,
+        "required": 8,
+        "matches": [],
+        "next_best": {
+          "frame": 720,
+          "rms_mm": 20.959999604179316,
+          "max_mm": 67.81575489274803
+        },
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "scope": "XYZ placement-invariant structural shape plus required relative board motions. Same labelled vertices, crease memory and recorded physical gates. No re-simulation or real-world certification.",
+      "run": "model-claude-opus-5-5-O04-01",
+      "evidence": "examples/grading-evidence-v3/model-claude-opus-5-5-O04-01"
+    },
+    {
+      "task_id": "O04",
+      "grading_version": "structure-and-diagram-motion-v3-candidate1",
+      "mode": "candidate_evidence_rescore_not_new_simulation",
+      "score_eligible": false,
+      "task_success": true,
+      "structure_success": true,
+      "shape": {
+        "rms_mm": 0.18244120829631857,
+        "max_mm": 0.49523191299476244,
+        "passed": true,
+        "placement_offset_mm": [
+          -0.0005945224406820643,
+          -0.04746522352054583,
+          0.06070594390857531
+        ],
+        "yaw_degrees": 0.001074922226382717,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 8,
+        "required": 8,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 1070,
+            "rms_mm": 0.8698599868282656,
+            "max_mm": 2.8850362661098266
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1431,
+            "rms_mm": 0.65695296664659,
+            "max_mm": 2.842451209007349
+          },
+          {
+            "checkpoint": 2,
+            "frame": 1791,
+            "rms_mm": 0.6638607816331445,
+            "max_mm": 2.9425767358595905
+          },
+          {
+            "checkpoint": 3,
+            "frame": 1978,
+            "rms_mm": 0.9331193981531977,
+            "max_mm": 1.9922690817029365
+          },
+          {
+            "checkpoint": 4,
+            "frame": 2151,
+            "rms_mm": 0.5922714746342252,
+            "max_mm": 2.696594324819358
+          },
+          {
+            "checkpoint": 5,
+            "frame": 2514,
+            "rms_mm": 0.9369212090279923,
+            "max_mm": 1.872579781937007
+          },
+          {
+            "checkpoint": 6,
+            "frame": 2691,
+            "rms_mm": 0.6350710419459558,
+            "max_mm": 2.868427683192028
+          },
+          {
+            "checkpoint": 7,
+            "frame": 2878,
+            "rms_mm": 0.9128399311243052,
+            "max_mm": 1.801272758014286
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 20.982394692930704,
+            "max_mm": 67.87292454865137
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.266928022485562,
+            "max_mm": 71.46868867475048
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 15.258866308864873,
+            "max_mm": 71.4387423210161
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 72.77482640546948,
+            "max_mm": 110.75764493106601
+          },
+          {
+            "checkpoint": 4,
+            "distinct": true,
+            "rms_mm": 10.795348332586471,
+            "max_mm": 50.53599440442628
+          },
+          {
+            "checkpoint": 5,
+            "distinct": true,
+            "rms_mm": 37.71274275854063,
+            "max_mm": 77.3689728851382
+          },
+          {
+            "checkpoint": 6,
+            "distinct": true,
+            "rms_mm": 10.789647840217297,
+            "max_mm": 50.51481913462887
+          },
+          {
+            "checkpoint": 7,
+            "distinct": true,
+            "rms_mm": 72.42285291229247,
+            "max_mm": 112.35910029619043
+          }
+        ],
+        "fixed_initial_yaw_degrees": 0.00019866027203332086
+      },
+      "finished": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "environment_error": false,
+      "recorded_task_success": true,
+      "recorded_status": "passed_scoped",
+      "legacy_recomputed_task_success": true,
+      "legacy_shape": {
+        "rms_mm": 0.1922758594063495,
+        "max_mm": 0.5160117280634607,
+        "raw_rms_mm": 0.19805021162232206,
+        "rotation_degrees": 0.001074922226382717,
+        "xy_translation_mm": [
+          -0.0005945224406816646,
+          -0.04746522352053195
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "legacy_diagram_path": {
+        "passed": true,
+        "matched": 8,
+        "required": 8,
+        "matches": [
+          {
+            "frame": 1071,
+            "rms_mm": 0.8461148010191321,
+            "max_mm": 2.9183241318588213
+          },
+          {
+            "frame": 1432,
+            "rms_mm": 0.6419115541329244,
+            "max_mm": 2.7666869564210286
+          },
+          {
+            "frame": 1791,
+            "rms_mm": 0.6641556539898841,
+            "max_mm": 2.922778339186343
+          },
+          {
+            "frame": 1791,
+            "rms_mm": 0.664155653989885,
+            "max_mm": 2.9227783391863444
+          },
+          {
+            "frame": 2151,
+            "rms_mm": 0.5979256044077482,
+            "max_mm": 2.691470000890669
+          },
+          {
+            "frame": 2517,
+            "rms_mm": 0.8506963594052824,
+            "max_mm": 1.2724334531417736
+          },
+          {
+            "frame": 2691,
+            "rms_mm": 0.638060295657126,
+            "max_mm": 2.870544674057868
+          },
+          {
+            "frame": 2691,
+            "rms_mm": 0.6380602956571269,
+            "max_mm": 2.8705446740578817
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "scope": "XYZ placement-invariant structural shape plus required relative board motions. Same labelled vertices, crease memory and recorded physical gates. No re-simulation or real-world certification.",
+      "run": "model-gemini-4-argon-O04-02",
+      "evidence": "examples/grading-evidence-v3/model-gemini-4-argon-O04-02"
+    },
+    {
+      "task_id": "O04",
+      "grading_version": "structure-and-diagram-motion-v3-candidate1",
+      "mode": "candidate_evidence_rescore_not_new_simulation",
+      "score_eligible": false,
+      "task_success": false,
+      "structure_success": true,
+      "shape": {
+        "rms_mm": 0.18206463630884273,
+        "max_mm": 0.4878575760771262,
+        "passed": true,
+        "placement_offset_mm": [
+          -0.0004708231355440918,
+          -0.047334951532269215,
+          6.826906383541622
+        ],
+        "yaw_degrees": 0.0009707395327688584,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": false,
+        "contract_valid": true,
+        "reason": "required_state_not_reached_in_order",
+        "matched": 4,
+        "required": 8,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 1070,
+            "rms_mm": 0.8698599868282656,
+            "max_mm": 2.8850362661098266
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1431,
+            "rms_mm": 0.65695296664659,
+            "max_mm": 2.842451209007349
+          },
+          {
+            "checkpoint": 2,
+            "frame": 1791,
+            "rms_mm": 0.6638607816331445,
+            "max_mm": 2.9425767358595905
+          },
+          {
+            "checkpoint": 3,
+            "frame": 1978,
+            "rms_mm": 0.9331193981531977,
+            "max_mm": 1.9922690817029365
+          }
+        ],
+        "next_best": {
+          "checkpoint": 4,
+          "frame": 1985,
+          "rms_mm": 10.783529726960701,
+          "max_mm": 50.46969664298513
+        },
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 20.982394692930704,
+            "max_mm": 67.87292454865137
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.266928022485562,
+            "max_mm": 71.46868867475048
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 15.258866308864873,
+            "max_mm": 71.4387423210161
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 72.77482640546948,
+            "max_mm": 110.75764493106601
+          },
+          {
+            "checkpoint": 4,
+            "distinct": true,
+            "rms_mm": 10.795348332586471,
+            "max_mm": 50.53599440442628
+          },
+          {
+            "checkpoint": 5,
+            "distinct": true,
+            "rms_mm": 37.71274275854063,
+            "max_mm": 77.3689728851382
+          },
+          {
+            "checkpoint": 6,
+            "distinct": true,
+            "rms_mm": 10.789647840217297,
+            "max_mm": 50.51481913462887
+          },
+          {
+            "checkpoint": 7,
+            "distinct": true,
+            "rms_mm": 72.42285291229247,
+            "max_mm": 112.35910029619043
+          }
+        ],
+        "fixed_initial_yaw_degrees": 0.00019866027203332086
+      },
+      "finished": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "environment_error": false,
+      "recorded_task_success": false,
+      "recorded_status": "not_passed",
+      "legacy_recomputed_task_success": false,
+      "legacy_shape": {
+        "rms_mm": 6.829333664526539,
+        "max_mm": 7.122398779725467,
+        "raw_rms_mm": 6.829497759857367,
+        "rotation_degrees": 0.0009707395327688584,
+        "xy_translation_mm": [
+          -0.0004708231355440311,
+          -0.0473349515322935
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "legacy_diagram_path": {
+        "passed": false,
+        "matched": 4,
+        "required": 8,
+        "matches": [
+          {
+            "frame": 1071,
+            "rms_mm": 0.8461148010191321,
+            "max_mm": 2.9183241318588213
+          },
+          {
+            "frame": 1432,
+            "rms_mm": 0.6419115541329244,
+            "max_mm": 2.7666869564210286
+          },
+          {
+            "frame": 1791,
+            "rms_mm": 0.6641556539898841,
+            "max_mm": 2.922778339186343
+          },
+          {
+            "frame": 1791,
+            "rms_mm": 0.664155653989885,
+            "max_mm": 2.9227783391863444
+          }
+        ],
+        "next_best": {
+          "frame": 1814,
+          "rms_mm": 10.901047427743018,
+          "max_mm": 51.62671158101846
+        },
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "scope": "XYZ placement-invariant structural shape plus required relative board motions. Same labelled vertices, crease memory and recorded physical gates. No re-simulation or real-world certification.",
+      "run": "model-gpt-6-astra-O04-01",
+      "evidence": "examples/grading-evidence-v3/model-gpt-6-astra-O04-01"
+    },
+    {
+      "task_id": "O04",
+      "grading_version": "structure-and-diagram-motion-v3-candidate1",
+      "mode": "candidate_evidence_rescore_not_new_simulation",
+      "score_eligible": false,
+      "task_success": true,
+      "structure_success": true,
+      "shape": {
+        "rms_mm": 0.18244120829631857,
+        "max_mm": 0.49523191299476244,
+        "passed": true,
+        "placement_offset_mm": [
+          -0.0005945224406820643,
+          -0.04746522352054583,
+          0.06070594390857531
+        ],
+        "yaw_degrees": 0.001074922226382717,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 8,
+        "required": 8,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 1070,
+            "rms_mm": 0.8698599868282656,
+            "max_mm": 2.8850362661098266
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1431,
+            "rms_mm": 0.65695296664659,
+            "max_mm": 2.842451209007349
+          },
+          {
+            "checkpoint": 2,
+            "frame": 1791,
+            "rms_mm": 0.6638607816331445,
+            "max_mm": 2.9425767358595905
+          },
+          {
+            "checkpoint": 3,
+            "frame": 1978,
+            "rms_mm": 0.9331193981531977,
+            "max_mm": 1.9922690817029365
+          },
+          {
+            "checkpoint": 4,
+            "frame": 2151,
+            "rms_mm": 0.5922714746342252,
+            "max_mm": 2.696594324819358
+          },
+          {
+            "checkpoint": 5,
+            "frame": 2514,
+            "rms_mm": 0.9369212090279923,
+            "max_mm": 1.872579781937007
+          },
+          {
+            "checkpoint": 6,
+            "frame": 2691,
+            "rms_mm": 0.6350710419459558,
+            "max_mm": 2.868427683192028
+          },
+          {
+            "checkpoint": 7,
+            "frame": 2878,
+            "rms_mm": 0.9128399311243052,
+            "max_mm": 1.801272758014286
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 20.982394692930704,
+            "max_mm": 67.87292454865137
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.266928022485562,
+            "max_mm": 71.46868867475048
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 15.258866308864873,
+            "max_mm": 71.4387423210161
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 72.77482640546948,
+            "max_mm": 110.75764493106601
+          },
+          {
+            "checkpoint": 4,
+            "distinct": true,
+            "rms_mm": 10.795348332586471,
+            "max_mm": 50.53599440442628
+          },
+          {
+            "checkpoint": 5,
+            "distinct": true,
+            "rms_mm": 37.71274275854063,
+            "max_mm": 77.3689728851382
+          },
+          {
+            "checkpoint": 6,
+            "distinct": true,
+            "rms_mm": 10.789647840217297,
+            "max_mm": 50.51481913462887
+          },
+          {
+            "checkpoint": 7,
+            "distinct": true,
+            "rms_mm": 72.42285291229247,
+            "max_mm": 112.35910029619043
+          }
+        ],
+        "fixed_initial_yaw_degrees": 0.00019866027203332086
+      },
+      "finished": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "environment_error": false,
+      "recorded_task_success": false,
+      "recorded_status": "reference_unscored",
+      "legacy_recomputed_task_success": true,
+      "legacy_shape": {
+        "rms_mm": 0.1922758594063495,
+        "max_mm": 0.5160117280634607,
+        "raw_rms_mm": 0.19805021162232206,
+        "rotation_degrees": 0.001074922226382717,
+        "xy_translation_mm": [
+          -0.0005945224406816646,
+          -0.04746522352053195
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "legacy_diagram_path": {
+        "passed": true,
+        "matched": 8,
+        "required": 8,
+        "matches": [
+          {
+            "frame": 1071,
+            "rms_mm": 0.8461148010191321,
+            "max_mm": 2.9183241318588213
+          },
+          {
+            "frame": 1432,
+            "rms_mm": 0.6419115541329244,
+            "max_mm": 2.7666869564210286
+          },
+          {
+            "frame": 1791,
+            "rms_mm": 0.6641556539898841,
+            "max_mm": 2.922778339186343
+          },
+          {
+            "frame": 1791,
+            "rms_mm": 0.664155653989885,
+            "max_mm": 2.9227783391863444
+          },
+          {
+            "frame": 2151,
+            "rms_mm": 0.5979256044077482,
+            "max_mm": 2.691470000890669
+          },
+          {
+            "frame": 2517,
+            "rms_mm": 0.8506963594052824,
+            "max_mm": 1.2724334531417736
+          },
+          {
+            "frame": 2691,
+            "rms_mm": 0.638060295657126,
+            "max_mm": 2.870544674057868
+          },
+          {
+            "frame": 2691,
+            "rms_mm": 0.6380602956571269,
+            "max_mm": 2.8705446740578817
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "scope": "XYZ placement-invariant structural shape plus required relative board motions. Same labelled vertices, crease memory and recorded physical gates. No re-simulation or real-world certification.",
+      "run": "reference-O04-v17-01",
+      "evidence": "examples/grading-evidence-v3/reference-O04-v17-01"
+    },
+    {
+      "task_id": "O04",
+      "grading_version": "structure-and-diagram-motion-v3-candidate1",
+      "mode": "candidate_evidence_rescore_not_new_simulation",
+      "score_eligible": false,
+      "task_success": true,
+      "structure_success": true,
+      "shape": {
+        "rms_mm": 0.18244120829631857,
+        "max_mm": 0.49523191299476244,
+        "passed": true,
+        "placement_offset_mm": [
+          -0.0005945224406820643,
+          -0.04746522352054583,
+          0.06070594390857531
+        ],
+        "yaw_degrees": 0.001074922226382717,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 8,
+        "required": 8,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 1070,
+            "rms_mm": 0.8698599868282656,
+            "max_mm": 2.8850362661098266
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1431,
+            "rms_mm": 0.65695296664659,
+            "max_mm": 2.842451209007349
+          },
+          {
+            "checkpoint": 2,
+            "frame": 1791,
+            "rms_mm": 0.6638607816331445,
+            "max_mm": 2.9425767358595905
+          },
+          {
+            "checkpoint": 3,
+            "frame": 1978,
+            "rms_mm": 0.9331193981531977,
+            "max_mm": 1.9922690817029365
+          },
+          {
+            "checkpoint": 4,
+            "frame": 2151,
+            "rms_mm": 0.5922714746342252,
+            "max_mm": 2.696594324819358
+          },
+          {
+            "checkpoint": 5,
+            "frame": 2514,
+            "rms_mm": 0.9369212090279923,
+            "max_mm": 1.872579781937007
+          },
+          {
+            "checkpoint": 6,
+            "frame": 2691,
+            "rms_mm": 0.6350710419459558,
+            "max_mm": 2.868427683192028
+          },
+          {
+            "checkpoint": 7,
+            "frame": 2878,
+            "rms_mm": 0.9128399311243052,
+            "max_mm": 1.801272758014286
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 20.982394692930704,
+            "max_mm": 67.87292454865137
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.266928022485562,
+            "max_mm": 71.46868867475048
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 15.258866308864873,
+            "max_mm": 71.4387423210161
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 72.77482640546948,
+            "max_mm": 110.75764493106601
+          },
+          {
+            "checkpoint": 4,
+            "distinct": true,
+            "rms_mm": 10.795348332586471,
+            "max_mm": 50.53599440442628
+          },
+          {
+            "checkpoint": 5,
+            "distinct": true,
+            "rms_mm": 37.71274275854063,
+            "max_mm": 77.3689728851382
+          },
+          {
+            "checkpoint": 6,
+            "distinct": true,
+            "rms_mm": 10.789647840217297,
+            "max_mm": 50.51481913462887
+          },
+          {
+            "checkpoint": 7,
+            "distinct": true,
+            "rms_mm": 72.42285291229247,
+            "max_mm": 112.35910029619043
+          }
+        ],
+        "fixed_initial_yaw_degrees": 0.00019866027203332086
+      },
+      "finished": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "environment_error": false,
+      "recorded_task_success": true,
+      "recorded_status": "passed_scoped",
+      "legacy_recomputed_task_success": true,
+      "legacy_shape": {
+        "rms_mm": 0.1922758594063495,
+        "max_mm": 0.5160117280634607,
+        "raw_rms_mm": 0.19805021162232206,
+        "rotation_degrees": 0.001074922226382717,
+        "xy_translation_mm": [
+          -0.0005945224406816646,
+          -0.04746522352053195
+        ],
+        "reflection_allowed": false,
+        "z_translation_allowed": false
+      },
+      "legacy_diagram_path": {
+        "passed": true,
+        "matched": 8,
+        "required": 8,
+        "matches": [
+          {
+            "frame": 1071,
+            "rms_mm": 0.8461148010191321,
+            "max_mm": 2.9183241318588213
+          },
+          {
+            "frame": 1432,
+            "rms_mm": 0.6419115541329244,
+            "max_mm": 2.7666869564210286
+          },
+          {
+            "frame": 1791,
+            "rms_mm": 0.6641556539898841,
+            "max_mm": 2.922778339186343
+          },
+          {
+            "frame": 1791,
+            "rms_mm": 0.664155653989885,
+            "max_mm": 2.9227783391863444
+          },
+          {
+            "frame": 2151,
+            "rms_mm": 0.5979256044077482,
+            "max_mm": 2.691470000890669
+          },
+          {
+            "frame": 2517,
+            "rms_mm": 0.8506963594052824,
+            "max_mm": 1.2724334531417736
+          },
+          {
+            "frame": 2691,
+            "rms_mm": 0.638060295657126,
+            "max_mm": 2.870544674057868
+          },
+          {
+            "frame": 2691,
+            "rms_mm": 0.6380602956571269,
+            "max_mm": 2.8705446740578817
+          }
+        ],
+        "criterion": "ordered physical states; RMS<1mm,max<3mm; XY rigid placement allowed"
+      },
+      "scope": "XYZ placement-invariant structural shape plus required relative board motions. Same labelled vertices, crease memory and recorded physical gates. No re-simulation or real-world certification.",
+      "run": "reference-O04-v17-02",
+      "evidence": "examples/grading-evidence-v3/reference-O04-v17-02"
+    }
+  ],
+  "original_evidence_unchanged": true,
+  "evidence_sha256": {
+    "examples/reference-evidence-v2/followup/final-O01/trajectory.npz": "657569760150b431080298d4023050ed586d42cefabba4ea23e17282b54fbc12",
+    "examples/reference-evidence-v2/followup/final-O01/final-state.json": "d66e6d4161cdbeae64c9cfe41bae21dd159733d0381eb807dee2fc5abaaa022d",
+    "examples/reference-evidence-v2/followup/final-O01/metrics.json": "c4de46df5e534cdf036ef9d6248345d62a3108ef629289d4923c7da31d35b64d",
+    "examples/reference-evidence-v2/followup/final-O01/material-history.json": "c172f94b254cce3780a6950b500baf62b74579ea27caa47cf60e1d505f7204df",
+    "examples/reference-evidence-v2/followup/final-O01/events.json": "bdea1ec1477348f2a315fbe0bcfa09de7692f7e2fc783b5708bdb691149dda06",
+    "examples/reference-evidence-v2/followup/final-O01/run-config.json": "ea68a5f815c82533134bad7ef9914b45f569ecc93cf252f8e194c077c9d4c9b6",
+    "examples/reference-evidence-v2/followup/final-O01/report.json": "23cc7ee8ba4052707d353befd6ea7901c9b4928c2175a9d1fb246c3f957ead76",
+    "examples/reference-evidence-v2/sweep/O02/trajectory.npz": "12ea4acc9db703676949a99ff338da2f1b9c516b25ac593a9223b30d495b5f4b",
+    "examples/reference-evidence-v2/sweep/O02/final-state.json": "f4ae74442513ac41beea14eba60f983cca3cf7e7517e2bddc1071907045fab7c",
+    "examples/reference-evidence-v2/sweep/O02/metrics.json": "70bedb36aa2469ad6b63deca8ce0969c0d198abd92d5b35c19b502840153592d",
+    "examples/reference-evidence-v2/sweep/O02/material-history.json": "52b7670cd7e0cb039f201b73ee9ad1a59ca69afe7d6026f53b0cfa3cda0d37cc",
+    "examples/reference-evidence-v2/sweep/O02/events.json": "11ad2afd696929b8d8ceaa3c7cdcbbeb2718e25856666c1a4983805234a8fceb",
+    "examples/reference-evidence-v2/sweep/O02/run-config.json": "656110a952a902ae633b1fabd4e5ab6bf408033c6258021aff44af402d25ab0c",
+    "examples/reference-evidence-v2/sweep/O02/report.json": "98160acaa5015f17c8a99d062eea8535a1f3e9085f151ae5bf6c5c943285b318",
+    "examples/reference-evidence-v2/sweep/O03/trajectory.npz": "be6b21794e55e9f84eac9c33ef544bbbd4bc7bc3f7dfc4f811b97a5bb5e8e515",
+    "examples/reference-evidence-v2/sweep/O03/final-state.json": "1add095d83ccc3563fa9685a6017b77e86b9fc34c3bc696d4a9c3f4f6ab1f7b9",
+    "examples/reference-evidence-v2/sweep/O03/metrics.json": "724352bbc2c0e767dd9e42f4ba17bb8e2e2a2c8e1b451c9f7d2c368580b95420",
+    "examples/reference-evidence-v2/sweep/O03/material-history.json": "3290e312d78a9d6506281a09d12f2fcc33b104bced1d113432b2d5c918e2f663",
+    "examples/reference-evidence-v2/sweep/O03/events.json": "91d60284a5fd86ef6e20426e0e9addff98e97816cee3506bc09f8bd0f5c37051",
+    "examples/reference-evidence-v2/sweep/O03/run-config.json": "b10236aeb9e9494ea9a9e281951726a8e06c23ad91632a944dba05faf0cfaf7e",
+    "examples/reference-evidence-v2/sweep/O03/report.json": "83887e2b47f1f134af0a2de4726f66a9fe01ae1b3f3b6b5f988a775a734416a3",
+    "examples/reference-evidence-v2/followup/L01-longpath/trajectory.npz": "9d53724d13af9750ecfa62e105a49839f931b80f68e27d6c089c56e02a43206b",
+    "examples/reference-evidence-v2/followup/L01-longpath/final-state.json": "081448c592cee803ad166c6d580856baebc6e572c4df7b7e3b29eae7c3807848",
+    "examples/reference-evidence-v2/followup/L01-longpath/metrics.json": "3d7fde5ee658be3248c14cbb7d7860798a0b077971219d14d96d2902576659ba",
+    "examples/reference-evidence-v2/followup/L01-longpath/material-history.json": "f0b8c9d416f665f0b1cc6ed44cb2f0ab3798257ad16162698ceddca9c08eaf88",
+    "examples/reference-evidence-v2/followup/L01-longpath/events.json": "8ba713750461201280aa40981d810031d4a3af1aae4d6452dae0fd0acbaa9ade",
+    "examples/reference-evidence-v2/followup/L01-longpath/run-config.json": "7921112dbc8570a9c9f7fb02946449f88a85b160a1ae808d1a7f6a4887d1ad72",
+    "examples/reference-evidence-v2/followup/L01-longpath/report.json": "ee6bbc97e6d8f3b2dddd407fa5756c296c6d772fffb249e1098d4d5b6336de16",
+    "examples/grading-evidence-v3/model-claude-opus-5-5-O04-01/trajectory.npz": "05601c15762bd56b585846c7930a3685527cb092f2cc1ec95d9068b1e7a7071c",
+    "examples/grading-evidence-v3/model-claude-opus-5-5-O04-01/final-state.json": "9c0dfc4506cf9fba27f03bb91475ef22c2791912d56263097806474ef70211a8",
+    "examples/grading-evidence-v3/model-claude-opus-5-5-O04-01/metrics.json": "24cd326f4b1ebe6f854957117009f036a9ed7380b54f798668456aeededcc617",
+    "examples/grading-evidence-v3/model-claude-opus-5-5-O04-01/material-history.json": "00cea45bad626f7c4c8ebbba99fa630cdc726dafb99781b42dc515c3aad7c257",
+    "examples/grading-evidence-v3/model-claude-opus-5-5-O04-01/events.json": "e62ee5ee85fc56f1d301dc88d303d3487fd70b2a6b7b9843c279fa403bf7cae2",
+    "examples/grading-evidence-v3/model-claude-opus-5-5-O04-01/run-config.json": "b33531c6e53d558b24b1ece98b496b2339c6db240c0b8dccbcafd8b8f5dda706",
+    "examples/grading-evidence-v3/model-claude-opus-5-5-O04-01/report.json": "c5bbb75dd264279586b1696172262a992e12bccabcd152d7265bc897ea444c0a",
+    "examples/grading-evidence-v3/model-gemini-4-argon-O04-02/trajectory.npz": "1cf2f2781ec2faf44ab279b9970567fefa55c01b7e34f658978fbfb4dd08043f",
+    "examples/grading-evidence-v3/model-gemini-4-argon-O04-02/final-state.json": "8f2da9309ea3d513c6ac001987264e3e3cdbfd70a8428f452c678a9550a35829",
+    "examples/grading-evidence-v3/model-gemini-4-argon-O04-02/metrics.json": "328a86d5bf8ab29160bc75bebb228a848ac5d3f70228e97080293cd722cfd858",
+    "examples/grading-evidence-v3/model-gemini-4-argon-O04-02/material-history.json": "2274cc2bf475b26caef1a569eb5992903c26383f36e3b65ba206d2f5f02b600c",
+    "examples/grading-evidence-v3/model-gemini-4-argon-O04-02/events.json": "a91a7f4c839a1b686810273ca95ae0cb4a9ce2c669d316ba4c8ffb309c5d31a7",
+    "examples/grading-evidence-v3/model-gemini-4-argon-O04-02/run-config.json": "62fd1939f2caa801f7fd973fb65866000f227b244637a359d076d67e3ab60165",
+    "examples/grading-evidence-v3/model-gemini-4-argon-O04-02/report.json": "407322df2dc3879a7269140873f726883ee77ec1a1ceaab80ec4daa5c11a84c6",
+    "examples/grading-evidence-v3/model-gpt-6-astra-O04-01/trajectory.npz": "84a61f05060f23b2740f6a4bfd2c3fc84ea57f24e6aa300d88a43d9360e1c0a7",
+    "examples/grading-evidence-v3/model-gpt-6-astra-O04-01/final-state.json": "d9e9b3eb10ca603170979c40db370d5027fd2a0ebbe60f770548f01f49eba26d",
+    "examples/grading-evidence-v3/model-gpt-6-astra-O04-01/metrics.json": "03f8ff8f3f9176993df61f237eff947cf6694cfb92aaf56e40314e0c57869ca4",
+    "examples/grading-evidence-v3/model-gpt-6-astra-O04-01/material-history.json": "1ba5348bd63e0be388d03cb8ee5280891e812da9d9a611e5716d38be01a4c313",
+    "examples/grading-evidence-v3/model-gpt-6-astra-O04-01/events.json": "8cc186d0492a48f74d3ab16585b2e4cd12cffbd106e62c9d2b7fe424dedc4ac6",
+    "examples/grading-evidence-v3/model-gpt-6-astra-O04-01/run-config.json": "9c44505ee06cad160b5dd21b76fab828662e34f47f835954968ad3382abdf6d8",
+    "examples/grading-evidence-v3/model-gpt-6-astra-O04-01/report.json": "671cad74b64833308420fd767f605fb81ede7defd66751f1f0f319e4bf291ee3",
+    "examples/grading-evidence-v3/reference-O04-v17-01/trajectory.npz": "1cf2f2781ec2faf44ab279b9970567fefa55c01b7e34f658978fbfb4dd08043f",
+    "examples/grading-evidence-v3/reference-O04-v17-01/final-state.json": "8f2da9309ea3d513c6ac001987264e3e3cdbfd70a8428f452c678a9550a35829",
+    "examples/grading-evidence-v3/reference-O04-v17-01/metrics.json": "328a86d5bf8ab29160bc75bebb228a848ac5d3f70228e97080293cd722cfd858",
+    "examples/grading-evidence-v3/reference-O04-v17-01/material-history.json": "2274cc2bf475b26caef1a569eb5992903c26383f36e3b65ba206d2f5f02b600c",
+    "examples/grading-evidence-v3/reference-O04-v17-01/events.json": "50927a9d7377051cac62c3799568483ef528cdbe6af436bfd3ccf7d99971aeef",
+    "examples/grading-evidence-v3/reference-O04-v17-01/run-config.json": "0288da23700e4e6dcee58cf17a40f09403468844ad29eb8ad51660b546aa754a",
+    "examples/grading-evidence-v3/reference-O04-v17-01/report.json": "b3415822ff26367583c9f6e17500ba84894c057bf7d343f19531b49c097ba537",
+    "examples/grading-evidence-v3/reference-O04-v17-02/trajectory.npz": "1cf2f2781ec2faf44ab279b9970567fefa55c01b7e34f658978fbfb4dd08043f",
+    "examples/grading-evidence-v3/reference-O04-v17-02/final-state.json": "8f2da9309ea3d513c6ac001987264e3e3cdbfd70a8428f452c678a9550a35829",
+    "examples/grading-evidence-v3/reference-O04-v17-02/metrics.json": "328a86d5bf8ab29160bc75bebb228a848ac5d3f70228e97080293cd722cfd858",
+    "examples/grading-evidence-v3/reference-O04-v17-02/material-history.json": "2274cc2bf475b26caef1a569eb5992903c26383f36e3b65ba206d2f5f02b600c",
+    "examples/grading-evidence-v3/reference-O04-v17-02/events.json": "50927a9d7377051cac62c3799568483ef528cdbe6af436bfd3ccf7d99971aeef",
+    "examples/grading-evidence-v3/reference-O04-v17-02/run-config.json": "fa8f3ddb80dcfe72e2b7893b7dfdfb156dd624fe15fc6d5ab0ffd7cbc533d6cf",
+    "examples/grading-evidence-v3/reference-O04-v17-02/report.json": "25d3b3138c1c43a1a169e17a547eb58d89ef72a71c5d068b563dbe0e0707a1fc"
+  },
+  "grading_source_sha256": {
+    "origami_bench/diagram/structural_grading_v3.py": "b16a542cf52704d72c237d343bc057dfb9b62a0c2a66aa2cf9ddd4c5af110eb9",
+    "scripts/rescore_structural_v3.py": "750043177823f7fbc765a3c5830f111fb1829d33f6b138d48bd8ffa7de9a9951",
+    "scripts/validate_grading_v3.py": "41306ffdb26d0881bc09780adbbe9c6587bf76f7308b8a16354207b6001592fa"
+  },
+  "model_calls": 0,
+  "physics_runs": 0,
+  "official_scores_changed": false,
+  "caveat": "Candidate contract evaluation of archived evidence; synthetic controls are not real physics or model runs. Height alignment changes only scoring coordinates, never contact/strain records."
+}

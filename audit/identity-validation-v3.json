@@ -1,0 +1,81 @@
+{
+  "kind": "synthetic_unit_validation_not_model_benchmark",
+  "inference_calls": 0,
+  "physics_runs": 0,
+  "tests_run": 11,
+  "tests_passed": 11,
+  "cases": [
+    {
+      "name": "test_coverage_missing_and_startup_failure_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "test_credentials_not_copied_from_metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "test_declared_identity_mismatch_is_not_scored",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "test_duplicate_run_ids_and_directories_do_not_inflate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "test_environment_failure_stays_in_model_denominator",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "test_legacy_missing_identity_excluded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "test_parameters_and_grading_stay_separate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "test_returned_identity_change_blocks_comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "test_returned_model_mismatch_is_recorded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "test_same_adapter_different_models_stay_separate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "test_suite_preregisters_repeats_and_retains_startup_failures",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "demonstrations": {
+    "different_models": {
+      "input_models": 2,
+      "output_groups": 2
+    },
+    "success_and_environment_failure": {
+      "input_runs": 2,
+      "output_groups": 1,
+      "success_rate": 0.5,
+      "environment_error_rate": 0.5
+    },
+    "duplicate_evidence": {
+      "input_reports": 2,
+      "duplicate_directory_inputs": 1,
+      "counted_runs": 1
+    }
+  }
+}

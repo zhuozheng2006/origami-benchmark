@@ -117,6 +117,59 @@ class IdentityTests(unittest.TestCase):
         r = self.summarize([report(returned_models=sorted(wrapper.returned_models))])
         self.assertTrue(r['groups'][0]['returned_model_mismatch'])
 
+    def test_completed_diagnostic_counts_for_coverage_but_not_score(self):
+        official = report()
+        diagnostic = report(task_id='DIAGNOSTIC', score_eligible=False)
+        entries=[]
+        for row in (official, diagnostic):
+            entry={k:row[k] for k in ('run_id','task_id','repeat_id','release_manifest_sha256','policy_sha256','grading_contract','score_eligible')}
+            entry['model_identity_sha256']=row['model_identity']['identity_sha256']
+            entries.append(entry)
+        result=self.summarize([official,diagnostic],dict(runs=entries))
+        self.assertTrue(result['comparison_ready'])
+        self.assertEqual(result['coverage']['observed_planned'],2)
+        self.assertEqual(result['coverage']['planned_eligible'],1)
+        self.assertEqual(result['coverage']['missing'],[])
+        self.assertEqual(result['coverage']['unscorable'],[])
+        self.assertEqual(result['groups'][0]['runs'],1)
+        self.assertEqual(result['excluded_oracle_diagnostic_or_replay'],1)
+
+    def test_cannot_hide_planned_failure_by_marking_it_ineligible(self):
+        row=report(score_eligible=False)
+        entry={k:row[k] for k in ('run_id','task_id','repeat_id','release_manifest_sha256','policy_sha256','grading_contract')}
+        entry.update(score_eligible=True,model_identity_sha256=row['model_identity']['identity_sha256'])
+        result=self.summarize([row],dict(runs=[entry]))
+        self.assertFalse(result['comparison_ready'])
+        self.assertEqual(result['issues'][0]['reason'],'planned_eligibility_mismatch')
+        self.assertEqual(len(result['coverage']['unscorable']),1)
+
+    def test_suite_never_accepts_partial_success_or_nonzero_exit(self):
+        cases=[('basics','legacy-public-v2',1,True,False,False),
+               ('basics','legacy-public-v2',0,False,False,False),
+               ('layers','structural-v3',0,True,False,False),
+               ('basics','legacy-public-v2',0,True,False,True),
+               ('layers','structural-v3',0,True,True,True)]
+        for suite,contract,exit_code,marker,candidate,expected_success in cases:
+            with self.subTest(suite=suite,code=exit_code,marker=marker,candidate=candidate),tempfile.TemporaryDirectory() as tmp:
+                dest=Path(tmp)/'suite'
+                def fake_child(cmd,**kwargs):
+                    folder=Path(cmd[cmd.index('--output')+1]);folder.mkdir()
+                    uid=cmd[cmd.index('--run-id')+1]
+                    row=dict(task_success=True,status='passed_scoped',run_id=uid,
+                             grading_contract=contract,returned_models=['synthetic_returned'],grading_candidate=candidate)
+                    (folder/'report.json').write_text(json.dumps(row))
+                    if marker:(folder/'evaluation-complete.json').write_text(json.dumps(dict(run_id=uid,grading_contract=contract)))
+                    if candidate:(folder/'candidate-grading.json').write_text('{}')
+                    return SimpleNamespace(returncode=exit_code)
+                argv=['run_suite.py','--suite',suite,'--agent','missing:create','--grading-contract',contract,'--output',str(dest)]
+                with patch.object(sys,'argv',argv),patch('subprocess.run',side_effect=fake_child),patch('sys.stdout',io.StringIO()):
+                    runpy.run_path(str(ROOT/'scripts/run_suite.py'),run_name='__main__')
+                rows=[json.loads(p.read_text()) for p in dest.glob('*/report.json')]
+                self.assertTrue(all(r['task_success']==expected_success for r in rows))
+                if not expected_success:
+                    self.assertTrue(all(r['status']=='environment_error' and r['returned_models']==['synthetic_returned'] for r in rows))
+                    self.assertEqual(len(list(dest.glob('*/report-incomplete.json'))),len(rows))
+
     def test_suite_preregisters_repeats_and_retains_startup_failures(self):
         with tempfile.TemporaryDirectory() as tmp:
             dest = Path(tmp)/'suite'

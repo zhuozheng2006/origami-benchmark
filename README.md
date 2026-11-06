@@ -1,6 +1,6 @@
 # Origami Benchmark — public evaluation release
 
-**当前分支包含 2026-11-07 的身份修复与可选评分验证；public-v2 标签保持原样。** 新增模型身份分组、预注册覆盖检查、O04 高度 / 过程评分正负对照。默认旧评分不变；新合同使用 `--grading-contract structural-v3`。本轮零模型调用、零新物理运行。见 [验证说明](docs/VALIDATION_V3.md) 和 [可视化对比](validation-v3/index.html)。
+**当前分支包含 2026-11-07 的身份修复、可选评分验证及小规模校准协议；public-v2 标签保持原样。** 默认旧评分不变；新合同使用 `--grading-contract structural-v3`。先前离线验证无模型调用，见 [验证说明](docs/VALIDATION_V3.md) 和 [评分对照](validation-v3/index.html)。后续三模型 O01–O04 校准使用 [冻结协议](docs/PILOT_V3_PROTOCOL.md)；[新旧结果页面](study-v3/index.html) 将缺失结果、环境错误、诊断题与正式分数分开显示。
 
 图解驱动、具有有限厚度和接触检查的交互式折纸评测。公开任务、网格、初始状态、参考动作、目标状态、评分器、原生求解器源码和统一运行入口，使用者无需访问作者服务器。
 

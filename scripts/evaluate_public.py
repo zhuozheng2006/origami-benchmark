@@ -12,7 +12,7 @@ sys.path.insert(0, str(ROOT))
 from origami_bench.diagram.accounted_episode import AccountedEpisode
 from origami_bench.diagram import layer_policy_v15 as policy
 from origami_bench.diagram.layer_episode_v16 import LayerEpisodeV16
-from origami_bench.diagram.local_backend import LocalLayerClient
+from origami_bench.diagram.public_remote_backend import configured_backend as LocalLayerClient
 
 from origami_bench.diagram.model_identity import declared_identity, normalize_identity, RecordingAgent, task_policy, policy_digest
 
@@ -129,6 +129,10 @@ def main():
         (ep.output/'final-state.json').write_text(json.dumps(ep.backend.state()))
         report = wrapped.finish(kind)
         report.update(run_meta)
+        report['requested_grading_contract'] = args.grading_contract
+        # This intermediate result is still legacy; a failed candidate regrade
+        # must never leave a legacy pass mislabeled as a new-contract pass.
+        report['grading_contract'] = 'legacy-public-v2'
         report['returned_models'] = sorted(getattr(agent, 'returned_models', []))
         report['returned_model_missing_calls'] = getattr(agent, 'returned_model_missing', 0)
         report['returned_model_mismatch'] = bool(identity and any(m != identity['requested_model'] for m in report['returned_models']))
@@ -143,6 +147,9 @@ def main():
         if args.grading_contract == 'structural-v3':
             from apply_structural_grading import apply_candidate
             report = apply_candidate(ep.output, args.task)
+        (ep.output/'evaluation-complete.json').write_text(json.dumps(dict(
+            run_id=run_id, grading_contract=args.grading_contract,
+            report_sha256=hashlib.sha256((ep.output/'report.json').read_bytes()).hexdigest()),indent=2))
         print(json.dumps(report, indent=2))
     except Exception as error:
         args.output.mkdir(parents=True, exist_ok=True)

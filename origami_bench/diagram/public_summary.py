@@ -33,11 +33,12 @@ def summarize_runs(paths, plans=()):
         except (ValueError, OSError):
             problems.append(dict(reason='unreadable_report', path=str(path)))
             continue
-        if not r.get('score_eligible'):
-            excluded += 1
-            continue
+        eligible = bool(r.get('score_eligible'))
         run_id = r.get('run_id')
         if not run_id:
+            if not eligible and not expected:
+                excluded += 1
+                continue
             problems.append(dict(reason='missing_run_identity', path=str(path)))
             continue
         if run_id in seen_ids:
@@ -46,21 +47,29 @@ def summarize_runs(paths, plans=()):
         seen_ids.add(run_id)
         observed.add(run_id)
         identity = r.get('model_identity')
-        if not validate_identity(identity):
+        identity_valid = validate_identity(identity)
+        if expected:
+            e = expected.get(run_id)
+            if e is None:
+                problems.append(dict(reason='unplanned_run', run_id=run_id))
+                continue
+            if bool(e.get('score_eligible', True)) != eligible:
+                problems.append(dict(reason='planned_eligibility_mismatch', run_id=run_id))
+                continue
+            actual_identity = identity['identity_sha256'] if identity_valid else None
+            if any(r.get(k) != e.get(k) for k in ('task_id','repeat_id','release_manifest_sha256','policy_sha256','grading_contract')) or actual_identity != e.get('model_identity_sha256'):
+                problems.append(dict(reason='planned_identity_mismatch', run_id=run_id))
+                continue
+        if not eligible:
+            excluded += 1
+            continue
+        if not identity_valid:
             problems.append(dict(reason='missing_or_invalid_model_identity', run_id=run_id))
             continue
         required = ('task_id','suite','release_track','split','release_manifest_sha256','policy_sha256','repeat_id')
         if any(r.get(k) is None for k in required):
             problems.append(dict(reason='missing_protocol_identity', run_id=run_id))
             continue
-        if expected:
-            e = expected.get(run_id)
-            if e is None:
-                problems.append(dict(reason='unplanned_run', run_id=run_id))
-                continue
-            if any(r.get(k) != e.get(k) for k in ('task_id','repeat_id','release_manifest_sha256','policy_sha256','grading_contract')) or identity['identity_sha256'] != e.get('model_identity_sha256'):
-                problems.append(dict(reason='planned_identity_mismatch', run_id=run_id))
-                continue
         valid.add(run_id)
         key = (r['suite'], r['release_track'], r['split'], identity['identity_sha256'],
                r['release_manifest_sha256'], r['policy_sha256'], r.get('grading_contract','legacy-public-v2'))
@@ -85,9 +94,10 @@ def summarize_runs(paths, plans=()):
             conditional_success_rate=passed/(n-env) if n != env else None,
             macro_task_success_rate=sum(sum(bool(r.get('task_success')) for r in rs)/len(rs) for rs in by.values())/len(by)))
     missing = [expected[k] for k in expected.keys()-observed]
-    unscorable = [expected[k] for k in expected.keys() & observed - valid]
+    eligible_expected = {k for k,v in expected.items() if v.get('score_eligible',True)}
+    unscorable = [expected[k] for k in eligible_expected & observed - valid]
     return dict(groups=result, excluded_oracle_diagnostic_or_replay=excluded, issues=problems,
-                coverage=dict(planned=len(expected), observed_planned=len(expected.keys() & observed),
+                coverage=dict(planned=len(expected), planned_eligible=len(eligible_expected), observed_planned=len(expected.keys() & observed),
                               scorable_planned=len(expected.keys() & valid), missing=missing, unscorable=unscorable),
-                comparison_ready=bool(expected) and not missing and not unscorable and not problems,
+                comparison_ready=bool(eligible_expected) and not missing and not unscorable and not problems,
                 warning='No plan means descriptive only. Identity is provider-reported, not authenticated weights. Never pool protocols or historical versions.')

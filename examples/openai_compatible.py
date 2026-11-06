@@ -1,13 +1,16 @@
 """Opt-in HTTPS vision API adapter. No retry, no embedded credentials or provider."""
 import os
+import json
 from pathlib import Path
 from urllib.parse import urlsplit
 from origami_bench.diagram.api_policy import ApiPolicy, CostBook
+from origami_bench.diagram.model_identity import safe_parameters
 
 
 def describe_identity():
     return dict(requested_model=os.environ['ORIGAMI_MODEL'], endpoint=os.environ['ORIGAMI_API_BASE'],
-                parameters={}, output_cap=8192, adapter_version='public-api-v2.1',
+                parameters=safe_parameters(json.loads(os.environ.get('ORIGAMI_API_PARAMETERS','{}'))),
+                output_cap=8192, adapter_version='public-api-v3-pilot1',
                 output_parameter=os.environ.get('ORIGAMI_OUTPUT_PARAMETER', 'max_tokens'))
 
 
@@ -21,17 +24,20 @@ class PublicAPI(ApiPolicy):
         self.key = os.environ['ORIGAMI_API_KEY']
         self.out = Path(os.environ['ORIGAMI_API_LOGDIR'])
         self.out.mkdir(parents=True, exist_ok=False)
-        self.book = CostBook(os.environ['ORIGAMI_COST_LEDGER'], limit=float(os.environ['ORIGAMI_COST_LIMIT']))
+        self.book = CostBook(os.environ['ORIGAMI_COST_LEDGER'], limit=float(os.environ['ORIGAMI_COST_LIMIT']),
+                             operating_limit=float(os.environ['ORIGAMI_OPERATING_LIMIT']) if os.environ.get('ORIGAMI_OPERATING_LIMIT') else None)
         rates = [float(os.environ['ORIGAMI_INPUT_RATE']), float(os.environ['ORIGAMI_OUTPUT_RATE'])]
         if min(rates) < 0:
             raise ValueError('Rates must be nonnegative upper estimates per million tokens')
         self.spec = dict(model=os.environ['ORIGAMI_MODEL'], max_output_tokens=8192,
-                         upper_cny_per_million=rates, parameters={})
+                         upper_cny_per_million=rates, parameters=describe_identity()['parameters'])
+        if os.environ.get('ORIGAMI_STAGE_LIMIT'):
+            self.spec['stage_limit_cny']=float(os.environ['ORIGAMI_STAGE_LIMIT'])
         output_parameter=os.environ.get('ORIGAMI_OUTPUT_PARAMETER','max_tokens')
         if output_parameter not in ('max_tokens','max_completion_tokens'):
             raise ValueError('Unsupported output token parameter')
         self.spec['output_parameter']=output_parameter
-        self.stage = 'public_release_evaluation'
+        self.stage = os.environ.get('ORIGAMI_COST_STAGE','public_release_evaluation')
         self.metadata = describe_identity()
 
     def close(self):

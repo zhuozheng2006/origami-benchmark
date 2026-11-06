@@ -3,7 +3,7 @@ from pathlib import Path
 import base64,hashlib,json,sqlite3,time,urllib.request,urllib.error,ssl,math
 from PIL import Image
 ROOT=Path(__file__).resolve().parents[2]
-class BudgetExceeded(RuntimeError):pass
+from .cost_book import CostBook, BudgetExceeded
 class NoCredentialRedirect(urllib.request.HTTPRedirectHandler):
  def redirect_request(self,req,fp,code,msg,headers,newurl):
   raise urllib.error.HTTPError(req.full_url,code,'Credential-bearing redirects are disabled',headers,fp)
@@ -12,24 +12,6 @@ def usage_counts(usage):
  values=[usage.get('prompt_tokens'),usage.get('completion_tokens')]
  if any(type(x) is not int or x<0 for x in values):return None
  return tuple(values)
-class CostBook:
- def __init__(self,path,limit=100):
-  Path(path).parent.mkdir(parents=True,exist_ok=True);self.db=sqlite3.connect(path,timeout=30)
-  self.db.execute('PRAGMA synchronous=FULL');self.db.execute('CREATE TABLE IF NOT EXISTS config (id INTEGER PRIMARY KEY, ceiling REAL)')
-  self.db.execute('INSERT OR IGNORE INTO config VALUES (1,?)',(limit,));assert self.db.execute('SELECT ceiling FROM config').fetchone()[0]==limit
-  self.db.execute('CREATE TABLE IF NOT EXISTS calls (id INTEGER PRIMARY KEY, created REAL, model TEXT, stage TEXT, reserve REAL, charge REAL, status TEXT, meta TEXT)');self.db.commit();self.limit=limit
- def total(self):return self.db.execute('SELECT COALESCE(SUM(COALESCE(charge,reserve)),0) FROM calls').fetchone()[0]
- def reserve(self,model,stage,amount,stage_limit=None):
-  self.db.execute('BEGIN IMMEDIATE')
-  stage_used=self.db.execute('SELECT COALESCE(SUM(COALESCE(charge,reserve)),0) FROM calls WHERE stage=?',(stage,)).fetchone()[0]
-  if self.total()+amount>min(self.limit,90) or (stage_limit is not None and stage_used+amount>stage_limit):self.db.rollback();raise BudgetExceeded('Cost ceiling would be exceeded')
-  cur=self.db.execute('INSERT INTO calls(created,model,stage,reserve,status) VALUES(?,?,?,?,?)',(time.time(),model,stage,amount,'reserved'));self.db.commit();return cur.lastrowid
- def finish(self,i,charge,status,meta):
-  self.db.execute('UPDATE calls SET charge=?,status=?,meta=? WHERE id=? AND status=?',(charge,status,json.dumps(meta,ensure_ascii=False),i,'reserved'));self.db.commit()
- def summary(self):
-  names=['id','created','model','stage','reserve_cny','upper_charge_cny','status','metadata'];rows=[dict(zip(names,r)) for r in self.db.execute('SELECT * FROM calls')]
-  for r in rows:r['metadata']=json.loads(r['metadata']) if r['metadata'] else None
-  return dict(limit_cny=self.limit,accounted_upper_cny=self.total(),calls=rows,method='Reserve before request; upper-bound configured prices; missing usage retains full reservation. Gateway credits 1 USD unit = 1 CNY per user; no exchange conversion applied to gateway.')
 class ApiPolicy:
  def __init__(self,spec,costbook,out,stage='preflight'):
   self.spec=spec;self.book=costbook;self.out=Path(out);self.out.mkdir(parents=True,exist_ok=True);self.stage=stage
@@ -45,7 +27,7 @@ class ApiPolicy:
    image_info.append(dict(sha256=hashlib.sha256(content).hexdigest(),size=list(im.size)))
    image_blocks.append({'type':'image_url','image_url':{'url':'data:image/png;base64,'+base64.b64encode(content).decode()}})
   cap=spec['max_output_tokens'];rates=spec['upper_cny_per_million'];reserve=(bound*rates[0]+cap*rates[1])/1e6
-  i=self.book.reserve(spec['model'],self.stage,reserve,5 if self.stage=='preflight' else None)
+  i=self.book.reserve(spec['model'],self.stage,reserve,spec.get('stage_limit_cny',5 if self.stage=='preflight' else None))
   req=dict(model=spec['model'],messages=[dict(role='user',content=[{'type':'text','text':text}]+image_blocks)])
   req.update(spec.get('parameters',{}));req[spec.get('output_parameter','max_tokens')]=cap
   meta=dict(call_id=i,model=spec['model'],origin=self.url,stage=self.stage,public_prompt=text,images=image_info,settings={k:v for k,v in req.items() if k!='messages'},reserve_cny=reserve,input_token_upper_bound=bound)

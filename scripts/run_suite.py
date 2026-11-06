@@ -51,7 +51,7 @@ for repeat in range(1, a.repeats+1):
         dataset = ROOT/'data'/specification['dataset']
         public_task = next(t for t in json.loads((dataset/'public/index.json').read_text())['tasks'] if t['id']==tid)
         plan['runs'].append(dict(run_id=str(uuid.uuid4()), task_id=tid, repeat_id=repeat,
-            output=name, release_manifest_sha256=freeze,
+            output=name, release_manifest_sha256=freeze, score_eligible=bool(a.agent) and specification['status']=='accepted',
             policy_sha256=policy_digest(task_policy(specification,public_task,dataset)), grading_contract=a.grading_contract,
             model_identity_sha256=identity['identity_sha256'] if identity else None))
 (a.output/'experiment-plan.json').write_text(json.dumps(plan, indent=2))
@@ -69,19 +69,44 @@ for entry in plan['runs']:
     with (a.output/f'{name}.log').open('x') as log:
         result = subprocess.run(cmd, env=env, cwd=ROOT, stdout=log, stderr=subprocess.STDOUT)
     report_path = a.output/name/'report.json'
-    if not report_path.exists():
+    previous = {}
+    marker = {}
+    try:
+        if report_path.exists(): previous = json.loads(report_path.read_text())
+        marker_path = report_path.parent/'evaluation-complete.json'
+        if marker_path.exists(): marker = json.loads(marker_path.read_text())
+    except (ValueError, OSError):
+        pass
+    completed = bool(result.returncode == 0 and previous.get('run_id') == entry['run_id']
+        and previous.get('grading_contract') == entry['grading_contract']
+        and marker.get('run_id') == entry['run_id']
+        and marker.get('grading_contract') == entry['grading_contract'])
+    if a.grading_contract == 'structural-v3':
+        completed = completed and (report_path.parent/'candidate-grading.json').is_file() and previous.get('grading_candidate') is True
+    if not completed:
         report_path.parent.mkdir(exist_ok=True)
+        if report_path.exists():
+            with (report_path.parent/'report-incomplete.json').open('xb') as saved:
+                saved.write(report_path.read_bytes())
+        returned = [m for m in previous.get('returned_models', []) if isinstance(m,str)]
+        api_dir = Path(env['ORIGAMI_API_LOGDIR']) if env.get('ORIGAMI_API_LOGDIR') else None
+        if api_dir and api_dir.is_dir():
+            for response in api_dir.glob('*-response.json'):
+                try:
+                    model_name = json.loads(response.read_text()).get('response',{}).get('model')
+                    if isinstance(model_name,str): returned.append(model_name)
+                except (ValueError,OSError): pass
         data = ROOT/'data'/spec['dataset']
         task = next(t for t in json.loads((data/'public/index.json').read_text())['tasks'] if t['id']==tid)
         report_path.write_text(json.dumps(dict(task_id=tid, task_success=False, status='environment_error',
-            failure_stage='subprocess_failed_without_completed_report', physical_pass=None,
+            failure_stage='subprocess_failed' if result.returncode else 'incomplete_or_mismatched_completion', physical_pass=None,
             agent_kind='oracle_installation_check' if a.reference else 'external_agent:'+a.agent,
             score_eligible=bool(a.agent) and spec['status']=='accepted', suite=spec['suite'],
             split=spec.get('split', task.get('split','unspecified')), release_track=spec['track'],
             release_manifest_sha256=freeze, exit_code=result.returncode,
             run_id=entry['run_id'], repeat_id=entry['repeat_id'], model_identity=identity,
             policy_sha256=entry['policy_sha256'], grading_contract=entry['grading_contract'],
-            returned_models=[], returned_model_missing_calls=0), indent=2))
+            returned_models=sorted(set(returned)), returned_model_missing_calls=previous.get('returned_model_missing_calls',0)), indent=2))
     record = dict(task_id=tid, run_id=entry['run_id'], repeat_id=entry['repeat_id'],
                   exit_code=result.returncode, report=str(report_path), log=str(a.output/f'{name}.log'))
     with (a.output/'suite-attempts.jsonl').open('a') as log: log.write(json.dumps(record)+'\n')

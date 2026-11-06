@@ -1,0 +1,68 @@
+{
+  "ledger_mutated": false,
+  "calls": 1760,
+  "calls_sha256": "b1305ca0e1f43940f8dc4b60ccc9cea0f95d7007cdddf39e634bb3fb9207be18",
+  "configured_ceiling_cny": 150.0,
+  "operating_ceiling_cny": 140.0,
+  "estimated_charges_cny": 53.80856,
+  "unresolved_reserves_cny": 37.9532502,
+  "accounted_upper_cny": 91.7618102,
+  "operating_headroom_cny": 48.2381898,
+  "by_status": [
+    {
+      "status": "http_400",
+      "count": 1,
+      "accounted_upper_cny": 0.43236,
+      "unresolved_reserves_cny": 0.43236
+    },
+    {
+      "status": "http_403",
+      "count": 5,
+      "accounted_upper_cny": 0.749424,
+      "unresolved_reserves_cny": 0.749424
+    },
+    {
+      "status": "http_404",
+      "count": 1,
+      "accounted_upper_cny": 0.647658,
+      "unresolved_reserves_cny": 0.647658
+    },
+    {
+      "status": "http_429",
+      "count": 1,
+      "accounted_upper_cny": 0.4116,
+      "unresolved_reserves_cny": 0.4116
+    },
+    {
+      "status": "http_500",
+      "count": 11,
+      "accounted_upper_cny": 7.562148,
+      "unresolved_reserves_cny": 7.562148
+    },
+    {
+      "status": "http_502",
+      "count": 10,
+      "accounted_upper_cny": 8.458569,
+      "unresolved_reserves_cny": 8.458569
+    },
+    {
+      "status": "http_503",
+      "count": 7,
+      "accounted_upper_cny": 0.6011472,
+      "unresolved_reserves_cny": 0.6011472
+    },
+    {
+      "status": "http_524",
+      "count": 13,
+      "accounted_upper_cny": 19.090343999999998,
+      "unresolved_reserves_cny": 19.090343999999998
+    },
+    {
+      "status": "response",
+      "count": 1711,
+      "accounted_upper_cny": 53.80856,
+      "unresolved_reserves_cny": 0
+    }
+  ],
+  "caveat": "Local token-price upper estimates and unresolved reserves; not actual provider invoices. No failed-call reservation assumed free."
+}

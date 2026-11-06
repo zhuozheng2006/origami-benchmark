@@ -1,0 +1,132 @@
+{
+  "groups": [
+    {
+      "suite": "layers",
+      "track": "prepared_layers",
+      "split": "unspecified",
+      "model_identity": {
+        "schema": "model-identity-v1",
+        "requested_model": "gpt-6-astra",
+        "provider": "https://aicodelink.top",
+        "parameters": {
+          "reasoning_effort": "high"
+        },
+        "output_cap": 8192,
+        "output_parameter": "max_completion_tokens",
+        "adapter": "examples.openai_compatible:create",
+        "adapter_version": "public-api-v3-pilot1",
+        "adapter_sha256": "6b6beb1de7c25dcf508eb8ed09b37f159bd73d4a2cfd0eb498a88c58a03d6b01",
+        "identity_sha256": "c3e36f1cec12b37098083ad4edafc8f18428d54ebda3f886c770f683e9c42f14"
+      },
+      "release_manifest_sha256": "804c686b5d1c6828aa3bba7bae49ece17e70f69325658ba0dff281a6d3108e52",
+      "policy_sha256": "db4cd3721eb7c3335d1a2261d9b83ffdf169e32213ee720df1aec429d840ac51",
+      "grading_contract": "structural-v3",
+      "returned_models": [
+        "gpt-6-astra"
+      ],
+      "returned_model_mismatch": false,
+      "returned_model_missing_calls": 0,
+      "runs": 3,
+      "tasks": 3,
+      "repeats": {
+        "O01": 1,
+        "O02": 1,
+        "O03": 1
+      },
+      "passed": 3,
+      "environment_errors": 0,
+      "environment_error_rate": 0.0,
+      "end_to_end_success_rate": 1.0,
+      "conditional_success_rate": 1.0,
+      "macro_task_success_rate": 1.0
+    },
+    {
+      "suite": "layers",
+      "track": "prepared_layers",
+      "split": "unspecified",
+      "model_identity": {
+        "schema": "model-identity-v1",
+        "requested_model": "claude-opus-5-5",
+        "provider": "https://aicodelink.top",
+        "parameters": {},
+        "output_cap": 8192,
+        "output_parameter": "max_tokens",
+        "adapter": "examples.openai_compatible:create",
+        "adapter_version": "public-api-v3-pilot1",
+        "adapter_sha256": "6b6beb1de7c25dcf508eb8ed09b37f159bd73d4a2cfd0eb498a88c58a03d6b01",
+        "identity_sha256": "5e4285b458534c6507e828c32947217b4e781d089f99df4c033fa103880eb0ce"
+      },
+      "release_manifest_sha256": "804c686b5d1c6828aa3bba7bae49ece17e70f69325658ba0dff281a6d3108e52",
+      "policy_sha256": "db4cd3721eb7c3335d1a2261d9b83ffdf169e32213ee720df1aec429d840ac51",
+      "grading_contract": "structural-v3",
+      "returned_models": [
+        "claude-opus-5-5"
+      ],
+      "returned_model_mismatch": false,
+      "returned_model_missing_calls": 0,
+      "runs": 3,
+      "tasks": 3,
+      "repeats": {
+        "O01": 1,
+        "O02": 1,
+        "O03": 1
+      },
+      "passed": 2,
+      "environment_errors": 0,
+      "environment_error_rate": 0.0,
+      "end_to_end_success_rate": 0.6666666666666666,
+      "conditional_success_rate": 0.6666666666666666,
+      "macro_task_success_rate": 0.6666666666666666
+    },
+    {
+      "suite": "layers",
+      "track": "prepared_layers",
+      "split": "unspecified",
+      "model_identity": {
+        "schema": "model-identity-v1",
+        "requested_model": "gemini-4-argon",
+        "provider": "https://aicodelink.top",
+        "parameters": {},
+        "output_cap": 8192,
+        "output_parameter": "max_tokens",
+        "adapter": "examples.openai_compatible:create",
+        "adapter_version": "public-api-v3-pilot1",
+        "adapter_sha256": "6b6beb1de7c25dcf508eb8ed09b37f159bd73d4a2cfd0eb498a88c58a03d6b01",
+        "identity_sha256": "45596c3c0417f63e391c58bbbd899259c7c4d8f80147bcfba894c0fd5e8332bd"
+      },
+      "release_manifest_sha256": "804c686b5d1c6828aa3bba7bae49ece17e70f69325658ba0dff281a6d3108e52",
+      "policy_sha256": "db4cd3721eb7c3335d1a2261d9b83ffdf169e32213ee720df1aec429d840ac51",
+      "grading_contract": "structural-v3",
+      "returned_models": [
+        "gemini-4-argon"
+      ],
+      "returned_model_mismatch": false,
+      "returned_model_missing_calls": 0,
+      "runs": 3,
+      "tasks": 3,
+      "repeats": {
+        "O01": 1,
+        "O02": 1,
+        "O03": 1
+      },
+      "passed": 3,
+      "environment_errors": 0,
+      "environment_error_rate": 0.0,
+      "end_to_end_success_rate": 1.0,
+      "conditional_success_rate": 1.0,
+      "macro_task_success_rate": 1.0
+    }
+  ],
+  "excluded_oracle_diagnostic_or_replay": 3,
+  "issues": [],
+  "coverage": {
+    "planned": 12,
+    "planned_eligible": 9,
+    "observed_planned": 12,
+    "scorable_planned": 9,
+    "missing": [],
+    "unscorable": []
+  },
+  "comparison_ready": true,
+  "warning": "No plan means descriptive only. Identity is provider-reported, not authenticated weights. Never pool protocols or historical versions."
+}

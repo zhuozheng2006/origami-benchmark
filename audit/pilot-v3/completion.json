@@ -1,0 +1,18 @@
+{
+  "schema": "pilot-completion-v1",
+  "source_commit": "4823b15",
+  "local_tag": "public-v3-pilot1",
+  "paid_calls": 92,
+  "complete_runs": 12,
+  "formal_runs": 9,
+  "diagnostic_runs": 3,
+  "environment_errors": 0,
+  "estimated_new_cny": 5.452205500000005,
+  "historical_call_rows_unchanged": 1668,
+  "old_calls_sha256": "3a1934fb9344342b8ab4675839631b48e54e4056f2d5f5b46f1edb0b63ed6db5",
+  "ceiling_cny": 150,
+  "operating_ceiling_cny": 140,
+  "original_manifest_unchanged": true,
+  "tests_passed": 57,
+  "comparison_ready": true
+}

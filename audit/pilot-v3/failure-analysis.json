@@ -1,0 +1,3522 @@
+{
+  "reviewed_at": "2026-11-07T02:00:08.010024+08:00",
+  "frozen_commit": "4823b15",
+  "frozen_files_audit": {
+    "files_checked": 3115,
+    "mismatches": [],
+    "snapshot_hash_matches_freeze": true,
+    "physics_signature_file_matches_freeze": true
+  },
+  "paid_request_audit": {
+    "recorded_call_ids": 92,
+    "unique_call_ids": 92,
+    "found_rows": 92,
+    "statuses": {
+      "response": 92
+    },
+    "charge_upper_cny": 5.4522055,
+    "actual_provider_payment_verified": false
+  },
+  "planned_runs": 12,
+  "completed_reports": 12,
+  "attributions": {
+    "passed_frozen_contract": 10,
+    "final_structure_reached_required_process_failed": 1,
+    "final_structure_not_reached": 1
+  },
+  "preparation_comparison": [
+    {
+      "task_id": "O01",
+      "available_models": [
+        "gpt",
+        "claude",
+        "gemini"
+      ],
+      "all_models_available": true,
+      "identical_state_hash": true,
+      "max_vertex_difference_mm": {
+        "gpt": 0.0,
+        "claude": 0.0,
+        "gemini": 0.0
+      }
+    },
+    {
+      "task_id": "O02",
+      "available_models": [
+        "gpt",
+        "claude",
+        "gemini"
+      ],
+      "all_models_available": true,
+      "identical_state_hash": true,
+      "max_vertex_difference_mm": {
+        "gpt": 0.0,
+        "claude": 0.0,
+        "gemini": 0.0
+      }
+    },
+    {
+      "task_id": "O03",
+      "available_models": [
+        "gpt",
+        "claude",
+        "gemini"
+      ],
+      "all_models_available": true,
+      "identical_state_hash": true,
+      "max_vertex_difference_mm": {
+        "gpt": 0.0,
+        "claude": 0.0,
+        "gemini": 0.0
+      }
+    },
+    {
+      "task_id": "O04",
+      "available_models": [
+        "gpt",
+        "claude",
+        "gemini"
+      ],
+      "all_models_available": true,
+      "identical_state_hash": true,
+      "max_vertex_difference_mm": {
+        "gpt": 0.0,
+        "claude": 0.0,
+        "gemini": 0.0
+      }
+    }
+  ],
+  "runs": [
+    {
+      "model": "gpt",
+      "requested_model": "gpt-6-astra",
+      "task_id": "O01",
+      "planned_run_id": "36fd4146-0f2c-497c-a1cb-173e672c897b",
+      "score_eligible": true,
+      "planned_manifest_sha256": "804c686b5d1c6828aa3bba7bae49ece17e70f69325658ba0dff281a6d3108e52",
+      "plan_hash_valid": true,
+      "report_complete": true,
+      "events_recorded": 5,
+      "evidence": "outputs/public-v3-pilot-20261107/gpt/O01",
+      "physics_signature_match": true,
+      "cpu_group": 4,
+      "cpu_group_match": true,
+      "remote_sources_match_frozen": true,
+      "remote_source_count": 30,
+      "preparation_complete": true,
+      "initial_shape": {
+        "rms_mm": 0.11902012098130867,
+        "max_mm": 0.358441123554926
+      },
+      "prepared_state_hash": "e61b7330a7d4708f224fba34f54769ef8caf5f5eda228d589695e05a6aad3c37",
+      "rejection_counts": {},
+      "first_rejection": null,
+      "rejected_attempts": [],
+      "report_sha256": "d0f1e39824dfcf47ad86bd7528cb9da45d457a2b9e3b36811bfe5e71948a0fcc",
+      "attempt_history_audit": {
+        "passed": true,
+        "issues": [],
+        "attempts": 5,
+        "attempt_ledger_entries": 5,
+        "events": 5,
+        "model_calls": 5,
+        "api_call_ids": [
+          1669,
+          1672,
+          1675,
+          1678,
+          1681
+        ],
+        "finish_attempts": [
+          5
+        ],
+        "undo_attempts": []
+      },
+      "run_id_matches_plan": true,
+      "release_matches_plan": true,
+      "reported_identity_matches_plan": true,
+      "status": "passed_scoped",
+      "task_success": true,
+      "structure_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "finished": true,
+      "environment_error": false,
+      "shape": {
+        "rms_mm": 0.12047459451296286,
+        "max_mm": 0.31607870353647044,
+        "passed": true,
+        "placement_offset_mm": [
+          0.0013717163066882911,
+          0.00840571302473947,
+          -0.04203666335476936
+        ],
+        "yaw_degrees": -0.002268369855541172,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 4,
+        "required": 4,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 711,
+            "rms_mm": 0.5990939548459534,
+            "max_mm": 2.757093894450233
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1071,
+            "rms_mm": 0.62392256992644,
+            "max_mm": 2.861489896378905
+          },
+          {
+            "checkpoint": 2,
+            "frame": 1251,
+            "rms_mm": 0.576687455433938,
+            "max_mm": 2.7074567624833143
+          },
+          {
+            "checkpoint": 3,
+            "frame": 1430,
+            "rms_mm": 0.6282952584810443,
+            "max_mm": 2.9662238565373786
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 15.257457930061104,
+            "max_mm": 71.43535048102308
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.257221166764573,
+            "max_mm": 71.435168434217
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 10.788651966014672,
+            "max_mm": 50.51242074156917
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 10.788651966014672,
+            "max_mm": 50.512420741569095
+          }
+        ],
+        "fixed_initial_yaw_degrees": 2.2890313693208466e-05
+      },
+      "accepted_paper_actions": [
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "top",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "bottom",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 90
+        },
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 90
+        }
+      ],
+      "reference_actions_for_offline_audit_only": [
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "top",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "bottom",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 90
+        },
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 90
+        }
+      ],
+      "attribution": "passed_frozen_contract"
+    },
+    {
+      "model": "gpt",
+      "requested_model": "gpt-6-astra",
+      "task_id": "O02",
+      "planned_run_id": "d8f90eed-695d-4c7c-b675-f6cfe6553c86",
+      "score_eligible": true,
+      "planned_manifest_sha256": "804c686b5d1c6828aa3bba7bae49ece17e70f69325658ba0dff281a6d3108e52",
+      "plan_hash_valid": true,
+      "report_complete": true,
+      "events_recorded": 7,
+      "evidence": "outputs/public-v3-pilot-20261107/gpt/O02",
+      "physics_signature_match": true,
+      "cpu_group": 4,
+      "cpu_group_match": true,
+      "remote_sources_match_frozen": true,
+      "remote_source_count": 30,
+      "preparation_complete": true,
+      "initial_shape": {
+        "rms_mm": 0.3392071376837018,
+        "max_mm": 0.9913328263235065
+      },
+      "prepared_state_hash": "0cd52c294c3438d44a5c1c642d49bb5f5522206e5c5165e21e2d8ceefb1d7bf2",
+      "rejection_counts": {},
+      "first_rejection": null,
+      "rejected_attempts": [],
+      "report_sha256": "6d0ad0dca672fa3e32877601669f815cf153c282b21f3bf35bffbe8d38fc1dde",
+      "attempt_history_audit": {
+        "passed": true,
+        "issues": [],
+        "attempts": 7,
+        "attempt_ledger_entries": 7,
+        "events": 7,
+        "model_calls": 7,
+        "api_call_ids": [
+          1683,
+          1686,
+          1688,
+          1691,
+          1692,
+          1695,
+          1696
+        ],
+        "finish_attempts": [
+          7
+        ],
+        "undo_attempts": []
+      },
+      "run_id_matches_plan": true,
+      "release_matches_plan": true,
+      "reported_identity_matches_plan": true,
+      "status": "passed_scoped",
+      "task_success": true,
+      "structure_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "finished": true,
+      "environment_error": false,
+      "shape": {
+        "rms_mm": 0.18208693877964313,
+        "max_mm": 0.4863699061623604,
+        "passed": true,
+        "placement_offset_mm": [
+          0.04711328341392915,
+          0.0002772561515510739,
+          -0.05912864142449065
+        ],
+        "yaw_degrees": -0.0003897839023318733,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 6,
+        "required": 6,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 1070,
+            "rms_mm": 0.8698599868282656,
+            "max_mm": 2.8850362661098266
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1431,
+            "rms_mm": 0.6564441160608886,
+            "max_mm": 2.842834960366682
+          },
+          {
+            "checkpoint": 2,
+            "frame": 1791,
+            "rms_mm": 0.6637024076973171,
+            "max_mm": 2.942446600166993
+          },
+          {
+            "checkpoint": 3,
+            "frame": 1971,
+            "rms_mm": 0.5922485718711692,
+            "max_mm": 2.6975758919251396
+          },
+          {
+            "checkpoint": 4,
+            "frame": 2158,
+            "rms_mm": 0.912808201195995,
+            "max_mm": 1.813546307206214
+          },
+          {
+            "checkpoint": 5,
+            "frame": 2331,
+            "rms_mm": 0.63527392586241,
+            "max_mm": 2.8683306473167356
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 20.982394692930704,
+            "max_mm": 67.87292454865137
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.267043956516888,
+            "max_mm": 71.46943465876278
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 15.258818703432299,
+            "max_mm": 71.43848759837249
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 10.795430310326191,
+            "max_mm": 50.536521894780044
+          },
+          {
+            "checkpoint": 4,
+            "distinct": true,
+            "rms_mm": 72.64979229691384,
+            "max_mm": 111.52891898353103
+          },
+          {
+            "checkpoint": 5,
+            "distinct": true,
+            "rms_mm": 10.789614178093101,
+            "max_mm": 50.51463901852026
+          }
+        ],
+        "fixed_initial_yaw_degrees": 0.00019866027203332086
+      },
+      "accepted_paper_actions": [
+        {
+          "op": "unfold",
+          "fold_id": 1
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "top",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "bottom",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 2,
+          "angle_deg": 90
+        },
+        {
+          "op": "rotate_paper",
+          "degrees": 90
+        },
+        {
+          "op": "unfold",
+          "fold_id": 3,
+          "angle_deg": 90
+        }
+      ],
+      "reference_actions_for_offline_audit_only": [
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "top",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "bottom",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 2,
+          "angle_deg": 90
+        },
+        {
+          "op": "rotate_paper",
+          "degrees": 90
+        },
+        {
+          "op": "unfold",
+          "fold_id": 3,
+          "angle_deg": 90
+        }
+      ],
+      "attribution": "passed_frozen_contract"
+    },
+    {
+      "model": "gpt",
+      "requested_model": "gpt-6-astra",
+      "task_id": "O03",
+      "planned_run_id": "3a2516ad-daef-48f1-8208-71b7e1fa3ab5",
+      "score_eligible": true,
+      "planned_manifest_sha256": "804c686b5d1c6828aa3bba7bae49ece17e70f69325658ba0dff281a6d3108e52",
+      "plan_hash_valid": true,
+      "report_complete": true,
+      "events_recorded": 7,
+      "evidence": "outputs/public-v3-pilot-20261107/gpt/O03",
+      "physics_signature_match": true,
+      "cpu_group": 4,
+      "cpu_group_match": true,
+      "remote_sources_match_frozen": true,
+      "remote_source_count": 30,
+      "preparation_complete": true,
+      "initial_shape": {
+        "rms_mm": 0.13307679222234434,
+        "max_mm": 0.358441123554926
+      },
+      "prepared_state_hash": "a772ea7b1abbb042cb06be1d92584d524291e1a362e7196b6bbb7dc4f972e93d",
+      "rejection_counts": {},
+      "first_rejection": null,
+      "rejected_attempts": [],
+      "report_sha256": "e09d62b8a610a1839e5052f5de3e290361004f296217ce920286bfed4c508a31",
+      "attempt_history_audit": {
+        "passed": true,
+        "issues": [],
+        "attempts": 7,
+        "attempt_ledger_entries": 7,
+        "events": 7,
+        "model_calls": 7,
+        "api_call_ids": [
+          1699,
+          1702,
+          1705,
+          1707,
+          1710,
+          1713,
+          1719
+        ],
+        "finish_attempts": [
+          7
+        ],
+        "undo_attempts": []
+      },
+      "run_id_matches_plan": true,
+      "release_matches_plan": true,
+      "reported_identity_matches_plan": true,
+      "status": "passed_scoped",
+      "task_success": true,
+      "structure_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "finished": true,
+      "environment_error": false,
+      "shape": {
+        "rms_mm": 0.4705450577750836,
+        "max_mm": 1.1004904535528428,
+        "passed": true,
+        "placement_offset_mm": [
+          0.0004623191412503831,
+          -0.20774923231615255,
+          0.18303306662308508
+        ],
+        "yaw_degrees": -0.0005967475379377353,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 6,
+        "required": 6,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 1430,
+            "rms_mm": 0.6286937776822411,
+            "max_mm": 2.968228510610542
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1791,
+            "rms_mm": 0.6195033497784619,
+            "max_mm": 2.8452086119711946
+          },
+          {
+            "checkpoint": 2,
+            "frame": 2155,
+            "rms_mm": 0.9546224301369942,
+            "max_mm": 2.8004331611659388
+          },
+          {
+            "checkpoint": 3,
+            "frame": 2612,
+            "rms_mm": 0.9373692245841216,
+            "max_mm": 2.7736891286213967
+          },
+          {
+            "checkpoint": 4,
+            "frame": 2969,
+            "rms_mm": 0.9874418146734995,
+            "max_mm": 2.4439802458950566
+          },
+          {
+            "checkpoint": 5,
+            "frame": 3148,
+            "rms_mm": 0.9203724378260534,
+            "max_mm": 2.563639722685094
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 15.257457930061106,
+            "max_mm": 71.4353504810231
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.257221166764577,
+            "max_mm": 71.435168434217
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 42.58788045250283,
+            "max_mm": 120.34791161406862
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 42.58787268269433,
+            "max_mm": 120.34791784720117
+          },
+          {
+            "checkpoint": 4,
+            "distinct": true,
+            "rms_mm": 20.983414692976748,
+            "max_mm": 67.87397453952624
+          },
+          {
+            "checkpoint": 5,
+            "distinct": true,
+            "rms_mm": 14.837514821853297,
+            "max_mm": 47.994147662982094
+          }
+        ],
+        "fixed_initial_yaw_degrees": 0.0002618427049129283
+      },
+      "accepted_paper_actions": [
+        {
+          "op": "unfold",
+          "fold_id": 1
+        },
+        {
+          "op": "unfold",
+          "fold_id": 2
+        },
+        {
+          "op": "unfold",
+          "fold_id": 0
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.5
+            ],
+            [
+              1,
+              0.5
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.9
+          ],
+          "layers": "all",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "all",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 4,
+          "angle_deg": 90
+        }
+      ],
+      "reference_actions_for_offline_audit_only": [
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 2,
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 0,
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.5
+            ],
+            [
+              1,
+              0.5
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.9
+          ],
+          "layers": "all",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "all",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 4,
+          "angle_deg": 90
+        }
+      ],
+      "attribution": "passed_frozen_contract"
+    },
+    {
+      "model": "gpt",
+      "requested_model": "gpt-6-astra",
+      "task_id": "O04",
+      "planned_run_id": "9b8e0ca6-23a5-444e-a775-25f9d91c62da",
+      "score_eligible": false,
+      "planned_manifest_sha256": "804c686b5d1c6828aa3bba7bae49ece17e70f69325658ba0dff281a6d3108e52",
+      "plan_hash_valid": true,
+      "report_complete": true,
+      "events_recorded": 9,
+      "evidence": "outputs/public-v3-pilot-20261107/gpt/O04",
+      "physics_signature_match": true,
+      "cpu_group": 4,
+      "cpu_group_match": true,
+      "remote_sources_match_frozen": true,
+      "remote_source_count": 30,
+      "preparation_complete": true,
+      "initial_shape": {
+        "rms_mm": 0.3392071376837018,
+        "max_mm": 0.9913328263235065
+      },
+      "prepared_state_hash": "0cd52c294c3438d44a5c1c642d49bb5f5522206e5c5165e21e2d8ceefb1d7bf2",
+      "rejection_counts": {},
+      "first_rejection": null,
+      "rejected_attempts": [],
+      "report_sha256": "f9510ae20aab03701925d65e5c4ccdd86e338ea5cb7bb0ae800ee75f4dddceea",
+      "attempt_history_audit": {
+        "passed": true,
+        "issues": [],
+        "attempts": 9,
+        "attempt_ledger_entries": 9,
+        "events": 9,
+        "model_calls": 9,
+        "api_call_ids": [
+          1723,
+          1726,
+          1728,
+          1731,
+          1732,
+          1735,
+          1737,
+          1738,
+          1739
+        ],
+        "finish_attempts": [
+          9
+        ],
+        "undo_attempts": []
+      },
+      "run_id_matches_plan": true,
+      "release_matches_plan": true,
+      "reported_identity_matches_plan": true,
+      "status": "not_passed",
+      "task_success": false,
+      "structure_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "finished": true,
+      "environment_error": false,
+      "shape": {
+        "rms_mm": 0.18206463630884273,
+        "max_mm": 0.4878575760771262,
+        "passed": true,
+        "placement_offset_mm": [
+          -0.0004708231355440918,
+          -0.047334951532269215,
+          6.826906383541622
+        ],
+        "yaw_degrees": 0.0009707395327688584,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": false,
+        "contract_valid": true,
+        "reason": "required_state_not_reached_in_order",
+        "matched": 4,
+        "required": 8,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 1070,
+            "rms_mm": 0.8698599868282656,
+            "max_mm": 2.8850362661098266
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1431,
+            "rms_mm": 0.65695296664659,
+            "max_mm": 2.842451209007349
+          },
+          {
+            "checkpoint": 2,
+            "frame": 1791,
+            "rms_mm": 0.6638607816331445,
+            "max_mm": 2.9425767358595905
+          },
+          {
+            "checkpoint": 3,
+            "frame": 1978,
+            "rms_mm": 0.9331193981531977,
+            "max_mm": 1.9922690817029365
+          }
+        ],
+        "next_best": {
+          "checkpoint": 4,
+          "frame": 1985,
+          "rms_mm": 10.783529726960701,
+          "max_mm": 50.46969664298513
+        },
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 20.982394692930704,
+            "max_mm": 67.87292454865137
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.266928022485562,
+            "max_mm": 71.46868867475048
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 15.258866308864873,
+            "max_mm": 71.4387423210161
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 72.77482640546948,
+            "max_mm": 110.75764493106601
+          },
+          {
+            "checkpoint": 4,
+            "distinct": true,
+            "rms_mm": 10.795348332586471,
+            "max_mm": 50.53599440442628
+          },
+          {
+            "checkpoint": 5,
+            "distinct": true,
+            "rms_mm": 37.71274275854063,
+            "max_mm": 77.3689728851382
+          },
+          {
+            "checkpoint": 6,
+            "distinct": true,
+            "rms_mm": 10.789647840217297,
+            "max_mm": 50.51481913462887
+          },
+          {
+            "checkpoint": 7,
+            "distinct": true,
+            "rms_mm": 72.42285291229247,
+            "max_mm": 112.35910029619043
+          }
+        ],
+        "fixed_initial_yaw_degrees": 0.00019866027203332086
+      },
+      "first_unmatched_checkpoint": {
+        "zero_based_index": 4,
+        "required": 8,
+        "reason": "required_state_not_reached_in_order",
+        "next_best": {
+          "checkpoint": 4,
+          "frame": 1985,
+          "rms_mm": 10.783529726960701,
+          "max_mm": 50.46969664298513
+        }
+      },
+      "accepted_paper_actions": [
+        {
+          "op": "unfold"
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "top",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "bottom",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "rotate_paper",
+          "degrees": 90
+        },
+        {
+          "op": "unfold",
+          "fold_id": 3,
+          "angle_deg": 90
+        },
+        {
+          "op": "turn_over",
+          "axis": "y"
+        },
+        {
+          "op": "unfold",
+          "fold_id": 2,
+          "angle_deg": 90
+        },
+        {
+          "op": "rotate_paper",
+          "degrees": 90
+        }
+      ],
+      "reference_actions_for_offline_audit_only": [
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0.0,
+              0.25
+            ],
+            [
+              1.0,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "top",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0.0,
+              0.25
+            ],
+            [
+              1.0,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "bottom",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "rotate_paper",
+          "degrees": 90
+        },
+        {
+          "op": "unfold",
+          "fold_id": 2,
+          "angle_deg": 90
+        },
+        {
+          "op": "turn_over",
+          "axis": "y"
+        },
+        {
+          "op": "unfold",
+          "fold_id": 3,
+          "angle_deg": 90
+        },
+        {
+          "op": "rotate_paper",
+          "degrees": 90
+        }
+      ],
+      "attribution": "final_structure_reached_required_process_failed"
+    },
+    {
+      "model": "claude",
+      "requested_model": "claude-opus-5-5",
+      "task_id": "O01",
+      "planned_run_id": "9af7a3a3-ee1a-455c-beba-847f6032802d",
+      "score_eligible": true,
+      "planned_manifest_sha256": "804c686b5d1c6828aa3bba7bae49ece17e70f69325658ba0dff281a6d3108e52",
+      "plan_hash_valid": true,
+      "report_complete": true,
+      "events_recorded": 5,
+      "evidence": "outputs/public-v3-pilot-20261107/claude/O01",
+      "physics_signature_match": true,
+      "cpu_group": 5,
+      "cpu_group_match": true,
+      "remote_sources_match_frozen": true,
+      "remote_source_count": 30,
+      "preparation_complete": true,
+      "initial_shape": {
+        "rms_mm": 0.11902012098130867,
+        "max_mm": 0.358441123554926
+      },
+      "prepared_state_hash": "e61b7330a7d4708f224fba34f54769ef8caf5f5eda228d589695e05a6aad3c37",
+      "rejection_counts": {},
+      "first_rejection": null,
+      "rejected_attempts": [],
+      "report_sha256": "b3f613609709dc20dc621cf7130eaa0de88a5aa6058f268e8d4c1e4d9f04f0ff",
+      "attempt_history_audit": {
+        "passed": true,
+        "issues": [],
+        "attempts": 5,
+        "attempt_ledger_entries": 5,
+        "events": 5,
+        "model_calls": 5,
+        "api_call_ids": [
+          1671,
+          1674,
+          1677,
+          1679,
+          1682
+        ],
+        "finish_attempts": [
+          5
+        ],
+        "undo_attempts": []
+      },
+      "run_id_matches_plan": true,
+      "release_matches_plan": true,
+      "reported_identity_matches_plan": true,
+      "status": "passed_scoped",
+      "task_success": true,
+      "structure_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "finished": true,
+      "environment_error": false,
+      "shape": {
+        "rms_mm": 0.12047459451296286,
+        "max_mm": 0.31607870353647044,
+        "passed": true,
+        "placement_offset_mm": [
+          0.0013717163066882911,
+          0.00840571302473947,
+          -0.04203666335476936
+        ],
+        "yaw_degrees": -0.002268369855541172,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 4,
+        "required": 4,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 711,
+            "rms_mm": 0.5990939548459534,
+            "max_mm": 2.757093894450233
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1071,
+            "rms_mm": 0.62392256992644,
+            "max_mm": 2.861489896378905
+          },
+          {
+            "checkpoint": 2,
+            "frame": 1251,
+            "rms_mm": 0.576687455433938,
+            "max_mm": 2.7074567624833143
+          },
+          {
+            "checkpoint": 3,
+            "frame": 1430,
+            "rms_mm": 0.6282952584810443,
+            "max_mm": 2.9662238565373786
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 15.257457930061104,
+            "max_mm": 71.43535048102308
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.257221166764573,
+            "max_mm": 71.435168434217
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 10.788651966014672,
+            "max_mm": 50.51242074156917
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 10.788651966014672,
+            "max_mm": 50.512420741569095
+          }
+        ],
+        "fixed_initial_yaw_degrees": 2.2890313693208466e-05
+      },
+      "accepted_paper_actions": [
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "top",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "bottom",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 90
+        },
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 90
+        }
+      ],
+      "reference_actions_for_offline_audit_only": [
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "top",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "bottom",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 90
+        },
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 90
+        }
+      ],
+      "attribution": "passed_frozen_contract"
+    },
+    {
+      "model": "claude",
+      "requested_model": "claude-opus-5-5",
+      "task_id": "O02",
+      "planned_run_id": "5078c260-436a-4ebb-b5a2-03207aef4fee",
+      "score_eligible": true,
+      "planned_manifest_sha256": "804c686b5d1c6828aa3bba7bae49ece17e70f69325658ba0dff281a6d3108e52",
+      "plan_hash_valid": true,
+      "report_complete": true,
+      "events_recorded": 13,
+      "evidence": "outputs/public-v3-pilot-20261107/claude/O02",
+      "physics_signature_match": true,
+      "cpu_group": 5,
+      "cpu_group_match": true,
+      "remote_sources_match_frozen": true,
+      "remote_source_count": 30,
+      "preparation_complete": true,
+      "initial_shape": {
+        "rms_mm": 0.3392071376837018,
+        "max_mm": 0.9913328263235065
+      },
+      "prepared_state_hash": "0cd52c294c3438d44a5c1c642d49bb5f5522206e5c5165e21e2d8ceefb1d7bf2",
+      "rejection_counts": {
+        "capability_limit": 2
+      },
+      "first_rejection": {
+        "attempt_index": 1,
+        "action": {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.5
+            ],
+            [
+              1,
+              0.5
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.25
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        "category": "capability_limit",
+        "detail": "Not enough distinct moving/fixed outer boundary grips",
+        "rollback_verified": true
+      },
+      "rejected_attempts": [
+        {
+          "attempt_index": 1,
+          "action": {
+            "op": "fold_line",
+            "line": [
+              [
+                0,
+                0.5
+              ],
+              [
+                1,
+                0.5
+              ]
+            ],
+            "moving_point": [
+              0.5,
+              0.25
+            ],
+            "layers": "all",
+            "sense": "toward",
+            "angle_deg": 180
+          },
+          "category": "capability_limit",
+          "detail": "Not enough distinct moving/fixed outer boundary grips",
+          "rollback_verified": true
+        },
+        {
+          "attempt_index": 10,
+          "action": {
+            "op": "unfold",
+            "fold_id": 2,
+            "angle_deg": 90
+          },
+          "category": "capability_limit",
+          "detail": "Open overlapping later folds first; dependent layer unfolding is not yet validated",
+          "rollback_verified": true
+        }
+      ],
+      "report_sha256": "ba0731cb820a961344740a59640d6f97e10a4436d3ccf307b1728eed6e3b6cfa",
+      "attempt_history_audit": {
+        "passed": true,
+        "issues": [],
+        "attempts": 13,
+        "attempt_ledger_entries": 13,
+        "events": 13,
+        "model_calls": 13,
+        "api_call_ids": [
+          1685,
+          1687,
+          1689,
+          1693,
+          1694,
+          1700,
+          1704,
+          1708,
+          1712,
+          1715,
+          1716,
+          1717,
+          1720
+        ],
+        "finish_attempts": [
+          13
+        ],
+        "undo_attempts": [
+          4
+        ]
+      },
+      "run_id_matches_plan": true,
+      "release_matches_plan": true,
+      "reported_identity_matches_plan": true,
+      "status": "not_passed",
+      "task_success": false,
+      "structure_success": false,
+      "physical_pass": true,
+      "memory_pass": true,
+      "finished": true,
+      "environment_error": false,
+      "shape": {
+        "rms_mm": 30.316867110338535,
+        "max_mm": 86.19454753137863,
+        "passed": false,
+        "placement_offset_mm": [
+          -12.527294981053195,
+          0.002324016599472272,
+          9.609722238442007
+        ],
+        "yaw_degrees": -0.003873326769005252,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": false,
+        "contract_valid": true,
+        "reason": "required_state_not_reached_in_order",
+        "matched": 1,
+        "required": 6,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 1070,
+            "rms_mm": 0.8698599868282656,
+            "max_mm": 2.8850362661098266
+          }
+        ],
+        "next_best": {
+          "checkpoint": 1,
+          "frame": 1071,
+          "rms_mm": 15.254074156001213,
+          "max_mm": 71.36127370042145
+        },
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 20.982394692930704,
+            "max_mm": 67.87292454865137
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.267043956516888,
+            "max_mm": 71.46943465876278
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 15.258818703432299,
+            "max_mm": 71.43848759837249
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 10.795430310326191,
+            "max_mm": 50.536521894780044
+          },
+          {
+            "checkpoint": 4,
+            "distinct": true,
+            "rms_mm": 72.64979229691384,
+            "max_mm": 111.52891898353103
+          },
+          {
+            "checkpoint": 5,
+            "distinct": true,
+            "rms_mm": 10.789614178093101,
+            "max_mm": 50.51463901852026
+          }
+        ],
+        "fixed_initial_yaw_degrees": 0.00019866027203332086
+      },
+      "first_unmatched_checkpoint": {
+        "zero_based_index": 1,
+        "required": 6,
+        "reason": "required_state_not_reached_in_order",
+        "next_best": {
+          "checkpoint": 1,
+          "frame": 1071,
+          "rms_mm": 15.254074156001213,
+          "max_mm": 71.36127370042145
+        }
+      },
+      "accepted_paper_actions": [
+        {
+          "op": "unfold",
+          "fold_id": 1
+        },
+        {
+          "op": "unfold",
+          "fold_id": 0
+        },
+        {
+          "op": "undo"
+        },
+        {
+          "op": "turn_over",
+          "axis": "y"
+        },
+        {
+          "op": "unfold",
+          "fold_id": 0
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.5
+            ],
+            [
+              1,
+              0.5
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.25
+          ],
+          "layers": "all",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.75
+            ],
+            [
+              1,
+              0.75
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.6
+          ],
+          "layers": "all",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 3,
+          "angle_deg": 90
+        },
+        {
+          "op": "rotate_paper",
+          "degrees": -90
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0.75,
+              0
+            ],
+            [
+              0.75,
+              1
+            ]
+          ],
+          "moving_point": [
+            0.9,
+            0.5
+          ],
+          "layers": "top",
+          "sense": "toward",
+          "angle_deg": 90
+        }
+      ],
+      "reference_actions_for_offline_audit_only": [
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "top",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "bottom",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 2,
+          "angle_deg": 90
+        },
+        {
+          "op": "rotate_paper",
+          "degrees": 90
+        },
+        {
+          "op": "unfold",
+          "fold_id": 3,
+          "angle_deg": 90
+        }
+      ],
+      "attribution": "final_structure_not_reached"
+    },
+    {
+      "model": "claude",
+      "requested_model": "claude-opus-5-5",
+      "task_id": "O03",
+      "planned_run_id": "ce48276c-5a1d-4192-9ebe-72bcbeead422",
+      "score_eligible": true,
+      "planned_manifest_sha256": "804c686b5d1c6828aa3bba7bae49ece17e70f69325658ba0dff281a6d3108e52",
+      "plan_hash_valid": true,
+      "report_complete": true,
+      "events_recorded": 9,
+      "evidence": "outputs/public-v3-pilot-20261107/claude/O03",
+      "physics_signature_match": true,
+      "cpu_group": 5,
+      "cpu_group_match": true,
+      "remote_sources_match_frozen": true,
+      "remote_source_count": 30,
+      "preparation_complete": true,
+      "initial_shape": {
+        "rms_mm": 0.13307679222234434,
+        "max_mm": 0.358441123554926
+      },
+      "prepared_state_hash": "a772ea7b1abbb042cb06be1d92584d524291e1a362e7196b6bbb7dc4f972e93d",
+      "rejection_counts": {},
+      "first_rejection": null,
+      "rejected_attempts": [],
+      "report_sha256": "a2e67848a3b6b69e01dd291f6619e92436fcf2b8416de07b733a043089fc5770",
+      "attempt_history_audit": {
+        "passed": true,
+        "issues": [],
+        "attempts": 9,
+        "attempt_ledger_entries": 9,
+        "events": 9,
+        "model_calls": 9,
+        "api_call_ids": [
+          1724,
+          1725,
+          1727,
+          1730,
+          1733,
+          1736,
+          1740,
+          1742,
+          1745
+        ],
+        "finish_attempts": [
+          9
+        ],
+        "undo_attempts": [
+          2
+        ]
+      },
+      "run_id_matches_plan": true,
+      "release_matches_plan": true,
+      "reported_identity_matches_plan": true,
+      "status": "passed_scoped",
+      "task_success": true,
+      "structure_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "finished": true,
+      "environment_error": false,
+      "shape": {
+        "rms_mm": 0.4705450577750836,
+        "max_mm": 1.1004904535528428,
+        "passed": true,
+        "placement_offset_mm": [
+          0.0004623191412503831,
+          -0.20774923231615255,
+          0.18303306662308508
+        ],
+        "yaw_degrees": -0.0005967475379377353,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 6,
+        "required": 6,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 1430,
+            "rms_mm": 0.6286937776822411,
+            "max_mm": 2.968228510610542
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1791,
+            "rms_mm": 0.6195033497784619,
+            "max_mm": 2.8452086119711946
+          },
+          {
+            "checkpoint": 2,
+            "frame": 2155,
+            "rms_mm": 0.9546224301369942,
+            "max_mm": 2.8004331611659388
+          },
+          {
+            "checkpoint": 3,
+            "frame": 2612,
+            "rms_mm": 0.9373692245841216,
+            "max_mm": 2.7736891286213967
+          },
+          {
+            "checkpoint": 4,
+            "frame": 2969,
+            "rms_mm": 0.9874418146734995,
+            "max_mm": 2.4439802458950566
+          },
+          {
+            "checkpoint": 5,
+            "frame": 3148,
+            "rms_mm": 0.9203724378260534,
+            "max_mm": 2.563639722685094
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 15.257457930061106,
+            "max_mm": 71.4353504810231
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.257221166764577,
+            "max_mm": 71.435168434217
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 42.58788045250283,
+            "max_mm": 120.34791161406862
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 42.58787268269433,
+            "max_mm": 120.34791784720117
+          },
+          {
+            "checkpoint": 4,
+            "distinct": true,
+            "rms_mm": 20.983414692976748,
+            "max_mm": 67.87397453952624
+          },
+          {
+            "checkpoint": 5,
+            "distinct": true,
+            "rms_mm": 14.837514821853297,
+            "max_mm": 47.994147662982094
+          }
+        ],
+        "fixed_initial_yaw_degrees": 0.0002618427049129283
+      },
+      "accepted_paper_actions": [
+        {
+          "op": "unfold",
+          "fold_id": 2
+        },
+        {
+          "op": "undo"
+        },
+        {
+          "op": "unfold",
+          "fold_id": 1
+        },
+        {
+          "op": "unfold",
+          "fold_id": 2
+        },
+        {
+          "op": "unfold",
+          "fold_id": 0
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.5
+            ],
+            [
+              1,
+              0.5
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.9
+          ],
+          "layers": "all",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "all",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 4,
+          "angle_deg": 90
+        }
+      ],
+      "reference_actions_for_offline_audit_only": [
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 2,
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 0,
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.5
+            ],
+            [
+              1,
+              0.5
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.9
+          ],
+          "layers": "all",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "all",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 4,
+          "angle_deg": 90
+        }
+      ],
+      "attribution": "passed_frozen_contract"
+    },
+    {
+      "model": "claude",
+      "requested_model": "claude-opus-5-5",
+      "task_id": "O04",
+      "planned_run_id": "d73ade0b-ac41-404c-998f-ab67ddb4f1a6",
+      "score_eligible": false,
+      "planned_manifest_sha256": "804c686b5d1c6828aa3bba7bae49ece17e70f69325658ba0dff281a6d3108e52",
+      "plan_hash_valid": true,
+      "report_complete": true,
+      "events_recorded": 9,
+      "evidence": "outputs/public-v3-pilot-20261107/claude/O04",
+      "physics_signature_match": true,
+      "cpu_group": 5,
+      "cpu_group_match": true,
+      "remote_sources_match_frozen": true,
+      "remote_source_count": 30,
+      "preparation_complete": true,
+      "initial_shape": {
+        "rms_mm": 0.3392071376837018,
+        "max_mm": 0.9913328263235065
+      },
+      "prepared_state_hash": "0cd52c294c3438d44a5c1c642d49bb5f5522206e5c5165e21e2d8ceefb1d7bf2",
+      "rejection_counts": {},
+      "first_rejection": null,
+      "rejected_attempts": [],
+      "report_sha256": "37d6d043586c530231dcd215d1ef9785e72988b38a07584ed5ecbbd659cef221",
+      "attempt_history_audit": {
+        "passed": true,
+        "issues": [],
+        "attempts": 9,
+        "attempt_ledger_entries": 9,
+        "events": 9,
+        "model_calls": 9,
+        "api_call_ids": [
+          1749,
+          1751,
+          1753,
+          1754,
+          1756,
+          1757,
+          1758,
+          1759,
+          1760
+        ],
+        "finish_attempts": [
+          9
+        ],
+        "undo_attempts": []
+      },
+      "run_id_matches_plan": true,
+      "release_matches_plan": true,
+      "reported_identity_matches_plan": true,
+      "status": "passed_scoped",
+      "task_success": true,
+      "structure_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "finished": true,
+      "environment_error": false,
+      "shape": {
+        "rms_mm": 0.18244120829631857,
+        "max_mm": 0.49523191299476244,
+        "passed": true,
+        "placement_offset_mm": [
+          -0.0005945224406820643,
+          -0.04746522352054583,
+          0.06070594390857531
+        ],
+        "yaw_degrees": 0.001074922226382717,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 8,
+        "required": 8,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 1070,
+            "rms_mm": 0.8698599868282656,
+            "max_mm": 2.8850362661098266
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1431,
+            "rms_mm": 0.65695296664659,
+            "max_mm": 2.842451209007349
+          },
+          {
+            "checkpoint": 2,
+            "frame": 1791,
+            "rms_mm": 0.6638607816331445,
+            "max_mm": 2.9425767358595905
+          },
+          {
+            "checkpoint": 3,
+            "frame": 1978,
+            "rms_mm": 0.9331193981531977,
+            "max_mm": 1.9922690817029365
+          },
+          {
+            "checkpoint": 4,
+            "frame": 2151,
+            "rms_mm": 0.5922714746342252,
+            "max_mm": 2.696594324819358
+          },
+          {
+            "checkpoint": 5,
+            "frame": 2514,
+            "rms_mm": 0.9369212090279923,
+            "max_mm": 1.872579781937007
+          },
+          {
+            "checkpoint": 6,
+            "frame": 2691,
+            "rms_mm": 0.6350710419459558,
+            "max_mm": 2.868427683192028
+          },
+          {
+            "checkpoint": 7,
+            "frame": 2878,
+            "rms_mm": 0.9128399311243052,
+            "max_mm": 1.801272758014286
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 20.982394692930704,
+            "max_mm": 67.87292454865137
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.266928022485562,
+            "max_mm": 71.46868867475048
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 15.258866308864873,
+            "max_mm": 71.4387423210161
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 72.77482640546948,
+            "max_mm": 110.75764493106601
+          },
+          {
+            "checkpoint": 4,
+            "distinct": true,
+            "rms_mm": 10.795348332586471,
+            "max_mm": 50.53599440442628
+          },
+          {
+            "checkpoint": 5,
+            "distinct": true,
+            "rms_mm": 37.71274275854063,
+            "max_mm": 77.3689728851382
+          },
+          {
+            "checkpoint": 6,
+            "distinct": true,
+            "rms_mm": 10.789647840217297,
+            "max_mm": 50.51481913462887
+          },
+          {
+            "checkpoint": 7,
+            "distinct": true,
+            "rms_mm": 72.42285291229247,
+            "max_mm": 112.35910029619043
+          }
+        ],
+        "fixed_initial_yaw_degrees": 0.00019866027203332086
+      },
+      "accepted_paper_actions": [
+        {
+          "op": "unfold",
+          "fold_id": 1
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0.0,
+              0.25
+            ],
+            [
+              1.0,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "top",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0.0,
+              0.25
+            ],
+            [
+              1.0,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "bottom",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "rotate_paper",
+          "degrees": 90
+        },
+        {
+          "op": "unfold",
+          "fold_id": 2,
+          "angle_deg": 90
+        },
+        {
+          "op": "turn_over",
+          "axis": "y"
+        },
+        {
+          "op": "unfold",
+          "fold_id": 3,
+          "angle_deg": 90
+        },
+        {
+          "op": "rotate_paper",
+          "degrees": 90
+        }
+      ],
+      "reference_actions_for_offline_audit_only": [
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0.0,
+              0.25
+            ],
+            [
+              1.0,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "top",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0.0,
+              0.25
+            ],
+            [
+              1.0,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "bottom",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "rotate_paper",
+          "degrees": 90
+        },
+        {
+          "op": "unfold",
+          "fold_id": 2,
+          "angle_deg": 90
+        },
+        {
+          "op": "turn_over",
+          "axis": "y"
+        },
+        {
+          "op": "unfold",
+          "fold_id": 3,
+          "angle_deg": 90
+        },
+        {
+          "op": "rotate_paper",
+          "degrees": 90
+        }
+      ],
+      "attribution": "passed_frozen_contract"
+    },
+    {
+      "model": "gemini",
+      "requested_model": "gemini-4-argon",
+      "task_id": "O01",
+      "planned_run_id": "4abbf28b-47f0-4bcd-817e-8f22a45b547a",
+      "score_eligible": true,
+      "planned_manifest_sha256": "804c686b5d1c6828aa3bba7bae49ece17e70f69325658ba0dff281a6d3108e52",
+      "plan_hash_valid": true,
+      "report_complete": true,
+      "events_recorded": 5,
+      "evidence": "outputs/public-v3-pilot-20261107/gemini/O01",
+      "physics_signature_match": true,
+      "cpu_group": 6,
+      "cpu_group_match": true,
+      "remote_sources_match_frozen": true,
+      "remote_source_count": 30,
+      "preparation_complete": true,
+      "initial_shape": {
+        "rms_mm": 0.11902012098130867,
+        "max_mm": 0.358441123554926
+      },
+      "prepared_state_hash": "e61b7330a7d4708f224fba34f54769ef8caf5f5eda228d589695e05a6aad3c37",
+      "rejection_counts": {},
+      "first_rejection": null,
+      "rejected_attempts": [],
+      "report_sha256": "f211af2027db808bf9e863c588630d7496d6edc910ab40bdaf9bcbed7486d8ce",
+      "attempt_history_audit": {
+        "passed": true,
+        "issues": [],
+        "attempts": 5,
+        "attempt_ledger_entries": 5,
+        "events": 5,
+        "model_calls": 5,
+        "api_call_ids": [
+          1670,
+          1673,
+          1676,
+          1680,
+          1684
+        ],
+        "finish_attempts": [
+          5
+        ],
+        "undo_attempts": []
+      },
+      "run_id_matches_plan": true,
+      "release_matches_plan": true,
+      "reported_identity_matches_plan": true,
+      "status": "passed_scoped",
+      "task_success": true,
+      "structure_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "finished": true,
+      "environment_error": false,
+      "shape": {
+        "rms_mm": 0.12047459451296286,
+        "max_mm": 0.31607870353647044,
+        "passed": true,
+        "placement_offset_mm": [
+          0.0013717163066882911,
+          0.00840571302473947,
+          -0.04203666335476936
+        ],
+        "yaw_degrees": -0.002268369855541172,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 4,
+        "required": 4,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 711,
+            "rms_mm": 0.5990939548459534,
+            "max_mm": 2.757093894450233
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1071,
+            "rms_mm": 0.62392256992644,
+            "max_mm": 2.861489896378905
+          },
+          {
+            "checkpoint": 2,
+            "frame": 1251,
+            "rms_mm": 0.576687455433938,
+            "max_mm": 2.7074567624833143
+          },
+          {
+            "checkpoint": 3,
+            "frame": 1430,
+            "rms_mm": 0.6282952584810443,
+            "max_mm": 2.9662238565373786
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 15.257457930061104,
+            "max_mm": 71.43535048102308
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.257221166764573,
+            "max_mm": 71.435168434217
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 10.788651966014672,
+            "max_mm": 50.51242074156917
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 10.788651966014672,
+            "max_mm": 50.512420741569095
+          }
+        ],
+        "fixed_initial_yaw_degrees": 2.2890313693208466e-05
+      },
+      "accepted_paper_actions": [
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "top",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "bottom",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 90
+        },
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 90
+        }
+      ],
+      "reference_actions_for_offline_audit_only": [
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "top",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "bottom",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 90
+        },
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 90
+        }
+      ],
+      "attribution": "passed_frozen_contract"
+    },
+    {
+      "model": "gemini",
+      "requested_model": "gemini-4-argon",
+      "task_id": "O02",
+      "planned_run_id": "489ad659-82d0-4940-bd71-b76857df7ce7",
+      "score_eligible": true,
+      "planned_manifest_sha256": "804c686b5d1c6828aa3bba7bae49ece17e70f69325658ba0dff281a6d3108e52",
+      "plan_hash_valid": true,
+      "report_complete": true,
+      "events_recorded": 7,
+      "evidence": "outputs/public-v3-pilot-20261107/gemini/O02",
+      "physics_signature_match": true,
+      "cpu_group": 6,
+      "cpu_group_match": true,
+      "remote_sources_match_frozen": true,
+      "remote_source_count": 30,
+      "preparation_complete": true,
+      "initial_shape": {
+        "rms_mm": 0.3392071376837018,
+        "max_mm": 0.9913328263235065
+      },
+      "prepared_state_hash": "0cd52c294c3438d44a5c1c642d49bb5f5522206e5c5165e21e2d8ceefb1d7bf2",
+      "rejection_counts": {},
+      "first_rejection": null,
+      "rejected_attempts": [],
+      "report_sha256": "cf21a464288285c9c072287962642e3283ffb16fb05b947e151168b91ae949ff",
+      "attempt_history_audit": {
+        "passed": true,
+        "issues": [],
+        "attempts": 7,
+        "attempt_ledger_entries": 7,
+        "events": 7,
+        "model_calls": 7,
+        "api_call_ids": [
+          1690,
+          1697,
+          1698,
+          1701,
+          1703,
+          1706,
+          1709
+        ],
+        "finish_attempts": [
+          7
+        ],
+        "undo_attempts": []
+      },
+      "run_id_matches_plan": true,
+      "release_matches_plan": true,
+      "reported_identity_matches_plan": true,
+      "status": "passed_scoped",
+      "task_success": true,
+      "structure_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "finished": true,
+      "environment_error": false,
+      "shape": {
+        "rms_mm": 0.18208693877964313,
+        "max_mm": 0.4863699061623604,
+        "passed": true,
+        "placement_offset_mm": [
+          0.04711328341392915,
+          0.0002772561515510739,
+          -0.05912864142449065
+        ],
+        "yaw_degrees": -0.0003897839023318733,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 6,
+        "required": 6,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 1070,
+            "rms_mm": 0.8698599868282656,
+            "max_mm": 2.8850362661098266
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1431,
+            "rms_mm": 0.6564441160608886,
+            "max_mm": 2.842834960366682
+          },
+          {
+            "checkpoint": 2,
+            "frame": 1791,
+            "rms_mm": 0.6637024076973171,
+            "max_mm": 2.942446600166993
+          },
+          {
+            "checkpoint": 3,
+            "frame": 1971,
+            "rms_mm": 0.5922485718711692,
+            "max_mm": 2.6975758919251396
+          },
+          {
+            "checkpoint": 4,
+            "frame": 2158,
+            "rms_mm": 0.912808201195995,
+            "max_mm": 1.813546307206214
+          },
+          {
+            "checkpoint": 5,
+            "frame": 2331,
+            "rms_mm": 0.63527392586241,
+            "max_mm": 2.8683306473167356
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 20.982394692930704,
+            "max_mm": 67.87292454865137
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.267043956516888,
+            "max_mm": 71.46943465876278
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 15.258818703432299,
+            "max_mm": 71.43848759837249
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 10.795430310326191,
+            "max_mm": 50.536521894780044
+          },
+          {
+            "checkpoint": 4,
+            "distinct": true,
+            "rms_mm": 72.64979229691384,
+            "max_mm": 111.52891898353103
+          },
+          {
+            "checkpoint": 5,
+            "distinct": true,
+            "rms_mm": 10.789614178093101,
+            "max_mm": 50.51463901852026
+          }
+        ],
+        "fixed_initial_yaw_degrees": 0.00019866027203332086
+      },
+      "accepted_paper_actions": [
+        {
+          "op": "unfold"
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "top",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "bottom",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 2,
+          "angle_deg": 90
+        },
+        {
+          "op": "rotate_paper",
+          "degrees": 90
+        },
+        {
+          "op": "unfold",
+          "fold_id": 3,
+          "angle_deg": 90
+        }
+      ],
+      "reference_actions_for_offline_audit_only": [
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "top",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "bottom",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 2,
+          "angle_deg": 90
+        },
+        {
+          "op": "rotate_paper",
+          "degrees": 90
+        },
+        {
+          "op": "unfold",
+          "fold_id": 3,
+          "angle_deg": 90
+        }
+      ],
+      "attribution": "passed_frozen_contract"
+    },
+    {
+      "model": "gemini",
+      "requested_model": "gemini-4-argon",
+      "task_id": "O03",
+      "planned_run_id": "4787bd62-5b2f-4a83-b8e0-075eb3c23116",
+      "score_eligible": true,
+      "planned_manifest_sha256": "804c686b5d1c6828aa3bba7bae49ece17e70f69325658ba0dff281a6d3108e52",
+      "plan_hash_valid": true,
+      "report_complete": true,
+      "events_recorded": 7,
+      "evidence": "outputs/public-v3-pilot-20261107/gemini/O03",
+      "physics_signature_match": true,
+      "cpu_group": 6,
+      "cpu_group_match": true,
+      "remote_sources_match_frozen": true,
+      "remote_source_count": 30,
+      "preparation_complete": true,
+      "initial_shape": {
+        "rms_mm": 0.13307679222234434,
+        "max_mm": 0.358441123554926
+      },
+      "prepared_state_hash": "a772ea7b1abbb042cb06be1d92584d524291e1a362e7196b6bbb7dc4f972e93d",
+      "rejection_counts": {},
+      "first_rejection": null,
+      "rejected_attempts": [],
+      "report_sha256": "2eafcb521640a90f39b4c786ed4ba408424f95b77c100a33131650d2da104aa9",
+      "attempt_history_audit": {
+        "passed": true,
+        "issues": [],
+        "attempts": 7,
+        "attempt_ledger_entries": 7,
+        "events": 7,
+        "model_calls": 7,
+        "api_call_ids": [
+          1711,
+          1714,
+          1718,
+          1721,
+          1722,
+          1729,
+          1734
+        ],
+        "finish_attempts": [
+          7
+        ],
+        "undo_attempts": []
+      },
+      "run_id_matches_plan": true,
+      "release_matches_plan": true,
+      "reported_identity_matches_plan": true,
+      "status": "passed_scoped",
+      "task_success": true,
+      "structure_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "finished": true,
+      "environment_error": false,
+      "shape": {
+        "rms_mm": 0.4705450577750836,
+        "max_mm": 1.1004904535528428,
+        "passed": true,
+        "placement_offset_mm": [
+          0.0004623191412503831,
+          -0.20774923231615255,
+          0.18303306662308508
+        ],
+        "yaw_degrees": -0.0005967475379377353,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 6,
+        "required": 6,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 1430,
+            "rms_mm": 0.6286937776822411,
+            "max_mm": 2.968228510610542
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1791,
+            "rms_mm": 0.6195033497784619,
+            "max_mm": 2.8452086119711946
+          },
+          {
+            "checkpoint": 2,
+            "frame": 2155,
+            "rms_mm": 0.9546224301369942,
+            "max_mm": 2.8004331611659388
+          },
+          {
+            "checkpoint": 3,
+            "frame": 2612,
+            "rms_mm": 0.9373692245841216,
+            "max_mm": 2.7736891286213967
+          },
+          {
+            "checkpoint": 4,
+            "frame": 2969,
+            "rms_mm": 0.9874418146734995,
+            "max_mm": 2.4439802458950566
+          },
+          {
+            "checkpoint": 5,
+            "frame": 3148,
+            "rms_mm": 0.9203724378260534,
+            "max_mm": 2.563639722685094
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 15.257457930061106,
+            "max_mm": 71.4353504810231
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.257221166764577,
+            "max_mm": 71.435168434217
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 42.58788045250283,
+            "max_mm": 120.34791161406862
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 42.58787268269433,
+            "max_mm": 120.34791784720117
+          },
+          {
+            "checkpoint": 4,
+            "distinct": true,
+            "rms_mm": 20.983414692976748,
+            "max_mm": 67.87397453952624
+          },
+          {
+            "checkpoint": 5,
+            "distinct": true,
+            "rms_mm": 14.837514821853297,
+            "max_mm": 47.994147662982094
+          }
+        ],
+        "fixed_initial_yaw_degrees": 0.0002618427049129283
+      },
+      "accepted_paper_actions": [
+        {
+          "op": "unfold",
+          "fold_id": 1
+        },
+        {
+          "op": "unfold",
+          "fold_id": 2
+        },
+        {
+          "op": "unfold",
+          "fold_id": 0
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.5
+            ],
+            [
+              1,
+              0.5
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.9
+          ],
+          "layers": "all",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "all",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 4,
+          "angle_deg": 90
+        }
+      ],
+      "reference_actions_for_offline_audit_only": [
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 2,
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 0,
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.5
+            ],
+            [
+              1,
+              0.5
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.9
+          ],
+          "layers": "all",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "all",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "unfold",
+          "fold_id": 4,
+          "angle_deg": 90
+        }
+      ],
+      "attribution": "passed_frozen_contract"
+    },
+    {
+      "model": "gemini",
+      "requested_model": "gemini-4-argon",
+      "task_id": "O04",
+      "planned_run_id": "a08d2805-76f8-41c1-b16f-302f13189b89",
+      "score_eligible": false,
+      "planned_manifest_sha256": "804c686b5d1c6828aa3bba7bae49ece17e70f69325658ba0dff281a6d3108e52",
+      "plan_hash_valid": true,
+      "report_complete": true,
+      "events_recorded": 9,
+      "evidence": "outputs/public-v3-pilot-20261107/gemini/O04",
+      "physics_signature_match": true,
+      "cpu_group": 6,
+      "cpu_group_match": true,
+      "remote_sources_match_frozen": true,
+      "remote_source_count": 30,
+      "preparation_complete": true,
+      "initial_shape": {
+        "rms_mm": 0.3392071376837018,
+        "max_mm": 0.9913328263235065
+      },
+      "prepared_state_hash": "0cd52c294c3438d44a5c1c642d49bb5f5522206e5c5165e21e2d8ceefb1d7bf2",
+      "rejection_counts": {},
+      "first_rejection": null,
+      "rejected_attempts": [],
+      "report_sha256": "2f73600be3acd71a50ad8f26aac86f4d1bc4cac28ff8529294cce69b6cf88333",
+      "attempt_history_audit": {
+        "passed": true,
+        "issues": [],
+        "attempts": 9,
+        "attempt_ledger_entries": 9,
+        "events": 9,
+        "model_calls": 9,
+        "api_call_ids": [
+          1741,
+          1743,
+          1744,
+          1746,
+          1747,
+          1748,
+          1750,
+          1752,
+          1755
+        ],
+        "finish_attempts": [
+          9
+        ],
+        "undo_attempts": []
+      },
+      "run_id_matches_plan": true,
+      "release_matches_plan": true,
+      "reported_identity_matches_plan": true,
+      "status": "passed_scoped",
+      "task_success": true,
+      "structure_success": true,
+      "physical_pass": true,
+      "memory_pass": true,
+      "finished": true,
+      "environment_error": false,
+      "shape": {
+        "rms_mm": 0.18244120829631857,
+        "max_mm": 0.49523191299476244,
+        "passed": true,
+        "placement_offset_mm": [
+          -0.0005945224406820643,
+          -0.04746522352054583,
+          0.06070594390857531
+        ],
+        "yaw_degrees": 0.001074922226382717,
+        "translation_allowed": "XYZ",
+        "reflection_allowed": false,
+        "arbitrary_3d_rotation_allowed": false
+      },
+      "diagram_path": {
+        "passed": true,
+        "contract_valid": true,
+        "reason": "all_distinct_states_reached",
+        "matched": 8,
+        "required": 8,
+        "matches": [
+          {
+            "checkpoint": 0,
+            "frame": 1070,
+            "rms_mm": 0.8698599868282656,
+            "max_mm": 2.8850362661098266
+          },
+          {
+            "checkpoint": 1,
+            "frame": 1431,
+            "rms_mm": 0.65695296664659,
+            "max_mm": 2.842451209007349
+          },
+          {
+            "checkpoint": 2,
+            "frame": 1791,
+            "rms_mm": 0.6638607816331445,
+            "max_mm": 2.9425767358595905
+          },
+          {
+            "checkpoint": 3,
+            "frame": 1978,
+            "rms_mm": 0.9331193981531977,
+            "max_mm": 1.9922690817029365
+          },
+          {
+            "checkpoint": 4,
+            "frame": 2151,
+            "rms_mm": 0.5922714746342252,
+            "max_mm": 2.696594324819358
+          },
+          {
+            "checkpoint": 5,
+            "frame": 2514,
+            "rms_mm": 0.9369212090279923,
+            "max_mm": 1.872579781937007
+          },
+          {
+            "checkpoint": 6,
+            "frame": 2691,
+            "rms_mm": 0.6350710419459558,
+            "max_mm": 2.868427683192028
+          },
+          {
+            "checkpoint": 7,
+            "frame": 2878,
+            "rms_mm": 0.9128399311243052,
+            "max_mm": 1.801272758014286
+          }
+        ],
+        "separations": [
+          {
+            "checkpoint": 0,
+            "distinct": true,
+            "rms_mm": 20.982394692930704,
+            "max_mm": 67.87292454865137
+          },
+          {
+            "checkpoint": 1,
+            "distinct": true,
+            "rms_mm": 15.266928022485562,
+            "max_mm": 71.46868867475048
+          },
+          {
+            "checkpoint": 2,
+            "distinct": true,
+            "rms_mm": 15.258866308864873,
+            "max_mm": 71.4387423210161
+          },
+          {
+            "checkpoint": 3,
+            "distinct": true,
+            "rms_mm": 72.77482640546948,
+            "max_mm": 110.75764493106601
+          },
+          {
+            "checkpoint": 4,
+            "distinct": true,
+            "rms_mm": 10.795348332586471,
+            "max_mm": 50.53599440442628
+          },
+          {
+            "checkpoint": 5,
+            "distinct": true,
+            "rms_mm": 37.71274275854063,
+            "max_mm": 77.3689728851382
+          },
+          {
+            "checkpoint": 6,
+            "distinct": true,
+            "rms_mm": 10.789647840217297,
+            "max_mm": 50.51481913462887
+          },
+          {
+            "checkpoint": 7,
+            "distinct": true,
+            "rms_mm": 72.42285291229247,
+            "max_mm": 112.35910029619043
+          }
+        ],
+        "fixed_initial_yaw_degrees": 0.00019866027203332086
+      },
+      "accepted_paper_actions": [
+        {
+          "op": "unfold"
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0.0,
+              0.25
+            ],
+            [
+              1.0,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "top",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0.0,
+              0.25
+            ],
+            [
+              1.0,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "bottom",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "rotate_paper",
+          "degrees": 90
+        },
+        {
+          "op": "unfold",
+          "fold_id": 2,
+          "angle_deg": 90
+        },
+        {
+          "op": "turn_over",
+          "axis": "y"
+        },
+        {
+          "op": "unfold",
+          "fold_id": 3,
+          "angle_deg": 90
+        },
+        {
+          "op": "rotate_paper",
+          "degrees": 90
+        }
+      ],
+      "reference_actions_for_offline_audit_only": [
+        {
+          "op": "unfold",
+          "fold_id": 1,
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0.0,
+              0.25
+            ],
+            [
+              1.0,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "top",
+          "sense": "toward",
+          "angle_deg": 180
+        },
+        {
+          "op": "fold_line",
+          "line": [
+            [
+              0.0,
+              0.25
+            ],
+            [
+              1.0,
+              0.25
+            ]
+          ],
+          "moving_point": [
+            0.5,
+            0.1
+          ],
+          "layers": "bottom",
+          "sense": "away",
+          "angle_deg": 180
+        },
+        {
+          "op": "rotate_paper",
+          "degrees": 90
+        },
+        {
+          "op": "unfold",
+          "fold_id": 2,
+          "angle_deg": 90
+        },
+        {
+          "op": "turn_over",
+          "axis": "y"
+        },
+        {
+          "op": "unfold",
+          "fold_id": 3,
+          "angle_deg": 90
+        },
+        {
+          "op": "rotate_paper",
+          "degrees": 90
+        }
+      ],
+      "attribution": "passed_frozen_contract"
+    }
+  ],
+  "caveats": [
+    "No new model calls or physical runs were made by this audit.",
+    "Original reports, failures, frozen source and shared budget were not modified.",
+    "Checkpoint failure identifies an unmet contract state, not automatically a perception error.",
+    "Reference action text differences alone are not a model-error label; legitimate alternative decompositions are possible.",
+    "O04 is diagnostic and excluded from formal success rates."
+  ]
+}

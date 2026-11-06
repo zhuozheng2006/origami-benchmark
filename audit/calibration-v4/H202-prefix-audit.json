@@ -1,0 +1,21 @@
+{
+  "schema": "candidate-retained-prefix-audit-v1",
+  "task": "H202",
+  "run": "reference-H202-minimal-01",
+  "run_id": "6442436f-f78b-4a42-b77e-046010f6a3a9",
+  "original_report_sha256": "7360508803083492b80ccd2726d360f7000ff0b2008c4d8e6897986310574a9f",
+  "metrics_sha256": "9ea3d8d789df8127096785e0af59329fdd3c045ee2652359aff3c692c675dd69",
+  "trajectory_sha256": "0db0627a90e3f90f9e141535b1470043d5e9471511e7d2b3677b245764e627d7",
+  "saved_frames": 721,
+  "saved_metric_segments": 720,
+  "saved_endpoint_exactly_matches_last_accepted_preparation_state": true,
+  "saved_metrics_pass": true,
+  "original_report_prefix_flag": false,
+  "explanation": "Original qualifier exited during preparation before final prefix checks. Its default false does not diagnose physical invalidity. This offline audit covers saved prefix only; no complete task pass, no new simulation.",
+  "accepted_preparation_actions": 2,
+  "expected_preparation_actions": 3,
+  "reference_actions_attempted": 0,
+  "failure": "Compliant controlled directions exceeded 0.5mm endpoint accuracy: 0.691mm",
+  "stopped_naturally": true,
+  "model_score_eligible": false
+}

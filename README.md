@@ -110,7 +110,7 @@ python scripts/evaluate_public.py --task U001 --allow-diagnostic --reference --o
 
 ## 外部图解的独立获取
 
-不在仓库再分发第三方页面。使用独立渲染环境（避免改变模拟器依赖）：
+`external` / `precrease-hard` 轨道的新增原站页面不随仓库分发；早期已收录且具有明确许可的素材保留原署名与许可证，详见 [素材署名](docs/DATA_ATTRIBUTION.md)。使用独立渲染环境（避免改变模拟器依赖）：
 
 ```bash
 python3 -m venv .venv-sources

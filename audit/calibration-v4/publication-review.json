@@ -1,0 +1,23 @@
+{
+  "schema": "publication-review-v1",
+  "scope": "Public worktree and newly published version history",
+  "credential_exact_scan": {
+    "schema": "configured-secret-presence-check-v1",
+    "files_checked": 5186,
+    "configured_values_checked": 5,
+    "matches": 0,
+    "result": "passed",
+    "note": "Scans exact configured credential values; does not certify absence of every possible secret."
+  },
+  "review": {
+    "production_cost_databases_found": 0,
+    "account_bills_found": 0,
+    "files_over_100MB": 0,
+    "largest_existing_public_file_bytes": 62449318,
+    "native_archive_members_checked": 10635,
+    "new_png_original_page_hash_matches": 0
+  },
+  "retained_licensed_material": "Two pre-existing CC BY 3.0 source PDFs retained with attribution; new external/precrease source caches excluded.",
+  "path_scope": "New model/candidate exports omit personal paths. Existing frozen reference history retains some execution paths; no claim of whole-history anonymization.",
+  "no_new_model_or_physics_calls_for_publication": true
+}

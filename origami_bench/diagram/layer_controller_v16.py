@@ -509,8 +509,13 @@ class LayerControllerV16:
         if op == 'fold_line':
             servo = self.fixture_mode in ('hinge_servo', 'hinge_servo_panel', 'hinge_servo_strong')
             mode = 'packet_panel' if servo or self.fixture_mode == 'packet_press' else self.fixture_mode
-            guided_directional = mode == 'guided_directional' or mode.startswith('guided_directional_')
-            anchor_stiffness = float(mode.removeprefix('guided_directional_')) if mode.startswith('guided_directional_') else 100.0
+            # Independent opt-in experiments. Neither changes the legacy mode;
+            # combining the two hypotheses requires a separate future study.
+            all_axes_directional = mode == 'guided_all_directional_10000'
+            pair_directional = mode == 'guided_pair_directional_10000'
+            experimental_directional = all_axes_directional or pair_directional
+            guided_directional = mode == 'guided_directional' or mode.startswith('guided_directional_') or experimental_directional
+            anchor_stiffness = 10000.0 if experimental_directional else float(mode.removeprefix('guided_directional_')) if mode.startswith('guided_directional_') else 100.0
             if not math.isfinite(anchor_stiffness) or anchor_stiffness <= 0:
                 raise ValueError('Invalid tangential anchor stiffness')
             sliding_directional = mode == 'sliding_directional'
@@ -523,10 +528,13 @@ class LayerControllerV16:
             if mode == 'rolling_panel':
                 mode = 'distributed_panel'
             low, info = compile_stack_fold_v15(v, f, action, mode)
+            if experimental_directional:
+                info.update(experimental_fixture_mode=self.fixture_mode,
+                            experimental_fixture_version='directional-fixture-experiments-v1')
             axis_dir = np.array(info.get('axis_direction', [1.0, 0.0, 0.0]))
             is_diagonal = abs(abs(axis_dir[0]) - abs(axis_dir[1])) < 0.1
             if directional_thickness and (
-                info['selected_planar_components'] > 1
+                all_axes_directional or info['selected_planar_components'] > 1
                 or ((guided_directional or sliding_directional) and (info['has_multiple_surface_orientations'] or is_diagonal))
             ):
                 cmd = low[-1]
@@ -543,6 +551,7 @@ class LayerControllerV16:
                     axis = np.array(info['axis_direction'])
                     center = np.array(info['axis_point'])
                     group_candidates = []
+                    pair_candidates = {}
                     for group in info['moving_panel_groups']:
                         ids = sorted(set(group) & set(info['moving_vertices']))
                         if not ids:
@@ -552,10 +561,30 @@ class LayerControllerV16:
                         centroid = v[far].mean(0)
                         anchor_id = min(far, key=lambda i: np.linalg.norm(v[i] - centroid))
                         group_candidates.append((abs(float(v[ids, 2].mean()) - float(center[2])), anchor_id))
+                        if pair_directional:
+                            pair_candidates[anchor_id] = far
                     if info.get('crosses_folded_seam') and len(group_candidates) > 1:
                         anchors = [min(group_candidates, key=lambda item: item[0])[1]]
                     else:
                         anchors = sorted({anchor_id for _, anchor_id in group_candidates})
+                    if pair_directional:
+                        if not group_candidates:
+                            raise SkillUnsupported('Paired directional fixture has no supported base-panel anchor')
+                        base_anchor = min(group_candidates, key=lambda item: item[0])[1]
+                        choices = [(abs(float((v[i] - v[base_anchor]) @ axis)), i)
+                                   for i in pair_candidates[base_anchor] if i != base_anchor]
+                        separation = max((item[0] for item in choices), default=0.0)
+                        minimum_separation = max(0.001, info['free_crease_band_halfwidth_m'])
+                        if separation < minimum_separation:
+                            raise SkillUnsupported('Paired directional fixture needs separated far anchors on the same base panel')
+                        # Stable material-ID tie break preserves planar rotation
+                        # equivariance despite floating point projection noise.
+                        second = min(i for distance, i in choices if separation - distance <= 1e-10)
+                        anchors = sorted(set(anchors + [second]))
+                        info.update(paired_base_anchor_vertices=[base_anchor, second],
+                                    paired_anchor_axis_separation_m=abs(float((v[second] - v[base_anchor]) @ axis)),
+                                    paired_anchor_minimum_axis_separation_m=minimum_separation,
+                                    paired_anchor_candidate_rule='same-base-panel existing moving grips at least 85 percent max radius')
                     low.insert(-1, dict(op='attach_soft_grips', vertices=anchors, stiffness=anchor_stiffness))
                     info.update(tangential_anchor_vertices=anchors, tangential_anchor_stiffness_N_m=anchor_stiffness)
         elif op == 'unfold':

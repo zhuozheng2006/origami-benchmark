@@ -10,24 +10,43 @@ from pathlib import Path
 import sqlite3
 import sys
 import uuid
+from decimal import Decimal
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
-from origami_bench.diagram.cost_book import amount, calls_digest, limits
+if Path(__file__).with_name('cost_book.py').is_file():
+    from cost_book import amount, calls_digest, accounting_digest, limits, accounting_rows, accounting_totals
+else:
+    from origami_bench.diagram.cost_book import amount, calls_digest, accounting_digest, limits, accounting_rows, accounting_totals
 
 
 def audit(path):
     with sqlite3.connect(Path(path).resolve().as_uri()+'?mode=ro',uri=True) as db:
+        db.execute('BEGIN')
         ceiling, operating = limits(db)
-        rows = db.execute('SELECT status,COUNT(*),SUM(COALESCE(charge,reserve)),SUM(CASE WHEN charge IS NULL THEN reserve ELSE 0 END) FROM calls GROUP BY status ORDER BY status').fetchall()
+        effective_rows = accounting_rows(db)
+        totals = accounting_totals(db)
+        grouped = {}
+        for row in effective_rows:
+            item = grouped.setdefault(row['status'], dict(status=row['status'], count=0,
+                original_accounted_cny=0., provider_verified_cny=0., accounted_upper_cny=0., unresolved_reserves_cny=0.))
+            item['count'] += 1
+            item['original_accounted_cny'] += float(row['original_accounted'])
+            item['provider_verified_cny'] += float(row['provider_charge'] or 0)
+            item['accounted_upper_cny'] += float(row['effective_accounted'])
+            item['unresolved_reserves_cny'] += float(row['original_reserve']) if row['unresolved'] else 0
         n, charged, reserved = db.execute('SELECT COUNT(*),COALESCE(SUM(charge),0),COALESCE(SUM(CASE WHEN charge IS NULL THEN reserve ELSE 0 END),0) FROM calls').fetchone()
         fingerprint = calls_digest(db)
-    total=charged+reserved
-    return dict(ledger_mutated=False, calls=n, calls_sha256=fingerprint,
+        accounting_fingerprint = accounting_digest(db)
+    total=float(totals['effective_accounted_cny'])
+    return dict(ledger_mutated=False, calls=n, calls_sha256=fingerprint, accounting_sha256=accounting_fingerprint,
         configured_ceiling_cny=ceiling, operating_ceiling_cny=operating,
-        estimated_charges_cny=charged, unresolved_reserves_cny=reserved, accounted_upper_cny=total,
+        estimated_charges_cny=charged, original_unresolved_reserves_cny=reserved,
+        original_accounted_cny=float(totals['original_accounted_cny']),
+        reconciled_calls=totals['reconciled_calls'], provider_verified_cny=float(totals['provider_verified_cny']),
+        unresolved_reserves_cny=float(totals['unresolved_reserves_cny']), accounted_upper_cny=total,
         operating_headroom_cny=operating-total,
-        by_status=[dict(status=s,count=n,accounted_upper_cny=v,unresolved_reserves_cny=r) for s,n,v,r in rows],
-        caveat='Local token-price upper estimates and unresolved reserves; not actual provider invoices. No failed-call reservation assumed free.')
+        by_status=[grouped[k] for k in sorted(grouped)],
+        caveat='Verified provider charges replace only uniquely reconciled calls. Original estimates and all unmatched unknown reserves remain visible. Not an external invoice.')
 
 
 def migrate(path, expected_ceiling, new_ceiling, operating_limit, expected_calls_sha256, backup, authorization_note):
@@ -43,7 +62,7 @@ def migrate(path, expected_ceiling, new_ceiling, operating_limit, expected_calls
         db.execute('BEGIN IMMEDIATE')
         old_cap,old_op=limits(db)
         fingerprint=calls_digest(db)
-        total=db.execute('SELECT COALESCE(SUM(COALESCE(charge,reserve)),0) FROM calls').fetchone()[0]
+        total=float(accounting_totals(db)['effective_accounted_cny'])
         if old_cap != expected_ceiling or fingerprint != expected_calls_sha256:
             raise ValueError('Ledger changed since audit; re-audit before explicit migration')
         if total > op:

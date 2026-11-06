@@ -1,0 +1,2166 @@
+{"attempt": 1, "result": {"status": "rejected", "category": "environment_error", "detail": "RuntimeError: inference/observation/execution failed; outcome requires audit", "rollback_verified": true}}
+{
+  "task_id": "H102",
+  "agent_kind": "external_agent:examples.openai_compatible:create",
+  "task_success": false,
+  "finished": false,
+  "physical_pass": true,
+  "shape": {
+    "passed": false
+  },
+  "memory_pass": false,
+  "goal_available": true,
+  "status": "environment_error",
+  "attempts": 1,
+  "retained_paper_operations": 0,
+  "peak_strain": 0.0001338072971315274,
+  "material_memory": {
+    "rest_angle_sha256": "3c8415ec7a24b2e37d5e2832d059bc35ed851b35f80ecb262a8feff41d8d37ad",
+    "rest_angle_l2": 8.778242167003258,
+    "dissipation_joules": 0.00025109846078150556
+  },
+  "seconds": 136.13349950000702,
+  "scope": "Finite-thickness deformable shell with ideal point fixtures; continuous contact and 1% stretch/compression acceptance. Prepared state is physically replayed. No real finger model.",
+  "unsigned_memory_pass": true,
+  "grading_version": "precrease-artifact-signed-memory-v4-candidate2",
+  "fixed_board_shape": {
+    "rms_mm": 112.88737195770061,
+    "max_mm": 212.13221348108888
+  },
+  "band_memory_pass": false,
+  "initial_frame": 360,
+  "preparation_operations": 1,
+  "controller_version": "layer-boundary-v16-dev1",
+  "goal_success": false,
+  "attempt_budget": {
+    "known_wall_seconds": 126.01943029099493,
+    "max_attempts": 40,
+    "output_cap_per_call": 8192,
+    "max_output_tokens": 327680,
+    "attempts_used": 1,
+    "attempts_remaining": 39,
+    "known_costs": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0
+    },
+    "unknown_cost_attempts": {
+      "input_tokens": 1,
+      "output_tokens": 1,
+      "seconds": 1
+    },
+    "output_tokens_reserved_for_unknown": 8192,
+    "output_tokens_remaining": 319488
+  },
+  "attempt_ledger_version": "sqlite-v1",
+  "run_id": "a6a9320e-9d1b-4304-9bbd-dba25b089e4a",
+  "repeat_id": 1,
+  "model_identity": {
+    "schema": "model-identity-v1",
+    "requested_model": "gemini-4-argon",
+    "provider": "https://aicodelink.top",
+    "parameters": {},
+    "output_cap": 8192,
+    "output_parameter": "max_tokens",
+    "adapter": "examples.openai_compatible:create",
+    "adapter_version": "public-api-v3-pilot1",
+    "adapter_sha256": "6b6beb1de7c25dcf508eb8ed09b37f159bd73d4a2cfd0eb498a88c58a03d6b01",
+    "identity_sha256": "45596c3c0417f63e391c58bbbd899259c7c4d8f80147bcfba894c0fd5e8332bd"
+  },
+  "policy_sha256": "92d2333ba2edf346a75ad931cf76156e505516e8416bb0622a2ab130f68d2f56",
+  "grading_contract": "precrease-artifact-v4",
+  "requested_grading_contract": "precrease-artifact-v4",
+  "returned_models": [],
+  "returned_model_missing_calls": 0,
+  "returned_model_mismatch": false,
+  "release_track": "whole_document_precrease_history",
+  "suite": "precrease-hard",
+  "split": "development",
+  "policy_version": "prepared-layers-v16-scope-and-motion-bounds1",
+  "release_version": "public-v4-calibration1",
+  "release_manifest_sha256": "16c218494fd374f2c77e44b5bd4311af4ee312154be94f4c572d5757a58db043",
+  "score_eligible": true,
+  "environment_error": true,
+  "initial_state_pass": true,
+  "process_order_scored": false,
+  "moving_half_scored": false,
+  "diagram_path": {
+    "applicable": false,
+    "reason": "artifact_contract_does_not_score_arbitrary_reference_order"
+  },
+  "input_valid": false,
+  "reason": "Prepared state does not determine a unique board yaw",
+  "mode": "offline_retained_evidence_rescore",
+  "initial_shape": {
+    "rms_mm": 2.3653478656263802e-17,
+    "max_mm": 1.0401975219501408e-16,
+    "passed": true,
+    "placement_offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "yaw_degrees": -7.946523715694651e-17,
+    "translation_allowed": "XYZ",
+    "reflection_allowed": false,
+    "arbitrary_3d_rotation_allowed": false
+  },
+  "memory_diagnostics": {
+    "passed": false,
+    "input_valid": true,
+    "required_hinges": 112,
+    "required_hinge_signs": 112,
+    "task_added_hinge_signs": 104,
+    "required_bands": 14,
+    "missing_hinges": [
+      {
+        "hinge": 0,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 2,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 4,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 6,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 8,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 10,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 12,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 16,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 17,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 21,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 22,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 26,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 27,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 31,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 32,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 36,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 37,
+        "sign": 1,
+        "peak_degrees": 1.2074182697257333e-06
+      },
+      {
+        "hinge": 41,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 42,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 46,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 47,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 51,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 55,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 56,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 60,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 61,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 65,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 66,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 70,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 71,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 75,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 76,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 80,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 81,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 85,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 86,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 90,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 94,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 95,
+        "sign": 1,
+        "peak_degrees": 0.916737129245493
+      },
+      {
+        "hinge": 99,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 100,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 104,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 105,
+        "sign": 1,
+        "peak_degrees": 0.916736134866395
+      },
+      {
+        "hinge": 109,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 110,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 114,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 115,
+        "sign": 1,
+        "peak_degrees": 0.9167361348671902
+      },
+      {
+        "hinge": 119,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 120,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 124,
+        "sign": 1,
+        "peak_degrees": 1.2074182697257333e-06
+      },
+      {
+        "hinge": 125,
+        "sign": 1,
+        "peak_degrees": 0.916737129245493
+      },
+      {
+        "hinge": 129,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 134,
+        "sign": 1,
+        "peak_degrees": 0.9167371288542701
+      },
+      {
+        "hinge": 139,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 144,
+        "sign": 1,
+        "peak_degrees": 0.916736134722867
+      },
+      {
+        "hinge": 149,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 154,
+        "sign": 1,
+        "peak_degrees": 0.9167361347220718
+      },
+      {
+        "hinge": 159,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 164,
+        "sign": 1,
+        "peak_degrees": 0.9167371288542701
+      },
+      {
+        "hinge": 172,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 173,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 177,
+        "sign": 1,
+        "peak_degrees": 1.2074182697257333e-06
+      },
+      {
+        "hinge": 178,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 182,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 183,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 187,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 188,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 192,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 193,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 197,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 198,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 202,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 203,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 207,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 211,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 212,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 216,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 217,
+        "sign": -1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 221,
+        "sign": -1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 222,
+        "sign": 1,
+        "peak_degrees": 1.2074182697257333e-06
+      },
+      {
+        "hinge": 226,
+        "sign": -1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 227,
+        "sign": -1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 231,
+        "sign": -1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 232,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 236,
+        "sign": -1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 237,
+        "sign": -1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 241,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 242,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 246,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "hinge": 250,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 251,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 255,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 256,
+        "sign": -1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 260,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 261,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 265,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 266,
+        "sign": -1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 270,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 271,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 275,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 276,
+        "sign": -1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 280,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 281,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "hinge": 285,
+        "sign": 1,
+        "peak_degrees": 0.0
+      }
+    ],
+    "missing_bands": [
+      {
+        "band": 0,
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "offset_m": 0.05625,
+        "sign": 1,
+        "peak_degrees": 0.22918428226247037
+      },
+      {
+        "band": 1,
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "offset_m": 0.0375,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "band": 2,
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "offset_m": 0.01875,
+        "sign": 1,
+        "peak_degrees": 0.22918388277137403
+      },
+      {
+        "band": 3,
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "offset_m": 0.0,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "band": 4,
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "offset_m": -0.01875,
+        "sign": 1,
+        "peak_degrees": 0.22918418462594148
+      },
+      {
+        "band": 5,
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "offset_m": -0.0375,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "band": 6,
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "offset_m": -0.05625,
+        "sign": 1,
+        "peak_degrees": 0.22918428226247037
+      },
+      {
+        "band": 7,
+        "direction": [
+          1.0,
+          -0.0
+        ],
+        "offset_m": -0.05625,
+        "sign": 1,
+        "peak_degrees": 0.0
+      },
+      {
+        "band": 8,
+        "direction": [
+          1.0,
+          -0.0
+        ],
+        "offset_m": -0.0375,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "band": 9,
+        "direction": [
+          1.0,
+          -0.0
+        ],
+        "offset_m": -0.01875,
+        "sign": 1,
+        "peak_degrees": 1.5092728371571667e-07
+      },
+      {
+        "band": 11,
+        "direction": [
+          1.0,
+          -0.0
+        ],
+        "offset_m": 0.01875,
+        "sign": 1,
+        "peak_degrees": 1.5092728371571667e-07
+      },
+      {
+        "band": 12,
+        "direction": [
+          1.0,
+          -0.0
+        ],
+        "offset_m": 0.0375,
+        "sign": -1,
+        "peak_degrees": -0.0
+      },
+      {
+        "band": 13,
+        "direction": [
+          1.0,
+          -0.0
+        ],
+        "offset_m": 0.05625,
+        "sign": 1,
+        "peak_degrees": 0.0
+      }
+    ],
+    "opposite_sign_hinges": [],
+    "opposite_sign_bands": [],
+    "unexpected_bands": [],
+    "unexpected_hinges_diagnostic": [],
+    "hinge_peaks": [
+      {
+        "hinge": 0,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 2,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 4,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 6,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 8,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 10,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 12,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 16,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 17,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 21,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 22,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 26,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 27,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 31,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 32,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 36,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 37,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -1.2074182697257333e-06,
+          "1": 1.2074182697257333e-06
+        }
+      },
+      {
+        "hinge": 41,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 42,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 46,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 47,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 51,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 55,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 56,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 60,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 61,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 65,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 66,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 70,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 71,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 75,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 76,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 80,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 81,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 85,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 86,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 90,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 94,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 95,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.916737129245493
+        }
+      },
+      {
+        "hinge": 99,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 100,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.9167360129203973
+        }
+      },
+      {
+        "hinge": 104,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 105,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.916736134866395
+        }
+      },
+      {
+        "hinge": 109,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 110,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.9167361164959933
+        }
+      },
+      {
+        "hinge": 114,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 115,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.9167361348671902
+        }
+      },
+      {
+        "hinge": 119,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 120,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.9167360129203973
+        }
+      },
+      {
+        "hinge": 124,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -1.2074182697257333e-06,
+          "1": 1.2074182697257333e-06
+        }
+      },
+      {
+        "hinge": 125,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.916737129245493
+        }
+      },
+      {
+        "hinge": 129,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 133,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 178.16649371658386,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 134,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.9167371288542701
+        }
+      },
+      {
+        "hinge": 138,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 178.1664795468571,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 139,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.9167360128392901
+        }
+      },
+      {
+        "hinge": 143,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 178.1664815353987,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 144,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.916736134722867
+        }
+      },
+      {
+        "hinge": 148,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 178.16648132829263,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 149,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.9167361163663806
+        }
+      },
+      {
+        "hinge": 153,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 178.16648132829263,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 154,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.9167361347220718
+        }
+      },
+      {
+        "hinge": 158,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 178.1664815353987,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 159,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.9167360128392901
+        }
+      },
+      {
+        "hinge": 163,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 178.1664795468571,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 164,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.9167371288542701
+        }
+      },
+      {
+        "hinge": 168,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 178.16649371658386,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 172,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 173,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 177,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -1.2074182697257333e-06,
+          "1": 1.2074182697257333e-06
+        }
+      },
+      {
+        "hinge": 178,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 182,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 183,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 187,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 188,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 192,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 193,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 197,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 198,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 202,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 203,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 207,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 211,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 212,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 216,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 217,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 221,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 222,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": 1.2074182697257333e-06,
+          "1": 1.2074182697257333e-06
+        }
+      },
+      {
+        "hinge": 226,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 227,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 231,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 232,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 236,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 237,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 241,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 242,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 246,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 250,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 251,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 255,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 256,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 260,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 261,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 265,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 266,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 270,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 271,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 275,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 276,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 280,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 281,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "hinge": 285,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": 0.0,
+          "1": 0.0
+        }
+      }
+    ],
+    "band_peaks": [
+      {
+        "band": 0,
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "offset_m": 0.05625,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.22918428226247037
+        }
+      },
+      {
+        "band": 1,
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "offset_m": 0.0375,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.22918400321996094
+        }
+      },
+      {
+        "band": 2,
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "offset_m": 0.01875,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -1.5092728371571667e-07,
+          "1": 0.22918388277137403
+        }
+      },
+      {
+        "band": 3,
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "offset_m": 0.0,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.22918402910779678
+        }
+      },
+      {
+        "band": 4,
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "offset_m": -0.01875,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -1.5092728371571667e-07,
+          "1": 0.22918418462594148
+        }
+      },
+      {
+        "band": 5,
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "offset_m": -0.0375,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.22918400321996094
+        }
+      },
+      {
+        "band": 6,
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "offset_m": -0.05625,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.22918428226247037
+        }
+      },
+      {
+        "band": 7,
+        "direction": [
+          1.0,
+          -0.0
+        ],
+        "offset_m": -0.05625,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "band": 8,
+        "direction": [
+          1.0,
+          -0.0
+        ],
+        "offset_m": -0.0375,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "band": 9,
+        "direction": [
+          1.0,
+          -0.0
+        ],
+        "offset_m": -0.01875,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -1.5092728371571667e-07,
+          "1": 1.5092728371571667e-07
+        }
+      },
+      {
+        "band": 10,
+        "direction": [
+          1.0,
+          -0.0
+        ],
+        "offset_m": 0.0,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": 178.16648403178306,
+          "1": 0.0
+        }
+      },
+      {
+        "band": 11,
+        "direction": [
+          1.0,
+          -0.0
+        ],
+        "offset_m": 0.01875,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -1.5092728371571667e-07,
+          "1": 1.5092728371571667e-07
+        }
+      },
+      {
+        "band": 12,
+        "direction": [
+          1.0,
+          -0.0
+        ],
+        "offset_m": 0.0375,
+        "required_signs": [
+          -1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      },
+      {
+        "band": 13,
+        "direction": [
+          1.0,
+          -0.0
+        ],
+        "offset_m": 0.05625,
+        "required_signs": [
+          1
+        ],
+        "peak_degrees": {
+          "-1": -0.0,
+          "1": 0.0
+        }
+      }
+    ],
+    "observed_bands": [
+      {
+        "direction": [
+          1.0,
+          -0.0
+        ],
+        "offset_m": 0.0,
+        "hinge_ids": [
+          133,
+          138,
+          143,
+          148,
+          153,
+          158,
+          163,
+          168
+        ],
+        "weights": [
+          0.125,
+          0.125,
+          0.125,
+          0.125,
+          0.125,
+          0.125,
+          0.125,
+          0.125
+        ],
+        "signs": [
+          -1
+        ]
+      }
+    ],
+    "hinge_threshold_degrees": 140.0,
+    "band_threshold_degrees": 130.0,
+    "extra_band_threshold_degrees": 140.0,
+    "scope": "Retained directed bend history; not exact final plastic rest-angle/CP equality"
+  },
+  "recorded_candidate_reference_pass": null,
+  "recorded_status": "environment_error",
+  "evidence_provenance": {
+    "trajectory.npz": "fc904390b03bfa970caa22c42e11061a791b47fbbb8fb46dd5b3774b1887d21f",
+    "material-history.json": "0593ed3d7c1a4719042c9070b85a7a4517abe18cfc5b246d873a73f243d16254",
+    "metrics.json": "4abcb940c3f51260f11129a248aca4cee5b56e1e1f22a9a0574b9519d937b340",
+    "events.json": "4b56ea5bbc80dbfba2cbf565c3a7457a5b968fe90031675e12b0325fdb096cc3",
+    "run-config.json": "d574fa91e3fe54f761c53cd48e9d112b040a73ed578f48af57c97252ce5a7eda",
+    "final-state.json": "2c1a590fe94603aa8d4bb01c7446d9bd73bac3469a3a5dcf7992e9f98d48c921"
+  },
+  "target_provenance": {
+    "reference_folder": "examples/reference-evidence-v4/reference-H102-01",
+    "reference_run_id": "ca8badaa-48e8-40a5-875d-a751f7323d4a",
+    "report_sha256": "7283baeadd79a947f485cc9922182b3abaa5b6d792a6d011ccdd13684d23b0b9",
+    "private_input_sha256": "dce9e572e5cb0022b9333f274ef3efae50c8d377cbb0b22a78a6c3c3e7ffd9a2",
+    "history_sha256": "36d8d1ab354a03af02ca5746f566b7a4f6133ee6a4eaeda7529395cba6596966",
+    "goal_sha256": "7cf846fb25b5d899f059e9888aeaf8ca6673502a5ff23bfef08f170e47d4baf0",
+    "initial_sha256": "a4d9c7cfe7e4b232cf8f89e9d79980f180568f3c9aea46814b24f91651a5e3e4"
+  },
+  "control_kind": null,
+  "grading_candidate": true,
+  "legacy_task_success": false
+}

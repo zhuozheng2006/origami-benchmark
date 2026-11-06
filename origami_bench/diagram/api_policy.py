@@ -4,6 +4,20 @@ import base64,hashlib,json,sqlite3,time,urllib.request,urllib.error,ssl,math
 from PIL import Image
 ROOT=Path(__file__).resolve().parents[2]
 from .cost_book import CostBook, BudgetExceeded
+class ApiCallError(RuntimeError):
+ """A failed API call whose request/response and cost result are already recorded.
+
+ Local input failures and budget refusals must never use this exception. Only
+ allowlisted status, call ID and sanitized returned model cross this boundary;
+ provider error text, headers and credentials are deliberately absent.
+ """
+ def __init__(self,api_call_id,status,returned_model=None):
+  if type(api_call_id) is not int or api_call_id<1:raise ValueError('A recorded API call ID is required')
+  if status not in ('transport_error','provider_error') and not (isinstance(status,str) and status.startswith('http_') and status[5:].isdigit()):
+   raise ValueError('A controlled API failure status is required')
+  self.api_call_id=api_call_id
+  self.returned_model=returned_model if isinstance(returned_model,str) and returned_model.strip() else None
+  super().__init__('API '+status+'; immutable call record '+str(api_call_id))
 class NoCredentialRedirect(urllib.request.HTTPRedirectHandler):
  def redirect_request(self,req,fp,code,msg,headers,newurl):
   raise urllib.error.HTTPError(req.full_url,code,'Credential-bearing redirects are disabled',headers,fp)
@@ -37,7 +51,14 @@ class ApiPolicy:
    request=urllib.request.Request(self.url,data=json.dumps(req).encode(),headers={'Authorization':'Bearer '+self.key,'Content-Type':'application/json','User-Agent':'OrigamiBenchmark/0.11'},method='POST')
    with urllib.request.build_opener(NoCredentialRedirect).open(request,timeout=180) as res:response=json.loads(res.read());status='response'
   except urllib.error.HTTPError as e:
-   status='http_'+str(e.code);response={'error':{'http_status':e.code,'message':e.read(8192).decode(errors='replace').replace(self.key,'[REDACTED]')}}
+   body=e.read(8192).decode(errors='replace').replace(self.key,'[REDACTED]')
+   status='http_'+str(e.code);response={'error':{'http_status':e.code,'message':body}}
+   # Some providers include model identity with a non-2xx error. Preserve only
+   # that explicit field, keeping the original sanitized error body intact.
+   try:
+    error_body=json.loads(body)
+    if isinstance(error_body,dict) and isinstance(error_body.get('model'),str):response['model']=error_body['model']
+   except ValueError:pass
   except Exception as e:status='transport_error';response={'error':{'type':type(e).__name__}}
   safe=json.loads(json.dumps(response,ensure_ascii=False).replace(self.key,'[REDACTED]'))
   usage=safe.get('usage');input_tokens=output_tokens=None
@@ -48,7 +69,7 @@ class ApiPolicy:
   seconds=time.monotonic()-start
   (self.out/f'call-{i:05d}-response.json').write_text(json.dumps(dict(status=status,response=safe,seconds=seconds),ensure_ascii=False,indent=2))
   self.book.finish(i,charge,status,dict(input_tokens=input_tokens,output_tokens=output_tokens,usage=usage,seconds=seconds,origin=self.url,request_path=str(self.out/f'call-{i:05d}-request.json')))
-  if status!='response':raise RuntimeError('API '+status+'; immutable call record '+str(i))
+  if status!='response':raise ApiCallError(i,status,safe.get('model'))
   choice=safe.get('choices',[{}])[0];raw=choice.get('message',{}).get('content') or '';action=None
   try:
    cleaned=raw.strip()

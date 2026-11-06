@@ -1,0 +1,1 @@
+{"schema":"hard-calibration-decisions-v1","rounds":{"2":{"status":"skipped","tasks":["H102","H103"],"reason":"首轮完整有效运行均成功，没有触发预注册的低分确认条件，因此不重复这两题来凑样本。一次 HTTP 524 环境错误单列保留，不能作为题目困难或模型能力不足的证据。","basis":"Completed first cohort and explicit parent decision; original reports remain immutable."}},"candidate_boundary":"H201/H202 为开发或接口资格候选；未经完整物理路径、独立参考及评分对照验收，不进入模型成绩。"}

@@ -1,4 +1,5 @@
 import json
+import sqlite3
 from pathlib import Path
 import sys
 import tempfile
@@ -42,10 +43,48 @@ class FrozenPilotTests(unittest.TestCase):
             self.assertEqual(len({r['run_id'] for r in plan['runs']}),2)
             frozen=json.loads((out/'study-freeze.json').read_text())
             self.assertEqual(frozen['ledger_path'],str(ledger.resolve()))
+            self.assertEqual(frozen['ledger_accounting_sha256'],pilot.audit(ledger)['accounting_sha256'])
             # A changed ledger, even with otherwise valid plans, must fail before
             # any credential read or start marker: no blank replacement budget.
             book=CostBook(ledger,150,140);book.reserve('other','other',1);book.db.close()
             with self.assertRaisesRegex(ValueError,'Shared ledger'):
+                pilot.execute(out,folder/'never-read-secrets.json',ledger)
+            self.assertFalse((out/'execution-start.json').exists())
+
+    def test_new_accounting_evidence_blocks_execution_with_unchanged_call_rows(self):
+        with tempfile.TemporaryDirectory() as d,patch.object(pilot,'verify'):
+            folder=Path(d);ledger,config,_=self.prepare(folder);out=folder/'study'
+            pilot.freeze(config,out,ledger)
+            before=pilot.audit(ledger)
+            # Appended evidence is invisible to the legacy calls-only digest.
+            with sqlite3.connect(ledger) as db:
+                db.execute('CREATE TABLE provider_evidence (evidence_id TEXT PRIMARY KEY, data TEXT)')
+                db.execute("INSERT INTO provider_evidence VALUES ('new-row','verified provider charge')")
+            self.assertEqual(pilot.audit(ledger)['calls_sha256'],before['calls_sha256'])
+            with self.assertRaisesRegex(ValueError,'accounting evidence changed'):
+                pilot.execute(out,folder/'never-read-secrets.json',ledger)
+            self.assertFalse((out/'execution-start.json').exists())
+
+    def test_old_frozen_study_is_preserved_and_requires_fresh_freeze(self):
+        with tempfile.TemporaryDirectory() as d,patch.object(pilot,'verify'):
+            folder=Path(d);ledger,config,_=self.prepare(folder);out=folder/'study'
+            pilot.freeze(config,out,ledger)
+            path=out/'study-freeze.json';value=json.loads(path.read_text())
+            value.pop('ledger_accounting_sha256');value['schema']='frozen-pilot-v1'
+            path.write_text(json.dumps(value));old=path.read_bytes()
+            with self.assertRaisesRegex(ValueError,'Legacy frozen study'):
+                pilot.execute(out,folder/'never-read-secrets.json',ledger)
+            self.assertEqual(path.read_bytes(),old)
+            self.assertFalse((out/'execution-start.json').exists())
+
+    def test_changed_budget_limits_fail_before_credentials(self):
+        with tempfile.TemporaryDirectory() as d,patch.object(pilot,'verify'):
+            folder=Path(d);ledger,config,_=self.prepare(folder);out=folder/'study'
+            pilot.freeze(config,out,ledger)
+            with sqlite3.connect(ledger) as db:
+                db.execute('CREATE TABLE budget_policy (id INTEGER PRIMARY KEY, operating_ceiling REAL)')
+                db.execute('INSERT INTO budget_policy VALUES (1,139)')
+            with self.assertRaisesRegex(ValueError,'budget ceilings changed'):
                 pilot.execute(out,folder/'never-read-secrets.json',ledger)
             self.assertFalse((out/'execution-start.json').exists())
 

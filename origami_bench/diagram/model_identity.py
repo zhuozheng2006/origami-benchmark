@@ -5,6 +5,7 @@ import inspect
 import json
 from pathlib import Path
 from urllib.parse import urlsplit
+from .api_policy import ApiCallError
 
 VERSION = 'model-identity-v1'
 PARAMETERS = {'temperature', 'top_p', 'seed', 'reasoning_effort', 'presence_penalty',
@@ -95,13 +96,20 @@ class RecordingAgent:
         self.returned_models = set()
         self.returned_model_missing = 0
     def request_public(self, text, images):
-        result = self.agent.request_public(text, images)
-        returned = result.get('returned_model')
+        try:
+            result = self.agent.request_public(text, images)
+        except ApiCallError as error:
+            # The transport records the call before raising. A generic local
+            # error or budget refusal is not evidence of an issued API call.
+            self._record_returned_model(error.returned_model)
+            raise
+        self._record_returned_model(result.get('returned_model'))
+        return result
+    def _record_returned_model(self, returned):
         if isinstance(returned, str) and returned.strip():
             self.returned_models.add(returned)
         else:
             self.returned_model_missing += 1
-        return result
     def close(self):
         if hasattr(self.agent, 'close'):
             self.agent.close()

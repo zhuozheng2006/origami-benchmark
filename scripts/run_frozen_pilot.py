@@ -111,9 +111,10 @@ def freeze(config_path, output, ledger):
                 grading_contract=cfg.get('grading_contract','structural-v3'), model_identity_sha256=identity['identity_sha256']))
         write_new(folder/'experiment-plan.json', plan)
         plans[model['slug']] = sha(folder/'experiment-plan.json')
-    value = dict(schema='frozen-pilot-v1', created=datetime.now(timezone.utc).isoformat(),
+    value = dict(schema='frozen-pilot-v2-accounting', created=datetime.now(timezone.utc).isoformat(),
         config=cfg, release_manifest_sha256=release, plans=plans,
         ledger_path=str(ledger.resolve()), ledger_calls_sha256=before['calls_sha256'],
+        ledger_accounting_sha256=before['accounting_sha256'],
         physics_signature_sha256=sha(output/'physics-signature.json'),
         notes=['One planned run per task and model; no automatic request or episode retries.',
                'Diagnostic tasks never enter formal scores.',
@@ -128,8 +129,16 @@ def execute(study, credentials, ledger):
     frozen = json.loads((study/'study-freeze.json').read_text()); cfg = frozen['config']
     if sha(ROOT/'release-manifest.json') != frozen['release_manifest_sha256']:
         raise ValueError('Frozen release changed')
-    if str(ledger.resolve()) != frozen['ledger_path'] or audit(ledger)['calls_sha256'] != frozen['ledger_calls_sha256']:
+    expected_accounting = frozen.get('ledger_accounting_sha256')
+    if not isinstance(expected_accounting, str) or len(expected_accounting) != 64:
+        raise ValueError('Legacy frozen study lacks accounting evidence binding; preserve it and create a new frozen study')
+    current_budget = audit(ledger)
+    if str(ledger.resolve()) != frozen['ledger_path'] or current_budget['calls_sha256'] != frozen['ledger_calls_sha256']:
         raise ValueError('Shared ledger differs from the audited frozen baseline; do not create or substitute a ledger')
+    if current_budget['accounting_sha256'] != expected_accounting:
+        raise ValueError('Shared accounting evidence changed after freeze; create a fresh reviewed study')
+    if (current_budget['configured_ceiling_cny'], current_budget['operating_ceiling_cny']) != (cfg['cumulative_cap_cny'], cfg['operating_cap_cny']):
+        raise ValueError('Shared budget ceilings changed after freeze')
     if sha(study/'physics-signature.json') != frozen['physics_signature_sha256']:
         raise ValueError('Frozen physical signature changed')
     for slug, digest in frozen['plans'].items():

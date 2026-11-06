@@ -5,6 +5,7 @@ import math
 from pathlib import Path
 import sqlite3
 import time
+from decimal import Decimal
 
 
 class BudgetExceeded(RuntimeError):
@@ -27,11 +28,77 @@ def calls_digest(db):
     return hashlib.sha256(json.dumps(rows, ensure_ascii=False, separators=(',', ':')).encode()).hexdigest()
 
 
+def accounting_digest(db):
+    """Bind a future experiment freeze to both raw calls and appended evidence."""
+    value = {'calls_sha256': calls_digest(db)}
+    for table in ('provider_evidence', 'reconciliation_batches', 'cost_reconciliations'):
+        exists = db.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name=?", (table,)).fetchone()
+        value[table] = db.execute('SELECT * FROM ' + table + ' ORDER BY 1').fetchall() if exists else []
+    return hashlib.sha256(json.dumps(value, ensure_ascii=False, separators=(',', ':'), sort_keys=True).encode()).hexdigest()
+
+
 def limits(db):
     ceiling = float(db.execute('SELECT ceiling FROM config WHERE id=1').fetchone()[0])
     exists = db.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='budget_policy'").fetchone()
     row = db.execute('SELECT operating_ceiling FROM budget_policy WHERE id=1').fetchone() if exists else None
     return ceiling, float(row[0]) if row else default_operating_limit(ceiling)
+
+
+def decimal_amount(value, name='amount'):
+    if isinstance(value, bool):
+        raise ValueError(name + ' must be a nonnegative finite decimal')
+    try:
+        result = Decimal(str(value))
+    except Exception as exc:
+        raise ValueError(name + ' must be decimal') from exc
+    if not result.is_finite() or result < 0:
+        raise ValueError(name + ' must be a nonnegative finite decimal')
+    return result
+
+
+def accounting_rows(db, stage=None):
+    """Return effective costs without rewriting any historical call.
+
+    Approved reconciliation is a replacement, including upward corrections.
+    Row tampering or an invalid reconciliation fails closed before reserving.
+    """
+    rows = db.execute('SELECT id,created,model,stage,reserve,charge,status,meta FROM calls ORDER BY id').fetchall()
+    exists = db.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='cost_reconciliations'").fetchone()
+    reconciled = {}
+    if exists:
+        for cid, value, old_hash, old_json in db.execute('SELECT call_id,effective_cny_decimal,original_row_sha256,original_row_json FROM cost_reconciliations'):
+            if cid in reconciled:
+                raise ValueError('Multiple reconciliations for one call')
+            reconciled[cid] = (decimal_amount(value, 'reconciled charge'), old_hash, old_json)
+    ids = {row[0] for row in rows}
+    if set(reconciled) - ids:
+        raise ValueError('Reconciliation references a missing call')
+    result = []
+    for row in rows:
+        cid, _, model, call_stage, reserve, charge, status, _ = row
+        original = decimal_amount(charge if charge is not None else reserve)
+        item = reconciled.get(cid)
+        if item:
+            current = json.dumps([row], ensure_ascii=False, separators=(',', ':'))
+            if status == 'reserved' or hashlib.sha256(current.encode()).hexdigest() != item[1] or json.loads(item[2]) != list(row):
+                raise ValueError('Reconciled call changed or is still reserved')
+        if stage is None or stage == call_stage:
+            result.append(dict(id=cid, model=model, stage=call_stage, status=status,
+                               original_charge=charge, original_reserve=reserve,
+                               original_accounted=original, provider_charge=item[0] if item else None,
+                               effective_accounted=item[0] if item else original, reconciled=bool(item),
+                               unresolved=charge is None and item is None))
+    return result
+
+
+def accounting_totals(db, stage=None):
+    rows = accounting_rows(db, stage)
+    total = lambda key: sum((r[key] for r in rows if r[key] is not None), Decimal(0))
+    return dict(calls=len(rows), reconciled_calls=sum(r['reconciled'] for r in rows),
+                original_accounted_cny=total('original_accounted'), provider_verified_cny=total('provider_charge'),
+                effective_accounted_cny=total('effective_accounted'),
+                unresolved_reserves_cny=sum((decimal_amount(r['original_reserve']) for r in rows if r['unresolved']), Decimal(0)),
+                original_unresolved_reserves_cny=sum((decimal_amount(r['original_reserve']) for r in rows if r['original_charge'] is None), Decimal(0)))
 
 
 class CostBook:
@@ -65,7 +132,7 @@ class CostBook:
             raise
 
     def total(self):
-        return float(self.db.execute('SELECT COALESCE(SUM(COALESCE(charge,reserve)),0) FROM calls').fetchone()[0])
+        return float(accounting_totals(self.db)['effective_accounted_cny'])
 
     def reserve(self, model, stage, amount_cny, stage_limit=None):
         requested = amount(amount_cny, 'reservation')
@@ -77,8 +144,11 @@ class CostBook:
             if ceiling != self.limit:
                 raise BudgetExceeded('Ledger ceiling changed; reopen with audited settings')
             operating = min(operating, self.operating_limit, ceiling)
-            stage_used = self.db.execute('SELECT COALESCE(SUM(COALESCE(charge,reserve)),0) FROM calls WHERE stage=?', (stage,)).fetchone()[0]
-            if self.total() + requested > operating or (stage_limit is not None and stage_used + requested > stage_limit):
+            # Both totals and INSERT share this writer transaction. Independent
+            # processes cannot each spend the same newly reconciled headroom.
+            stage_used = accounting_totals(self.db, stage)['effective_accounted_cny']
+            total = accounting_totals(self.db)['effective_accounted_cny']
+            if total + decimal_amount(requested) > decimal_amount(operating) or (stage_limit is not None and stage_used + decimal_amount(requested) > decimal_amount(stage_limit)):
                 raise BudgetExceeded('Shared cumulative or stage cost ceiling would be exceeded')
             cursor = self.db.execute('INSERT INTO calls(created,model,stage,reserve,status) VALUES(?,?,?,?,?)',
                                      (time.time(), model, stage, requested, 'reserved'))
@@ -111,6 +181,7 @@ class CostBook:
         for row in rows:
             row['metadata'] = json.loads(row['metadata']) if row['metadata'] else None
         ceiling, operating = limits(self.db)
+        accounting = {key: float(value) if isinstance(value, Decimal) else value for key, value in accounting_totals(self.db).items()}
         return dict(limit_cny=ceiling, operating_limit_cny=min(operating,self.operating_limit),
-                    accounted_upper_cny=self.total(), calls=rows,
-                    method='Shared append-preserving ledger; unknown usage retains full reservation. Estimated charges are not provider invoices.')
+                    accounted_upper_cny=self.total(), calls=rows, accounting=accounting,
+                    method='Verified provider reconciliation replaces a matched estimate; unmatched unknown usage retains its full reservation. Historical calls are preserved.')

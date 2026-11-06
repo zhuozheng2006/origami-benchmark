@@ -1,6 +1,8 @@
 # Origami Benchmark — public evaluation release
 
-**新增 v4：两道独立真实图源的长预折任务（H102、H103），共 131 道已验收任务。** 使用同一控制器与提示词；每题 28 个参考动作加 finish，两题分别通过两条独立正参考和真实负对照；H102 另通过公开入口整合检查。它们采用单列的 `precrease-artifact-v4` 合同，测有向预折历史，不测严格动作顺序；困难等级仍待模型校准，本轮未调用付费模型。[新增题说明](docs/HARD_EXPANSION_V4.md) · [原图与三维验收](hard-v4/index.html)。
+**2026-11-07校准结果：H102/H103的5次有效模型运行全部成功，另1次HTTP524环境失败。尚未找到经确认的前沿模型低分题。** [完整结果与暂停说明](docs/HARD_CALIBRATION_V4_RESULTS.md) · [模型与候选回放](calibration-v4/index.html)。原始失败保留；新增夹持实验默认关闭、尚未进行物理验收。
+
+**新增 v4：两道独立真实图源的长预折任务（H102、H103），共 131 道已验收任务。** 物理控制与验收阈值保持；模型校准前的通用观察／提示说明修复单列冻结。每题 28 个参考动作加 finish，两题分别通过两条独立正参考和真实负对照；H102 另通过公开入口整合检查。它们采用单列的 `precrease-artifact-v4` 合同，测有向预折历史，不测严格动作顺序；后续冻结校准表明这两题尚不足以达到低分目标，详见上方完整结果。[新增题说明](docs/HARD_EXPANSION_V4.md) · [原图与三维验收](hard-v4/index.html)。
 
 **当前分支包含 2026-11-07 的身份修复、可选评分验证及小规模校准协议；public-v2 标签保持原样。** 默认旧评分不变；新合同使用 `--grading-contract structural-v3`。先前离线验证无模型调用，见 [验证说明](docs/VALIDATION_V3.md) 和 [评分对照](validation-v3/index.html)。后续三模型 O01–O04 校准使用 [冻结协议](docs/PILOT_V3_PROTOCOL.md)；[新旧结果页面](study-v3/index.html) 将缺失结果、环境错误、诊断题与正式分数分开显示。
 
@@ -74,9 +76,9 @@ export ORIGAMI_API_LOGDIR="$PWD/outputs/api-my-model-O01"
 python scripts/evaluate_public.py --task O01 --agent examples.openai_compatible:create --output outputs/my-model-O01
 ```
 
-费用变量使用同一货币单位；示例数字不是任何服务商报价。输入/输出单价应设为每百万 token 的保守上限；共享账本跨任务复用，日志目录每次新建。该估算不能保证供应商实际扣费上限，尤其是服务商不遵守输出 token 上限时，应同时配置供应商账户限额。现有账本有 90 单位内部运营上限，配置总限额应不超过 90。模型必须支持图像与标准 Chat Completions JSON 响应；不承诺兼容所有代理平台。
+费用变量使用同一货币单位；示例数字不是任何服务商报价。输入/输出单价应设为每百万 token 的保守上限；共享账本跨任务复用，日志目录每次新建。该估算不能保证供应商实际扣费上限，尤其是服务商不遵守输出 token 上限时，应同时配置供应商账户限额。新账本的默认内部运营上限为总限额减去 `min(10, 总限额/10)`（上述10单位示例默认运营上限9）；已有账本保留原上限，不会因新运行而重置。本轮项目获用户授权的累计总限额为150元、运营保护线140元，与读者自建账本分开。模型必须支持图像与标准 Chat Completions JSON 响应；不承诺兼容所有代理平台。
 
-若供应商要求 `max_completion_tokens`，设置 `ORIGAMI_OUTPUT_PARAMETER=max_completion_tokens`；默认使用 `max_tokens`。此发布验收没有进行新的付费 API 调用，自定义代理通道已用无 API 的负对照验证。
+若供应商要求 `max_completion_tokens`，设置 `ORIGAMI_OUTPUT_PARAMETER=max_completion_tokens`；默认使用 `max_tokens`。public-v2安装验收仅使用参考和无API负对照；之后的v3/v4模型评测是实际API运行，版本、调用次数、费用口径和失败记录见对应结果说明。
 
 逐步图解轨道每题最多 **8 次尝试**，整页/多层轨道 **40 次尝试**；本公开比较版本每次输出预算 **8192 token**。失败、查看图解、撤销、结束都消耗尝试；撤销不能删除历史或返还成本。模型必须自己发出 `finish`。同一轨道使用固定接口与提示词，不允许按题切换策略。逐步轨道保留原有“当前面板 + 结束复核”机制；没有结束面板的单步原图使用通用单图适配器，明确告知模型没有结果图，整页轨道不提供下一步提示。
 

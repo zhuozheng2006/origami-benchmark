@@ -1,0 +1,24 @@
+................................................................{"frozen": "<TEMP_TEST_DIR>/study", "runs": 2, "sha256": "d3ac505f425b64aaa214fb5467008b307a1015a3f0d94f3f4b3faf4b3571f7b0"}
+{"frozen": "<TEMP_TEST_DIR>/study", "runs": 2, "sha256": "d0f664717d7d886b71775905cf6672fc8d4fe773da4d0ff29e93d8548a78b9f6"}
+{"frozen": "<TEMP_TEST_DIR>/study", "runs": 2, "sha256": "9fc45154cc9b85293efe63ad2a27c8492314df340e4a31c4268f50914f72c983"}
+{"frozen": "<TEMP_TEST_DIR>/study", "runs": 2, "sha256": "b6debdd8563e56228f76dd5451d74cbeffed76aac87256bed6af5fd6905a7d6a"}
+{"frozen": "<TEMP_TEST_DIR>/study", "runs": 2, "sha256": "a4c9b490662aa7cfeed7d73bfcda6bbf718904bb2b5d54d912b7c11cc48e7aac"}
+{"task": "C001", "attempt": 1, "action": "rotate_paper", "result": {"status": "accepted"}, "seconds": 0.00016316698747687042}
+.{"task": "C001", "attempt": 1, "action": "rotate_paper", "result": {"status": "accepted"}, "seconds": 0.0004281250003259629}
+{"task": "C001", "attempt": 2, "action": "finish", "result": {"status": "accepted"}, "seconds": 0.00015133299166336656}
+.{"task": "C001", "attempt": 1, "action": "rotate_paper", "result": {"status": "accepted"}, "seconds": 0.00018274999456480145}
+{"task": "C001", "attempt": 2, "action": "finish", "result": {"status": "accepted"}, "seconds": 0.00015537498984485865}
+.{"task": "C001", "attempt": 1, "action": "rotate_paper", "result": {"status": "accepted"}, "seconds": 0.00014975000522099435}
+{"task": "C001", "attempt": 2, "action": "finish", "result": {"status": "accepted"}, "seconds": 0.00014066699077375233}
+..{"task": "C001", "attempt": 1, "action": "rotate_paper", "result": {"status": "accepted"}, "seconds": 0.00016704201698303223}
+{"task": "C001", "attempt": 2, "action": "finish", "result": {"status": "accepted"}, "seconds": 0.00014750001719221473}
+.{"task": "C001", "attempt": 1, "action": "rotate_paper", "result": {"status": "accepted"}, "seconds": 0.0002044580178335309}
+{"task": "C001", "attempt": 2, "action": "finish", "result": {"status": "accepted"}, "seconds": 0.00012962499749846756}
+..{"task": "C001", "attempt": 1, "action": "rotate_paper", "result": {"status": "accepted"}, "seconds": 0.0002554579987190664}
+{"task": "C001", "attempt": 2, "action": "rotate_paper", "result": {"status": "rejected", "category": "simulator_rejection", "detail": "ActionRejected: principal strain reached 1% limit", "rollback_verified": true}, "seconds": 0.00016112500452436507}
+..{"task": "C001", "attempt": 1, "action": "rotate_paper", "result": "RuntimeError", "seconds": 1.0542018571868539e-05}
+.....................................................................
+----------------------------------------------------------------------
+Ran 143 tests in 8.131s
+
+OK

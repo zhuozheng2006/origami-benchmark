@@ -9,15 +9,19 @@ from .layer_controller import (
     SCALE,
     boundary_vertices,
     motion,
+    validate_loading_step,
     panel_hull_grips,
     point_hit,
     rotation,
 )
 
-VERSION = 'layer-boundary-v16-dev1'
+VERSION = 'layer-boundary-v16-dev2'
+LOADING_POLICY_VERSION = 'selected-component-loading-v1'
 
 
-def compile_stack_fold_v15(vertices, faces, action, fixture_mode='boundary'):
+def compile_stack_fold_v15(vertices, faces, action, fixture_mode='boundary', *, packet_angle_step_deg=None):
+    if packet_angle_step_deg is not None:
+        validate_loading_step(packet_angle_step_deg)
     thickness_panel = fixture_mode == 'thickness_panel'
     force_panel = fixture_mode in ('full_panel', 'thickness_panel')
     if force_panel:
@@ -443,8 +447,24 @@ def compile_stack_fold_v15(vertices, faces, action, fixture_mode='boundary'):
         center[2] += sign * delta
         lift += delta
 
-    cmd = motion(moving, center, axis, sign * degrees, v)
+    # Geometric proxy, not a certified physical layer count: selected planar
+    # material components reaching the crease. Independent of selector spelling.
+    hinge_components = sum(
+        bool(np.any(np.abs(sd[np.unique(f[list(components[ci])])]) < free_band))
+        for ci in selected_comp_ids
+    )
+    step = packet_angle_step_deg if packet_angle_step_deg is not None and hinge_components >= 2 else .5
+    cmd = motion(moving, center, axis, sign * degrees, v, angle_step_deg=step)
     info = dict(
+        loading_schedule=dict(
+            version=LOADING_POLICY_VERSION,
+            experimental=packet_angle_step_deg is not None,
+            configured_packet_angle_step_deg=packet_angle_step_deg,
+            effective_angle_step_deg=step,
+            selected_hinge_components=hinge_components,
+            requested_frames=cmd['frames'],
+            nominal_duration_s=cmd['frames'] / 60.0,
+        ),
         endpoint_clearance_axis_lift_m=lift,
         endpoint_clearance_axis_horiz_shift_m=horiz_shift,
         selected_faces=sorted(selected),
@@ -486,7 +506,10 @@ def compile_stack_fold_v15(vertices, faces, action, fixture_mode='boundary'):
 
 
 class LayerControllerV16:
-    def __init__(self, backend, fixture_mode='boundary'):
+    def __init__(self, backend, fixture_mode='boundary', *, packet_angle_step_deg=None):
+        if packet_angle_step_deg is not None:
+            validate_loading_step(packet_angle_step_deg)
+        self.packet_angle_step_deg = packet_angle_step_deg
         self.fixture_mode = fixture_mode
         self.next_fold_id = 0
         self.backend = backend
@@ -527,7 +550,7 @@ class LayerControllerV16:
                 mode = 'soft_distributed_' + (mode.removeprefix('directional_panel_') if mode.startswith('directional_panel_') else '1000')
             if mode == 'rolling_panel':
                 mode = 'distributed_panel'
-            low, info = compile_stack_fold_v15(v, f, action, mode)
+            low, info = compile_stack_fold_v15(v, f, action, mode, packet_angle_step_deg=self.packet_angle_step_deg)
             if experimental_directional:
                 info.update(experimental_fixture_mode=self.fixture_mode,
                             experimental_fixture_version='directional-fixture-experiments-v1')
@@ -609,7 +632,7 @@ class LayerControllerV16:
             if type(amount) not in (int, float) or not math.isfinite(amount) or not 0 < amount <= abs(r['degrees']) + 1e-8:
                 raise ValueError('Unfold angle must be positive and not exceed the remaining fold angle')
             delta = -math.copysign(amount, r['degrees'])
-            cmd = motion(r['moving_vertices'], np.asarray(r['axis_point']), np.asarray(r['axis_direction']), delta, v)
+            cmd = motion(r['moving_vertices'], np.asarray(r['axis_point']), np.asarray(r['axis_direction']), delta, v, angle_step_deg=r.get('loading_schedule', {}).get('effective_angle_step_deg', .5))
             if 'roll_radii' in r:
                 cmd.update(roll_radii=r['roll_radii'], roll_tangent=r['roll_tangent'], roll_start_angle_deg=r['degrees'])
             low = [
@@ -637,6 +660,10 @@ class LayerControllerV16:
                 if r.get('tangential_anchor_vertices'):
                     low.insert(-1, dict(op='attach_soft_grips', vertices=r['tangential_anchor_vertices'], stiffness=r['tangential_anchor_stiffness_N_m']))
             info = dict(unfolds_record=r['record_index'], fold_id=fold_id, unfold_angle_deg=float(amount), physical_forward_time=True)
+            schedule = copy.deepcopy(r.get('loading_schedule', dict(
+                version='legacy-loading', experimental=False, effective_angle_step_deg=.5)))
+            schedule.update(requested_frames=cmd['frames'], nominal_duration_s=cmd['frames'] / 60.0)
+            info['loading_schedule'] = schedule
         elif op in ('turn_over', 'rotate_paper'):
             allowed = {'op', 'axis'} if op == 'turn_over' else {'op', 'degrees'}
             if set(action) != allowed:
@@ -707,6 +734,13 @@ class LayerControllerV16:
             if self.backend.state()['hash'] != state['hash']:
                 raise RuntimeError('Composite rollback did not restore paper')
             raise
+
+        if 'loading_schedule' in info:
+            end_state = self.backend.state()
+            schedule = info['loading_schedule']
+            schedule['actual_integrator_segments'] = end_state['steps'] - state['steps']
+            if 'time' in state and 'time' in end_state:
+                schedule['actual_duration_s'] = end_state['time'] - state['time']
 
         if op == 'fold_line':
             info['record_index'] = len(self.records)

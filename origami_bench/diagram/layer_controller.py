@@ -19,9 +19,22 @@ def rotation(points,center,axis,degrees):
     axis=np.asarray(axis,float);axis=axis/np.linalg.norm(axis);w=np.asarray(points)-center;a=np.deg2rad(degrees)
     return center+w*np.cos(a)+np.cross(axis,w)*np.sin(a)+np.outer(w@axis,axis)*(1-np.cos(a))
 
-def motion(ids,center,axis,degrees,vertices):
+def validate_loading_step(step):
+    if type(step) not in (int, float) or not math.isfinite(step) or not 0 < step <= .5:
+        raise ValueError('Loading angle step must be finite and in (0, 0.5] degrees')
+    return float(step)
+
+
+def motion(ids,center,axis,degrees,vertices,*,angle_step_deg=.5):
+    """Compile a fixed-1/60-second-frame loading schedule.
+
+    Smaller angular increments slow loading; they do not refine integration at
+    fixed duration or certify convergence. The default preserves legacy commands.
+    The displacement limit is an arc-length bound, also bounding chord length.
+    """
+    step=validate_loading_step(angle_step_deg)
     radius=np.linalg.norm(np.cross(np.asarray(vertices)[ids]-center,axis),axis=1).max()
-    frames=max(1,int(math.ceil(abs(degrees)/.5)),int(math.ceil(radius*abs(math.radians(degrees))/.0008)))
+    frames=max(1,int(math.ceil(abs(degrees)/step)),int(math.ceil(radius*abs(math.radians(degrees))/.0008)))
     if frames>600:raise SkillUnsupported('Motion exceeds validated per-action integration budget')
     return dict(op='rotate_grips',vertices=list(map(int,ids)),axis_point=np.asarray(center).tolist(),axis_direction=np.asarray(axis).tolist(),degrees=float(degrees),frames=frames)
 
